@@ -185,8 +185,8 @@ https://live-e24.dailyhunt.in/eternowsa/live/amlst:E24_,b256,b512,b1024,b1824,.s
 https://sabliveyupp.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/sablive_https/dabangg/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://cloudtv.akamaized.net/anyott/images/CMS_BD/913f23bc-2d78-4385-b398-8074a77399e5_180x180_pitaara-tv.jpg" group-title="",Pitaara Tv
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/pitaara-tv/7408c610-795f-4dba-a774-96a706b52326/0.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/12/atnmusic.jpg?x50681" group-title="",Atn Music
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://static.vecteezy.com/system/resources/previews/000/579/872/non_2x/music-symbols-logo-and-icons-template-vector.jpg" group-title="",Hini Hits
+http://146.59.253.52:8080/hindihitshd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co.com/f9Zhn3W/6b2b07139bfa.jpg" group-title="",Jalwa Tv
 https://vodzong.mjunoon.tv:8087/streamtest/JalwaTV-135/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/3DUxwqU.png" group-title="",Zoom
