@@ -3,7 +3,7 @@
 https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8
 
 #EXTINF:-1 tvg-id="T_sports_1" tvg-name="T Sports 1" tvg-logo="https://i.ibb.co.com/h1Wvy09C/1000283988.png" group-title="FIFA",T Sports 1
-http://198.195.239.50:8095/tsports/index.m3u8
+https://raw.githubusercontent.com/ahmedstore75/T-Sports-Bd/refs/heads/main/T-sports.m3u8
 
 #EXTINF:-1 tvg-id="T_sports_2" tvg-name="T Sports 2" tvg-logo="https://i.ibb.co.com/h1Wvy09C/1000283988.png" group-title="FIFA",T Sports 2
 http://go8knm.optikl.ink/X/index.php/Besyria3/video.m3u8
