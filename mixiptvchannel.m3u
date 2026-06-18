@@ -1,21 +1,56 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="Caze_TV" tvg-name="Caze TV" tvg-logo="https://i.ibb.co.com/9JJ04g9/1000284076.png" group-title="FIFA",Caze TV
-https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8
+#PLAYLIST: FIFA BDIX
+#EXTENC: UTF-8
 
-#EXTINF:-1 tvg-id="T_sports_1" tvg-name="T Sports 1" tvg-logo="https://i.ibb.co.com/h1Wvy09C/1000283988.png" group-title="FIFA",T Sports 1
-https://raw.githubusercontent.com/ahmedstore75/T-Sports-Bd/refs/heads/main/T-sports.m3u8
+# Playlist Name: FIFA BDIX
+# Last Update: 05:09 PM 17-06-2026
+# Facebook Page: https://www.facebook.com/profile.php?id=61590515402166
+# Website: https://fastiptvbackup.edgeone.app
 
-#EXTINF:-1 tvg-id="T_sports_2" tvg-name="T Sports 2" tvg-logo="https://i.ibb.co.com/h1Wvy09C/1000283988.png" group-title="FIFA",T Sports 2
-https://t-sports-bd.vercel.app/T-sports.m3u8
+#EXTINF:-1 tvg-id="Somoy" tvg-name="Somoy" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",Somoy
+https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
 
-#EXTINF:-1 tvg-id="PTV_Sports" tvg-name="PTV Sports" tvg-logo="https://i.ibb.co.com/dsvVDJZs/1000284021.png" group-title="FIFA",PTV Sports
-http://198.195.239.50:8095/ptv/index.m3u8
+#EXTINF:-1 tvg-id="Z Bangla sonar Low" tvg-name="Z Bangla sonar Low" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="Z Bangla sonar",Z Bangla sonar Low
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/Zeebanglahd.m3u8
 
-#EXTINF:-1 tvg-id="Bein_Sports_1" tvg-name="Bein Sports 1" tvg-logo="https://i.postimg.cc/Y903JSq8/20260612-095648.jpg" group-title="FIFA",Bein Sports 1
+#EXTINF:-1 tvg-id="Bein_Sports_1 720p" tvg-name="Bein Sports 1 720p" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",Bein Sports 1 720p
 https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
 
-#EXTINF:-1 tvg-id="WIN_Sports" tvg-name="WIN Sports" tvg-logo="https://i.postimg.cc/Y903JSq8/20260612-095648.jpg" group-title="FIFA",WIN Sports
+#EXTINF:-1 tvg-id="beIN SPORTS 1 UHD" tvg-name="beIN SPORTS 1 UHD" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",beIN SPORTS 1 UHD
+http://proxpanel.cc/h1wqD6CY/byxHYgX/707929
+
+#EXTINF:-1 tvg-id="beIN SPORTS MAX 1 4K" tvg-name="beIN SPORTS MAX 1 4K" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",beIN SPORTS MAX 1 4K
+http://proxpanel.cc/h1wqD6CY/byxHYgX/835130
+
+#EXTINF:-1 tvg-id="WIN_Sports" tvg-name="WIN Sports" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",WIN Sports
 https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8
+
+#EXTINF:-1 tvg-id="FOX" tvg-name="FOX" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",FOX
+http://84.17.50.102/fox/index.m3u8
+
+#EXTINF:-1 tvg-id="FS1" tvg-name="FS1" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",FS1
+http://41.223.30.230/FOXSPORTS1/index.m3u8
+
+#EXTINF:-1 tvg-id="FS2" tvg-name="FS2" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",FS2
+https://1nyaler.streamhostingcdn.top/stream/26/index.m3u8
+
+#EXTINF:-1 tvg-id="T sports" tvg-name="T sports" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",T sports
+http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="DAZN 1" tvg-name="DAZN 1" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",DAZN 1
+http://znty.dyndns.org:5010/hls/eleven1.m3u8
+
+#EXTINF:-1 tvg-id="Telemundo" tvg-name="Telemundo" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",Telemundo
+https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8
+
+#EXTINF:-1 tvg-id="ESPN S1" tvg-name="ESPN S1" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",ESPN S1
+https://1nyaler.streamhostingcdn.top/stream/97/index.m3u8
+
+#EXTINF:-1 tvg-id="ESPN S2" tvg-name="ESPN S2" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",ESPN S2
+http://186.33.40.97:8789/play/20
+
+#EXTINF:-1 tvg-id="D Sports" tvg-name="D Sports" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",D Sports
+https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8
 #EXTINF:-1 tvg-name="BTV CTG" tvg-logo="https://s3.aynaott.com/storage/00da8a07fb26b2fb79359ee535e4c7bc" group-title="Bangla",BTV CTG
 https://tvsen6.aynaott.com/btvctg/index.m3u8?e=1779283747&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=9bca925fbdfe526b29d41ab7802348ec
 #EXTINF:-1 tvg-name="Channel I" tvg-logo="https://s3.aynaott.com/storage/8e998f20a9cc52cb8eb1f52a5bf38204" group-title="Bangla",Channel I
