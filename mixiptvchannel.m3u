@@ -1,12 +1,3 @@
-#EXTM3U
-#PLAYLIST: FIFA BDIX
-#EXTENC: UTF-8
-
-# Playlist Name: FIFA BDIX
-# Last Update: 05:09 PM 17-06-2026
-# Facebook Page: https://www.facebook.com/profile.php?id=61590515402166
-# Website: https://fastiptvbackup.edgeone.app
-
 #EXTINF:-1 tvg-id="Somoy" tvg-name="Somoy" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",Somoy
 https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
 
