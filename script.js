@@ -1,15 +1,14 @@
-const video =
-document.getElementById("video");
-
-const list =
-document.getElementById("channelList");
-
-const buttons =
-document.querySelectorAll(
-".category button"
+const video=
+document.getElementById(
+"video"
 );
 
-let channels=[];
+const list=
+document.getElementById(
+"channelList"
+);
+
+let current=null;
 
 fetch(
 "mixiptvchannel.m3u"
@@ -37,59 +36,39 @@ lines[i]
 )
 ){
 
-const info=
-lines[i];
-
-const name=
-info.split(",").pop();
-
 const logo=
 (
-info.match(
+lines[i]
+.match(
 /tvg-logo="([^"]+)"/
 )||[]
 )[1];
 
-const group=
-(
-info.match(
-/group-title="([^"]+)"/
-)||[]
-)[1]||
-"ALL";
+const name=
+lines[i]
+.split(",")
+.pop();
 
-channels.push({
+const url=
+lines[i+1];
 
+create(
 name,
-
 logo,
-
-group,
-
-url:
-lines[i+1]
-
-});
+url
+);
 
 }
 
 }
 
-render(
-channels
-);
-
-play(
-channels[0].url
-);
-
 });
 
-function render(data){
-
-list.innerHTML="";
-
-data.forEach(ch=>{
+function create(
+name,
+logo,
+url
+){
 
 const card=
 document.createElement(
@@ -104,89 +83,93 @@ card.innerHTML=
 `
 <img
 src="${
-ch.logo||
+logo||
 'logo.png'
 }">
 
 <div>
-${ch.name}
+
+${name}
+
 </div>
 `;
 
 card.onclick=
-()=>play(
-ch.url
+()=>{
+
+play(
+url
 );
 
-list.appendChild(
-card
-);
-
-});
-
-}
-
-buttons.forEach(
-btn=>{
-
-btn.onclick=()=>{
-
-buttons.forEach(
-b=>
-b.classList.remove(
-"active"
+document
+.querySelectorAll(
+".card"
 )
-);
 
-btn.classList.add(
-"active"
-);
+.forEach(
 
-const cat=
-btn.innerText;
-
-if(
-cat==="ALL"
-){
-
-render(
-channels
-);
-
-}else{
-
-render(
-
-channels.filter(
 x=>
 
-x.group
-===cat
-
+x.classList
+.remove(
+"active"
 )
 
 );
 
-}
+card
+.classList
+.add(
+"active"
+);
 
 };
 
-});
-
-function play(url){
+list
+.appendChild(
+card
+);
 
 if(
-Hls.isSupported()
+!current
+){
+
+current=
+card;
+
+card
+.classList
+.add(
+"active"
+);
+
+play(
+url
+);
+
+}
+
+}
+
+function play(
+url
+){
+
+if(
+Hls
+.isSupported()
 ){
 
 const hls=
 new Hls();
 
-hls.loadSource(
+hls
+.loadSource(
 url
 );
 
-hls.attachMedia(
+hls
+.attachMedia(
 video
 );
 
