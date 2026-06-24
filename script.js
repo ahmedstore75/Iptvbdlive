@@ -11,26 +11,18 @@ document.querySelectorAll(
 
 let allChannels=[];
 
-let player=null;
+let hls=null;
 
-fetch(
-"mixiptvchannel.m3u"
-)
+fetch("mixiptvchannel.m3u")
 
-.then(
-r=>r.text()
-)
+.then(r=>r.text())
 
 .then(data=>{
 
 const lines=
 data.split("\n");
 
-for(
-let i=0;
-i<lines.length;
-i++
-){
+for(let i=0;i<lines.length;i++){
 
 if(
 lines[i]
@@ -43,7 +35,9 @@ const info=
 lines[i];
 
 const name=
-info.split(",").pop();
+info
+.split(",")
+.pop();
 
 const logo=
 (
@@ -57,18 +51,14 @@ const group=
 info.match(
 /group-title="([^"]+)"/
 )||[]
-)[1]||
+)[1]
+||
 "ALL";
 
 const url=
 lines[i+1];
 
-if(
-url &&
-url.startsWith(
-"http"
-)
-){
+if(url){
 
 allChannels.push({
 
@@ -76,9 +66,7 @@ name,
 
 logo,
 
-group:
-group
-.toUpperCase(),
+group,
 
 url
 
@@ -94,24 +82,13 @@ render(
 allChannels
 );
 
-if(
-allChannels[0]
-){
-
-play(
-allChannels[0].url
-);
-
-}
-
 });
 
 function render(data){
 
 list.innerHTML="";
 
-data.forEach(
-ch=>{
+data.forEach((ch)=>{
 
 const card=
 document.createElement(
@@ -124,10 +101,9 @@ card.className=
 card.innerHTML=
 
 `
-<img
-src="${
+<img src="${
 ch.logo||
-'logo.png'
+"logo.png"
 }">
 
 <div>
@@ -141,19 +117,15 @@ card.onclick=
 ()=>{
 
 document
-
 .querySelectorAll(
 ".card"
 )
 
 .forEach(
-
 x=>
-
 x.classList.remove(
 "active"
 )
-
 );
 
 card.classList.add(
@@ -182,11 +154,9 @@ btn.onclick=
 
 buttons.forEach(
 b=>
-
 b.classList.remove(
 "active"
 )
-
 );
 
 btn.classList.add(
@@ -194,8 +164,7 @@ btn.classList.add(
 );
 
 const cat=
-btn.innerText
-.toUpperCase();
+btn.innerText;
 
 if(
 cat==="ALL"
@@ -205,17 +174,16 @@ render(
 allChannels
 );
 
-return;
-
-}
+}else{
 
 render(
 
 allChannels.filter(
-
 x=>
 
 x.group
+.toUpperCase()
+
 .includes(
 cat
 )
@@ -224,15 +192,19 @@ cat
 
 );
 
+}
+
 };
 
 });
 
 function play(url){
 
-if(player){
+if(hls){
 
-player.destroy();
+hls.destroy();
+
+hls=null;
 
 }
 
@@ -240,21 +212,34 @@ if(
 Hls.isSupported()
 ){
 
-player=
+hls=
 new Hls();
 
-player.loadSource(
-url
+hls.loadSource(
+url.trim()
 );
 
-player.attachMedia(
+hls.attachMedia(
 video
+);
+
+hls.on(
+Hls.Events.MANIFEST_PARSED,
+
+()=>{
+
+video.play();
+
+}
+
 );
 
 }else{
 
 video.src=
 url;
+
+video.play();
 
 }
 
