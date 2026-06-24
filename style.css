@@ -5,69 +5,32 @@ box-sizing:border-box;
 }
 
 body{
-
-background:
-linear-gradient(
-180deg,
-#050505,
-#101b3a
-);
-
+background:#0b0b0b;
 color:white;
-
-font-family:
-Arial,sans-serif;
-
+font-family:Arial,sans-serif;
 }
 
 header{
-
-padding:14px;
-
+padding:14px 18px;
 }
 
 .top{
-
 display:flex;
-
 align-items:center;
-
 gap:14px;
-
 }
 
 .logo{
-
-width:72px;
-
-height:72px;
-
+width:70px;
+height:70px;
 border-radius:50%;
-
 }
 
 .player{
 
-position:sticky;
+padding:14px;
 
-top:0;
-
-z-index:999;
-
-background:
-
-rgba(
-5,
-5,
-5,
-0.95
-);
-
-padding:12px;
-
-backdrop-filter:
-
-blur(15px);
+width:100%;
 
 }
 
@@ -75,23 +38,26 @@ video{
 
 width:100%;
 
-aspect-ratio:16/9;
+height:auto;
+
+/* ভিডিও পুরো পেজ দখল করবে না */
+max-height:70vh;
 
 border-radius:18px;
 
 background:black;
 
-}
+object-fit:contain;
 
-/* CATEGORY */
+}
 
 .category{
 
 display:flex;
 
-gap:10px;
-
 overflow-x:auto;
+
+gap:10px;
 
 padding:12px;
 
@@ -99,71 +65,29 @@ padding:12px;
 
 .category button{
 
-position:relative;
-
-background:
-
-linear-gradient(
-90deg,
-#242424,
-#313131
-);
+background:#1d1d1d;
 
 color:white;
 
 border:none;
 
-padding:12px 20px;
+padding:12px 18px;
 
-border-radius:24px;
-
-white-space:nowrap;
+border-radius:20px;
 
 }
 
 .category button.active{
 
-background:
-
-linear-gradient(
-90deg,
-#ff244f,
-#6a5cff
-);
+background:#ff2d55;
 
 }
 
 .category button.active::after{
 
-content:"✓";
-
-position:absolute;
-
-top:-6px;
-
-right:-6px;
-
-width:22px;
-
-height:22px;
-
-display:flex;
-
-align-items:center;
-
-justify-content:center;
-
-background:#fff;
-
-color:#000;
-
-border-radius:50%;
-
-font-size:12px;
+content:" ✓";
 
 }
-
-/* CHANNEL */
 
 .channels{
 
@@ -187,21 +111,13 @@ padding:14px;
 
 .card{
 
-background:
-
-linear-gradient(
-145deg,
-#131313,
-#222
-);
-
-padding:16px;
+background:#161616;
 
 border-radius:18px;
 
-text-align:center;
+padding:16px;
 
-position:relative;
+text-align:center;
 
 cursor:pointer;
 
@@ -209,11 +125,7 @@ cursor:pointer;
 
 .card.active{
 
-border:
-
-2px solid
-
-#ff2d55;
+border:2px solid #ff2d55;
 
 }
 
@@ -221,23 +133,19 @@ border:
 
 content:"▶";
 
-position:absolute;
+display:block;
 
-top:8px;
+margin-bottom:8px;
 
-right:8px;
-
-font-size:14px;
-
-color:#ff244f;
+color:#ff2d55;
 
 }
 
 .card img{
 
-width:60px;
+width:70px;
 
-height:60px;
+height:70px;
 
 border-radius:50%;
 
@@ -255,15 +163,15 @@ font-size:14px;
 
 /* MOBILE */
 
-@media(
-max-width:768px
-){
+@media(max-width:768px){
 
-.logo{
+.channels{
 
-width:60px;
-
-height:60px;
+grid-template-columns:
+repeat(
+2,
+1fr
+);
 
 }
 
@@ -271,9 +179,7 @@ height:60px;
 
 /* LAPTOP */
 
-@media(
-min-width:900px
-){
+@media(min-width:900px){
 
 body{
 
@@ -287,7 +193,7 @@ margin:auto;
 
 grid-template-columns:
 repeat(
-5,
+6,
 1fr
 );
 
@@ -295,7 +201,7 @@ repeat(
 
 video{
 
-max-height:620px;
+max-height:520px;
 
 }
 
