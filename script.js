@@ -1,19 +1,28 @@
-const video=
+const video =
 document.getElementById("video");
 
-const list=
+const list =
 document.getElementById("channelList");
 
-fetch("mixiptvchannel.m3u")
+const buttons =
+document.querySelectorAll(
+".category button"
+);
 
-.then(r=>r.text())
+let channels=[];
+
+fetch(
+"mixiptvchannel.m3u"
+)
+
+.then(
+r=>r.text()
+)
 
 .then(data=>{
 
 const lines=
 data.split("\n");
-
-let channels=[];
 
 for(
 let i=0;
@@ -23,7 +32,9 @@ i++
 
 if(
 lines[i]
-.startsWith("#EXTINF")
+.startsWith(
+"#EXTINF"
+)
 ){
 
 const info=
@@ -39,8 +50,13 @@ info.match(
 )||[]
 )[1];
 
-const url=
-lines[i+1];
+const group=
+(
+info.match(
+/group-title="([^"]+)"/
+)||[]
+)[1]||
+"ALL";
 
 channels.push({
 
@@ -48,7 +64,10 @@ name,
 
 logo,
 
-url
+group,
+
+url:
+lines[i+1]
 
 });
 
@@ -56,8 +75,21 @@ url
 
 }
 
-channels.forEach(
-(ch,index)=>{
+render(
+channels
+);
+
+play(
+channels[0].url
+);
+
+});
+
+function render(data){
+
+list.innerHTML="";
+
+data.forEach(ch=>{
 
 const card=
 document.createElement(
@@ -70,17 +102,15 @@ card.className=
 card.innerHTML=
 
 `
-<img src="${
+<img
+src="${
 ch.logo||
 'logo.png'
 }">
 
 <div>
-
 ${ch.name}
-
 </div>
-
 `;
 
 card.onclick=
@@ -92,15 +122,54 @@ list.appendChild(
 card
 );
 
-if(index===0){
+});
 
-play(
-ch.url
+}
+
+buttons.forEach(
+btn=>{
+
+btn.onclick=()=>{
+
+buttons.forEach(
+b=>
+b.classList.remove(
+"active"
+)
+);
+
+btn.classList.add(
+"active"
+);
+
+const cat=
+btn.innerText;
+
+if(
+cat==="ALL"
+){
+
+render(
+channels
+);
+
+}else{
+
+render(
+
+channels.filter(
+x=>
+
+x.group
+===cat
+
+)
+
 );
 
 }
 
-});
+};
 
 });
 
