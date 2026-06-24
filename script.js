@@ -1,7 +1,7 @@
-const video =
+const video=
 document.getElementById("video");
 
-const channelList =
+const list=
 document.getElementById("channelList");
 
 fetch("mixiptvchannel.m3u")
@@ -10,37 +10,33 @@ fetch("mixiptvchannel.m3u")
 
 .then(data=>{
 
-const lines =
+const lines=
 data.split("\n");
 
 let channels=[];
 
-for(let i=0;i<lines.length;i++){
-
-if(
-lines[i].startsWith("#EXTINF")
+for(
+let i=0;
+i<lines.length;
+i++
 ){
 
-const name=
-lines[i]
-.split(",")
-
-.pop();
-
-const url=
-lines[i+1];
-
 if(
-url &&
-url.startsWith("http")
+lines[i]
+.startsWith("#EXTINF")
 ){
 
 channels.push({
-name,
-url
-});
 
-}
+name:
+lines[i]
+.split(",")
+.pop(),
+
+url:
+lines[i+1]
+
+});
 
 }
 
@@ -57,19 +53,15 @@ document.createElement(
 card.className=
 "card";
 
-card.innerText=
-ch.name;
+card.innerHTML=
+"📺 "+ch.name;
 
-card.onclick=()=>{
-
-play(
+card.onclick=
+()=>play(
 ch.url
 );
 
-};
-
-channelList
-.appendChild(
+list.appendChild(
 card
 );
 
@@ -95,7 +87,7 @@ const hls=
 new Hls();
 
 hls.loadSource(
-url
+url.trim()
 );
 
 hls.attachMedia(
@@ -104,7 +96,8 @@ video
 
 }else{
 
-video.src=url;
+video.src=
+url;
 
 }
 
