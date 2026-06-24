@@ -26,15 +26,29 @@ lines[i]
 .startsWith("#EXTINF")
 ){
 
+const info=
+lines[i];
+
+const name=
+info.split(",").pop();
+
+const logo=
+(
+info.match(
+/tvg-logo="([^"]+)"/
+)||[]
+)[1];
+
+const url=
+lines[i+1];
+
 channels.push({
 
-name:
-lines[i]
-.split(",")
-.pop(),
+name,
 
-url:
-lines[i+1]
+logo,
+
+url
 
 });
 
@@ -54,7 +68,20 @@ card.className=
 "card";
 
 card.innerHTML=
-"📺 "+ch.name;
+
+`
+<img src="${
+ch.logo||
+'logo.png'
+}">
+
+<div>
+
+${ch.name}
+
+</div>
+
+`;
 
 card.onclick=
 ()=>play(
@@ -87,7 +114,7 @@ const hls=
 new Hls();
 
 hls.loadSource(
-url.trim()
+url
 );
 
 hls.attachMedia(
