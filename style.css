@@ -1,22 +1,72 @@
-body{
+*{
 
 margin:0;
 
-background:#000;
+padding:0;
 
-color:#fff;
+box-sizing:border-box;
 
-text-align:center;
+}
+
+body{
+
+background:#050505;
+
+color:white;
+
+font-family:sans-serif;
+
+padding:14px;
+
+}
+
+.top{
+
+margin-bottom:20px;
+
+}
+
+.brand{
+
+display:flex;
+
+align-items:center;
+
+gap:14px;
 
 }
 
 .logo{
 
-width:90px;
+width:80px;
 
-margin-top:20px;
+height:80px;
 
 border-radius:50%;
+
+}
+
+h1 span{
+
+color:#ff2d2d;
+
+}
+
+p{
+
+color:#aaa;
+
+}
+
+.player-box{
+
+background:#111;
+
+padding:10px;
+
+border-radius:18px;
+
+margin-top:20px;
 
 }
 
@@ -24,6 +74,88 @@ video{
 
 width:100%;
 
-height:auto;
+border-radius:12px;
+
+}
+
+.live-tag{
+
+color:red;
+
+margin-bottom:10px;
+
+font-weight:bold;
+
+}
+
+.tools{
+
+margin-top:15px;
+
+}
+
+input{
+
+width:100%;
+
+padding:14px;
+
+background:#121212;
+
+border:none;
+
+color:white;
+
+border-radius:10px;
+
+}
+
+.category{
+
+display:flex;
+
+gap:10px;
+
+overflow:auto;
+
+margin-top:16px;
+
+}
+
+.category button{
+
+padding:10px 18px;
+
+background:#191919;
+
+color:white;
+
+border:none;
+
+border-radius:10px;
+
+}
+
+.channels{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:12px;
+
+margin-top:20px;
+
+}
+
+.card{
+
+background:#111;
+
+padding:20px;
+
+border-radius:14px;
+
+text-align:center;
 
 }
