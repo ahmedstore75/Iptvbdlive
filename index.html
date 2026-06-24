@@ -10,6 +10,9 @@ content="width=device-width,initial-scale=1">
 
 <title>SA IPTV BD LIVE</title>
 
+<link rel="icon"
+href="logo.png">
+
 <link rel="stylesheet"
 href="style.css">
 
@@ -19,16 +22,31 @@ href="style.css">
 
 <body>
 
-<header>
+<header class="top">
 
-<img src="logo.png"
+<div class="brand">
+
+<img
+src="logo.png"
 class="logo">
 
-<h1>📺 LIVE TV</h1>
+<div>
+
+<h1>SA IPTV <span>BD LIVE</span></h1>
+
+<p>Live TV • Movies • Sports</p>
+
+</div>
+
+</div>
 
 </header>
 
-<div class="player">
+<section class="player-box">
+
+<div class="live-tag">
+🔴 LIVE NOW
+</div>
 
 <video
 id="video"
@@ -37,12 +55,9 @@ autoplay
 playsinline>
 </video>
 
-</div>
+</section>
 
-<h2>Channels</h2>
-
-<div
-id="channelList"
+<div id="channelList"
 class="channels">
 
 </div>
