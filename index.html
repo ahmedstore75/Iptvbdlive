@@ -1,41 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 
 <meta charset="UTF-8">
 
-<meta name="viewport"
+<meta
+name="viewport"
 content="width=device-width,initial-scale=1">
 
-<title>IPTV BD Live</title>
+<title>SA IPTV BD LIVE</title>
 
-<link rel="stylesheet"
+<link
+rel="icon"
+href="logo.png">
+
+<link
+rel="stylesheet"
 href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 
 </head>
 
 <body>
 
-<header>
+<header class="top">
+
+<div class="brand">
 
 <img
 src="logo.png"
 class="logo">
 
-<h2>📺 LIVE TV</h2>
+<div>
+
+<h1>SA IPTV <span>BD LIVE</span></h1>
+
+<p>Live TV • Movies • Sports</p>
+
+</div>
+
+</div>
 
 </header>
+
+<section class="player-box">
+
+<div class="live-tag">
+🔴 LIVE NOW
+</div>
 
 <video
 id="video"
 controls
 autoplay
 playsinline>
-
 </video>
 
-<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</section>
+
+<section class="tools">
+
+<input
+placeholder="Search Channel">
+
+</section>
+
+<section class="category">
+
+<button>ALL</button>
+
+<button>NEWS</button>
+
+<button>SPORTS</button>
+
+<button>MOVIES</button>
+
+<button>KIDS</button>
+
+</section>
+
+<section class="channels">
+
+<div class="card">
+📺 Live TV
+</div>
+
+<div class="card">
+⚽ Sports
+</div>
+
+<div class="card">
+🎬 Movies
+</div>
+
+<div class="card">
+📰 News
+</div>
+
+</section>
 
 <script src="script.js"></script>
 
