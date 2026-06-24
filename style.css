@@ -5,32 +5,69 @@ box-sizing:border-box;
 }
 
 body{
-background:#0b0b0b;
+
+background:
+linear-gradient(
+180deg,
+#050505,
+#101b3a
+);
+
 color:white;
-font-family:Arial,sans-serif;
+
+font-family:
+Arial,sans-serif;
+
 }
 
 header{
-padding:14px 18px;
+
+padding:14px;
+
 }
 
 .top{
+
 display:flex;
+
 align-items:center;
+
 gap:14px;
+
 }
 
 .logo{
-width:70px;
-height:70px;
+
+width:72px;
+
+height:72px;
+
 border-radius:50%;
+
 }
 
 .player{
 
-padding:14px;
+position:sticky;
 
-width:100%;
+top:0;
+
+z-index:999;
+
+background:
+
+rgba(
+5,
+5,
+5,
+0.95
+);
+
+padding:12px;
+
+backdrop-filter:
+
+blur(15px);
 
 }
 
@@ -38,26 +75,23 @@ video{
 
 width:100%;
 
-height:auto;
-
-/* ভিডিও পুরো পেজ দখল করবে না */
-max-height:70vh;
+aspect-ratio:16/9;
 
 border-radius:18px;
 
 background:black;
 
-object-fit:contain;
-
 }
+
+/* CATEGORY */
 
 .category{
 
 display:flex;
 
-overflow-x:auto;
-
 gap:10px;
+
+overflow-x:auto;
 
 padding:12px;
 
@@ -65,29 +99,71 @@ padding:12px;
 
 .category button{
 
-background:#1d1d1d;
+position:relative;
+
+background:
+
+linear-gradient(
+90deg,
+#242424,
+#313131
+);
 
 color:white;
 
 border:none;
 
-padding:12px 18px;
+padding:12px 20px;
 
-border-radius:20px;
+border-radius:24px;
+
+white-space:nowrap;
 
 }
 
 .category button.active{
 
-background:#ff2d55;
+background:
+
+linear-gradient(
+90deg,
+#ff244f,
+#6a5cff
+);
 
 }
 
 .category button.active::after{
 
-content:" ✓";
+content:"✓";
+
+position:absolute;
+
+top:-6px;
+
+right:-6px;
+
+width:22px;
+
+height:22px;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+background:#fff;
+
+color:#000;
+
+border-radius:50%;
+
+font-size:12px;
 
 }
+
+/* CHANNEL */
 
 .channels{
 
@@ -111,13 +187,21 @@ padding:14px;
 
 .card{
 
-background:#161616;
+background:
 
-border-radius:18px;
+linear-gradient(
+145deg,
+#131313,
+#222
+);
 
 padding:16px;
 
+border-radius:18px;
+
 text-align:center;
+
+position:relative;
 
 cursor:pointer;
 
@@ -125,7 +209,11 @@ cursor:pointer;
 
 .card.active{
 
-border:2px solid #ff2d55;
+border:
+
+2px solid
+
+#ff2d55;
 
 }
 
@@ -133,19 +221,23 @@ border:2px solid #ff2d55;
 
 content:"▶";
 
-display:block;
+position:absolute;
 
-margin-bottom:8px;
+top:8px;
 
-color:#ff2d55;
+right:8px;
+
+font-size:14px;
+
+color:#ff244f;
 
 }
 
 .card img{
 
-width:70px;
+width:60px;
 
-height:70px;
+height:60px;
 
 border-radius:50%;
 
@@ -163,15 +255,15 @@ font-size:14px;
 
 /* MOBILE */
 
-@media(max-width:768px){
+@media(
+max-width:768px
+){
 
-.channels{
+.logo{
 
-grid-template-columns:
-repeat(
-2,
-1fr
-);
+width:60px;
+
+height:60px;
 
 }
 
@@ -179,7 +271,9 @@ repeat(
 
 /* LAPTOP */
 
-@media(min-width:900px){
+@media(
+min-width:900px
+){
 
 body{
 
@@ -193,7 +287,7 @@ margin:auto;
 
 grid-template-columns:
 repeat(
-6,
+5,
 1fr
 );
 
@@ -201,7 +295,7 @@ repeat(
 
 video{
 
-max-height:520px;
+max-height:620px;
 
 }
 
