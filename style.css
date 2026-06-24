@@ -1,188 +1,70 @@
 *{
-
 margin:0;
-
 padding:0;
-
 box-sizing:border-box;
-
 }
 
 body{
-
 background:#050505;
-
-color:#fff;
-
-font-family:Arial,sans-serif;
-
+color:white;
+font-family:sans-serif;
 padding:14px;
-
 }
 
-/* HEADER */
-
-header{
-
+.brand{
 display:flex;
-
 align-items:center;
-
 gap:14px;
-
-margin-bottom:20px;
-
 }
 
 .logo{
-
 width:80px;
-
 height:80px;
-
 border-radius:50%;
-
-object-fit:cover;
-
-box-shadow:
-0 0 25px rgba(255,0,0,.25);
-
 }
 
-h1{
-
-font-size:32px;
-
+h1 span{
+color:red;
 }
 
-/* PLAYER */
-
-.player{
-
+.player-box{
 background:#111;
-
 padding:10px;
-
 border-radius:18px;
-
-box-shadow:
-0 0 20px rgba(255,0,0,.08);
-
+margin-top:20px;
 }
 
 video{
-
 width:100%;
-
-border-radius:14px;
-
-background:black;
-
-min-height:220px;
-
+border-radius:12px;
 }
 
-/* TITLE */
-
-h2{
-
-margin-top:24px;
-
-margin-bottom:12px;
-
-font-size:22px;
-
+.live-tag{
+color:red;
+margin-bottom:10px;
+font-weight:bold;
 }
-
-/* CHANNELS */
 
 .channels{
-
 display:grid;
-
 grid-template-columns:
 1fr 1fr;
 
-gap:12px;
+gap:10px;
 
+margin-top:20px;
 }
-
-/* CARD */
 
 .card{
 
-background:
-linear-gradient(
-145deg,
-#111,
-#1a1a1a
-);
+background:#161616;
 
-padding:18px;
+padding:16px;
 
-border-radius:16px;
+border-radius:12px;
 
 text-align:center;
 
-font-size:16px;
-
-font-weight:700;
-
 cursor:pointer;
-
-transition:.25s;
-
-border:
-1px solid
-rgba(255,255,255,.05);
-
-}
-
-.card:hover{
-
-transform:
-translateY(-2px);
-
-}
-
-.card:active{
-
-transform:
-scale(.95);
-
-}
-
-.card::before{
-
-content:"📺 ";
-
-}
-
-/* MOBILE */
-
-@media(
-max-width:700px
-){
-
-.channels{
-
-grid-template-columns:
-1fr;
-
-}
-
-.logo{
-
-width:70px;
-
-height:70px;
-
-}
-
-h1{
-
-font-size:28px;
-
-}
 
 }
