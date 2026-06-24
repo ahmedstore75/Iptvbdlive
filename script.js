@@ -1,14 +1,17 @@
-const video=
-document.getElementById(
-"video"
+const video =
+document.getElementById("video");
+
+const list =
+document.getElementById("channelList");
+
+const buttons =
+document.querySelectorAll(
+".category button"
 );
 
-const list=
-document.getElementById(
-"channelList"
-);
+let allChannels=[];
 
-let current=null;
+let player=null;
 
 fetch(
 "mixiptvchannel.m3u"
@@ -36,39 +39,79 @@ lines[i]
 )
 ){
 
+const info=
+lines[i];
+
+const name=
+info.split(",").pop();
+
 const logo=
 (
-lines[i]
-.match(
+info.match(
 /tvg-logo="([^"]+)"/
 )||[]
 )[1];
 
-const name=
-lines[i]
-.split(",")
-.pop();
+const group=
+(
+info.match(
+/group-title="([^"]+)"/
+)||[]
+)[1]||
+"ALL";
 
 const url=
 lines[i+1];
 
-create(
+if(
+url &&
+url.startsWith(
+"http"
+)
+){
+
+allChannels.push({
+
 name,
+
 logo,
+
+group:
+group
+.toUpperCase(),
+
 url
-);
+
+});
 
 }
+
+}
+
+}
+
+render(
+allChannels
+);
+
+if(
+allChannels[0]
+){
+
+play(
+allChannels[0].url
+);
 
 }
 
 });
 
-function create(
-name,
-logo,
-url
-){
+function render(data){
+
+list.innerHTML="";
+
+data.forEach(
+ch=>{
 
 const card=
 document.createElement(
@@ -83,13 +126,13 @@ card.innerHTML=
 `
 <img
 src="${
-logo||
+ch.logo||
 'logo.png'
 }">
 
 <div>
 
-${name}
+${ch.name}
 
 </div>
 `;
@@ -97,11 +140,8 @@ ${name}
 card.onclick=
 ()=>{
 
-play(
-url
-);
-
 document
+
 .querySelectorAll(
 ".card"
 )
@@ -110,66 +150,104 @@ document
 
 x=>
 
-x.classList
-.remove(
+x.classList.remove(
 "active"
 )
 
 );
 
-card
-.classList
-.add(
-"active"
-);
-
-};
-
-list
-.appendChild(
-card
-);
-
-if(
-!current
-){
-
-current=
-card;
-
-card
-.classList
-.add(
+card.classList.add(
 "active"
 );
 
 play(
-url
+ch.url
 );
 
-}
+};
+
+list.appendChild(
+card
+);
+
+});
 
 }
 
-function play(
-url
-){
+buttons.forEach(
+btn=>{
+
+btn.onclick=
+()=>{
+
+buttons.forEach(
+b=>
+
+b.classList.remove(
+"active"
+)
+
+);
+
+btn.classList.add(
+"active"
+);
+
+const cat=
+btn.innerText
+.toUpperCase();
 
 if(
-Hls
-.isSupported()
+cat==="ALL"
 ){
 
-const hls=
+render(
+allChannels
+);
+
+return;
+
+}
+
+render(
+
+allChannels.filter(
+
+x=>
+
+x.group
+.includes(
+cat
+)
+
+)
+
+);
+
+};
+
+});
+
+function play(url){
+
+if(player){
+
+player.destroy();
+
+}
+
+if(
+Hls.isSupported()
+){
+
+player=
 new Hls();
 
-hls
-.loadSource(
+player.loadSource(
 url
 );
 
-hls
-.attachMedia(
+player.attachMedia(
 video
 );
 
