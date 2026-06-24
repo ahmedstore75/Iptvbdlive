@@ -1,20 +1,42 @@
-const video=
+const video =
 document.getElementById("video");
 
-const stream=
-"./mixiptvchannel.m3u";
+fetch("mixiptvchannel.m3u")
+
+.then(res=>res.text())
+
+.then(data=>{
+
+const lines =
+data.split("\n");
+
+const stream =
+lines.find(
+x=>x.includes(".m3u8")
+);
+
+if(stream){
 
 if(Hls.isSupported()){
 
-const hls=
+const hls =
 new Hls();
 
-hls.loadSource(stream);
+hls.loadSource(
+stream.trim()
+);
 
-hls.attachMedia(video);
+hls.attachMedia(
+video
+);
 
 }else{
 
-video.src=stream;
+video.src =
+stream.trim();
 
 }
+
+}
+
+});
