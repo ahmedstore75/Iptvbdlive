@@ -5,37 +5,67 @@ box-sizing:border-box;
 }
 
 body{
-background:#070707;
+background:
+linear-gradient(
+180deg,
+#070707,
+#10172d
+);
+
 color:white;
-font-family:Arial,sans-serif;
+
+font-family:Arial;
+
 }
 
 header{
+
 padding:14px;
+
 }
 
 .top{
+
 display:flex;
+
 align-items:center;
-gap:12px;
+
+gap:14px;
+
 }
 
 .logo{
-width:70px;
-height:70px;
+
+width:72px;
+
+height:72px;
+
 border-radius:50%;
+
+border:2px solid #ff4d4d;
+
 }
 
 .player{
 
 position:sticky;
+
 top:0;
 
 z-index:999;
 
-background:#070707;
-
 padding:10px;
+
+background:
+rgba(
+7,
+7,
+7,
+0.95
+);
+
+backdrop-filter:
+blur(12px);
 
 }
 
@@ -45,9 +75,16 @@ width:100%;
 
 aspect-ratio:16/9;
 
-border-radius:14px;
+border-radius:18px;
 
-background:black;
+box-shadow:
+0 0 40px
+rgba(
+255,
+0,
+120,
+.25
+);
 
 }
 
@@ -55,9 +92,9 @@ background:black;
 
 display:flex;
 
-overflow-x:auto;
-
 gap:10px;
+
+overflow:auto;
 
 padding:12px;
 
@@ -65,21 +102,20 @@ padding:12px;
 
 .category button{
 
-padding:12px 18px;
-
-border:none;
-
-border-radius:20px;
-
-background:#151515;
+background:
+linear-gradient(
+90deg,
+#ff4d4d,
+#6a5cff
+);
 
 color:white;
 
-}
+border:none;
 
-.category button.active{
+padding:12px 18px;
 
-background:red;
+border-radius:24px;
 
 }
 
@@ -90,34 +126,102 @@ display:grid;
 grid-template-columns:
 repeat(2,1fr);
 
-gap:10px;
+gap:14px;
 
-padding:12px;
+padding:14px;
 
 }
 
 .card{
 
-background:#111;
+background:
+linear-gradient(
+135deg,
+#131313,
+#1d2640
+);
 
-border-radius:14px;
+border-radius:18px;
 
 padding:14px;
 
 text-align:center;
 
+position:relative;
+
+transition:.25s;
+
 }
 
 .card img{
 
-width:60px;
+width:62px;
 
-height:60px;
+height:62px;
 
 border-radius:50%;
 
 object-fit:cover;
 
+border:2px solid white;
+
 margin-bottom:10px;
+
+}
+
+.card.active{
+
+border:
+2px solid
+#ff3d6e;
+
+box-shadow:
+0 0 30px
+rgba(
+255,
+61,
+110,
+.6
+);
+
+transform:
+scale(
+1.03
+);
+
+}
+
+.card.active::after{
+
+content:
+"▶ PLAYING";
+
+position:absolute;
+
+top:8px;
+
+right:8px;
+
+background:
+#ff244f;
+
+padding:
+
+4px 8px;
+
+border-radius:
+
+20px;
+
+font-size:
+
+10px;
+
+}
+
+.card:active{
+
+transform:
+scale(.95);
 
 }
