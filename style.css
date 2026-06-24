@@ -1,70 +1,149 @@
 *{
+
 margin:0;
+
 padding:0;
+
 box-sizing:border-box;
+
 }
 
 body{
-background:#050505;
+
+background:#070707;
+
 color:white;
+
 font-family:sans-serif;
-padding:14px;
+
+padding:12px;
+
 }
 
-.brand{
+.top{
+
 display:flex;
+
 align-items:center;
-gap:14px;
+
+gap:15px;
+
+margin-bottom:18px;
+
 }
 
 .logo{
-width:80px;
-height:80px;
+
+width:70px;
+
+height:70px;
+
 border-radius:50%;
+
 }
 
-h1 span{
-color:red;
-}
+.player{
 
-.player-box{
+width:100%;
+
 background:#111;
+
 padding:10px;
-border-radius:18px;
-margin-top:20px;
+
+border-radius:20px;
+
+margin-bottom:20px;
+
 }
 
 video{
+
 width:100%;
-border-radius:12px;
+
+aspect-ratio:16/9;
+
+border-radius:14px;
+
+background:black;
+
 }
 
-.live-tag{
-color:red;
-margin-bottom:10px;
-font-weight:bold;
-}
+.category{
 
-.channels{
-display:grid;
-grid-template-columns:
-1fr 1fr;
+display:flex;
 
 gap:10px;
 
-margin-top:20px;
+overflow:auto;
+
+margin-bottom:20px;
+
+}
+
+.category button{
+
+background:#151515;
+
+color:white;
+
+border:none;
+
+padding:12px 18px;
+
+border-radius:20px;
+
+}
+
+.channels{
+
+display:grid;
+
+grid-template-columns:
+repeat(3,1fr);
+
+gap:12px;
+
 }
 
 .card{
 
-background:#161616;
+background:#111;
 
-padding:16px;
+padding:14px;
 
-border-radius:12px;
+border-radius:14px;
 
 text-align:center;
 
-cursor:pointer;
+}
+
+.card img{
+
+width:55px;
+
+height:55px;
+
+border-radius:50%;
+
+object-fit:cover;
+
+margin-bottom:8px;
+
+}
+
+.card div{
+
+font-size:13px;
+
+}
+
+@media(max-width:700px){
+
+.channels{
+
+grid-template-columns:
+repeat(2,1fr);
+
+}
 
 }
