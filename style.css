@@ -219,7 +219,7 @@ border:
 
 .card.active::before{
 
-content:"▶";
+content:"🔻";
 
 position:absolute;
 
