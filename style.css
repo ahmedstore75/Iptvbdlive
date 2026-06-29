@@ -135,7 +135,7 @@ linear-gradient(
 
 .category button.active::after{
 
-content:"🔼";
+content:"🔻";
 
 position:absolute;
 
