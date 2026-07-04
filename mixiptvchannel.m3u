@@ -22,7 +22,7 @@ https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8
 http://198.195.239.50:8095/ptv/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="FS1" tvg-name="FS1" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",FS1
-https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
+http://114.130.57.233:8080/Somoy-TV-3Mb/video.m3u8?token=SkQuhAXZxgBan1
 
 #EXTINF:-1 tvg-id="FS2" tvg-name="FS2" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",FS2
 https://1nyaler.streamhostingcdn.top/stream/26/index.m3u8
