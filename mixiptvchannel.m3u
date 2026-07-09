@@ -10,13 +10,13 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/Zeebanglahd.m3u8
 https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
 
 #EXTINF:-1 tvg-id="beIN SPORTS 1 UHD" tvg-name="beIN SPORTS 1 UHD" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",beIN SPORTS 1 UHD
-http://114.130.57.233:8080/Somoy-TV-3Mb/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1
+http://114.130.57.233:8080/unitedsports-bdixbd.net/video.m3u8?token=SkQuhAXZxgBan1
 
 #EXTINF:-1 tvg-id="beIN SPORTS MAX 1 4K" tvg-name="beIN SPORTS MAX 1 4K" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",beIN SPORTS MAX 1 4K
 http://xcv70.fyi:8080/live/adil2912/adil1229/444349.m3u8
 
 #EXTINF:-1 tvg-id="WIN_Sports" tvg-name="WIN Sports" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",WIN Sports
-https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8
+http://114.130.57.233:8080/bein2/video.m3u8?token=SkQuhAXZxgBan1
 
 #EXTINF:-1 tvg-id="FOX" tvg-name="FOX" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",FOX
 http://198.195.239.50:8095/ptv/tracks-v1a1/mono.m3u8
@@ -28,10 +28,10 @@ http://114.130.57.233:8080/Somoy-TV-3Mb/video.m3u8?token=SkQuhAXZxgBan1
 https://1nyaler.streamhostingcdn.top/stream/26/index.m3u8
 
 #EXTINF:-1 tvg-id="T sports" tvg-name="T sports" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",T sports
-http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8
+http://114.130.57.233:8080/T-Sports/video.m3u8?token=SkQuhAXZxgBan1
 
 #EXTINF:-1 tvg-id="DAZN 1" tvg-name="DAZN 1" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",DAZN 1
-http://198.195.239.50:8095/btv/tracks-v1a1/mono.m3u8
+http://114.130.57.233:8080/BTV/video.m3u8?token=SkQuhAXZxgBan1
 
 #EXTINF:-1 tvg-id="Telemundo" tvg-name="Telemundo" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",Telemundo
 http://198.195.239.50:8095/somoyTv/tracks-v1a1/mono.m3u8
