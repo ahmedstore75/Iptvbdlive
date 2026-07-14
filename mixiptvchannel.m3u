@@ -37,7 +37,7 @@ http://114.130.57.233:8080/BTV-HD/video.m3u8?token=SkQuhAXZxgBan1
 http://114.130.57.233:8080/PTV/video.m3u8?token=SkQuhAXZxgBan1
 
 #EXTINF:-1 tvg-id="ESPN S1" tvg-name="ESPN S1" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",ESPN S1
-http://114.130.57.233:8080/unitedsports-bdixbd.net/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1
+http://114.130.57.233:8080/Fifa-1/video.m3u8?token=SkQuhAXZxgBan1
 
 #EXTINF:-1 tvg-id="ESPN S2" tvg-name="ESPN S2" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",ESPN S2
 http://114.130.57.233:8080/TsportHD/video.m3u8?token=SkQuhAXZxgBan1
