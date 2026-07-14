@@ -25,7 +25,7 @@ https://pull.niues.live/live/stream-9912060_lhd.m3u8?auth_key=1783284383-0-0-ba5
 http://114.130.57.233:8080/Somoy-TV-3Mb/video.m3u8?token=SkQuhAXZxgBan1
 
 #EXTINF:-1 tvg-id="FS2" tvg-name="FS2" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",FS2
-https://1nyaler.streamhostingcdn.top/stream/26/index.m3u8
+https://bldcmprod-cdn.toffeelive.com/cdn/live/slang/fifa_world_cup_576/fifa_world_cup_576.m3u8?bitrate=1000000&channel=fifa_world_cup_576&gp_id
 
 #EXTINF:-1 tvg-id="T sports" tvg-name="T sports" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",T sports
 http://114.130.57.233:8080/T-Sports/video.m3u8?token=SkQuhAXZxgBan1
