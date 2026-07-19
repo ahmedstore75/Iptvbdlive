@@ -22,10 +22,10 @@ http://xcv70.fyi:8080/live/adil2912/adil1229/444349.m3u8
 https://pull.niues.live/live/stream-9912060_lhd.m3u8?auth_key=1783284383-0-0-ba541e77b9330eab42075af6aa5029e4
 
 #EXTINF:-1 tvg-id="FS1" tvg-name="FS1" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",FS1
-http://114.130.57.233:8080/Somoy-TV-3Mb/video.m3u8?token=SkQuhAXZxgBan1
+https://tfxp0gr4uqmtt8y41hcjugwzd1qjpptwzc3jt.100ycdn.com/live1.streambylivepulse.com/live/channel15/playlist.m3u8?wsSecret=9821e9cdaea8fa278acea46dacc4d1f1&wsABSTime=1784530579&wsSession=4ea2c29afd8402e8ac5303e0-178448738029439&wsIPSercert=4ffa7d57ad4a1f80d2fcc11a06c84470&wsBindIP=2&wsserid=1168227348931570013
 
 #EXTINF:-1 tvg-id="FS2" tvg-name="FS2" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",FS2
-https://bldcmprod-cdn.toffeelive.com/cdn/live/slang/fifa_world_cup_576/fifa_world_cup_576.m3u8?bitrate=1000000&channel=fifa_world_cup_576&gp_id
+https://tfxp0gr5domt1gc41hctogezd1cjpptwzc3jt.100ycdn.com/live1.streambylivepulse.com/live/channel14/playlist.m3u8?wsSecret=c08070dc64adfed6cb9a4c53680a61fe&wsABSTime=1784530691&wsSession=6c6dd221ffb7f657bf5d48bb-178448749224317&wsIPSercert=4ffa7d57ad4a1f80d2fcc11a06c84470&wsBindIP=2&wsserid=1168273357662107863
 
 #EXTINF:-1 tvg-id="T sports" tvg-name="T sports" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",T sports
 http://114.130.57.233:8080/T-Sports/video.m3u8?token=SkQuhAXZxgBan1
@@ -37,7 +37,7 @@ http://114.130.57.233:8080/BTV-HD/video.m3u8?token=SkQuhAXZxgBan1
 http://114.130.57.233:8080/PTV/video.m3u8?token=SkQuhAXZxgBan1
 
 #EXTINF:-1 tvg-id="ESPN S1" tvg-name="ESPN S1" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",ESPN S1
-http://114.130.57.233:8080/Fifa-1/video.m3u8?token=SkQuhAXZxgBan1
+https://pull.niues.live/live/stream-9912060_lhd.m3u8?auth_key=1783284383-0-0-ba541e77b9330eab42075af6aa5029e4
 
 #EXTINF:-1 tvg-id="ESPN S2" tvg-name="ESPN S2" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="FIFA",ESPN S2
 http://114.130.57.233:8080/TsportHD/video.m3u8?token=SkQuhAXZxgBan1
