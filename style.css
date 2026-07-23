@@ -8,9 +8,10 @@
   --input-bg: #161b26;
   --border-color: rgba(255, 255, 255, 0.08);
   --player-bg: rgba(5, 5, 5, 0.95);
+  --accent-color: #ff244f;
+  --star-active: #ffb703;
 }
 
-/* Light Theme Variables (পলিশড অ্যান্ড ক্লিন লুক) */
 body.light-theme {
   --bg-gradient: linear-gradient(180deg, #f8fafc, #e2e8f0);
   --text-color: #0f172a;
@@ -20,7 +21,7 @@ body.light-theme {
   --menu-item-bg: #f1f5f9;
   --input-bg: #ffffff;
   --border-color: #cbd5e1;
-  --player-bg: rgba(255, 255, 255, 0.85); /* লাইট মোডে সফট গ্লাস ব্যাকগ্রাউন্ড */
+  --player-bg: rgba(255, 255, 255, 0.85);
 }
 
 * {
@@ -32,9 +33,10 @@ body.light-theme {
 body {
   background: var(--bg-gradient);
   color: var(--text-color);
-  font-family: Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
   min-height: 100vh;
-  transition: background 0.3s, color 0.3s;
+  transition: background 0.3s ease, color 0.3s ease;
+  overflow-x: hidden;
 }
 
 header {
@@ -49,18 +51,19 @@ header {
 }
 
 .logo {
-  width: 48px;
-  height: 48px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 header h1 {
-  font-size: 1.2rem;
-  font-weight: bold;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
 }
 
-/* প্রিমিয়াম হ্যামবার্গার বাটন */
 .header-menu-wrapper {
   margin-left: auto;
 }
@@ -68,8 +71,8 @@ header h1 {
 .hamburger-btn {
   background: var(--menu-item-bg);
   border: 1px solid var(--border-color);
-  width: 44px;
-  height: 44px;
+  width: 42px;
+  height: 42px;
   border-radius: 12px;
   cursor: pointer;
   display: flex;
@@ -82,12 +85,12 @@ header h1 {
 .hamburger-btn:hover {
   background: rgba(255, 36, 79, 0.15);
   border-color: rgba(255, 36, 79, 0.4);
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 .bar-container {
-  width: 22px;
-  height: 16px;
+  width: 20px;
+  height: 14px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -96,26 +99,30 @@ header h1 {
 .bar-container span {
   display: block;
   width: 100%;
-  height: 2.5px;
+  height: 2px;
   background-color: var(--text-color);
   border-radius: 4px;
+  transition: background-color 0.3s ease;
 }
 
-/* Side Menu Panel */
 .menu-overlay {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   z-index: 10000;
   display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .menu-overlay.active {
   display: block;
+  opacity: 1;
 }
 
 .side-menu {
@@ -128,9 +135,9 @@ header h1 {
   border-right: 1px solid var(--border-color);
   z-index: 10001;
   transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 16px;
+  padding: 20px 16px;
   overflow-y: auto;
-  box-shadow: 10px 0 30px rgba(0,0,0,0.1);
+  box-shadow: 10px 0 30px rgba(0, 0, 0, 0.2);
 }
 
 .side-menu.active {
@@ -141,61 +148,71 @@ header h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .menu-header h2 {
-  color: #ff244f;
-  font-size: 1.2rem;
-  font-weight: bold;
+  color: var(--accent-color);
+  font-size: 1.15rem;
+  font-weight: 700;
 }
 
 .close-btn {
   background: rgba(255, 36, 79, 0.15);
-  color: #ff244f;
+  color: var(--accent-color);
   border: 1px solid rgba(255, 36, 79, 0.3);
   width: 32px;
   height: 32px;
   border-radius: 50%;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+
+.close-btn:hover {
+  background: rgba(255, 36, 79, 0.25);
 }
 
 .menu-items {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
 }
 
 .menu-item {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
   background: var(--menu-item-bg);
   border: 1px solid var(--border-color);
   padding: 10px 14px;
-  border-radius: 14px;
+  border-radius: 12px;
   color: var(--text-color);
   text-decoration: none;
-  font-size: 14px;
+  font-size: 13.5px;
+  font-weight: 500;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.2s ease;
   width: 100%;
   text-align: left;
 }
 
 .menu-item:hover {
   border-color: rgba(255, 36, 79, 0.4);
+  background: rgba(255, 36, 79, 0.05);
 }
 
 .icon-box {
-  width: 36px;
-  height: 36px;
-  border-radius: 10px;
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: bold;
   flex-shrink: 0;
 }
@@ -216,20 +233,20 @@ header h1 {
 .item-left {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
 }
 
 #aspectRatioSelect {
   background: var(--input-bg);
   color: var(--text-color);
   border: 1px solid var(--border-color);
-  padding: 6px 10px;
+  padding: 6px 8px;
   border-radius: 8px;
   font-size: 12px;
   outline: none;
+  cursor: pointer;
 }
 
-/* ================= Video Player Styling (Light Mode Specific Fix) ================= */
 .player {
   position: sticky;
   top: 0;
@@ -237,6 +254,7 @@ header h1 {
   background: var(--player-bg);
   padding: 8px 12px;
   backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border-color);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   transition: background 0.3s;
@@ -245,19 +263,19 @@ header h1 {
 video {
   width: 100%;
   aspect-ratio: 16/9;
-  border-radius: 14px;
-  background: #000000; /* ভিডিও স্ক্রিন সবসময় ব্ল্যাক থাকবে */
+  border-radius: 12px;
+  background: #000000;
   object-fit: contain;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: block;
 }
 
-/* Controls Bar */
 .controls-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  padding: 6px 12px;
+  padding: 8px 12px;
   background: var(--menu-item-bg);
   margin: 12px;
   border-radius: 10px;
@@ -266,53 +284,55 @@ video {
 
 .category-dropdown-wrapper, .search-wrapper {
   flex: 1;
-  max-width: 48%;
+  max-width: 49%;
 }
 
 #categorySelect, #searchInput {
   width: 100%;
-  height: 34px;
+  height: 36px;
   background: var(--input-bg);
   color: var(--text-color);
   border: 1px solid var(--border-color);
-  padding: 6px 10px;
+  padding: 6px 12px;
   border-radius: 8px;
   font-size: 12px;
   outline: none;
+  transition: border-color 0.2s;
 }
 
 #searchInput:focus, #categorySelect:focus {
-  border-color: #ff244f;
+  border-color: var(--accent-color);
 }
 
-/* Channel List & Cards */
 .channels {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-  gap: 12px;
-  padding: 0 12px 12px 12px;
+  grid-template-columns: repeat(auto-fill, minmax(115px, 1fr));
+  gap: 10px;
+  padding: 0 12px 16px 12px;
 }
 
 .card {
   background: var(--card-bg);
   color: var(--card-text);
   border: 1px solid var(--border-color);
-  padding: 12px;
-  border-radius: 14px;
+  padding: 10px 8px;
+  border-radius: 12px;
   text-align: center;
   position: relative;
   cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  user-select: none;
 }
 
 .card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
 }
 
 .card.active {
-  border: 2px solid #ff2d55;
+  border: 2px solid var(--accent-color);
+  background: rgba(255, 36, 79, 0.05);
 }
 
 .fav-star {
@@ -323,41 +343,90 @@ video {
   color: #cbd5e1;
   cursor: pointer;
   z-index: 10;
-  transition: color 0.2s, transform 0.2s;
+  transition: color 0.2s ease, transform 0.2s ease;
 }
 
 .fav-star:hover {
-  transform: scale(1.2);
+  transform: scale(1.25);
 }
 
 .fav-star.active {
-  color: #ffb703;
+  color: var(--star-active);
 }
 
 .card img {
-  width: 50px;
-  height: 50px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
+  background: #111;
 }
 
 .card div {
-  font-size: 13px;
+  font-size: 12px;
+  font-weight: 500;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
+/* Skeleton Loading Effect */
+.card.skeleton {
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-color: var(--border-color);
+}
+
+.skeleton-img,
+.skeleton-text {
+  background: linear-gradient(
+    90deg,
+    var(--menu-item-bg) 25%,
+    var(--border-color) 50%,
+    var(--menu-item-bg) 75%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.4s infinite linear;
+}
+
+.skeleton-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-bottom: 6px;
+}
+
+.skeleton-text {
+  width: 75%;
+  height: 12px;
+  border-radius: 4px;
+}
+
+@keyframes skeleton-shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
 @media (min-width: 900px) {
   body {
-    max-width: 1400px;
-    margin: auto;
+    max-width: 1280px;
+    margin: 0 auto;
   }
+
   .channels {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
+    gap: 14px;
   }
+
   video {
-    max-height: 620px;
+    max-height: 520px;
   }
 }
