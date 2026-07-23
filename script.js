@@ -248,7 +248,7 @@ function render(data) {
 
   // রিয়েলটাইম চ্যানেল কাউন্টার (যেমন: CH 140)
   if (channelCounterBadge) {
-    channelCounterBadge.textContent = `CH ${data.length}`;
+    channelCounterBadge.textContent = `CH: ${data.length}`;
   }
 
   if (data.length === 0) {
