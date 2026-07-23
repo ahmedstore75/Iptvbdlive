@@ -40,7 +40,7 @@ body {
 
 header {
   padding: 12px 16px;
-  height: 70px; /* হেডার এর হাইট ফিক্সড */
+  height: 70px;
 }
 
 .top {
@@ -51,8 +51,8 @@ header {
 }
 
 .logo {
-  width: 48px;
-  height: 48px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -62,7 +62,6 @@ header h1 {
   font-weight: bold;
 }
 
-/* হ্যামবার্গার বাটন */
 .header-menu-wrapper {
   margin-left: auto;
 }
@@ -70,26 +69,18 @@ header h1 {
 .hamburger-btn {
   background: var(--menu-item-bg);
   border: 1px solid var(--border-color);
-  width: 44px;
-  height: 44px;
-  border-radius: 12px;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-}
-
-.hamburger-btn:hover {
-  background: rgba(255, 36, 79, 0.15);
-  border-color: rgba(255, 36, 79, 0.4);
-  transform: scale(1.05);
 }
 
 .bar-container {
-  width: 22px;
-  height: 16px;
+  width: 20px;
+  height: 14px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -98,140 +89,12 @@ header h1 {
 .bar-container span {
   display: block;
   width: 100%;
-  height: 2.5px;
+  height: 2px;
   background-color: var(--text-color);
   border-radius: 4px;
 }
 
-/* Side Menu Panel */
-.menu-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-  backdrop-filter: blur(4px);
-  z-index: 10000;
-  display: none;
-}
-
-.menu-overlay.active {
-  display: block;
-}
-
-.side-menu {
-  position: fixed;
-  top: 0;
-  left: -320px;
-  width: 300px;
-  height: 100%;
-  background: var(--menu-bg);
-  border-right: 1px solid var(--border-color);
-  z-index: 10001;
-  transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 16px;
-  overflow-y: auto;
-  box-shadow: 10px 0 30px rgba(0,0,0,0.1);
-}
-
-.side-menu.active {
-  left: 0;
-}
-
-.menu-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.menu-header h2 {
-  color: #ff244f;
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
-.close-btn {
-  background: rgba(255, 36, 79, 0.15);
-  color: #ff244f;
-  border: 1px solid rgba(255, 36, 79, 0.3);
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  cursor: pointer;
-  font-size: 14px;
-}
-
-.menu-items {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.menu-item {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  background: var(--menu-item-bg);
-  border: 1px solid var(--border-color);
-  padding: 10px 14px;
-  border-radius: 14px;
-  color: var(--text-color);
-  text-decoration: none;
-  font-size: 14px;
-  cursor: pointer;
-  transition: all 0.2s;
-  width: 100%;
-  text-align: left;
-}
-
-.menu-item:hover {
-  border-color: rgba(255, 36, 79, 0.4);
-}
-
-.icon-box {
-  width: 36px;
-  height: 36px;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 16px;
-  font-weight: bold;
-  flex-shrink: 0;
-}
-
-.icon-pink { background: linear-gradient(135deg, #ff244f, #d90429); color: #fff; }
-.icon-purple { background: linear-gradient(135deg, #7b2cbf, #9d4edd); color: #fff; }
-.icon-cyan { background: linear-gradient(135deg, #00b4d8, #0077b6); color: #fff; }
-.icon-blue { background: linear-gradient(135deg, #3a86ff, #023e8a); color: #fff; }
-.icon-orange { background: linear-gradient(135deg, #ffb703, #fb8500); color: #fff; }
-.icon-green { background: linear-gradient(135deg, #06d6a0, #059669); color: #fff; }
-.icon-telegram { background: #229ED9; color: #fff; }
-.icon-facebook { background: linear-gradient(135deg, #1877f2, #0d47a1); color: #fff; }
-
-.size-item {
-  justify-content: space-between;
-}
-
-.item-left {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-}
-
-#aspectRatioSelect {
-  background: var(--input-bg);
-  color: var(--text-color);
-  border: 1px solid var(--border-color);
-  padding: 6px 10px;
-  border-radius: 8px;
-  font-size: 12px;
-  outline: none;
-}
-
-/* ================= Layout System (Mobile Default) ================= */
+/* ================= Mobile Default Layout ================= */
 .main-layout {
   display: flex;
   flex-direction: column;
@@ -248,8 +111,6 @@ header h1 {
   z-index: 999;
   background: var(--player-bg);
   padding: 8px 12px;
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--border-color);
 }
 
 video {
@@ -258,20 +119,14 @@ video {
   border-radius: 14px;
   background: #000000;
   object-fit: contain;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-.content-section {
-  width: 100%;
-}
-
-/* Controls Bar */
 .controls-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  padding: 6px 12px;
+  padding: 8px 12px;
   background: var(--menu-item-bg);
   margin: 12px;
   border-radius: 10px;
@@ -280,29 +135,23 @@ video {
 
 .category-dropdown-wrapper, .search-wrapper {
   flex: 1;
-  max-width: 48%;
 }
 
 #categorySelect, #searchInput {
   width: 100%;
-  height: 34px;
+  height: 36px;
   background: var(--input-bg);
   color: var(--text-color);
   border: 1px solid var(--border-color);
   padding: 6px 10px;
   border-radius: 8px;
-  font-size: 12px;
+  font-size: 13px;
   outline: none;
 }
 
-#searchInput:focus, #categorySelect:focus {
-  border-color: #ff244f;
-}
-
-/* Channels Grid & Cards */
 .channels {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 12px;
   padding: 0 12px 12px 12px;
 }
@@ -314,115 +163,44 @@ video {
   padding: 12px;
   border-radius: 14px;
   text-align: center;
-  position: relative;
   cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-}
-
-.card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 14px rgba(0,0,0,0.08);
-}
-
-.card.active {
-  border: 2px solid #ff2d55;
-}
-
-.fav-star {
-  position: absolute;
-  top: 6px;
-  left: 8px;
-  font-size: 16px;
-  color: #cbd5e1;
-  cursor: pointer;
-  z-index: 10;
-  transition: color 0.2s, transform 0.2s;
-}
-
-.fav-star:hover {
-  transform: scale(1.2);
-}
-
-.fav-star.active {
-  color: #ffb703;
 }
 
 .card img {
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 8px;
 }
 
-.card div {
-  font-size: 13px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-/* স্কেলেটন লোডার */
-.skeleton-card {
-  background: var(--card-bg);
-  border: 1px solid var(--border-color);
-  padding: 12px;
-  border-radius: 14px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-}
-
-.skeleton-circle {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background: var(--skeleton-bg);
-  animation: pulse 1.5s infinite ease-in-out;
-}
-
-.skeleton-text {
-  width: 70%;
-  height: 12px;
-  border-radius: 4px;
-  background: var(--skeleton-bg);
-  animation: pulse 1.5s infinite ease-in-out;
-}
-
-@keyframes pulse {
-  0% { opacity: 0.5; }
-  50% { opacity: 1; }
-  100% { opacity: 0.5; }
-}
-
-/* ================= ল্যাপটপ এবং ডেস্কটপ মোড (Grid Layout Fixed) ================= */
+/* ================= Laptop & Desktop Layout (STRICT FIX) ================= */
 @media (min-width: 768px) {
   html, body {
-    height: 100vh;
-    overflow: hidden !important; /* ব্রাউজারের মূল স্ক্রোল বন্ধ */
+    height: 100vh !important;
+    max-height: 100vh !important;
+    overflow: hidden !important; /* স্ক্রিনের বাইরের অতিরিক্ত অংশ স্ক্রোল হওয়া লক */
   }
 
   body {
-    display: flex;
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: column !important;
   }
 
   .main-layout {
     display: grid !important;
-    grid-template-columns: 60% 40%; /* বামে প্লেয়ার ৬০%, ডানে চ্যানেল ৪০% */
+    grid-template-columns: 58% 42% !important; /* বামে ভিডিও ৫৮%, ডানে চ্যানেল ৪২% */
     gap: 16px;
     padding: 0 16px 16px 16px;
     height: calc(100vh - 70px) !important;
     overflow: hidden !important;
   }
 
-  /* বাম পাশ: প্লেয়ার একেবারেই লক থাকবে */
+  /* বাম পাশ (ভিডিও ప్లేయర్ ১ মিলিমিটারও নড়বে না) */
   .player-section {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden !important;
   }
 
   .player {
@@ -430,15 +208,13 @@ video {
     top: 0 !important;
     padding: 0 !important;
     background: transparent !important;
-    border-bottom: none !important;
-    box-shadow: none !important;
   }
 
-  /* ডান পাশ: কেবল এটি স্ক্রল হবে */
+  /* ডান পাশ (শুধুমাত্র চ্যানেল ও ফিল্টার স্ক্রোল হবে) */
   .content-section {
-    width: 100%;
-    height: 100%;
-    overflow-y: auto !important; /* শুধুমাত্র মাউস উইল এখানে স্ক্রল করবে */
+    width: 100% !important;
+    height: 100% !important;
+    overflow-y: auto !important;
     padding-right: 6px;
   }
 
