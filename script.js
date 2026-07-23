@@ -99,7 +99,7 @@ aspectRatioSelect.addEventListener("change", (e) => {
   video.style.objectFit = e.target.value;
 });
 
-// 4. Skeleton Loader UI (উন্নত শিমার)
+// 4. Skeleton Loader UI (উন্নত লোডিং শিমার)
 function renderSkeletons(count = 12) {
   list.innerHTML = "";
   const fragment = document.createDocumentFragment();
@@ -212,7 +212,7 @@ function filterAndRender() {
   render(filtered);
 }
 
-// 8. Render Channels UI (স্মুথ ও লেজি লোড সহ)
+// 8. Render Channels UI (হাই-পারফরম্যান্স রেন্ডারিং)
 function render(data) {
   list.innerHTML = "";
 
@@ -311,7 +311,7 @@ reloadBtn.addEventListener("click", () => {
   closeMenu();
 });
 
-// 11. Auto Fullscreen Logic
+// 11. Auto Fullscreen on Mobile Rotation
 window.addEventListener("orientationchange", () => {
   if (window.orientation === 90 || window.orientation === -90) {
     if (video.requestFullscreen) video.requestFullscreen();
