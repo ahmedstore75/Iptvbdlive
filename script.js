@@ -153,7 +153,7 @@ function fetchPlaylist() {
     })
     .then(data => parseM3U(data))
     .catch(() => {
-      if (channelCounterBadge) channelCounterBadge.textContent = "CH 0";
+      if (channelCounterBadge) channelCounterBadge.textContent = "CH: 0";
       list.innerHTML = `
         <div style="color:#ff244f; padding:20px; grid-column: 1/-1; text-align: center; font-size: 13px;">
           ⚠️ mixiptvchannel.m3u ফাইলটি পাওয়া যায়নি।
