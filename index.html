@@ -1,75 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="bn">
 
 <head>
-
-<meta charset="UTF-8">
-
-<meta name="viewport"
-content="width=device-width,initial-scale=1">
-
-<title>SA IPTV BD LIVE</title>
-
-<link rel="stylesheet"
-href="style.css">
-
-<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SA IPTV BD LIVE</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 </head>
 
 <body>
 
-<header>
+  <header>
+    <div class="top">
+      <img src="logo.png" class="logo" alt="Logo">
+      <div>
+        <h1>SA IPTV BD LIVE</h1>
+        <p>Premium Streaming</p>
+      </div>
 
-<div class="top">
+      <!-- হেডারের ডান সাইডে মেনু বাটন -->
+      <div class="header-menu-wrapper">
+        <button id="menuBtn" class="menu-btn" aria-label="Menu">
+          ⚙️ Menu
+        </button>
+        <div id="dropdownMenu" class="dropdown-menu">
+          <a href="#" id="reloadBtn">🔄 Refresh Playlist</a>
+          <a href="#" id="toggleThemeBtn">🌙 Toggle Dark/Light</a>
+          <a href="#" id="aboutBtn">ℹ️ About App</a>
+        </div>
+      </div>
+    </div>
+  </header>
 
-<img src="logo.png"
-class="logo">
+  <div class="player">
+    <video id="video" controls playsinline></video>
+  </div>
 
-<div>
+  <!-- ক্যাটাগরি ড্রপডাউন এবং ডানে সার্চ অপশন -->
+  <div class="controls-bar">
+    <div class="category-dropdown-wrapper">
+      <label for="categorySelect">Category:</label>
+      <select id="categorySelect">
+        <option value="ALL">ALL</option>
+        <option value="NEWS">NEWS</option>
+        <option value="SPORTS">SPORTS</option>
+        <option value="MOVIES">MOVIES</option>
+        <option value="KIDS">KIDS</option>
+      </select>
+    </div>
 
-<h1>SA IPTV BD LIVE</h1>
+    <div class="search-wrapper">
+      <input type="text" id="searchInput" placeholder="Search channels..." />
+    </div>
+  </div>
 
-<p>Premium Streaming</p>
+  <div id="channelList" class="channels"></div>
 
-</div>
-
-</div>
-
-</header>
-
-<div class="player">
-
-<video
-id="video"
-controls
-playsinline>
-</video>
-
-</div>
-
-<div class="category">
-
-<button>ALL</button>
-
-<button>NEWS</button>
-
-<button>SPORTS</button>
-
-<button>MOVIES</button>
-
-<button>KIDS</button>
-
-</div>
-
-<div
-id="channelList"
-class="channels">
-
-</div>
-
-<script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 
 </html>
