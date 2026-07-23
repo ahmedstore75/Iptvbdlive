@@ -362,7 +362,7 @@ video {
   text-overflow: ellipsis;
 }
 
-/* ================= অ্যানিমেটেড স্কেলেটন লোডিং সিস্টেম ================= */
+/* স্কেলেটন লোডার */
 .skeleton-card {
   background: var(--card-bg);
   border: 1px solid var(--border-color);
@@ -396,11 +396,21 @@ video {
   100% { opacity: 0.5; }
 }
 
-/* ================= ল্যাপটপ এবং বড় স্ক্রিন লেআউট (Desktop/Laptop Layout) ================= */
-@media (min-width: 992px) {
+/* ================= ল্যাপটপ এবং ডেস্কটপ লেআউট ফিক্স (768px+) ================= */
+@media (min-width: 768px) {
+  /* স্ক্রিনের হাইট লক করে স্ক্রোল অফ করে দেওয়া হয়েছে */
+  html, body {
+    height: 100vh;
+    overflow: hidden;
+  }
+
   body {
-    max-width: 1600px;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    flex-shrink: 0;
   }
 
   .main-layout {
@@ -409,13 +419,17 @@ video {
     gap: 16px;
     padding: 0 16px 16px 16px;
     align-items: flex-start;
+    flex: 1;
+    height: calc(100vh - 80px);
+    overflow: hidden;
   }
 
-  /* বাম সাইড: ভিডিও প্লেয়ার ফিক্সড থাকবে */
+  /* বাম পাশ: স্থির ভিডিও প্লেয়ার */
   .player-section {
-    flex: 0 0 60%;
+    flex: 0 0 58%;
+    max-width: 58%;
     position: sticky;
-    top: 10px;
+    top: 0;
   }
 
   .player {
@@ -426,11 +440,12 @@ video {
     border-bottom: none;
   }
 
-  /* ডান সাইড: চ্যানেল কার্ড স্ক্রোল হবে */
+  /* ডান পাশ: চ্যানেল কার্ড এবং ফিল্টার শুধু স্ক্রোল করবে */
   .content-section {
     flex: 1;
-    max-height: calc(100vh - 80px);
+    height: 100%;
     overflow-y: auto;
+    padding-right: 4px;
   }
 
   .controls-bar {
@@ -438,11 +453,11 @@ video {
     position: sticky;
     top: 0;
     z-index: 10;
-    backdrop-filter: blur(10px);
+    background: var(--menu-bg);
   }
 
   .channels {
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-    padding: 0;
+    padding: 0 0 20px 0;
   }
 }
