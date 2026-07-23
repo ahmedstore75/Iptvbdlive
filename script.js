@@ -3,7 +3,6 @@ const list = document.getElementById("channelList");
 const categorySelect = document.getElementById("categorySelect");
 const searchInput = document.getElementById("searchInput");
 
-// Menu elements
 const menuBtn = document.getElementById("menuBtn");
 const dropdownMenu = document.getElementById("dropdownMenu");
 const reloadBtn = document.getElementById("reloadBtn");
@@ -12,7 +11,7 @@ const aboutBtn = document.getElementById("aboutBtn");
 let allChannels = [];
 let hls = null;
 
-// ১. M3U ফাইল ফেচ ও পার্স করা
+// M3U ফাইল ফেচ ও পার্স করা
 function fetchPlaylist() {
   fetch("mixiptvchannel.m3u")
     .then(r => r.text())
@@ -46,15 +45,13 @@ function fetchPlaylist() {
         }
       }
 
-      // ক্যাটাগরি ড্রপডাউনে পাওয়া গ্রুপগুলো স্বয়ংক্রিয়ভাবে আপডেট করা (অপশনাল)
       updateCategoryDropdownOptions();
-
       filterAndRender();
     })
     .catch(err => console.error("Error loading M3U file:", err));
 }
 
-// M3U এর Group অনুযায়ী Category Select Box ডাইনামিক করা
+// M3U ফাইল থেকে সরাসরি গ্রুপ ডাইনামিক করা
 function updateCategoryDropdownOptions() {
   const groups = new Set(["ALL"]);
   allChannels.forEach(ch => {
@@ -76,7 +73,7 @@ function updateCategoryDropdownOptions() {
   }
 }
 
-// ২. ফিল্টার ও সার্চ অনুযায়ী চ্যানেল রেন্ডার করা
+// ফিল্টার ও সার্চ লজিক
 function filterAndRender() {
   const selectedCat = categorySelect.value.toUpperCase();
   const query = searchInput.value.trim().toLowerCase();
@@ -96,7 +93,7 @@ function render(data) {
   list.innerHTML = "";
 
   if (data.length === 0) {
-    list.innerHTML = `<div style="color:#a0a0b0; padding:20px; grid-column: 1/-1; text-align: center;">কোনো চ্যানেল পাওয়া যায়নি।</div>`;
+    list.innerHTML = `<div style="color:#a0a0b0; padding:15px; grid-column: 1/-1; text-align: center; font-size: 13px;">কোনো চ্যানেল পাওয়া যায়নি।</div>`;
     return;
   }
 
@@ -120,11 +117,10 @@ function render(data) {
   });
 }
 
-// ৩. ইভেন্ট লিসেনার (Category Dropdown & Search Input)
 categorySelect.addEventListener("change", filterAndRender);
 searchInput.addEventListener("input", filterAndRender);
 
-// ৪. হেডার মেনু হ্যান্ডলার
+// ৩-দাগ মেনু ইভেন্ট
 menuBtn.addEventListener("click", (e) => {
   e.stopPropagation();
   dropdownMenu.classList.toggle("show");
@@ -142,11 +138,11 @@ reloadBtn.addEventListener("click", (e) => {
 
 aboutBtn.addEventListener("click", (e) => {
   e.preventDefault();
-  alert("SA IPTV BD LIVE v2.0\nPowered by HLS.js");
+  alert("SA IPTV BD LIVE\nVersion: 2.5");
   dropdownMenu.classList.remove("show");
 });
 
-// ৫. স্ট্রিম প্লেয়ার
+// প্লেয়ার লজিক
 function play(url) {
   if (hls) {
     hls.destroy();
@@ -168,5 +164,4 @@ function play(url) {
   }
 }
 
-// অ্যাপ রান করা
 fetchPlaylist();
