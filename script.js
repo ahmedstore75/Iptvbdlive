@@ -17,6 +17,7 @@ const recentBtn = document.getElementById("recentBtn");
 
 const themeBtn = document.getElementById("themeBtn");
 const langBtn = document.getElementById("langBtn");
+const channelCounterBadge = document.getElementById("channelCounterBadge");
 
 // ==========================================
 // 2. Application State & Storage
@@ -65,7 +66,7 @@ const translations = {
   }
 };
 
-// প্রতিটি শব্দের প্রথম অক্ষর বড় হাতের (Capitalize) করার হেল্পার
+// প্রতিটি শব্দের প্রথম বর্ণ Capitalize করার ফাংশন
 function capitalizeText(text) {
   if (!text) return "";
   return text
@@ -89,7 +90,6 @@ function applyLanguage() {
   document.getElementById("lblFacebook").textContent = t.facebook;
   searchInput.placeholder = t.searchPlaceholder;
 
-  // ক্যাটাগরি ড্রপডাউন অপশনগুলো নতুন করে রেন্ডার করবে
   updateCategoryDropdownOptions();
 }
 
@@ -153,6 +153,7 @@ function fetchPlaylist() {
     })
     .then(data => parseM3U(data))
     .catch(() => {
+      if (channelCounterBadge) channelCounterBadge.textContent = "CH 0";
       list.innerHTML = `
         <div style="color:#ff244f; padding:20px; grid-column: 1/-1; text-align: center; font-size: 13px;">
           ⚠️ mixiptvchannel.m3u ফাইলটি পাওয়া যায়নি।
@@ -204,13 +205,13 @@ function updateCategoryDropdownOptions() {
   const t = translations[currentLang];
   categorySelect.innerHTML = "";
 
-  // ১ম অপশন: ভাষা অনুযায়ী "ক্যাটাগরি" বা "Category" আসবে
+  // ১ম অপশন: বাংলা হলে "ক্যাটাগরি" এবং ইংরেজি হলে "Category"
   const defaultOption = document.createElement("option");
   defaultOption.value = "ALL";
   defaultOption.textContent = t.categoryDefault;
   categorySelect.appendChild(defaultOption);
 
-  // বাকি ক্যাটাগরি অপশনের নামগুলোর ১ম বর্ণ Capitalize হবে
+  // অন্যান্য ক্যাটাগরির ১ম বর্ণ Capitalize হবে
   groups.forEach(group => {
     if (group.toUpperCase() !== "ALL") {
       const option = document.createElement("option");
@@ -244,6 +245,11 @@ function filterAndRender() {
 
 function render(data) {
   list.innerHTML = "";
+
+  // রিয়েলটাইম চ্যানেল কাউন্টার (যেমন: CH 140)
+  if (channelCounterBadge) {
+    channelCounterBadge.textContent = `CH ${data.length}`;
+  }
 
   if (data.length === 0) {
     const t = translations[currentLang];
