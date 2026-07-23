@@ -270,16 +270,20 @@ video {
   display: block;
 }
 
+/* ফিক্সড (Sticky) ক্যাটাগরি ও সার্চ বার */
 .controls-bar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  padding: 8px 12px;
-  background: var(--menu-item-bg);
-  margin: 12px;
-  border-radius: 10px;
-  border: 1px solid var(--border-color);
+  padding: 10px 12px;
+  background: var(--menu-bg);
+  border-bottom: 1px solid var(--border-color);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 
 .category-dropdown-wrapper, .search-wrapper {
@@ -308,7 +312,7 @@ video {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(115px, 1fr));
   gap: 10px;
-  padding: 0 12px 16px 12px;
+  padding: 12px 12px 16px 12px;
 }
 
 .card {
@@ -415,18 +419,54 @@ video {
   }
 }
 
-@media (min-width: 900px) {
+/* ==========================================================================
+   Desktop & Mobile Landscape Split View Layout
+   ========================================================================== */
+@media (min-width: 768px), (orientation: landscape) and (max-height: 500px) {
   body {
-    max-width: 1280px;
-    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    grid-template-rows: auto 1fr;
+    height: 100vh;
+    overflow: hidden;
   }
 
-  .channels {
-    grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
-    gap: 14px;
+  header {
+    grid-column: 1 / -1;
+  }
+
+  .player {
+    position: relative;
+    top: 0;
+    border-bottom: none;
+    border-right: 1px solid var(--border-color);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   video {
-    max-height: 520px;
+    max-height: 80vh;
+  }
+
+  .main-content-right {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .controls-bar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .channels {
+    flex: 1;
+    overflow-y: auto;
+    padding-bottom: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(105px, 1fr));
   }
 }
