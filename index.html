@@ -11,6 +11,7 @@
 
 <body>
 
+  <!-- Header Section -->
   <header>
     <div class="top">
       <img src="logo.png" class="logo" alt="Logo" onerror="this.src='https://via.placeholder.com/50';">
@@ -30,26 +31,28 @@
     </div>
   </header>
 
-  <!-- নিয়ন্ত্রণ প্যানেল (Side Drawer Menu) -->
+  <!-- Side Drawer Overlay & Menu -->
   <div id="sideMenuOverlay" class="menu-overlay"></div>
-  <div id="sideMenu" class="side-menu">
+  <aside id="sideMenu" class="side-menu">
     <div class="menu-header">
       <h2 id="menuHeading">নিয়ন্ত্রণ প্যানেল</h2>
       <button id="closeMenuBtn" class="close-btn">✖</button>
     </div>
 
     <div class="menu-items">
+      <!-- Favorites -->
       <button class="menu-item" id="favBtn">
         <div class="icon-box icon-pink">★</div>
         <span class="label" id="lblFav">প্রিয় চ্যানেলসমূহ</span>
       </button>
 
+      <!-- Recent Plays -->
       <button class="menu-item" id="recentBtn">
         <div class="icon-box icon-purple">🕒</div>
         <span class="label" id="lblRecent">সাম্প্রতিক প্লে</span>
       </button>
 
-      <!-- ভিডিও সাইজ -->
+      <!-- Video Aspect Ratio -->
       <div class="menu-item size-item">
         <div class="item-left">
           <div class="icon-box icon-cyan">⛶</div>
@@ -62,26 +65,26 @@
         </select>
       </div>
 
-      <!-- ভাষা পরিবর্তন -->
+      <!-- Language Toggle -->
       <button class="menu-item" id="langBtn">
         <div class="icon-box icon-blue">文</div>
         <span class="label" id="lblLang">Language: English</span>
       </button>
 
-      <!-- থিম পরিবর্তন -->
+      <!-- Theme Switcher -->
       <button class="menu-item" id="themeBtn">
         <div class="icon-box icon-orange">🌓</div>
         <span class="label" id="lblTheme">থিম: Dark</span>
       </button>
 
-      <!-- প্লেলিস্ট রিফ্রেশ -->
+      <!-- Playlist Refresh -->
       <button class="menu-item" id="reloadBtn">
         <div class="icon-box icon-green">🔄</div>
         <span class="label" id="lblReload">প্লেলিস্ট রিফ্রেশ করুন</span>
       </button>
 
-      <!-- আপনার টেলিগ্রাম লিংক -->
-      <a href="https://t.me/banglatvlivefree" target="_blank" class="menu-item link-item">
+      <!-- Telegram Link -->
+      <a href="https://t.me/banglatvlivefree" target="_blank" rel="noopener noreferrer" class="menu-item link-item">
         <div class="icon-box icon-telegram">
           <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
             <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/>
@@ -90,31 +93,37 @@
         <span class="label" id="lblTelegram">টেলিগ্রাম (সাপোর্ট)</span>
       </a>
 
-      <!-- আপনার ফেসবুক লিংক -->
-      <a href="https://www.facebook.com/ahmed.bd.fb" target="_blank" class="menu-item link-item">
+      <!-- Facebook Link -->
+      <a href="https://www.facebook.com/ahmed.bd.fb" target="_blank" rel="noopener noreferrer" class="menu-item link-item">
         <div class="icon-box icon-facebook">f</div>
         <span class="label" id="lblFacebook">ফেসবুক (সাপোর্ট)</span>
       </a>
     </div>
-  </div>
+  </aside>
 
-  <div class="player" id="playerContainer">
-    <video id="video" controls playsinline></video>
-  </div>
-
-  <div class="controls-bar">
-    <div class="category-dropdown-wrapper">
-      <select id="categorySelect">
-        <option value="ALL">CATEGORY</option>
-      </select>
+  <!-- Main Content Area -->
+  <main>
+    <!-- Video Player -->
+    <div class="player" id="playerContainer">
+      <video id="video" controls playsinline></video>
     </div>
 
-    <div class="search-wrapper">
-      <input type="text" id="searchInput" placeholder="Search..." />
-    </div>
-  </div>
+    <!-- Controls Bar (Category & Search) -->
+    <div class="controls-bar">
+      <div class="category-dropdown-wrapper">
+        <select id="categorySelect">
+          <option value="ALL">ক্যাটাগরি</option>
+        </select>
+      </div>
 
-  <div id="channelList" class="channels"></div>
+      <div class="search-wrapper">
+        <input type="text" id="searchInput" placeholder="Search..." />
+      </div>
+    </div>
+
+    <!-- Channels List -->
+    <div id="channelList" class="channels"></div>
+  </main>
 
   <script src="script.js"></script>
 </body>
