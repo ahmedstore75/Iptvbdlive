@@ -13,12 +13,11 @@
 
   <header>
     <div class="top">
-      <img src="logo.png" class="logo" alt="Logo">
+      <img src="logo.png" class="logo" alt="Logo" onerror="this.src='https://via.placeholder.com/50';">
       <div>
         <h1>SA IPTV BD LIVE</h1>
       </div>
 
-      <!-- ৩-দাগওয়ালা মেনু বাটন -->
       <div class="header-menu-wrapper">
         <button id="menuBtn" class="hamburger-btn" aria-label="Menu">
           <span></span>
@@ -39,18 +38,18 @@
 
     <div class="menu-items">
       <button class="menu-item" id="favBtn">
-        <span class="icon pink-icon">⭐</span>
+        <div class="icon-box icon-pink">★</div>
         <span class="label">প্রিয় চ্যানেলসমূহ</span>
       </button>
 
       <button class="menu-item" id="recentBtn">
-        <span class="icon purple-icon">🕒</span>
+        <div class="icon-box icon-purple">🕒</div>
         <span class="label">সাম্প্রতিক প্লে</span>
       </button>
 
       <div class="menu-item size-item">
         <div class="item-left">
-          <span class="icon cyan-icon">⛶</span>
+          <div class="icon-box icon-cyan">⛶</div>
           <span class="label">ভিডিও সাইজ</span>
         </div>
         <select id="aspectRatioSelect">
@@ -61,37 +60,36 @@
       </div>
 
       <button class="menu-item" id="langBtn">
-        <span class="icon blue-icon">A/文</span>
+        <div class="icon-box icon-blue">文</div>
         <span class="label">Language: English</span>
       </button>
 
       <button class="menu-item" id="themeBtn">
-        <span class="icon orange-icon">🌓</span>
+        <div class="icon-box icon-orange">🌓</div>
         <span class="label">থিম পরিবর্তন (Light/Dark)</span>
       </button>
 
       <button class="menu-item" id="reloadBtn">
-        <span class="icon green-icon">🔄</span>
+        <div class="icon-box icon-green">🔄</div>
         <span class="label">প্লেলিস্ট রিফ্রেশ করুন</span>
       </button>
 
       <a href="https://t.me/" target="_blank" class="menu-item link-item">
-        <span class="icon sky-icon">✈️</span>
+        <div class="icon-box icon-sky">✈</div>
         <span class="label">টেলিগ্রাম (সাপোর্ট)</span>
       </a>
 
       <a href="https://facebook.com/" target="_blank" class="menu-item link-item">
-        <span class="icon facebook-icon">💬</span>
+        <div class="icon-box icon-facebook">f</div>
         <span class="label">ফেসবুক (সাপোর্ট)</span>
       </a>
     </div>
   </div>
 
-  <div class="player">
+  <div class="player" id="playerContainer">
     <video id="video" controls playsinline></video>
   </div>
 
-  <!-- বামে ক্যাটাগরি, ডানে সার্চ -->
   <div class="controls-bar">
     <div class="category-dropdown-wrapper">
       <select id="categorySelect">
