@@ -99,7 +99,7 @@ aspectRatioSelect.addEventListener("change", (e) => {
   video.style.objectFit = e.target.value;
 });
 
-// 4. Skeleton Loader UI (উন্নত লোডিং সিস্টেম)
+// 4. Skeleton Loader UI (উন্নত লোডিং শিমার)
 function renderSkeletons(count = 12) {
   list.innerHTML = "";
   const fragment = document.createDocumentFragment();
@@ -118,7 +118,7 @@ function renderSkeletons(count = 12) {
 
 // 5. M3U Fetch & Parsing
 function fetchPlaylist() {
-  renderSkeletons(15); // প্লেলিস্ট লোড হওয়ার সময় ১৫টি স্কেলিটন কার্ড দেখাবে
+  renderSkeletons(15);
 
   fetch("mixiptvchannel.m3u", { cache: "no-store" })
     .then(r => {
@@ -212,7 +212,7 @@ function filterAndRender() {
   render(filtered);
 }
 
-// 8. Render Channels UI (হাই-পারফরম্যান্স ফ্র্যাগমেন্ট ও লেজি লোডিং সহ)
+// 8. Render Channels UI (হাই-পারফরম্যান্স রেন্ডারিং)
 function render(data) {
   list.innerHTML = "";
 
