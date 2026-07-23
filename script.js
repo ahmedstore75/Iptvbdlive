@@ -1,3 +1,4 @@
+// HTML Elements Reference
 const video = document.getElementById("video");
 const list = document.getElementById("channelList");
 const categorySelect = document.getElementById("categorySelect");
@@ -15,6 +16,7 @@ const recentBtn = document.getElementById("recentBtn");
 const themeBtn = document.getElementById("themeBtn");
 const langBtn = document.getElementById("langBtn");
 
+// App Local Data States
 let allChannels = [];
 let recentChannels = JSON.parse(localStorage.getItem("iptv_recents") || "[]");
 let favoriteChannels = JSON.parse(localStorage.getItem("iptv_favorites") || "[]");
@@ -23,6 +25,7 @@ let hls = null;
 let currentLang = localStorage.getItem("iptv_lang") || "bn";
 let currentTheme = localStorage.getItem("iptv_theme") || "dark";
 
+// Language Data Translations
 const translations = {
   bn: {
     heading: "নিয়ন্ত্রণ প্যানেল",
@@ -54,6 +57,7 @@ const translations = {
   }
 };
 
+// 1. Language Handler
 function applyLanguage() {
   const t = translations[currentLang];
   document.getElementById("menuHeading").textContent = t.heading;
@@ -68,6 +72,7 @@ function applyLanguage() {
   searchInput.placeholder = t.searchPlaceholder;
 }
 
+// 2. Theme Handler
 function applyTheme() {
   if (currentTheme === "light") {
     document.body.classList.add("light-theme");
@@ -89,12 +94,12 @@ langBtn.addEventListener("click", () => {
   applyLanguage();
 });
 
-// ভিডিও সাইজ মোড সেট করা (Original, Stretch, Cover)
+// 3. Aspect Ratio Control
 aspectRatioSelect.addEventListener("change", (e) => {
   video.style.objectFit = e.target.value;
 });
 
-// M3U Playlist Fetch
+// 4. M3U Fetch & Parsing
 function fetchPlaylist() {
   list.innerHTML = `<div style="color:#a0a0b0; padding:20px; grid-column: 1/-1; text-align: center;">Loading...</div>`;
 
@@ -146,8 +151,9 @@ function parseM3U(data) {
   filterAndRender();
 }
 
+// 5. Update Dropdown Options (Category Selection)
 function updateCategoryDropdownOptions() {
-  const groups = new Set(["ALL"]);
+  const groups = new Set();
   allChannels.forEach(ch => {
     if (ch.group) groups.add(ch.group.toUpperCase());
   });
@@ -155,18 +161,26 @@ function updateCategoryDropdownOptions() {
   const currentSelection = categorySelect.value;
   categorySelect.innerHTML = "";
 
+  const defaultOption = document.createElement("option");
+  defaultOption.value = "ALL";
+  defaultOption.textContent = "CATEGORY";
+  categorySelect.appendChild(defaultOption);
+
   groups.forEach(group => {
-    const option = document.createElement("option");
-    option.value = group;
-    option.textContent = group;
-    categorySelect.appendChild(option);
+    if (group !== "ALL") {
+      const option = document.createElement("option");
+      option.value = group;
+      option.textContent = group;
+      categorySelect.appendChild(option);
+    }
   });
 
-  if (groups.has(currentSelection)) {
+  if (groups.has(currentSelection) || currentSelection === "ALL") {
     categorySelect.value = currentSelection;
   }
 }
 
+// 6. Filter & Search Logic
 function filterAndRender() {
   const selectedCat = categorySelect.value.toUpperCase();
   const query = searchInput.value.trim().toLowerCase();
@@ -181,7 +195,7 @@ function filterAndRender() {
   render(filtered);
 }
 
-// কার্ড রেন্ডার করা এবং ফেভারিট বাটন ম্যানেজ করা
+// 7. Render Channels UI
 function render(data) {
   list.innerHTML = "";
 
@@ -204,15 +218,13 @@ function render(data) {
       <div>${ch.name}</div>
     `;
 
-    // ফেভারিট বাটনে ক্লিক করার লজিক
     const starBtn = card.querySelector(".fav-star");
     starBtn.onclick = (e) => {
-      e.stopPropagation(); // চ্যানেল প্লে হওয়া আটকাবে
+      e.stopPropagation();
       toggleFavorite(ch);
       starBtn.classList.toggle("active");
     };
 
-    // চ্যানেল প্লে করার লজিক
     card.onclick = () => {
       document.querySelectorAll(".card").forEach(x => x.classList.remove("active"));
       card.classList.add("active");
@@ -224,6 +236,7 @@ function render(data) {
   });
 }
 
+// 8. Favorites & History Logic
 function toggleFavorite(ch) {
   const index = favoriteChannels.findIndex(fav => fav.url === ch.url);
   if (index > -1) {
@@ -234,8 +247,20 @@ function toggleFavorite(ch) {
   localStorage.setItem("iptv_favorites", JSON.stringify(favoriteChannels));
 }
 
+function addRecentChannel(ch) {
+  recentChannels = recentChannels.filter(c => c.url !== ch.url);
+  recentChannels.unshift(ch);
+  if (recentChannels.length > 20) recentChannels.pop();
+  localStorage.setItem("iptv_recents", JSON.stringify(recentChannels));
+}
+
 favBtn.addEventListener("click", () => {
   render(favoriteChannels);
+  closeMenu();
+});
+
+recentBtn.addEventListener("click", () => {
+  render(recentChannels);
   closeMenu();
 });
 
@@ -246,7 +271,7 @@ categorySelect.addEventListener("change", () => {
 
 searchInput.addEventListener("input", filterAndRender);
 
-// Side Menu Navigation
+// 9. Side Menu Interaction
 menuBtn.addEventListener("click", () => {
   sideMenu.classList.add("active");
   menuOverlay.classList.add("active");
@@ -265,19 +290,7 @@ reloadBtn.addEventListener("click", () => {
   closeMenu();
 });
 
-function addRecentChannel(ch) {
-  recentChannels = recentChannels.filter(c => c.url !== ch.url);
-  recentChannels.unshift(ch);
-  if (recentChannels.length > 20) recentChannels.pop();
-  localStorage.setItem("iptv_recents", JSON.stringify(recentChannels));
-}
-
-recentBtn.addEventListener("click", () => {
-  render(recentChannels);
-  closeMenu();
-});
-
-// Auto Fullscreen on Rotate
+// 10. Auto Fullscreen on Mobile Rotation
 window.addEventListener("orientationchange", () => {
   if (window.orientation === 90 || window.orientation === -90) {
     if (video.requestFullscreen) video.requestFullscreen();
@@ -287,7 +300,7 @@ window.addEventListener("orientationchange", () => {
   }
 });
 
-// Player Logic
+// 11. HLS Stream Video Player
 function play(url) {
   if (hls) {
     hls.destroy();
@@ -309,6 +322,6 @@ function play(url) {
   }
 }
 
-// App Initialization
+// App Kickstart
 applyTheme();
 fetchPlaylist();
