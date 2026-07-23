@@ -80,7 +80,7 @@
         <span class="label" id="lblReload">প্লেলিস্ট রিফ্রেশ করুন</span>
       </button>
 
-      <!-- আপনার টেলিগ্রাম লিংক -->
+      <!-- টেলিগ্রাম -->
       <a href="https://t.me/banglatvlivefree" target="_blank" class="menu-item link-item">
         <div class="icon-box icon-telegram">
           <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
@@ -90,7 +90,7 @@
         <span class="label" id="lblTelegram">টেলিগ্রাম (সাপোর্ট)</span>
       </a>
 
-      <!-- আপনার ফেসবুক লিংক -->
+      <!-- ফেসবুক -->
       <a href="https://www.facebook.com/ahmed.bd.fb" target="_blank" class="menu-item link-item">
         <div class="icon-box icon-facebook">f</div>
         <span class="label" id="lblFacebook">ফেসবুক (সাপোর্ট)</span>
@@ -98,23 +98,32 @@
     </div>
   </div>
 
-  <div class="player" id="playerContainer">
-    <video id="video" controls playsinline></video>
-  </div>
-
-  <div class="controls-bar">
-    <div class="category-dropdown-wrapper">
-      <select id="categorySelect">
-        <option value="ALL">CATEGORY</option>
-      </select>
+  <!-- ল্যাপটপ এবং মোবাইলের জন্য রেসপনসিভ মেইন কন্টেইনার -->
+  <div class="main-layout">
+    <!-- বাম সাইড: ভিডিও প্লেয়ার -->
+    <div class="player-section">
+      <div class="player" id="playerContainer">
+        <video id="video" controls playsinline></video>
+      </div>
     </div>
 
-    <div class="search-wrapper">
-      <input type="text" id="searchInput" placeholder="Search..." />
+    <!-- ডান সাইড: ফিল্টার এবং চ্যানেল লিস্ট -->
+    <div class="content-section">
+      <div class="controls-bar">
+        <div class="category-dropdown-wrapper">
+          <select id="categorySelect">
+            <option value="ALL">CATEGORY</option>
+          </select>
+        </div>
+
+        <div class="search-wrapper">
+          <input type="text" id="searchInput" placeholder="Search..." />
+        </div>
+      </div>
+
+      <div id="channelList" class="channels"></div>
     </div>
   </div>
-
-  <div id="channelList" class="channels"></div>
 
   <script src="script.js"></script>
 </body>
