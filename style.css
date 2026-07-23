@@ -1,3 +1,26 @@
+:root {
+  --bg-gradient: linear-gradient(180deg, #050505, #101b3a);
+  --text-color: #ffffff;
+  --card-bg: linear-gradient(145deg, #131313, #222);
+  --card-text: #ffffff;
+  --menu-bg: #090e1a;
+  --menu-item-bg: rgba(255, 255, 255, 0.03);
+  --input-bg: #161b26;
+  --border-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Light Theme Variables */
+body.light-theme {
+  --bg-gradient: linear-gradient(180deg, #f0f2f5, #e4e7eb);
+  --text-color: #111827;
+  --card-bg: #ffffff;
+  --card-text: #111827;
+  --menu-bg: #ffffff;
+  --menu-item-bg: #f3f4f6;
+  --input-bg: #ffffff;
+  --border-color: #d1d5db;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,10 +28,11 @@
 }
 
 body {
-  background: linear-gradient(180deg, #050505, #101b3a);
-  color: white;
+  background: var(--bg-gradient);
+  color: var(--text-color);
   font-family: Arial, sans-serif;
   min-height: 100vh;
+  transition: background 0.3s, color 0.3s;
 }
 
 header {
@@ -34,7 +58,7 @@ header h1 {
   font-weight: bold;
 }
 
-/* ৩-দাগওয়ালা মেনু বাটন */
+/* Hamburger Button */
 .header-menu-wrapper {
   margin-left: auto;
 }
@@ -55,11 +79,11 @@ header h1 {
   display: block;
   width: 100%;
   height: 3px;
-  background-color: #ffffff;
+  background-color: var(--text-color);
   border-radius: 2px;
 }
 
-/* ================= নিয়ন্ত্রণ প্যানেল ও প্রিমিয়াম আইকন ================= */
+/* Side Menu */
 .menu-overlay {
   position: fixed;
   top: 0;
@@ -82,8 +106,8 @@ header h1 {
   left: -320px;
   width: 300px;
   height: 100%;
-  background: #090e1a;
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--menu-bg);
+  border-right: 1px solid var(--border-color);
   z-index: 10001;
   transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   padding: 16px;
@@ -128,11 +152,11 @@ header h1 {
   display: flex;
   align-items: center;
   gap: 14px;
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: var(--menu-item-bg);
+  border: 1px solid var(--border-color);
   padding: 10px 14px;
   border-radius: 14px;
-  color: white;
+  color: var(--text-color);
   text-decoration: none;
   font-size: 14px;
   cursor: pointer;
@@ -142,11 +166,9 @@ header h1 {
 }
 
 .menu-item:hover {
-  background: rgba(255, 255, 255, 0.08);
   border-color: rgba(255, 36, 79, 0.4);
 }
 
-/* আইকন বক্স স্টাইল (Photos Matching UI) */
 .icon-box {
   width: 36px;
   height: 36px;
@@ -159,14 +181,14 @@ header h1 {
   flex-shrink: 0;
 }
 
-.icon-pink { background: linear-gradient(135deg, #ff244f, #d90429); color: #fff; box-shadow: 0 4px 10px rgba(255,36,79,0.3); }
-.icon-purple { background: linear-gradient(135deg, #7b2cbf, #9d4edd); color: #fff; box-shadow: 0 4px 10px rgba(123,44,191,0.3); }
-.icon-cyan { background: linear-gradient(135deg, #00b4d8, #0077b6); color: #fff; box-shadow: 0 4px 10px rgba(0,180,216,0.3); }
-.icon-blue { background: linear-gradient(135deg, #3a86ff, #023e8a); color: #fff; box-shadow: 0 4px 10px rgba(58,134,255,0.3); }
-.icon-orange { background: linear-gradient(135deg, #ffb703, #fb8500); color: #fff; box-shadow: 0 4px 10px rgba(251,133,0,0.3); }
-.icon-green { background: linear-gradient(135deg, #06d6a0, #059669); color: #fff; box-shadow: 0 4px 10px rgba(6,214,160,0.3); }
-.icon-sky { background: linear-gradient(135deg, #00b4d8, #0096c7); color: #fff; box-shadow: 0 4px 10px rgba(0,180,216,0.3); }
-.icon-facebook { background: linear-gradient(135deg, #1877f2, #0d47a1); color: #fff; box-shadow: 0 4px 10px rgba(24,119,242,0.3); }
+.icon-pink { background: linear-gradient(135deg, #ff244f, #d90429); color: #fff; }
+.icon-purple { background: linear-gradient(135deg, #7b2cbf, #9d4edd); color: #fff; }
+.icon-cyan { background: linear-gradient(135deg, #00b4d8, #0077b6); color: #fff; }
+.icon-blue { background: linear-gradient(135deg, #3a86ff, #023e8a); color: #fff; }
+.icon-orange { background: linear-gradient(135deg, #ffb703, #fb8500); color: #fff; }
+.icon-green { background: linear-gradient(135deg, #06d6a0, #059669); color: #fff; }
+.icon-telegram { background: #229ED9; color: #fff; } /* Original Telegram Color */
+.icon-facebook { background: linear-gradient(135deg, #1877f2, #0d47a1); color: #fff; }
 
 .size-item {
   justify-content: space-between;
@@ -179,16 +201,16 @@ header h1 {
 }
 
 #aspectRatioSelect {
-  background: #1f293d;
-  color: white;
-  border: 1px solid #374151;
+  background: var(--input-bg);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
   padding: 6px 10px;
   border-radius: 8px;
   font-size: 12px;
   outline: none;
 }
 
-/* ================= Video Player ================= */
+/* Video Player */
 .player {
   position: sticky;
   top: 0;
@@ -206,17 +228,17 @@ video {
   object-fit: contain;
 }
 
-/* ================= Controls Bar ================= */
+/* Controls Bar */
 .controls-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
   padding: 6px 12px;
-  background: rgba(255, 255, 255, 0.04);
+  background: var(--menu-item-bg);
   margin: 8px 12px;
   border-radius: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--border-color);
 }
 
 .category-dropdown-wrapper, .search-wrapper {
@@ -227,24 +249,20 @@ video {
 #categorySelect, #searchInput {
   width: 100%;
   height: 32px;
-  background: #161b26;
-  color: #e2e8f0;
-  border: 1px solid #2d3748;
+  background: var(--input-bg);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
   padding: 6px 10px;
   border-radius: 6px;
   font-size: 12px;
   outline: none;
 }
 
-#searchInput::placeholder {
-  color: #718096;
-}
-
 #searchInput:focus, #categorySelect:focus {
   border-color: #ff244f;
 }
 
-/* ================= Channel List ================= */
+/* Channel Cards */
 .channels {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
@@ -253,7 +271,9 @@ video {
 }
 
 .card {
-  background: linear-gradient(145deg, #131313, #222);
+  background: var(--card-bg);
+  color: var(--card-text);
+  border: 1px solid var(--border-color);
   padding: 12px;
   border-radius: 14px;
   text-align: center;
