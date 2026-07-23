@@ -1,7 +1,10 @@
+/* ==========================================
+   1. Design Tokens & CSS Variables
+   ========================================== */
 :root {
   --bg-gradient: linear-gradient(180deg, #050505, #101b3a);
   --text-color: #ffffff;
-  --card-bg: linear-gradient(145deg, #131313, #222);
+  --card-bg: linear-gradient(145deg, #131313, #222222);
   --card-text: #ffffff;
   --menu-bg: #090e1a;
   --menu-item-bg: rgba(255, 255, 255, 0.03);
@@ -24,7 +27,12 @@ body.light-theme {
   --player-bg: rgba(255, 255, 255, 0.85);
 }
 
-* {
+/* ==========================================
+   2. Global Resets & Base Styles
+   ========================================== */
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -39,6 +47,9 @@ body {
   overflow-x: hidden;
 }
 
+/* ==========================================
+   3. Header Navigation & Branding
+   ========================================== */
 header {
   padding: 12px 16px;
 }
@@ -105,6 +116,9 @@ header h1 {
   transition: background-color 0.3s ease;
 }
 
+/* ==========================================
+   4. Side Drawer Menu & Overlay
+   ========================================== */
 .menu-overlay {
   position: fixed;
   top: 0;
@@ -169,7 +183,7 @@ header h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background 0.2s;
+  transition: background-color 0.2s ease;
 }
 
 .close-btn:hover {
@@ -217,14 +231,14 @@ header h1 {
   flex-shrink: 0;
 }
 
-.icon-pink { background: linear-gradient(135deg, #ff244f, #d90429); color: #fff; }
-.icon-purple { background: linear-gradient(135deg, #7b2cbf, #9d4edd); color: #fff; }
-.icon-cyan { background: linear-gradient(135deg, #00b4d8, #0077b6); color: #fff; }
-.icon-blue { background: linear-gradient(135deg, #3a86ff, #023e8a); color: #fff; }
-.icon-orange { background: linear-gradient(135deg, #ffb703, #fb8500); color: #fff; }
-.icon-green { background: linear-gradient(135deg, #06d6a0, #059669); color: #fff; }
-.icon-telegram { background: #229ED9; color: #fff; }
-.icon-facebook { background: linear-gradient(135deg, #1877f2, #0d47a1); color: #fff; }
+.icon-pink { background: linear-gradient(135deg, #ff244f, #d90429); color: #ffffff; }
+.icon-purple { background: linear-gradient(135deg, #7b2cbf, #9d4edd); color: #ffffff; }
+.icon-cyan { background: linear-gradient(135deg, #00b4d8, #0077b6); color: #ffffff; }
+.icon-blue { background: linear-gradient(135deg, #3a86ff, #023e8a); color: #ffffff; }
+.icon-orange { background: linear-gradient(135deg, #ffb703, #fb8500); color: #ffffff; }
+.icon-green { background: linear-gradient(135deg, #06d6a0, #059669); color: #ffffff; }
+.icon-telegram { background: #229ed9; color: #ffffff; }
+.icon-facebook { background: linear-gradient(135deg, #1877f2, #0d47a1); color: #ffffff; }
 
 .size-item {
   justify-content: space-between;
@@ -247,6 +261,9 @@ header h1 {
   cursor: pointer;
 }
 
+/* ==========================================
+   5. Video Player Container
+   ========================================== */
 .player {
   position: sticky;
   top: 0;
@@ -257,12 +274,12 @@ header h1 {
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border-color);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-  transition: background 0.3s;
+  transition: background-color 0.3s ease;
 }
 
 video {
   width: 100%;
-  aspect-ratio: 16/9;
+  aspect-ratio: 16 / 9;
   border-radius: 12px;
   background: #000000;
   object-fit: contain;
@@ -270,24 +287,36 @@ video {
   display: block;
 }
 
+/* ==========================================
+   6. Search & Category Controls Bar (FIXED STICKY)
+   ========================================== */
 .controls-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
   padding: 8px 12px;
-  background: var(--menu-item-bg);
+  background: var(--player-bg);
   margin: 12px;
   border-radius: 10px;
   border: 1px solid var(--border-color);
+  
+  /* স্ক্রল করলে এটি প্লেয়ারের নিচে আটকে থাকবে */
+  position: sticky;
+  top: 220px;
+  z-index: 998;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
 
-.category-dropdown-wrapper, .search-wrapper {
+.category-dropdown-wrapper,
+.search-wrapper {
   flex: 1;
   max-width: 49%;
 }
 
-#categorySelect, #searchInput {
+#categorySelect,
+#searchInput {
   width: 100%;
   height: 36px;
   background: var(--input-bg);
@@ -297,13 +326,17 @@ video {
   border-radius: 8px;
   font-size: 12px;
   outline: none;
-  transition: border-color 0.2s;
+  transition: border-color 0.2s ease;
 }
 
-#searchInput:focus, #categorySelect:focus {
+#searchInput:focus,
+#categorySelect:focus {
   border-color: var(--accent-color);
 }
 
+/* ==========================================
+   7. Channel Grid & Card Styles
+   ========================================== */
 .channels {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(115px, 1fr));
@@ -360,7 +393,7 @@ video {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 6px;
-  background: #111;
+  background: #111111;
 }
 
 .card div {
@@ -371,7 +404,9 @@ video {
   text-overflow: ellipsis;
 }
 
-/* Skeleton Loading Effect */
+/* ==========================================
+   8. Skeleton Loading Animations
+   ========================================== */
 .card.skeleton {
   pointer-events: none;
   display: flex;
@@ -415,10 +450,17 @@ video {
   }
 }
 
+/* ==========================================
+   9. Desktop & Responsive Viewport Rules
+   ========================================== */
 @media (min-width: 900px) {
   body {
     max-width: 1280px;
     margin: 0 auto;
+  }
+
+  .controls-bar {
+    top: 530px; /* ডেক্সটপ স্ক্রিনের জন্য সামঞ্জস্যপূর্ণ */
   }
 
   .channels {
