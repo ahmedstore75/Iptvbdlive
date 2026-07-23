@@ -270,20 +270,16 @@ video {
   display: block;
 }
 
-/* ক্যাটাগরি ও সার্চ বারকে উপরে লক/স্টিকি করা হলো */
 .controls-bar {
-  position: sticky;
-  top: 0;
-  z-index: 100;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  padding: 10px 12px;
-  background: var(--menu-bg);
-  border-bottom: 1px solid var(--border-color);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  padding: 8px 12px;
+  background: var(--menu-item-bg);
+  margin: 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
 }
 
 .category-dropdown-wrapper, .search-wrapper {
@@ -312,7 +308,7 @@ video {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(115px, 1fr));
   gap: 10px;
-  padding: 12px 12px 16px 12px;
+  padding: 0 12px 16px 12px;
 }
 
 .card {
@@ -419,7 +415,9 @@ video {
   }
 }
 
-/* Desktop & Landscape Mode Split View */
+/* ==========================================================================
+   Desktop & Mobile Landscape Split View Layout
+   ========================================================================== */
 @media (min-width: 768px), (orientation: landscape) and (max-height: 500px) {
   body {
     display: grid;
@@ -456,9 +454,7 @@ video {
   }
 
   .controls-bar {
-    position: sticky;
-    top: 0;
-    z-index: 100;
+    margin: 0 12px 10px 12px;
   }
 
   .channels {
