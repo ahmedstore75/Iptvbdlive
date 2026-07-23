@@ -99,9 +99,23 @@ aspectRatioSelect.addEventListener("change", (e) => {
   video.style.objectFit = e.target.value;
 });
 
-// 4. M3U Fetch & Parsing
+// 4. Skeleton Loader UI System (উন্নত লোডিং এফেক্ট)
+function showSkeletonLoader() {
+  list.innerHTML = "";
+  for (let i = 0; i < 15; i++) {
+    const skeletonCard = document.createElement("div");
+    skeletonCard.className = "skeleton-card";
+    skeletonCard.innerHTML = `
+      <div class="skeleton-circle"></div>
+      <div class="skeleton-text"></div>
+    `;
+    list.appendChild(skeletonCard);
+  }
+}
+
+// 5. M3U Fetch & Parsing
 function fetchPlaylist() {
-  list.innerHTML = `<div style="color:#a0a0b0; padding:20px; grid-column: 1/-1; text-align: center;">Loading...</div>`;
+  showSkeletonLoader(); // লোড হওয়ার সময় অ্যানিমেটেড কার্ডগুলো দেখাবে
 
   fetch("mixiptvchannel.m3u", { cache: "no-store" })
     .then(r => {
@@ -151,7 +165,7 @@ function parseM3U(data) {
   filterAndRender();
 }
 
-// 5. Update Dropdown Options (Category Selection)
+// 6. Update Dropdown Options
 function updateCategoryDropdownOptions() {
   const groups = new Set();
   allChannels.forEach(ch => {
@@ -180,7 +194,7 @@ function updateCategoryDropdownOptions() {
   }
 }
 
-// 6. Filter & Search Logic
+// 7. Filter & Search Logic
 function filterAndRender() {
   const selectedCat = categorySelect.value.toUpperCase();
   const query = searchInput.value.trim().toLowerCase();
@@ -195,7 +209,7 @@ function filterAndRender() {
   render(filtered);
 }
 
-// 7. Render Channels UI
+// 8. Render Channels UI
 function render(data) {
   list.innerHTML = "";
 
@@ -236,7 +250,7 @@ function render(data) {
   });
 }
 
-// 8. Favorites & History Logic
+// 9. Favorites & Recent History
 function toggleFavorite(ch) {
   const index = favoriteChannels.findIndex(fav => fav.url === ch.url);
   if (index > -1) {
@@ -271,7 +285,7 @@ categorySelect.addEventListener("change", () => {
 
 searchInput.addEventListener("input", filterAndRender);
 
-// 9. Side Menu Interaction
+// 10. Side Menu Interaction
 menuBtn.addEventListener("click", () => {
   sideMenu.classList.add("active");
   menuOverlay.classList.add("active");
@@ -288,16 +302,6 @@ menuOverlay.addEventListener("click", closeMenu);
 reloadBtn.addEventListener("click", () => {
   fetchPlaylist();
   closeMenu();
-});
-
-// 10. Auto Fullscreen on Mobile Rotation
-window.addEventListener("orientationchange", () => {
-  if (window.orientation === 90 || window.orientation === -90) {
-    if (video.requestFullscreen) video.requestFullscreen();
-    else if (video.webkitRequestFullscreen) video.webkitRequestFullscreen();
-  } else {
-    if (document.exitFullscreen && document.fullscreenElement) document.exitFullscreen();
-  }
 });
 
 // 11. HLS Stream Video Player
@@ -322,6 +326,6 @@ function play(url) {
   }
 }
 
-// App Kickstart
+// App Start
 applyTheme();
 fetchPlaylist();
