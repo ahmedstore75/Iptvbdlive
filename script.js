@@ -1,4 +1,6 @@
-// HTML Elements Reference
+// ==========================================
+// 1. HTML Elements Reference
+// ==========================================
 const video = document.getElementById("video");
 const list = document.getElementById("channelList");
 const categorySelect = document.getElementById("categorySelect");
@@ -16,7 +18,9 @@ const recentBtn = document.getElementById("recentBtn");
 const themeBtn = document.getElementById("themeBtn");
 const langBtn = document.getElementById("langBtn");
 
-// App Local Data States
+// ==========================================
+// 2. Application State & Storage
+// ==========================================
 let allChannels = [];
 let recentChannels = JSON.parse(localStorage.getItem("iptv_recents") || "[]");
 let favoriteChannels = JSON.parse(localStorage.getItem("iptv_favorites") || "[]");
@@ -25,7 +29,9 @@ let hls = null;
 let currentLang = localStorage.getItem("iptv_lang") || "bn";
 let currentTheme = localStorage.getItem("iptv_theme") || "dark";
 
-// Language Data Translations
+// ==========================================
+// 3. Language & Localization Data
+// ==========================================
 const translations = {
   bn: {
     heading: "নিয়ন্ত্রণ প্যানেল",
@@ -39,7 +45,8 @@ const translations = {
     telegram: "টেলিগ্রাম (সাপোর্ট)",
     facebook: "ফেসবুক (সাপোর্ট)",
     searchPlaceholder: "Search...",
-    notFound: "কোনো চ্যানেল পাওয়া যায়নি।"
+    notFound: "কোনো চ্যানেল পাওয়া যায়নি।",
+    categoryDefault: "ক্যাটাগরি"
   },
   en: {
     heading: "Control Panel",
@@ -53,11 +60,18 @@ const translations = {
     telegram: "Telegram (Support)",
     facebook: "Facebook (Support)",
     searchPlaceholder: "Search channels...",
-    notFound: "No channels found."
+    notFound: "No channels found.",
+    categoryDefault: "CATEGORY"
   }
 };
 
-// 1. Language Handler
+// টেক্সটের প্রথম অক্ষর বড় হাতের (Capitalize) করার জন্য হেল্পার
+function capitalizeText(text) {
+  if (!text) return "";
+  return text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();
+}
+
+// Apply text translations to UI elements
 function applyLanguage() {
   const t = translations[currentLang];
   document.getElementById("menuHeading").textContent = t.heading;
@@ -70,9 +84,15 @@ function applyLanguage() {
   document.getElementById("lblTelegram").textContent = t.telegram;
   document.getElementById("lblFacebook").textContent = t.facebook;
   searchInput.placeholder = t.searchPlaceholder;
+
+  if (categorySelect.options[0]) {
+    categorySelect.options[0].textContent = t.categoryDefault;
+  }
 }
 
-// 2. Theme Handler
+// ==========================================
+// 4. Theme & Settings Controls
+// ==========================================
 function applyTheme() {
   if (currentTheme === "light") {
     document.body.classList.add("light-theme");
@@ -94,12 +114,13 @@ langBtn.addEventListener("click", () => {
   applyLanguage();
 });
 
-// 3. Aspect Ratio Control
 aspectRatioSelect.addEventListener("change", (e) => {
   video.style.objectFit = e.target.value;
 });
 
-// 4. Skeleton Loader UI (উন্নত লোডিং শিমার)
+// ==========================================
+// 5. Skeleton Loading UI
+// ==========================================
 function renderSkeletons(count = 12) {
   list.innerHTML = "";
   const fragment = document.createDocumentFragment();
@@ -116,14 +137,16 @@ function renderSkeletons(count = 12) {
   list.appendChild(fragment);
 }
 
-// 5. M3U Fetch & Parsing
+// ==========================================
+// 6. M3U Playlist Processing
+// ==========================================
 function fetchPlaylist() {
   renderSkeletons(15);
 
   fetch("mixiptvchannel.m3u", { cache: "no-store" })
-    .then(r => {
-      if (!r.ok) throw new Error("HTTP error " + r.status);
-      return r.text();
+    .then(response => {
+      if (!response.ok) throw new Error("HTTP error " + response.status);
+      return response.text();
     })
     .then(data => parseM3U(data))
     .catch(() => {
@@ -168,26 +191,26 @@ function parseM3U(data) {
   filterAndRender();
 }
 
-// 6. Update Dropdown Options (Category Selection)
 function updateCategoryDropdownOptions() {
   const groups = new Set();
   allChannels.forEach(ch => {
-    if (ch.group) groups.add(ch.group.toUpperCase());
+    if (ch.group) groups.add(ch.group.trim());
   });
 
   const currentSelection = categorySelect.value;
+  const t = translations[currentLang];
   categorySelect.innerHTML = "";
 
   const defaultOption = document.createElement("option");
   defaultOption.value = "ALL";
-  defaultOption.textContent = "CATEGORY";
+  defaultOption.textContent = t.categoryDefault;
   categorySelect.appendChild(defaultOption);
 
   groups.forEach(group => {
-    if (group !== "ALL") {
+    if (group.toUpperCase() !== "ALL") {
       const option = document.createElement("option");
-      option.value = group;
-      option.textContent = group;
+      option.value = group.toUpperCase();
+      option.textContent = capitalizeText(group);
       categorySelect.appendChild(option);
     }
   });
@@ -197,7 +220,9 @@ function updateCategoryDropdownOptions() {
   }
 }
 
-// 7. Filter & Search Logic
+// ==========================================
+// 7. Channel Filtering & UI Rendering
+// ==========================================
 function filterAndRender() {
   const selectedCat = categorySelect.value.toUpperCase();
   const query = searchInput.value.trim().toLowerCase();
@@ -212,7 +237,6 @@ function filterAndRender() {
   render(filtered);
 }
 
-// 8. Render Channels UI (হাই-পারফরম্যান্স রেন্ডারিং)
 function render(data) {
   list.innerHTML = "";
 
@@ -257,7 +281,9 @@ function render(data) {
   list.appendChild(fragment);
 }
 
-// 9. Favorites & History Logic
+// ==========================================
+// 8. Favorites & Playing History Management
+// ==========================================
 function toggleFavorite(ch) {
   const index = favoriteChannels.findIndex(fav => fav.url === ch.url);
   if (index > -1) {
@@ -292,7 +318,9 @@ categorySelect.addEventListener("change", () => {
 
 searchInput.addEventListener("input", filterAndRender);
 
-// 10. Side Menu Interaction
+// ==========================================
+// 9. Navigation Side-Menu Events
+// ==========================================
 menuBtn.addEventListener("click", () => {
   sideMenu.classList.add("active");
   menuOverlay.classList.add("active");
@@ -311,17 +339,34 @@ reloadBtn.addEventListener("click", () => {
   closeMenu();
 });
 
-// 11. Auto Fullscreen on Mobile Rotation
-window.addEventListener("orientationchange", () => {
-  if (window.orientation === 90 || window.orientation === -90) {
-    if (video.requestFullscreen) video.requestFullscreen();
-    else if (video.webkitRequestFullscreen) video.webkitRequestFullscreen();
-  } else {
-    if (document.exitFullscreen && document.fullscreenElement) document.exitFullscreen();
-  }
-});
+// ==========================================
+// 10. Screen Orientation & Fullscreen Handler
+// ==========================================
+function handleOrientationChange() {
+  const isLandscape = screen.orientation ? screen.orientation.type.startsWith("landscape") : (window.orientation === 90 || window.orientation === -90);
 
-// 12. HLS Stream Video Player
+  if (isLandscape) {
+    if (video.requestFullscreen) {
+      video.requestFullscreen();
+    } else if (video.webkitRequestFullscreen) {
+      video.webkitRequestFullscreen();
+    }
+  } else {
+    if (document.fullscreenElement && document.exitFullscreen) {
+      document.exitFullscreen();
+    }
+  }
+}
+
+if (screen.orientation) {
+  screen.orientation.addEventListener("change", handleOrientationChange);
+} else {
+  window.addEventListener("orientationchange", handleOrientationChange);
+}
+
+// ==========================================
+// 11. HLS Stream Playback Engine
+// ==========================================
 function play(url) {
   if (hls) {
     hls.destroy();
@@ -335,14 +380,16 @@ function play(url) {
     hls.loadSource(cleanUrl);
     hls.attachMedia(video);
     hls.on(Hls.Events.MANIFEST_PARSED, () => {
-      video.play().catch(e => console.log(e));
+      video.play().catch(err => console.log("Autoplay blocked/failed:", err));
     });
   } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
     video.src = cleanUrl;
-    video.play().catch(e => console.log(e));
+    video.play().catch(err => console.log("Autoplay blocked/failed:", err));
   }
 }
 
-// App Kickstart
+// ==========================================
+// 12. App Initialization
+// ==========================================
 applyTheme();
 fetchPlaylist();
