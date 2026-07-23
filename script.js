@@ -12,19 +12,17 @@ const aspectRatioSelect = document.getElementById("aspectRatioSelect");
 const favBtn = document.getElementById("favBtn");
 const recentBtn = document.getElementById("recentBtn");
 
-// Language and Theme Buttons
 const themeBtn = document.getElementById("themeBtn");
 const langBtn = document.getElementById("langBtn");
 
 let allChannels = [];
 let recentChannels = JSON.parse(localStorage.getItem("iptv_recents") || "[]");
+let favoriteChannels = JSON.parse(localStorage.getItem("iptv_favorites") || "[]");
 let hls = null;
 
-// Default State Settings
-let currentLang = localStorage.getItem("iptv_lang") || "bn"; // 'bn' or 'en'
-let currentTheme = localStorage.getItem("iptv_theme") || "dark"; // 'dark' or 'light'
+let currentLang = localStorage.getItem("iptv_lang") || "bn";
+let currentTheme = localStorage.getItem("iptv_theme") || "dark";
 
-// 1. Language Translation Data
 const translations = {
   bn: {
     heading: "নিয়ন্ত্রণ প্যানেল",
@@ -70,7 +68,6 @@ function applyLanguage() {
   searchInput.placeholder = t.searchPlaceholder;
 }
 
-// 2. Theme Toggle Logic
 function applyTheme() {
   if (currentTheme === "light") {
     document.body.classList.add("light-theme");
@@ -92,13 +89,12 @@ langBtn.addEventListener("click", () => {
   applyLanguage();
 });
 
-// 3. Aspect Ratio / Video Size Logic
+// ভিডিও সাইজ মোড সেট করা (Original, Stretch, Cover)
 aspectRatioSelect.addEventListener("change", (e) => {
-  const mode = e.target.value;
-  video.style.objectFit = mode;
+  video.style.objectFit = e.target.value;
 });
 
-// 4. M3U Fetch & Parse
+// M3U Playlist Fetch
 function fetchPlaylist() {
   list.innerHTML = `<div style="color:#a0a0b0; padding:20px; grid-column: 1/-1; text-align: center;">Loading...</div>`;
 
@@ -171,7 +167,6 @@ function updateCategoryDropdownOptions() {
   }
 }
 
-// 5. Search & Category Filter
 function filterAndRender() {
   const selectedCat = categorySelect.value.toUpperCase();
   const query = searchInput.value.trim().toLowerCase();
@@ -186,6 +181,7 @@ function filterAndRender() {
   render(filtered);
 }
 
+// কার্ড রেন্ডার করা এবং ফেভারিট বাটন ম্যানেজ করা
 function render(data) {
   list.innerHTML = "";
 
@@ -199,12 +195,24 @@ function render(data) {
     const card = document.createElement("div");
     card.className = "card";
 
+    const isFav = favoriteChannels.some(fav => fav.url === ch.url);
     const logoSrc = ch.logo ? ch.logo : "logo.png";
+
     card.innerHTML = `
+      <span class="fav-star ${isFav ? 'active' : ''}">★</span>
       <img src="${logoSrc}" alt="${ch.name}" onerror="this.onerror=null; this.src='logo.png';">
       <div>${ch.name}</div>
     `;
 
+    // ফেভারিট বাটনে ক্লিক করার লজিক
+    const starBtn = card.querySelector(".fav-star");
+    starBtn.onclick = (e) => {
+      e.stopPropagation(); // চ্যানেল প্লে হওয়া আটকাবে
+      toggleFavorite(ch);
+      starBtn.classList.toggle("active");
+    };
+
+    // চ্যানেল প্লে করার লজিক
     card.onclick = () => {
       document.querySelectorAll(".card").forEach(x => x.classList.remove("active"));
       card.classList.add("active");
@@ -215,6 +223,21 @@ function render(data) {
     list.appendChild(card);
   });
 }
+
+function toggleFavorite(ch) {
+  const index = favoriteChannels.findIndex(fav => fav.url === ch.url);
+  if (index > -1) {
+    favoriteChannels.splice(index, 1);
+  } else {
+    favoriteChannels.push(ch);
+  }
+  localStorage.setItem("iptv_favorites", JSON.stringify(favoriteChannels));
+}
+
+favBtn.addEventListener("click", () => {
+  render(favoriteChannels);
+  closeMenu();
+});
 
 categorySelect.addEventListener("change", () => {
   searchInput.value = "";
@@ -264,7 +287,7 @@ window.addEventListener("orientationchange", () => {
   }
 });
 
-// HLS Stream Player
+// Player Logic
 function play(url) {
   if (hls) {
     hls.destroy();
@@ -286,6 +309,6 @@ function play(url) {
   }
 }
 
-// Initialize Theme, Language & Load Data
+// App Initialization
 applyTheme();
 fetchPlaylist();
