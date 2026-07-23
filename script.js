@@ -61,14 +61,18 @@ const translations = {
     facebook: "Facebook (Support)",
     searchPlaceholder: "Search channels...",
     notFound: "No channels found.",
-    categoryDefault: "CATEGORY"
+    categoryDefault: "Category"
   }
 };
 
-// টেক্সটের প্রথম অক্ষর বড় হাতের (Capitalize) করার জন্য হেল্পার
+// প্রতিটি শব্দের প্রথম অক্ষর বড় হাতের (Capitalize) করার হেল্পার
 function capitalizeText(text) {
   if (!text) return "";
-  return text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();
+  return text
+    .toLowerCase()
+    .split(" ")
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
 }
 
 // Apply text translations to UI elements
@@ -85,9 +89,8 @@ function applyLanguage() {
   document.getElementById("lblFacebook").textContent = t.facebook;
   searchInput.placeholder = t.searchPlaceholder;
 
-  if (categorySelect.options[0]) {
-    categorySelect.options[0].textContent = t.categoryDefault;
-  }
+  // ক্যাটাগরি ড্রপডাউন অপশনগুলো নতুন করে রেন্ডার করবে
+  updateCategoryDropdownOptions();
 }
 
 // ==========================================
@@ -201,11 +204,13 @@ function updateCategoryDropdownOptions() {
   const t = translations[currentLang];
   categorySelect.innerHTML = "";
 
+  // ১ম অপশন: ভাষা অনুযায়ী "ক্যাটাগরি" বা "Category" আসবে
   const defaultOption = document.createElement("option");
   defaultOption.value = "ALL";
   defaultOption.textContent = t.categoryDefault;
   categorySelect.appendChild(defaultOption);
 
+  // বাকি ক্যাটাগরি অপশনের নামগুলোর ১ম বর্ণ Capitalize হবে
   groups.forEach(group => {
     if (group.toUpperCase() !== "ALL") {
       const option = document.createElement("option");
