@@ -16,7 +16,6 @@
       <img src="logo.png" class="logo" alt="Logo">
       <div>
         <h1>SA IPTV BD LIVE</h1>
-        <p>Premium Streaming</p>
       </div>
 
       <!-- ৩-দাগওয়ালা মেনু বাটন -->
@@ -26,27 +25,77 @@
           <span></span>
           <span></span>
         </button>
-        <div id="dropdownMenu" class="dropdown-menu">
-          <a href="#" id="reloadBtn">🔄 Refresh Playlist</a>
-          <a href="#" id="aboutBtn">ℹ️ About App</a>
-        </div>
       </div>
     </div>
   </header>
+
+  <!-- নিয়ন্ত্রণ প্যানেল (Side Drawer Menu) -->
+  <div id="sideMenuOverlay" class="menu-overlay"></div>
+  <div id="sideMenu" class="side-menu">
+    <div class="menu-header">
+      <h2>নিয়ন্ত্রণ প্যানেল</h2>
+      <button id="closeMenuBtn" class="close-btn">✖</button>
+    </div>
+
+    <div class="menu-items">
+      <button class="menu-item" id="favBtn">
+        <span class="icon pink-icon">⭐</span>
+        <span class="label">প্রিয় চ্যানেলসমূহ</span>
+      </button>
+
+      <button class="menu-item" id="recentBtn">
+        <span class="icon purple-icon">🕒</span>
+        <span class="label">সাম্প্রতিক প্লে</span>
+      </button>
+
+      <div class="menu-item size-item">
+        <div class="item-left">
+          <span class="icon cyan-icon">⛶</span>
+          <span class="label">ভিডিও সাইজ</span>
+        </div>
+        <select id="aspectRatioSelect">
+          <option value="contain">Full Fit</option>
+          <option value="cover">Crop Fill</option>
+          <option value="fill">Stretch</option>
+        </select>
+      </div>
+
+      <button class="menu-item" id="langBtn">
+        <span class="icon blue-icon">A/文</span>
+        <span class="label">Language: English</span>
+      </button>
+
+      <button class="menu-item" id="themeBtn">
+        <span class="icon orange-icon">🌓</span>
+        <span class="label">থিম পরিবর্তন (Light/Dark)</span>
+      </button>
+
+      <button class="menu-item" id="reloadBtn">
+        <span class="icon green-icon">🔄</span>
+        <span class="label">প্লেলিস্ট রিফ্রেশ করুন</span>
+      </button>
+
+      <a href="https://t.me/" target="_blank" class="menu-item link-item">
+        <span class="icon sky-icon">✈️</span>
+        <span class="label">টেলিগ্রাম (সাপোর্ট)</span>
+      </a>
+
+      <a href="https://facebook.com/" target="_blank" class="menu-item link-item">
+        <span class="icon facebook-icon">💬</span>
+        <span class="label">ফেসবুক (সাপোর্ট)</span>
+      </a>
+    </div>
+  </div>
 
   <div class="player">
     <video id="video" controls playsinline></video>
   </div>
 
-  <!-- বামে ক্যাটাগরি, ডানে সার্চ (একই লাইনে এবং স্লিম) -->
+  <!-- বামে ক্যাটাগরি, ডানে সার্চ -->
   <div class="controls-bar">
     <div class="category-dropdown-wrapper">
       <select id="categorySelect">
         <option value="ALL">ALL CATEGORIES</option>
-        <option value="NEWS">NEWS</option>
-        <option value="SPORTS">SPORTS</option>
-        <option value="MOVIES">MOVIES</option>
-        <option value="KIDS">KIDS</option>
       </select>
     </div>
 
