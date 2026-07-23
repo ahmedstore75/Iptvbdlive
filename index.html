@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <html lang="bn">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SA IPTV BD LIVE</title>
+  <title>IPTV Player</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 </head>
-
 <body>
 
+  <!-- Header Section -->
   <header>
     <div class="top">
-      <img src="logo.png" class="logo" alt="Logo" onerror="this.src='https://via.placeholder.com/50';">
-      <div>
-        <h1 id="appTitle">SA IPTV BD LIVE</h1>
-      </div>
-
+      <img src="logo.png" alt="Logo" class="logo" onerror="this.onerror=null; this.src='https://via.placeholder.com/44';">
+      <h1>MIX IPTV</h1>
       <div class="header-menu-wrapper">
-        <button id="menuBtn" class="hamburger-btn" aria-label="Menu">
+        <button class="hamburger-btn" id="menuBtn" aria-label="Open Menu">
           <div class="bar-container">
             <span></span>
             <span></span>
@@ -30,93 +26,79 @@
     </div>
   </header>
 
-  <!-- নিয়ন্ত্রণ প্যানেল (Side Drawer Menu) -->
-  <div id="sideMenuOverlay" class="menu-overlay"></div>
-  <div id="sideMenu" class="side-menu">
+  <!-- Side Menu Overlay & Sidebar -->
+  <div class="menu-overlay" id="sideMenuOverlay"></div>
+  <div class="side-menu" id="sideMenu">
     <div class="menu-header">
       <h2 id="menuHeading">নিয়ন্ত্রণ প্যানেল</h2>
-      <button id="closeMenuBtn" class="close-btn">✖</button>
+      <button class="close-btn" id="closeMenuBtn">✕</button>
     </div>
-
     <div class="menu-items">
       <button class="menu-item" id="favBtn">
-        <div class="icon-box icon-pink">★</div>
-        <span class="label" id="lblFav">প্রিয় চ্যানেলসমূহ</span>
+        <span class="icon-box icon-pink">★</span>
+        <span id="lblFav">প্রিয় চ্যানেলসমূহ</span>
       </button>
-
       <button class="menu-item" id="recentBtn">
-        <div class="icon-box icon-purple">🕒</div>
-        <span class="label" id="lblRecent">সাম্প্রতিক প্লে</span>
+        <span class="icon-box icon-purple">🕒</span>
+        <span id="lblRecent">সাম্প্রতিক প্লে</span>
       </button>
-
-      <!-- ভিডিও সাইজ -->
       <div class="menu-item size-item">
         <div class="item-left">
-          <div class="icon-box icon-cyan">⛶</div>
-          <span class="label" id="lblVideoSize">ভিডিও সাইজ</span>
+          <span class="icon-box icon-cyan">📐</span>
+          <span id="lblVideoSize">ভিডিও সাইজ</span>
         </div>
         <select id="aspectRatioSelect">
-          <option value="contain">Original</option>
+          <option value="contain">Default</option>
+          <option value="cover">Crop/Fill</option>
           <option value="fill">Stretch</option>
-          <option value="cover">Cover</option>
         </select>
       </div>
-
-      <!-- ভাষা পরিবর্তন -->
       <button class="menu-item" id="langBtn">
-        <div class="icon-box icon-blue">文</div>
-        <span class="label" id="lblLang">Language: English</span>
+        <span class="icon-box icon-blue">🌐</span>
+        <span id="lblLang">Language: English</span>
       </button>
-
-      <!-- থিম পরিবর্তন -->
       <button class="menu-item" id="themeBtn">
-        <div class="icon-box icon-orange">🌓</div>
-        <span class="label" id="lblTheme">থিম: Dark</span>
+        <span class="icon-box icon-orange">🌙</span>
+        <span id="lblTheme">থিম: Dark</span>
       </button>
-
-      <!-- প্লেলিস্ট রিফ্রেশ -->
       <button class="menu-item" id="reloadBtn">
-        <div class="icon-box icon-green">🔄</div>
-        <span class="label" id="lblReload">প্লেলিস্ট রিফ্রেশ করুন</span>
+        <span class="icon-box icon-green">🔄</span>
+        <span id="lblReload">প্লেলিস্ট রিফ্রেশ করুন</span>
       </button>
-
-      <!-- আপনার টেলিগ্রাম লিংক -->
-      <a href="https://t.me/banglatvlivefree" target="_blank" class="menu-item link-item">
-        <div class="icon-box icon-telegram">
-          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
-            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/>
-          </svg>
-        </div>
-        <span class="label" id="lblTelegram">টেলিগ্রাম (সাপোর্ট)</span>
+      <a href="https://t.me/" target="_blank" class="menu-item">
+        <span class="icon-box icon-telegram">✈️</span>
+        <span id="lblTelegram">টেলিগ্রাম (সাপোর্ট)</span>
       </a>
-
-      <!-- আপনার ফেসবুক লিংক -->
-      <a href="https://www.facebook.com/ahmed.bd.fb" target="_blank" class="menu-item link-item">
-        <div class="icon-box icon-facebook">f</div>
-        <span class="label" id="lblFacebook">ফেসবুক (সাপোর্ট)</span>
+      <a href="https://facebook.com/" target="_blank" class="menu-item">
+        <span class="icon-box icon-facebook">f</span>
+        <span id="lblFacebook">ফেসবুক (সাপোর্ট)</span>
       </a>
     </div>
   </div>
 
-  <div class="player" id="playerContainer">
-    <video id="video" controls playsinline></video>
+  <!-- Video Player Section -->
+  <div class="player">
+    <video id="video" controls playsinline poster="logo.png"></video>
   </div>
 
-  <div class="controls-bar">
-    <div class="category-dropdown-wrapper">
-      <select id="categorySelect">
-        <option value="ALL">CATEGORY</option>
-      </select>
+  <!-- Right/Bottom Content Section -->
+  <div class="main-content-right">
+    <div class="controls-bar">
+      <div class="category-dropdown-wrapper">
+        <select id="categorySelect">
+          <option value="ALL">CATEGORY</option>
+        </select>
+      </div>
+      <div class="search-wrapper">
+        <input type="text" id="searchInput" placeholder="Search...">
+      </div>
     </div>
 
-    <div class="search-wrapper">
-      <input type="text" id="searchInput" placeholder="Search..." />
+    <div class="channels" id="channelList">
+      <!-- Channels & Skeleton Loaders Render Here -->
     </div>
   </div>
-
-  <div id="channelList" class="channels"></div>
 
   <script src="script.js"></script>
 </body>
-
 </html>
