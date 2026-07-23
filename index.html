@@ -19,14 +19,15 @@
         <p>Premium Streaming</p>
       </div>
 
-      <!-- হেডারের ডান সাইডে মেনু বাটন -->
+      <!-- ৩-দাগওয়ালা মেনু বাটন -->
       <div class="header-menu-wrapper">
-        <button id="menuBtn" class="menu-btn" aria-label="Menu">
-          ⚙️ Menu
+        <button id="menuBtn" class="hamburger-btn" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
         </button>
         <div id="dropdownMenu" class="dropdown-menu">
           <a href="#" id="reloadBtn">🔄 Refresh Playlist</a>
-          <a href="#" id="toggleThemeBtn">🌙 Toggle Dark/Light</a>
           <a href="#" id="aboutBtn">ℹ️ About App</a>
         </div>
       </div>
@@ -37,12 +38,11 @@
     <video id="video" controls playsinline></video>
   </div>
 
-  <!-- ক্যাটাগরি ড্রপডাউন এবং ডানে সার্চ অপশন -->
+  <!-- বামে ক্যাটাগরি, ডানে সার্চ (একই লাইনে এবং স্লিম) -->
   <div class="controls-bar">
     <div class="category-dropdown-wrapper">
-      <label for="categorySelect">Category:</label>
       <select id="categorySelect">
-        <option value="ALL">ALL</option>
+        <option value="ALL">ALL CATEGORIES</option>
         <option value="NEWS">NEWS</option>
         <option value="SPORTS">SPORTS</option>
         <option value="MOVIES">MOVIES</option>
@@ -51,7 +51,7 @@
     </div>
 
     <div class="search-wrapper">
-      <input type="text" id="searchInput" placeholder="Search channels..." />
+      <input type="text" id="searchInput" placeholder="Search..." />
     </div>
   </div>
 
