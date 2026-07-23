@@ -396,17 +396,17 @@ video {
   100% { opacity: 0.5; }
 }
 
-/* ================= ল্যাপটপ এবং ডেস্কটপ লেআউট ফিক্স (768px+) ================= */
+/* ================= ল্যাপটপ এবং ডেস্কটপ মোড (100% Fixed Video Layout) ================= */
 @media (min-width: 768px) {
-  /* স্ক্রিনের হাইট লক করে স্ক্রোল অফ করে দেওয়া হয়েছে */
   html, body {
-    height: 100vh;
-    overflow: hidden;
+    height: 100vh !important;
+    max-height: 100vh !important;
+    overflow: hidden !important; /* স্ক্রিনের বাইরের অতিরিক্ত জায়গা স্ক্রল হবে না */
   }
 
   body {
-    display: flex;
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: column !important;
   }
 
   header {
@@ -414,38 +414,38 @@ video {
   }
 
   .main-layout {
-    display: flex;
-    flex-direction: row;
+    display: flex !important;
+    flex-direction: row !important;
     gap: 16px;
     padding: 0 16px 16px 16px;
-    align-items: flex-start;
     flex: 1;
-    height: calc(100vh - 80px);
-    overflow: hidden;
+    height: calc(100vh - 75px) !important;
+    overflow: hidden !important;
   }
 
-  /* বাম পাশ: স্থির ভিডিও প্লেয়ার */
+  /* বাম পাশ: স্থির প্লেয়ার এলাকা */
   .player-section {
-    flex: 0 0 58%;
-    max-width: 58%;
-    position: sticky;
-    top: 0;
+    flex: 0 0 58% !important;
+    max-width: 58% !important;
+    height: 100% !important;
+    overflow: hidden !important;
   }
 
   .player {
-    position: relative;
-    top: 0;
-    padding: 0;
-    background: transparent;
-    border-bottom: none;
+    position: relative !important;
+    top: 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
   }
 
-  /* ডান পাশ: চ্যানেল কার্ড এবং ফিল্টার শুধু স্ক্রোল করবে */
+  /* ডান পাশ: শুধুমাত্র এটি স্ক্রল করবে */
   .content-section {
-    flex: 1;
-    height: 100%;
-    overflow-y: auto;
-    padding-right: 4px;
+    flex: 1 !important;
+    height: 100% !important;
+    overflow-y: auto !important; /* শুধুমাত্র চ্যানেল লিস্টে মাউস স্ক্রল কাজ করবে */
+    padding-right: 6px;
   }
 
   .controls-bar {
