@@ -3,15 +3,22 @@ const list = document.getElementById("channelList");
 const categorySelect = document.getElementById("categorySelect");
 const searchInput = document.getElementById("searchInput");
 
+// Menu Elements
 const menuBtn = document.getElementById("menuBtn");
-const dropdownMenu = document.getElementById("dropdownMenu");
+const closeMenuBtn = document.getElementById("closeMenuBtn");
+const sideMenu = document.getElementById("sideMenu");
+const menuOverlay = document.getElementById("menuOverlay");
 const reloadBtn = document.getElementById("reloadBtn");
-const aboutBtn = document.getElementById("aboutBtn");
+const aspectRatioSelect = document.getElementById("aspectRatioSelect");
+const favBtn = document.getElementById("favBtn");
+const recentBtn = document.getElementById("recentBtn");
 
 let allChannels = [];
+let favorites = JSON.parse(localStorage.getItem("iptv_favs") || "[]");
+let recentChannels = JSON.parse(localStorage.getItem("iptv_recents") || "[]");
 let hls = null;
 
-// M3U ফাইল ফেচ ও পার্স করা
+// ১. M3U ফাইল ফেচ ও পার্স করা
 function fetchPlaylist() {
   fetch("mixiptvchannel.m3u")
     .then(r => r.text())
@@ -51,7 +58,6 @@ function fetchPlaylist() {
     .catch(err => console.error("Error loading M3U file:", err));
 }
 
-// M3U ফাইল থেকে সরাসরি গ্রুপ ডাইনামিক করা
 function updateCategoryDropdownOptions() {
   const groups = new Set(["ALL"]);
   allChannels.forEach(ch => {
@@ -73,17 +79,18 @@ function updateCategoryDropdownOptions() {
   }
 }
 
-// ফিল্টার ও সার্চ লজিক
+// ২. সার্চ ও ক্যাটাগরি ফিল্টার লজিক (বাগ ফিক্স সহ)
 function filterAndRender() {
   const selectedCat = categorySelect.value.toUpperCase();
   const query = searchInput.value.trim().toLowerCase();
 
   const filtered = allChannels.filter(ch => {
-    const matchCategory =
-      selectedCat === "ALL" || ch.group.toUpperCase().includes(selectedCat);
-    const matchSearch = ch.name.toLowerCase().includes(query);
-
-    return matchCategory && matchSearch;
+    // সার্চ টাইপ করা থাকলে যেকোনো ক্যাটাগরি থেকেই ফিল্টার করবে
+    if (query !== "") {
+      return ch.name.toLowerCase().includes(query);
+    }
+    // সার্চ ফাঁকা থাকলে সিলেক্ট করা ক্যাটাগরি অনুযায়ী ফিল্টার হবে
+    return selectedCat === "ALL" || ch.group.toUpperCase().includes(selectedCat);
   });
 
   render(filtered);
@@ -93,7 +100,7 @@ function render(data) {
   list.innerHTML = "";
 
   if (data.length === 0) {
-    list.innerHTML = `<div style="color:#a0a0b0; padding:15px; grid-column: 1/-1; text-align: center; font-size: 13px;">কোনো চ্যানেল পাওয়া যায়নি।</div>`;
+    list.innerHTML = `<div style="color:#a0a0b0; padding:20px; grid-column: 1/-1; text-align: center; font-size: 13px;">কোনো চ্যানেল পাওয়া যায়নি।</div>`;
     return;
   }
 
@@ -110,6 +117,10 @@ function render(data) {
     card.onclick = () => {
       document.querySelectorAll(".card").forEach(x => x.classList.remove("active"));
       card.classList.add("active");
+
+      // সাম্প্রতিক প্লে হিস্টোরিতে যুক্ত করা
+      addRecentChannel(ch);
+
       play(ch.url);
     };
 
@@ -117,32 +128,58 @@ function render(data) {
   });
 }
 
-categorySelect.addEventListener("change", filterAndRender);
+// ৩. ইভেন্ট লিসেনার
+categorySelect.addEventListener("change", () => {
+  searchInput.value = ""; // ক্যাটাগরি পরিবর্তন করলে সার্চ বক্স ফাঁকা হবে
+  filterAndRender();
+});
+
 searchInput.addEventListener("input", filterAndRender);
 
-// ৩-দাগ মেনু ইভেন্ট
-menuBtn.addEventListener("click", (e) => {
-  e.stopPropagation();
-  dropdownMenu.classList.toggle("show");
-});
+// ৪. নিয়ন্ত্রণ প্যানেল (Side Menu) ওপেন/ক্লোজ
+function openMenu() {
+  sideMenu.classList.add("active");
+  menuOverlay.classList.add("active");
+}
 
-document.addEventListener("click", () => {
-  dropdownMenu.classList.remove("show");
-});
+function closeMenu() {
+  sideMenu.classList.remove("active");
+  menuOverlay.classList.remove("active");
+}
 
-reloadBtn.addEventListener("click", (e) => {
-  e.preventDefault();
+menuBtn.addEventListener("click", openMenu);
+closeMenuBtn.addEventListener("click", closeMenu);
+menuOverlay.addEventListener("click", closeMenu);
+
+reloadBtn.addEventListener("click", () => {
   fetchPlaylist();
-  dropdownMenu.classList.remove("show");
+  closeMenu();
 });
 
-aboutBtn.addEventListener("click", (e) => {
-  e.preventDefault();
-  alert("SA IPTV BD LIVE\nVersion: 2.5");
-  dropdownMenu.classList.remove("show");
+// ভিডিও সাইজ (Aspect Ratio) পরিবর্তন
+aspectRatioSelect.addEventListener("change", (e) => {
+  video.style.objectFit = e.target.value;
 });
 
-// প্লেয়ার লজিক
+// সাম্প্রতিক দেখা চ্যানেল সংক্রান্ত ফাংশন
+function addRecentChannel(ch) {
+  recentChannels = recentChannels.filter(c => c.url !== ch.url);
+  recentChannels.unshift(ch);
+  if (recentChannels.length > 20) recentChannels.pop();
+  localStorage.setItem("iptv_recents", JSON.stringify(recentChannels));
+}
+
+recentBtn.addEventListener("click", () => {
+  render(recentChannels);
+  closeMenu();
+});
+
+favBtn.addEventListener("click", () => {
+  render(favorites);
+  closeMenu();
+});
+
+// ৫. ভিডিও প্লেয়ার লজিক
 function play(url) {
   if (hls) {
     hls.destroy();
@@ -156,11 +193,11 @@ function play(url) {
     hls.loadSource(cleanUrl);
     hls.attachMedia(video);
     hls.on(Hls.Events.MANIFEST_PARSED, () => {
-      video.play().catch(e => console.log("Autoplay issue:", e));
+      video.play().catch(e => console.log("Autoplay blocked:", e));
     });
   } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
     video.src = cleanUrl;
-    video.play().catch(e => console.log("Autoplay issue:", e));
+    video.play().catch(e => console.log("Autoplay blocked:", e));
   }
 }
 
