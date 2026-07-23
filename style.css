@@ -8,9 +8,9 @@
   --input-bg: #161b26;
   --border-color: rgba(255, 255, 255, 0.08);
   --player-bg: rgba(5, 5, 5, 0.95);
+  --skeleton-bg: #1f293d;
 }
 
-/* Light Theme Variables (পলিশড অ্যান্ড ক্লিন লুক) */
 body.light-theme {
   --bg-gradient: linear-gradient(180deg, #f8fafc, #e2e8f0);
   --text-color: #0f172a;
@@ -20,7 +20,8 @@ body.light-theme {
   --menu-item-bg: #f1f5f9;
   --input-bg: #ffffff;
   --border-color: #cbd5e1;
-  --player-bg: rgba(255, 255, 255, 0.85); /* লাইট মোডে সফট গ্লাস ব্যাকগ্রাউন্ড */
+  --player-bg: rgba(255, 255, 255, 0.85);
+  --skeleton-bg: #e2e8f0;
 }
 
 * {
@@ -60,7 +61,7 @@ header h1 {
   font-weight: bold;
 }
 
-/* প্রিমিয়াম হ্যামবার্গার বাটন */
+/* হ্যামবার্গার বাটন */
 .header-menu-wrapper {
   margin-left: auto;
 }
@@ -229,7 +230,17 @@ header h1 {
   outline: none;
 }
 
-/* ================= Video Player Styling (Light Mode Specific Fix) ================= */
+/* ================= Layout System (Mobile Default) ================= */
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.player-section {
+  width: 100%;
+}
+
 .player {
   position: sticky;
   top: 0;
@@ -238,17 +249,19 @@ header h1 {
   padding: 8px 12px;
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border-color);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-  transition: background 0.3s;
 }
 
 video {
   width: 100%;
   aspect-ratio: 16/9;
   border-radius: 14px;
-  background: #000000; /* ভিডিও স্ক্রিন সবসময় ব্ল্যাক থাকবে */
+  background: #000000;
   object-fit: contain;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.content-section {
+  width: 100%;
 }
 
 /* Controls Bar */
@@ -285,7 +298,7 @@ video {
   border-color: #ff244f;
 }
 
-/* Channel List & Cards */
+/* Channels Grid & Cards */
 .channels {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
@@ -349,15 +362,87 @@ video {
   text-overflow: ellipsis;
 }
 
-@media (min-width: 900px) {
+/* ================= অ্যানিমেটেড স্কেলেটন লোডিং সিস্টেম ================= */
+.skeleton-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  padding: 12px;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.skeleton-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--skeleton-bg);
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+.skeleton-text {
+  width: 70%;
+  height: 12px;
+  border-radius: 4px;
+  background: var(--skeleton-bg);
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { opacity: 0.5; }
+}
+
+/* ================= ল্যাপটপ এবং বড় স্ক্রিন লেআউট (Desktop/Laptop Layout) ================= */
+@media (min-width: 992px) {
   body {
-    max-width: 1400px;
+    max-width: 1600px;
     margin: auto;
   }
-  .channels {
-    grid-template-columns: repeat(5, 1fr);
+
+  .main-layout {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 0 16px 16px 16px;
+    align-items: flex-start;
   }
-  video {
-    max-height: 620px;
+
+  /* বাম সাইড: ভিডিও প্লেয়ার ফিক্সড থাকবে */
+  .player-section {
+    flex: 0 0 60%;
+    position: sticky;
+    top: 10px;
+  }
+
+  .player {
+    position: relative;
+    top: 0;
+    padding: 0;
+    background: transparent;
+    border-bottom: none;
+  }
+
+  /* ডান সাইড: চ্যানেল কার্ড স্ক্রোল হবে */
+  .content-section {
+    flex: 1;
+    max-height: calc(100vh - 80px);
+    overflow-y: auto;
+  }
+
+  .controls-bar {
+    margin: 0 0 12px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    backdrop-filter: blur(10px);
+  }
+
+  .channels {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    padding: 0;
   }
 }
