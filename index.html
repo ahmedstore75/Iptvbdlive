@@ -15,7 +15,7 @@
     <div class="top">
       <img src="logo.png" class="logo" alt="Logo" onerror="this.src='https://via.placeholder.com/50';">
       <div>
-        <h1>SA IPTV BD LIVE</h1>
+        <h1 id="appTitle">SA IPTV BD LIVE</h1>
       </div>
 
       <div class="header-menu-wrapper">
@@ -32,56 +32,67 @@
   <div id="sideMenuOverlay" class="menu-overlay"></div>
   <div id="sideMenu" class="side-menu">
     <div class="menu-header">
-      <h2>নিয়ন্ত্রণ প্যানেল</h2>
+      <h2 id="menuHeading">নিয়ন্ত্রণ প্যানেল</h2>
       <button id="closeMenuBtn" class="close-btn">✖</button>
     </div>
 
     <div class="menu-items">
       <button class="menu-item" id="favBtn">
         <div class="icon-box icon-pink">★</div>
-        <span class="label">প্রিয় চ্যানেলসমূহ</span>
+        <span class="label" id="lblFav">প্রিয় চ্যানেলসমূহ</span>
       </button>
 
       <button class="menu-item" id="recentBtn">
         <div class="icon-box icon-purple">🕒</div>
-        <span class="label">সাম্প্রতিক প্লে</span>
+        <span class="label" id="lblRecent">সাম্প্রতিক প্লে</span>
       </button>
 
+      <!-- ভিডিও সাইজ -->
       <div class="menu-item size-item">
         <div class="item-left">
           <div class="icon-box icon-cyan">⛶</div>
-          <span class="label">ভিডিও সাইজ</span>
+          <span class="label" id="lblVideoSize">ভিডিও সাইজ</span>
         </div>
         <select id="aspectRatioSelect">
-          <option value="contain">Full Fit</option>
-          <option value="cover">Crop Fill</option>
+          <option value="contain">Original</option>
+          <option value="scale-down">Full Fit</option>
           <option value="fill">Stretch</option>
+          <option value="cover">Cover</option>
         </select>
       </div>
 
+      <!-- ভাষা পরিবর্তন -->
       <button class="menu-item" id="langBtn">
         <div class="icon-box icon-blue">文</div>
-        <span class="label">Language: English</span>
+        <span class="label" id="lblLang">Language: English</span>
       </button>
 
+      <!-- থিম পরিবর্তন -->
       <button class="menu-item" id="themeBtn">
         <div class="icon-box icon-orange">🌓</div>
-        <span class="label">থিম পরিবর্তন (Light/Dark)</span>
+        <span class="label" id="lblTheme">থিম: Dark</span>
       </button>
 
+      <!-- প্লেলিস্ট রিফ্রেশ -->
       <button class="menu-item" id="reloadBtn">
         <div class="icon-box icon-green">🔄</div>
-        <span class="label">প্লেলিস্ট রিফ্রেশ করুন</span>
+        <span class="label" id="lblReload">প্লেলিস্ট রিফ্রেশ করুন</span>
       </button>
 
+      <!-- অরিজিনাল টেলিগ্রাম লোগো -->
       <a href="https://t.me/" target="_blank" class="menu-item link-item">
-        <div class="icon-box icon-sky">✈</div>
-        <span class="label">টেলিগ্রাম (সাপোর্ট)</span>
+        <div class="icon-box icon-telegram">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/>
+          </svg>
+        </div>
+        <span class="label" id="lblTelegram">টেলিগ্রাম (সাপোর্ট)</span>
       </a>
 
+      <!-- ফেসবুক সাপোর্ট -->
       <a href="https://facebook.com/" target="_blank" class="menu-item link-item">
         <div class="icon-box icon-facebook">f</div>
-        <span class="label">ফেসবুক (সাপোর্ট)</span>
+        <span class="label" id="lblFacebook">ফেসবুক (সাপোর্ট)</span>
       </a>
     </div>
   </div>
