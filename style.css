@@ -11,53 +11,64 @@ body {
 }
 
 header {
-  padding: 14px;
+  padding: 10px 14px;
 }
 
 .top {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
   position: relative;
 }
 
 .logo {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   object-fit: cover;
 }
 
-/* Header Menu Button & Popup */
+/* ৩-দাগওয়ালা মেনু বাটন (Hamburger Button) */
 .header-menu-wrapper {
-  margin-left: auto; /* ডানের দিকে নেওয়ার জন্য */
+  margin-left: auto;
   position: relative;
 }
 
-.menu-btn {
-  background: linear-gradient(90deg, #ff244f, #6a5cff);
-  color: white;
+.hamburger-btn {
+  background: transparent;
   border: none;
-  padding: 8px 16px;
-  border-radius: 20px;
   cursor: pointer;
-  font-weight: bold;
-  font-size: 14px;
+  padding: 6px;
   display: flex;
-  align-items: center;
-  gap: 6px;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 32px;
+  height: 24px;
+}
+
+.hamburger-btn span {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.hamburger-btn:hover span {
+  background-color: #ff244f;
 }
 
 .dropdown-menu {
   display: none;
   position: absolute;
   right: 0;
-  top: 40px;
-  background: #1a1a2e;
+  top: 35px;
+  background: #111827;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
-  width: 180px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+  width: 170px;
   z-index: 1000;
   overflow: hidden;
 }
@@ -68,16 +79,16 @@ header {
 
 .dropdown-menu a {
   display: block;
-  padding: 12px 16px;
+  padding: 10px 14px;
   color: #fff;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 13px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
   transition: background 0.2s;
 }
 
 .dropdown-menu a:hover {
-  background: #2a2a4a;
+  background: #1f2937;
 }
 
 /* Sticky Video Player */
@@ -86,90 +97,86 @@ header {
   top: 0;
   z-index: 999;
   background: rgba(5, 5, 5, 0.95);
-  padding: 12px;
+  padding: 8px 12px;
   backdrop-filter: blur(15px);
 }
 
 video {
   width: 100%;
   aspect-ratio: 16/9;
-  border-radius: 18px;
+  border-radius: 14px;
   background: black;
 }
 
-/* Category & Search Controls Bar */
+/* চিকন এবং একই লাইনে কন্ট্রোল বার (বামে ক্যাটাগরি, ডানে সার্চ) */
 .controls-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 12px;
-  padding: 12px 14px;
-  background: rgba(255, 255, 255, 0.03);
-  margin: 10px 14px;
-  border-radius: 12px;
-  flex-wrap: wrap;
+  gap: 10px;
+  padding: 6px 12px;
+  background: rgba(255, 255, 255, 0.04);
+  margin: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .category-dropdown-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.category-dropdown-wrapper label {
-  font-size: 14px;
-  font-weight: bold;
-  color: #a0a0b0;
+  flex: 1;
+  max-width: 48%;
 }
 
 #categorySelect {
-  background: #1f1f35;
-  color: white;
-  border: 1px solid #3a3a55;
-  padding: 8px 14px;
-  border-radius: 8px;
-  font-size: 14px;
+  width: 100%;
+  background: #161b26;
+  color: #e2e8f0;
+  border: 1px solid #2d3748;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
   outline: none;
   cursor: pointer;
+  height: 32px;
 }
 
 .search-wrapper {
   flex: 1;
-  max-width: 300px;
-  margin-left: auto; /* ডানে ফ্রেম করার জন্য */
+  max-width: 48%;
 }
 
 #searchInput {
   width: 100%;
-  padding: 8px 14px;
-  border-radius: 20px;
-  border: 1px solid #3a3a55;
-  background: #1f1f35;
-  color: white;
-  font-size: 14px;
+  height: 32px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #2d3748;
+  background: #161b26;
+  color: #e2e8f0;
+  font-size: 12px;
   outline: none;
 }
 
 #searchInput::placeholder {
-  color: #888;
+  color: #718096;
 }
 
-#searchInput:focus {
+#searchInput:focus, #categorySelect:focus {
   border-color: #ff244f;
 }
 
 /* Channels Grid */
 .channels {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 14px;
-  padding: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 12px;
+  padding: 12px;
 }
 
 .card {
   background: linear-gradient(145deg, #131313, #222);
-  padding: 16px;
-  border-radius: 18px;
+  padding: 12px;
+  border-radius: 14px;
   text-align: center;
   position: relative;
   cursor: pointer;
@@ -177,7 +184,7 @@ video {
 }
 
 .card:hover {
-  transform: translateY(-3px);
+  transform: translateY(-2px);
 }
 
 .card.active {
@@ -187,21 +194,21 @@ video {
 .card.active::before {
   content: "🔻";
   position: absolute;
-  top: 8px;
-  right: 8px;
-  font-size: 14px;
+  top: 6px;
+  right: 6px;
+  font-size: 12px;
 }
 
 .card img {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .card div {
-  font-size: 14px;
+  font-size: 13px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
