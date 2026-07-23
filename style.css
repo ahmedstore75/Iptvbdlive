@@ -40,6 +40,7 @@ body {
 
 header {
   padding: 12px 16px;
+  height: 70px; /* হেডার এর হাইট ফিক্সড */
 }
 
 .top {
@@ -396,39 +397,32 @@ video {
   100% { opacity: 0.5; }
 }
 
-/* ================= ল্যাপটপ এবং ডেস্কটপ মোড (100% Fixed Video Layout) ================= */
+/* ================= ল্যাপটপ এবং ডেস্কটপ মোড (Grid Layout Fixed) ================= */
 @media (min-width: 768px) {
   html, body {
-    height: 100vh !important;
-    max-height: 100vh !important;
-    overflow: hidden !important; /* স্ক্রিনের বাইরের অতিরিক্ত জায়গা স্ক্রল হবে না */
+    height: 100vh;
+    overflow: hidden !important; /* ব্রাউজারের মূল স্ক্রোল বন্ধ */
   }
 
   body {
-    display: flex !important;
-    flex-direction: column !important;
-  }
-
-  header {
-    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
   }
 
   .main-layout {
-    display: flex !important;
-    flex-direction: row !important;
+    display: grid !important;
+    grid-template-columns: 60% 40%; /* বামে প্লেয়ার ৬০%, ডানে চ্যানেল ৪০% */
     gap: 16px;
     padding: 0 16px 16px 16px;
-    flex: 1;
-    height: calc(100vh - 75px) !important;
+    height: calc(100vh - 70px) !important;
     overflow: hidden !important;
   }
 
-  /* বাম পাশ: স্থির প্লেয়ার এলাকা */
+  /* বাম পাশ: প্লেয়ার একেবারেই লক থাকবে */
   .player-section {
-    flex: 0 0 58% !important;
-    max-width: 58% !important;
-    height: 100% !important;
-    overflow: hidden !important;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
   }
 
   .player {
@@ -440,11 +434,11 @@ video {
     box-shadow: none !important;
   }
 
-  /* ডান পাশ: শুধুমাত্র এটি স্ক্রল করবে */
+  /* ডান পাশ: কেবল এটি স্ক্রল হবে */
   .content-section {
-    flex: 1 !important;
-    height: 100% !important;
-    overflow-y: auto !important; /* শুধুমাত্র চ্যানেল লিস্টে মাউস স্ক্রল কাজ করবে */
+    width: 100%;
+    height: 100%;
+    overflow-y: auto !important; /* শুধুমাত্র মাউস উইল এখানে স্ক্রল করবে */
     padding-right: 6px;
   }
 
@@ -457,7 +451,7 @@ video {
   }
 
   .channels {
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
     padding: 0 0 20px 0;
   }
 }
