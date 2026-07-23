@@ -270,7 +270,7 @@ video {
   display: block;
 }
 
-/* ফিক্সড (Sticky) ক্যাটাগরি ও সার্চ বার */
+/* ক্যাটাগরি ও সার্চ বারকে উপরে লক/স্টিকি করা হলো */
 .controls-bar {
   position: sticky;
   top: 0;
@@ -419,9 +419,7 @@ video {
   }
 }
 
-/* ==========================================================================
-   Desktop & Mobile Landscape Split View Layout
-   ========================================================================== */
+/* Desktop & Landscape Mode Split View */
 @media (min-width: 768px), (orientation: landscape) and (max-height: 500px) {
   body {
     display: grid;
