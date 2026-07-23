@@ -7,17 +7,20 @@
   --menu-item-bg: rgba(255, 255, 255, 0.03);
   --input-bg: #161b26;
   --border-color: rgba(255, 255, 255, 0.08);
+  --player-bg: rgba(5, 5, 5, 0.95);
 }
 
+/* Light Theme Variables (পলিশড অ্যান্ড ক্লিন লুক) */
 body.light-theme {
-  --bg-gradient: linear-gradient(180deg, #f0f2f5, #e4e7eb);
-  --text-color: #111827;
+  --bg-gradient: linear-gradient(180deg, #f8fafc, #e2e8f0);
+  --text-color: #0f172a;
   --card-bg: #ffffff;
-  --card-text: #111827;
+  --card-text: #0f172a;
   --menu-bg: #ffffff;
-  --menu-item-bg: #f3f4f6;
+  --menu-item-bg: #f1f5f9;
   --input-bg: #ffffff;
-  --border-color: #d1d5db;
+  --border-color: #cbd5e1;
+  --player-bg: rgba(255, 255, 255, 0.85); /* লাইট মোডে সফট গ্লাস ব্যাকগ্রাউন্ড */
 }
 
 * {
@@ -57,13 +60,13 @@ header h1 {
   font-weight: bold;
 }
 
-/* ================= বড় ও প্রিমিয়াম মেনু বাটন ================= */
+/* প্রিমিয়াম হ্যামবার্গার বাটন */
 .header-menu-wrapper {
   margin-left: auto;
 }
 
 .hamburger-btn {
-  background: rgba(255, 255, 255, 0.08);
+  background: var(--menu-item-bg);
   border: 1px solid var(--border-color);
   width: 44px;
   height: 44px;
@@ -73,12 +76,12 @@ header h1 {
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .hamburger-btn:hover {
-  background: rgba(255, 36, 79, 0.2);
-  border-color: rgba(255, 36, 79, 0.5);
+  background: rgba(255, 36, 79, 0.15);
+  border-color: rgba(255, 36, 79, 0.4);
   transform: scale(1.05);
 }
 
@@ -96,18 +99,17 @@ header h1 {
   height: 2.5px;
   background-color: var(--text-color);
   border-radius: 4px;
-  transition: all 0.3s;
 }
 
-/* Side Menu */
+/* Side Menu Panel */
 .menu-overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7);
-  backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
   z-index: 10000;
   display: none;
 }
@@ -128,6 +130,7 @@ header h1 {
   transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   padding: 16px;
   overflow-y: auto;
+  box-shadow: 10px 0 30px rgba(0,0,0,0.1);
 }
 
 .side-menu.active {
@@ -226,22 +229,26 @@ header h1 {
   outline: none;
 }
 
-/* Video Player */
+/* ================= Video Player Styling (Light Mode Specific Fix) ================= */
 .player {
   position: sticky;
   top: 0;
   z-index: 999;
-  background: rgba(5, 5, 5, 0.95);
+  background: var(--player-bg);
   padding: 8px 12px;
-  backdrop-filter: blur(15px);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border-color);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: background 0.3s;
 }
 
 video {
   width: 100%;
   aspect-ratio: 16/9;
   border-radius: 14px;
-  background: black;
+  background: #000000; /* ভিডিও স্ক্রিন সবসময় ব্ল্যাক থাকবে */
   object-fit: contain;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Controls Bar */
@@ -252,8 +259,8 @@ video {
   gap: 10px;
   padding: 6px 12px;
   background: var(--menu-item-bg);
-  margin: 8px 12px;
-  border-radius: 8px;
+  margin: 12px;
+  border-radius: 10px;
   border: 1px solid var(--border-color);
 }
 
@@ -264,12 +271,12 @@ video {
 
 #categorySelect, #searchInput {
   width: 100%;
-  height: 32px;
+  height: 34px;
   background: var(--input-bg);
   color: var(--text-color);
   border: 1px solid var(--border-color);
   padding: 6px 10px;
-  border-radius: 6px;
+  border-radius: 8px;
   font-size: 12px;
   outline: none;
 }
@@ -278,12 +285,12 @@ video {
   border-color: #ff244f;
 }
 
-/* ================= Channel Cards & Favorite Button ================= */
+/* Channel List & Cards */
 .channels {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   gap: 12px;
-  padding: 12px;
+  padding: 0 12px 12px 12px;
 }
 
 .card {
@@ -295,24 +302,25 @@ video {
   text-align: center;
   position: relative;
   cursor: pointer;
-  transition: transform 0.2s;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
 
 .card:hover {
   transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.08);
 }
 
 .card.active {
   border: 2px solid #ff2d55;
 }
 
-/* ফেভারিট স্টার বাটন */
 .fav-star {
   position: absolute;
   top: 6px;
   left: 8px;
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.3);
+  color: #cbd5e1;
   cursor: pointer;
   z-index: 10;
   transition: color 0.2s, transform 0.2s;
@@ -323,7 +331,7 @@ video {
 }
 
 .fav-star.active {
-  color: #ffb703; /* স্টার হলুদ রঙ */
+  color: #ffb703;
 }
 
 .card img {
