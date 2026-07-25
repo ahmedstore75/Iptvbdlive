@@ -258,6 +258,9 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/Zeebanglahd.m3u8
 https://yupptvcatchupire.yuppcdn.net/preview/zeebangla/2500.m3u8
 #EXTINF:-1 tvg-name="Enterr 10 Bangla" tvg-logo="https://i.ibb.co.com/PCq6jWp/Enterr10-Bangla.jpg",Enterr 10 Bangla
 https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8
+#EXTINF:-1 tvg-id="jalsha_movies_hd" tvg-logo="http://monirul.bro.bd/assets/images/JALSHA MOVIES HD1745034005.png" group-title="Bangla",JALSHA MOVIES HD
+http://103.191.99.248:5550/303/index.m3u8
+http://monirul.bro.bd/sm/stream.php?id=jalsha_movies_hd&e=.m3u8
 #EXTINF:-1 tvg-name="Cartoon Network" tvg-logo="https://cloudtv.akamaized.net/anyott/images/CMS_BD/db363850-ad01-4b64-9790-b3f7cc793513_180x180_Cartoon-Network.jpg",Cartoon Network
 https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/playlist.m3u8
 #EXTINF:-1 tvg-name="Dw News" tvg-logo="https://cloudtv.akamaized.net/AynaOTT/BDcontent/channels/images/85bbed0f-b7cd-41a1-9f14-466951111e09.png",Dw News
