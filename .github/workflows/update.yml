@@ -1,4 +1,4 @@
-name: Auto Merge IPTV
+Name: Auto Merge IPTV
 
 on:
   schedule:
@@ -15,19 +15,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Download Sources
+      - name: Download Playlist
         run: |
-          curl -L "https://raw.githubusercontent.com/ahmedstore75/Iptvbdlive/main/mixiptvchannel.m3u" -o one.m3u
-
-          curl -L "https://raw.githubusercontent.com/ahan443/FAST-IPTV/refs/heads/main/combined_playlist.m3u" -o two.m3u
-
-          curl -L "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/LiveTV/Bangladesh/LiveTV.m3u" -o three.m3u
-          
-          curl -L "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/Combined_Live_TV.m3u" -o four.m3u
-
-      - name: Merge
-        run: |
-          cat one.m3u two.m3u three.m3u four.m3u > BDIX-Playlist.m3u
+          curl -L "https://iptvlive-beta.vercel.app" -o BDIX-Playlist.m3u
 
       - name: Push
         run: |
@@ -35,5 +25,5 @@ jobs:
           git config user.email "actions@github.com"
 
           git add BDIX-Playlist.m3u
-          git commit -m "Auto merge playlists" || exit 0
+          git commit -m "Auto update playlist" || exit 0
           git push
