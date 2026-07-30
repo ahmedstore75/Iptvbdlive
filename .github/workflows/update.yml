@@ -1,4 +1,4 @@
-Name: Auto Merge IPTV
+name: Auto Merge IPTV
 
 on:
   schedule:
@@ -17,12 +17,20 @@ jobs:
 
       - name: Download Playlist
         run: |
-          curl -L "https://iptvlive-beta.vercel.app" -o BDIX-Playlist.m3u
+          # Real Browser User-Agent দিয়ে মেইন লিঙ্ক থেকে ডাউনলোড
+          curl -s -L -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" \
+          "https://iptvlive-beta.vercel.app" -o BDIX-Playlist.m3u
+
+          # চেক করা হচ্ছে ফাইলটি সফলভাবে পেয়েছে কি না
+          if [ ! -s BDIX-Playlist.m3u ]; then
+            echo "Error: Downloaded playlist is empty!"
+            exit 1
+          fi
 
       - name: Push
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add BDIX-Playlist.m3u
           git commit -m "Auto update playlist" || exit 0
