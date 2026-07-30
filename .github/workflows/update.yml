@@ -15,17 +15,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Download Playlist
+      - name: Download Playlist and Replace HTTP with HTTPS
         run: |
-          # Real Browser User-Agent দিয়ে মেইন লিঙ্ক থেকে ডাউনলোড
+          # ১. ফাইল ডাউনলোড
           curl -s -L -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" \
           "https://iptvlive-beta.vercel.app" -o BDIX-Playlist.m3u
 
-          # চেক করা হচ্ছে ফাইলটি সফলভাবে পেয়েছে কি না
+          # ২. ফাইল ডাউনলোড সফল হয়েছে কি না তা চেক করা
           if [ ! -s BDIX-Playlist.m3u ]; then
             echo "Error: Downloaded playlist is empty!"
             exit 1
           fi
+
+          # ৩. http://iptvlive-beta কে https://iptvlive-beta তে পরিবর্তন
+          sed -i 's|http://iptvlive-beta.vercel.app|https://iptvlive-beta.vercel.app|g' BDIX-Playlist.m3u
 
       - name: Push
         run: |
@@ -33,5 +36,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add BDIX-Playlist.m3u
-          git commit -m "Auto update playlist" || exit 0
+          git commit -m "Auto update playlist with HTTPS" || exit 0
           git push
