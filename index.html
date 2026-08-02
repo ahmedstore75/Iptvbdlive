@@ -62,8 +62,8 @@
           <span class="label" id="lblVideoSize">ভিডিও সাইজ</span>
         </div>
         <select id="aspectRatioSelect">
-          <option value="contain">Original</option>
           <option value="fill">Stretch</option>
+          <option value="contain">Original</option>
           <option value="cover">Cover</option>
         </select>
       </div>
@@ -106,9 +106,9 @@
 
   <!-- Main Content Area -->
   <main>
-    <!-- Video Player -->
+    <!-- Video Player Container -->
     <div class="player" id="playerContainer">
-      <video id="video" controls playsinline></video>
+      <video id="video" controls playsinline webkit-playsinline></video>
     </div>
 
     <!-- Controls Bar (Category & Search) -->
@@ -124,7 +124,7 @@
       </div>
     </div>
 
-    <!-- Channels List -->
+    <!-- Channels List Grid -->
     <div id="channelList" class="channels"></div>
   </main>
 
