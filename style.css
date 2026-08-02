@@ -275,7 +275,7 @@ header h1 {
 }
 
 /* ==========================================
-   5. Video Player Container
+   5. Video Player Container (MODIFIED)
    ========================================== */
 .player {
   position: sticky;
@@ -295,7 +295,7 @@ video {
   aspect-ratio: 16 / 9;
   border-radius: 12px;
   background: #000000;
-  object-fit: contain;
+  object-fit: fill; /* কোনো কাটিং ছাড়াই পুরো প্লেয়ার ফিট করবে */
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   display: block;
 }
@@ -463,8 +463,22 @@ video {
 }
 
 /* ==========================================
-   9. Desktop & Responsive Viewport Rules
+   9. Responsive & Mobile Orientation Rules (ADDED)
    ========================================== */
+@media (orientation: landscape) {
+  .player {
+    padding: 0;
+    border-bottom: none;
+  }
+  
+  video {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+    object-fit: fill;
+  }
+}
+
 @media (min-width: 900px) {
   body {
     max-width: 1280px;
