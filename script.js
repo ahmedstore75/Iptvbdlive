@@ -351,20 +351,30 @@ reloadBtn.addEventListener("click", () => {
 });
 
 // ==========================================
-// 10. Screen Orientation & Fullscreen Handler
+// 10. Screen Orientation & Fullscreen Handler (UPDATED)
 // ==========================================
 function handleOrientationChange() {
-  const isLandscape = screen.orientation ? screen.orientation.type.startsWith("landscape") : (window.orientation === 90 || window.orientation === -90);
+  const isLandscape = screen.orientation
+    ? screen.orientation.type.startsWith("landscape")
+    : (window.orientation === 90 || window.orientation === -90);
 
   if (isLandscape) {
+    // ল্যান্ডস্কেপ মোডে 'fill' সেট করা যেন কোনো ক্রপ বা কালো বর্ডার না থাকে
+    video.style.objectFit = "fill";
+    
     if (video.requestFullscreen) {
-      video.requestFullscreen();
+      video.requestFullscreen().catch(() => {});
     } else if (video.webkitRequestFullscreen) {
       video.webkitRequestFullscreen();
     }
   } else {
+    // পোট্রেট মোডে ড্রপডাউন অনুযায়ী আগের স্টাইল রিঅ্যান্ডার করা
+    video.style.objectFit = aspectRatioSelect.value || "contain";
+    
     if (document.fullscreenElement && document.exitFullscreen) {
-      document.exitFullscreen();
+      document.exitFullscreen().catch(() => {});
+    } else if (document.webkitFullscreenElement && document.webkitExitFullscreen) {
+      document.webkitExitFullscreen();
     }
   }
 }
