@@ -117,7 +117,6 @@ langBtn.addEventListener("click", () => {
   applyLanguage();
 });
 
-// ভিডিও সাইজ ড্রপডাউন হ্যান্ডলার
 aspectRatioSelect.addEventListener("change", (e) => {
   video.style.objectFit = e.target.value;
 });
@@ -206,11 +205,13 @@ function updateCategoryDropdownOptions() {
   const t = translations[currentLang];
   categorySelect.innerHTML = "";
 
+  // ১ম অপশন: বাংলা হলে "ক্যাটাগরি" এবং ইংরেজি হলে "Category"
   const defaultOption = document.createElement("option");
   defaultOption.value = "ALL";
   defaultOption.textContent = t.categoryDefault;
   categorySelect.appendChild(defaultOption);
 
+  // অন্যান্য ক্যাটাগরির ১ম বর্ণ Capitalize হবে
   groups.forEach(group => {
     if (group.toUpperCase() !== "ALL") {
       const option = document.createElement("option");
@@ -245,6 +246,7 @@ function filterAndRender() {
 function render(data) {
   list.innerHTML = "";
 
+  // রিয়েলটাইম চ্যানেল কাউন্টার (যেমন: CH 140)
   if (channelCounterBadge) {
     channelCounterBadge.textContent = `CH: ${data.length}`;
   }
@@ -349,31 +351,29 @@ reloadBtn.addEventListener("click", () => {
 });
 
 // ==========================================
-// 10. Screen Orientation & Fullscreen Handler (FIXED)
+// 10. Screen Orientation & Fullscreen Handler
 // ==========================================
 function handleOrientationChange() {
-  const isLandscape = window.matchMedia("(orientation: landscape)").matches;
+  const isLandscape = screen.orientation ? screen.orientation.type.startsWith("landscape") : (window.orientation === 90 || window.orientation === -90);
 
-  if (isLandscape && window.innerWidth < 900) {
+  if (isLandscape) {
     if (video.requestFullscreen) {
-      video.requestFullscreen().catch(() => {});
+      video.requestFullscreen();
     } else if (video.webkitRequestFullscreen) {
       video.webkitRequestFullscreen();
     }
   } else {
-    if (document.fullscreenElement) {
-      document.exitFullscreen().catch(() => {});
-    } else if (document.webkitFullscreenElement) {
-      document.webkitExitFullscreen();
+    if (document.fullscreenElement && document.exitFullscreen) {
+      document.exitFullscreen();
     }
-    // ইউজার যে আসপেক্ট রেশিও সিলেক্ট করেছে সেটাই বজায় থাকবে
-    video.style.objectFit = aspectRatioSelect.value;
   }
 }
 
-window.addEventListener("orientationchange", () => {
-  setTimeout(handleOrientationChange, 200);
-});
+if (screen.orientation) {
+  screen.orientation.addEventListener("change", handleOrientationChange);
+} else {
+  window.addEventListener("orientationchange", handleOrientationChange);
+}
 
 // ==========================================
 // 11. HLS Stream Playback Engine
