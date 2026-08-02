@@ -50,7 +50,8 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8
 https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
 
 #EXTINF:-1 tvg-id="duronto-tv" tvg-name="DURONTO TV" tvg-logo="https://s3.aynaott.com/storage/1d3d06e02fc9ba45a990b65aebd04ebc" group-title="Bangla", DURONTO TV
-https://iptvlive-beta.vercel.app/duronto-tv/index.m3u8
+#https://iptvlive-beta.vercel.app/duronto-tv/index.m3u8
+http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=duronto_tv&format=.m3u8
 
 #EXTINF:-1 tvg-id="bijoy-tv" tvg-name="BIJOY TV" tvg-logo="https://s3.aynaott.com/storage/589934eb6a1c264a0ee6bf6d82fad81c" group-title="Bangla", BIJOY TV
 https://iptvlive-beta.vercel.app/bijoy-tv/index.m3u8
