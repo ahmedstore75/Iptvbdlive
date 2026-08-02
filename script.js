@@ -117,6 +117,7 @@ langBtn.addEventListener("click", () => {
   applyLanguage();
 });
 
+// ভিডিও সাইজ ড্রপডাউন হ্যান্ডলার
 aspectRatioSelect.addEventListener("change", (e) => {
   video.style.objectFit = e.target.value;
 });
@@ -205,13 +206,11 @@ function updateCategoryDropdownOptions() {
   const t = translations[currentLang];
   categorySelect.innerHTML = "";
 
-  // ১ম অপশন: বাংলা হলে "ক্যাটাগরি" এবং ইংরেজি হলে "Category"
   const defaultOption = document.createElement("option");
   defaultOption.value = "ALL";
   defaultOption.textContent = t.categoryDefault;
   categorySelect.appendChild(defaultOption);
 
-  // অন্যান্য ক্যাটাগরির ১ম বর্ণ Capitalize হবে
   groups.forEach(group => {
     if (group.toUpperCase() !== "ALL") {
       const option = document.createElement("option");
@@ -246,7 +245,6 @@ function filterAndRender() {
 function render(data) {
   list.innerHTML = "";
 
-  // রিয়েলটাইম চ্যানেল কাউন্টার (যেমন: CH 140)
   if (channelCounterBadge) {
     channelCounterBadge.textContent = `CH: ${data.length}`;
   }
@@ -351,39 +349,31 @@ reloadBtn.addEventListener("click", () => {
 });
 
 // ==========================================
-// 10. Screen Orientation & Fullscreen Handler (UPDATED)
+// 10. Screen Orientation & Fullscreen Handler (FIXED)
 // ==========================================
 function handleOrientationChange() {
-  const isLandscape = screen.orientation
-    ? screen.orientation.type.startsWith("landscape")
-    : (window.orientation === 90 || window.orientation === -90);
+  const isLandscape = window.matchMedia("(orientation: landscape)").matches;
 
-  if (isLandscape) {
-    // ল্যান্ডস্কেপ মোডে 'fill' সেট করা যেন কোনো ক্রপ বা কালো বর্ডার না থাকে
-    video.style.objectFit = "fill";
-    
+  if (isLandscape && window.innerWidth < 900) {
     if (video.requestFullscreen) {
       video.requestFullscreen().catch(() => {});
     } else if (video.webkitRequestFullscreen) {
       video.webkitRequestFullscreen();
     }
   } else {
-    // পোট্রেট মোডে ড্রপডাউন অনুযায়ী আগের স্টাইল রিঅ্যান্ডার করা
-    video.style.objectFit = aspectRatioSelect.value || "contain";
-    
-    if (document.fullscreenElement && document.exitFullscreen) {
+    if (document.fullscreenElement) {
       document.exitFullscreen().catch(() => {});
-    } else if (document.webkitFullscreenElement && document.webkitExitFullscreen) {
+    } else if (document.webkitFullscreenElement) {
       document.webkitExitFullscreen();
     }
+    // ইউজার যে আসপেক্ট রেশিও সিলেক্ট করেছে সেটাই বজায় থাকবে
+    video.style.objectFit = aspectRatioSelect.value;
   }
 }
 
-if (screen.orientation) {
-  screen.orientation.addEventListener("change", handleOrientationChange);
-} else {
-  window.addEventListener("orientationchange", handleOrientationChange);
-}
+window.addEventListener("orientationchange", () => {
+  setTimeout(handleOrientationChange, 200);
+});
 
 // ==========================================
 // 11. HLS Stream Playback Engine
