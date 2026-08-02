@@ -295,7 +295,7 @@ video {
   aspect-ratio: 16 / 9;
   border-radius: 12px;
   background: #000000;
-  object-fit: contain; /* JS দিয়ে এটি ডাইনামিকালি পরিবর্তিত হবে */
+  object-fit: contain;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   display: block;
 }
