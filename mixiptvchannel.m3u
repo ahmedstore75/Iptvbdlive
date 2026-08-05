@@ -14,7 +14,7 @@ https://iptvlive-beta.vercel.app/asports/index.m3u8
 #EXTINF:-1 tvg-id="Zee Bangla Cinema" tvg-name="Zee Bangla Cinema" tvg-logo="https://otapp.store/uploads/tv_image/sm/zee-bangla-cinema.png" group-title="Bangla",Zee Bangla Cinema
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/Zeebanglahd.m3u8
 #EXTINF:-1 tvg-id="97" tvg-name="Jamuna TV" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560213832.png" group-title="News",Jamuna TV
-https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8
+https://iptvlive-beta.vercel.app/jamuna-tv/index.m3u8
 #EXTINF:-1 tvg-id="185" tvg-name="DBC News HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770186306600.png" group-title="News",DBC News HD
 https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8
 #EXTINF:-1 tvg-id="100" tvg-name="Bangla Vision" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735561344354.png" group-title="Entertainment",Bangla Vision
@@ -44,7 +44,7 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8
 #EXTINF:-1 tvg-id="191" tvg-name="Star News" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770189826301.png" group-title="News",Star News
 https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8
 #EXTINF:-1 tvg-id="240" tvg-name="BTV Shangshad" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1781166550297.png" group-title="News",BTV Shangshad
-https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8
+https://iptvlive-beta.vercel.app/btv/index.m3u8
 
 #EXTINF:-4 tvg-logo="https://dl.dropbox.com/s/leielj83em5kg7h/somoy_news.png" group-title="BANGLA",SOMOY TV
 https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
