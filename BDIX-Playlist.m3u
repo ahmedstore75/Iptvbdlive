@@ -555,16 +555,16 @@ https://iptvlive-beta.vercel.app/bhojpuri-cinema/index.m3u8
 #EXTINF:-1 tvg-name="Bangla Jago" tvg-logo="https://i.supaimg.com/0dc91d95-6d6b-41a8-a93f-88628861dd2f/63ad9523-b600-4106-aafd-7237755b7990.jpg",Bangla Jago
 https://iptvlive-beta.vercel.app/bangla-jago/index.m3u8
 
-#EXTINF:-1 tvg-id="star_jalsha_hd" tvg-logo="http://monirul.bro.bd/assets/images/STAR JALSHA HD1745033819.png" group-title="Bangla",STAR JALSHA HD
+#EXTINF:-1 tvg-id="star_jalsha_hd" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3c/Star_Jalsha_HD.png" group-title="Bangla",STAR JALSHA HD
 https://iptvlive-beta.vercel.app/star-jalsha-hd/index.m3u8
 
-#EXTINF:-1 tvg-id="zee_bangla_hd" tvg-logo="http://monirul.bro.bd/assets/images/ZEE BANGLA HD1745033633.png" group-title="Bangla",ZEE BANGLA HD
-https://iptvlive-beta.vercel.app/zee-bangla-hd/index.m3u8
+#EXTINF:-1 tvg-id="zee_bangla_hd" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/kK2aX5UBrjBfS2_RBcKf/posters/ba5dd8dc-4f87-414a-b57f-c9ecdeda5253.png" group-title="Bangla",ZEE BANGLA HD
+https://iptvlive-beta.vercel.app/w-300-q-85-kk2ax5ubrjbfs2-rbckf-posters-ba5dd8dc-4f87-414a-b57f-c9ecdeda5253-png-group-title-bangla-zee-bangla-hd/index.m3u8
 
 #EXTINF:-1 tvg-id="sony_aath" tvg-name="Sony AATH" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-14/images_6b500d2d4c6979f37f2854565a68bcf0_playmist_sony_aath_logowine.jpg",Sony AATH
 https://iptvlive-beta.vercel.app/sony-aath/index.m3u8
 
-#EXTINF:-1 tvg-id="jalsha_movies_hd" tvg-logo="http://monirul.bro.bd/assets/images/JALSHA MOVIES HD1745034005.png" group-title="Bangla",JALSHA MOVIES HD
+#EXTINF:-1 tvg-id="jalsha_movies_hd" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/04/Jalsha_Movies_HD.png" group-title="Bangla",JALSHA MOVIES HD
 https://iptvlive-beta.vercel.app/jalsha-movies-hd/index.m3u8
 
 #EXTINF:-1 tvg-name="Dw News" tvg-logo="https://cloudtv.akamaized.net/AynaOTT/BDcontent/channels/images/85bbed0f-b7cd-41a1-9f14-466951111e09.png",Dw News
