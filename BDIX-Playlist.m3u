@@ -7269,9 +7269,6 @@ https://iptvlive-beta.vercel.app/ndtv-english/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="NEWS INTERNASIONAL" tvg-logo="https://i.postimg.cc/RZJmcSt6/9XM.jpg",News Max 2
 https://iptvlive-beta.vercel.app/news-max-2/index.m3u8
 
-#EXTINF:-1 tvg-id="btv" tvg-name="BTV", BTV
-https://iptvlive-beta.vercel.app/btv-1/index.m3u8
-
 #EXTINF:-1 tvg-id="btv-world" tvg-name="BTV WORLD", BTV WORLD
 https://iptvlive-beta.vercel.app/btv-world/index.m3u8
 
@@ -7281,12 +7278,6 @@ https://iptvlive-beta.vercel.app/btv-chittagong/index.m3u8
 #EXTINF:-1 tvg-id="sangsad-tv" tvg-name="SANGSAD TV", SANGSAD TV
 https://iptvlive-beta.vercel.app/sangsad-tv/index.m3u8
 
-#EXTINF:-1 tvg-id="atn-bangla" tvg-name="ATN BANGLA", ATN BANGLA
-https://iptvlive-beta.vercel.app/atn-bangla-2/index.m3u8
-
-#EXTINF:-1 tvg-id="ntv" tvg-name="NTV", NTV
-https://iptvlive-beta.vercel.app/ntv-1/index.m3u8
-
 #EXTINF:-1 tvg-id="rtv" tvg-name="RTV", RTV
 https://iptvlive-beta.vercel.app/rtv-3/index.m3u8
 
@@ -7295,9 +7286,6 @@ https://iptvlive-beta.vercel.app/ekushey-tv-1/index.m3u8
 
 #EXTINF:-1 tvg-id="banglavision" tvg-name="BANGLAVISION", BANGLAVISION
 https://iptvlive-beta.vercel.app/banglavision/index.m3u8
-
-#EXTINF:-1 tvg-id="boishakhi-tv" tvg-name="BOISHAKHI TV", BOISHAKHI TV
-https://iptvlive-beta.vercel.app/boishakhi-tv-2/index.m3u8
 
 #EXTINF:-1 tvg-id="desh-tv" tvg-name="DESH TV", DESH TV
 https://iptvlive-beta.vercel.app/desh-tv-3/index.m3u8
@@ -7311,17 +7299,11 @@ https://iptvlive-beta.vercel.app/asian-tv-1/index.m3u8
 #EXTINF:-1 tvg-id="maasranga-tv" tvg-name="MAASRANGA TV", MAASRANGA TV
 https://iptvlive-beta.vercel.app/maasranga-tv-1/index.m3u8
 
-#EXTINF:-1 tvg-id="channel-9" tvg-name="CHANNEL 9", CHANNEL 9
-https://iptvlive-beta.vercel.app/channel-9-1/index.m3u8
-
 #EXTINF:-1 tvg-id="gazi-tv" tvg-name="GAZI TV", GAZI TV
 https://iptvlive-beta.vercel.app/gazi-tv/index.m3u8
 
 #EXTINF:-1 tvg-id="mohona-tv" tvg-name="MOHONA TV", MOHONA TV
 https://iptvlive-beta.vercel.app/mohona-tv-1/index.m3u8
-
-#EXTINF:-1 tvg-id="bijoy-tv" tvg-name="BIJOY TV", BIJOY TV
-https://iptvlive-beta.vercel.app/bijoy-tv-2/index.m3u8
 
 #EXTINF:-1 tvg-id="saamtv" tvg-name="SAAMTV", SAAMTV
 https://iptvlive-beta.vercel.app/saamtv/index.m3u8
@@ -7338,9 +7320,6 @@ https://iptvlive-beta.vercel.app/deepto-tv-1/index.m3u8
 #EXTINF:-1 tvg-id="gan-bangla" tvg-name="GAN BANGLA", GAN BANGLA
 https://iptvlive-beta.vercel.app/gan-bangla/index.m3u8
 
-#EXTINF:-1 tvg-id="duronto-tv" tvg-name="DURONTO TV", DURONTO TV
-https://iptvlive-beta.vercel.app/duronto-tv-2/index.m3u8
-
 #EXTINF:-1 tvg-id="green-tv" tvg-name="GREEN TV", GREEN TV
 https://iptvlive-beta.vercel.app/green-tv-2/index.m3u8
 
@@ -7352,12 +7331,6 @@ https://iptvlive-beta.vercel.app/eepl-news/index.m3u8
 
 #EXTINF:-1 tvg-id="somoy-tv" tvg-name="SOMOY TV", SOMOY TV
 https://iptvlive-beta.vercel.app/somoy-tv-2/index.m3u8
-
-#EXTINF:-1 tvg-id="channel-24" tvg-name="CHANNEL 24", CHANNEL 24
-https://iptvlive-beta.vercel.app/channel-24/index.m3u8
-
-#EXTINF:-1 tvg-id="jamuna-tv" tvg-name="JAMUNA TV", JAMUNA TV
-https://iptvlive-beta.vercel.app/jamuna-tv-1/index.m3u8
 
 #EXTINF:-1 tvg-id="news-24" tvg-name="NEWS 24", NEWS 24
 https://iptvlive-beta.vercel.app/news-24-1/index.m3u8
@@ -7462,7 +7435,7 @@ https://iptvlive-beta.vercel.app/colors-cineplex/index.m3u8
 https://iptvlive-beta.vercel.app/g-series/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778082545894.png" group-title="Bangla",BTV
-https://iptvlive-beta.vercel.app/btv-2/index.m3u8
+https://iptvlive-beta.vercel.app/btv-1/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1735648543857_Poster.jpg" group-title="Bangla",BTV News
 https://iptvlive-beta.vercel.app/btv-news-1/index.m3u8
@@ -7474,7 +7447,7 @@ https://iptvlive-beta.vercel.app/channel-1-2/index.m3u8
 https://iptvlive-beta.vercel.app/somoy-tv-3/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560213832.png" group-title="Bangla",Jamuna TV
-https://iptvlive-beta.vercel.app/jamuna-tv-2/index.m3u8
+https://iptvlive-beta.vercel.app/jamuna-tv-1/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770186306600.png" group-title="Bangla",DBC News HD
 https://iptvlive-beta.vercel.app/dbc-news-hd-1/index.m3u8
@@ -7513,7 +7486,7 @@ https://iptvlive-beta.vercel.app/channel-i-hd-1/index.m3u8
 https://iptvlive-beta.vercel.app/bangla-vision-1/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560841094.png" group-title="Bangla",NTV
-https://iptvlive-beta.vercel.app/ntv-2/index.m3u8
+https://iptvlive-beta.vercel.app/ntv-1/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png" group-title="Bangla",Al Jazeera
 https://iptvlive-beta.vercel.app/al-jazeera-1/index.m3u8
@@ -7633,7 +7606,7 @@ https://iptvlive-beta.vercel.app/news-24-bd/index.m3u8
 https://iptvlive-beta.vercel.app/bangla-tv-2/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/Kv4y2cWq/1000115157.webp" group-title="Bangla",Boishakhi TV
-https://iptvlive-beta.vercel.app/boishakhi-tv-3/index.m3u8
+https://iptvlive-beta.vercel.app/boishakhi-tv-2/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d3/Nexus_Television_Logo.png" group-title="Bangla",NEXUS TV
 https://iptvlive-beta.vercel.app/nexus-tv-1/index.m3u8
