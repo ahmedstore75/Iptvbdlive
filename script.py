@@ -3,7 +3,7 @@ import re
 import json
 import requests
 
-API_URL = "https://iptv-proxy.ahmed-bd-org.workers.dev"
+API_URL = "https://saiptvlive.ahmed-bd-org.workers.dev/playlist.m3u8"
 OUTPUT_DIR = "Bangla"
 
 if not os.path.exists(OUTPUT_DIR):
