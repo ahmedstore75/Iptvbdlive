@@ -1,0 +1,205 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="btv" tvg-name="BTV", BTV
+https://iptv-proxy.ahmed-bd-org.workers.dev/btv/index.m3u8
+
+#EXTINF:-1 tvg-id="btv-world" tvg-name="BTV WORLD", BTV WORLD
+https://iptv-proxy.ahmed-bd-org.workers.dev/btv-world/index.m3u8
+
+#EXTINF:-1 tvg-id="btv-chittagong" tvg-name="BTV CHITTAGONG", BTV CHITTAGONG
+https://iptv-proxy.ahmed-bd-org.workers.dev/btv-chittagong/index.m3u8
+
+#EXTINF:-1 tvg-id="sangsad-tv" tvg-name="SANGSAD TV", SANGSAD TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/sangsad-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="atn-bangla" tvg-name="ATN BANGLA", ATN BANGLA
+https://iptv-proxy.ahmed-bd-org.workers.dev/atn-bangla/index.m3u8
+
+#EXTINF:-1 tvg-id="channel-i" tvg-name="CHANNEL I", CHANNEL I
+https://iptv-proxy.ahmed-bd-org.workers.dev/channel-i/index.m3u8
+
+#EXTINF:-1 tvg-id="ntv" tvg-name="NTV", NTV
+https://iptv-proxy.ahmed-bd-org.workers.dev/ntv/index.m3u8
+
+#EXTINF:-1 tvg-id="rtv" tvg-name="RTV", RTV
+https://iptv-proxy.ahmed-bd-org.workers.dev/rtv/index.m3u8
+
+#EXTINF:-1 tvg-id="ekushey-tv" tvg-name="EKUSHEY TV", EKUSHEY TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/ekushey-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="banglavision" tvg-name="BANGLAVISION", BANGLAVISION
+https://iptv-proxy.ahmed-bd-org.workers.dev/banglavision/index.m3u8
+
+#EXTINF:-1 tvg-id="boishakhi-tv" tvg-name="BOISHAKHI TV", BOISHAKHI TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/boishakhi-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="desh-tv" tvg-name="DESH TV", DESH TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/desh-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="my-tv" tvg-name="MY TV", MY TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/my-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="asian-tv" tvg-name="ASIAN TV", ASIAN TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/asian-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="maasranga-tv" tvg-name="MAASRANGA TV", MAASRANGA TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/maasranga-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="channel-9" tvg-name="CHANNEL 9", CHANNEL 9
+https://iptv-proxy.ahmed-bd-org.workers.dev/channel-9/index.m3u8
+
+#EXTINF:-1 tvg-id="gazi-tv" tvg-name="GAZI TV", GAZI TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/gazi-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="mohona-tv" tvg-name="MOHONA TV", MOHONA TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/mohona-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="bijoy-tv" tvg-name="BIJOY TV", BIJOY TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/bijoy-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="saamtv" tvg-name="SAAMTV", SAAMTV
+https://iptv-proxy.ahmed-bd-org.workers.dev/saamtv/index.m3u8
+
+#EXTINF:-1 tvg-id="ananda-tv" tvg-name="ANANDA TV", ANANDA TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/ananda-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="nagorik-tv" tvg-name="NAGORIK TV", NAGORIK TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/nagorik-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="deepto-tv" tvg-name="DEEPTO TV", DEEPTO TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/deepto-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="gan-bangla" tvg-name="GAN BANGLA", GAN BANGLA
+https://iptv-proxy.ahmed-bd-org.workers.dev/gan-bangla/index.m3u8
+
+#EXTINF:-1 tvg-id="duronto-tv" tvg-name="DURONTO TV", DURONTO TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/duronto-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="green-tv" tvg-name="GREEN TV", GREEN TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/green-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="global-tv" tvg-name="GLOBAL TV", GLOBAL TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/global-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="eepl-news" tvg-name="EEPL NEWS", EEPL NEWS
+https://iptv-proxy.ahmed-bd-org.workers.dev/eepl-news/index.m3u8
+
+#EXTINF:-1 tvg-id="somoy-tv" tvg-name="SOMOY TV", SOMOY TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/somoy-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="independent-tv" tvg-name="INDEPENDENT TV", INDEPENDENT TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/independent-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="channel-24" tvg-name="CHANNEL 24", CHANNEL 24
+https://iptv-proxy.ahmed-bd-org.workers.dev/channel-24/index.m3u8
+
+#EXTINF:-1 tvg-id="ekattor-tv" tvg-name="EKATTOR TV", EKATTOR TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/ekattor-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="jamuna-tv" tvg-name="JAMUNA TV", JAMUNA TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/jamuna-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="dbc-news" tvg-name="DBC NEWS", DBC NEWS
+https://iptv-proxy.ahmed-bd-org.workers.dev/dbc-news/index.m3u8
+
+#EXTINF:-1 tvg-id="atn-news" tvg-name="ATN NEWS", ATN NEWS
+https://iptv-proxy.ahmed-bd-org.workers.dev/atn-news/index.m3u8
+
+#EXTINF:-1 tvg-id="news-24" tvg-name="NEWS 24", NEWS 24
+https://iptv-proxy.ahmed-bd-org.workers.dev/news-24/index.m3u8
+
+#EXTINF:-1 tvg-id="ekhon-tv" tvg-name="EKHON TV", EKHON TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/ekhon-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="nexus-tv" tvg-name="NEXUS TV", NEXUS TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/nexus-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="tsports" tvg-name="TSPORTS", TSPORTS
+https://iptv-proxy.ahmed-bd-org.workers.dev/tsports/index.m3u8
+
+#EXTINF:-1 tvg-id="asports" tvg-name="ASPORTS", ASPORTS
+https://iptv-proxy.ahmed-bd-org.workers.dev/asports/index.m3u8
+
+#EXTINF:-1 tvg-id="star-sports-1" tvg-name="STAR SPORTS 1", STAR SPORTS 1
+https://iptv-proxy.ahmed-bd-org.workers.dev/star-sports-1/index.m3u8
+
+#EXTINF:-1 tvg-id="star-sports-2" tvg-name="STAR SPORTS 2", STAR SPORTS 2
+https://iptv-proxy.ahmed-bd-org.workers.dev/star-sports-2/index.m3u8
+
+#EXTINF:-1 tvg-id="star-sports-select-1" tvg-name="STAR SPORTS SELECT 1", STAR SPORTS SELECT 1
+https://iptv-proxy.ahmed-bd-org.workers.dev/star-sports-select-1/index.m3u8
+
+#EXTINF:-1 tvg-id="star-sports-select-2" tvg-name="STAR SPORTS SELECT 2", STAR SPORTS SELECT 2
+https://iptv-proxy.ahmed-bd-org.workers.dev/star-sports-select-2/index.m3u8
+
+#EXTINF:-1 tvg-id="sony-sports-ten-1" tvg-name="SONY SPORTS TEN 1", SONY SPORTS TEN 1
+https://iptv-proxy.ahmed-bd-org.workers.dev/sony-sports-ten-1/index.m3u8
+
+#EXTINF:-1 tvg-id="sony-sports-ten-2" tvg-name="SONY SPORTS TEN 2", SONY SPORTS TEN 2
+https://iptv-proxy.ahmed-bd-org.workers.dev/sony-sports-ten-2/index.m3u8
+
+#EXTINF:-1 tvg-id="sony-sports-ten-3" tvg-name="SONY SPORTS TEN 3", SONY SPORTS TEN 3
+https://iptv-proxy.ahmed-bd-org.workers.dev/sony-sports-ten-3/index.m3u8
+
+#EXTINF:-1 tvg-id="sony-sports-ten-5" tvg-name="SONY SPORTS TEN 5", SONY SPORTS TEN 5
+https://iptv-proxy.ahmed-bd-org.workers.dev/sony-sports-ten-5/index.m3u8
+
+#EXTINF:-1 tvg-id="willow" tvg-name="WILLOW", WILLOW
+https://iptv-proxy.ahmed-bd-org.workers.dev/willow/index.m3u8
+
+#EXTINF:-1 tvg-id="willow-extra" tvg-name="WILLOW EXTRA", WILLOW EXTRA
+https://iptv-proxy.ahmed-bd-org.workers.dev/willow-extra/index.m3u8
+
+#EXTINF:-1 tvg-id="sports-18-1" tvg-name="SPORTS 18 1", SPORTS 18 1
+https://iptv-proxy.ahmed-bd-org.workers.dev/sports-18-1/index.m3u8
+
+#EXTINF:-1 tvg-id="star-jalsha" tvg-name="STAR JALSHA", STAR JALSHA
+https://iptv-proxy.ahmed-bd-org.workers.dev/star-jalsha/index.m3u8
+
+#EXTINF:-1 tvg-id="zee-bangla" tvg-name="ZEE BANGLA", ZEE BANGLA
+https://iptv-proxy.ahmed-bd-org.workers.dev/zee-bangla/index.m3u8
+
+#EXTINF:-1 tvg-id="colors-bangla" tvg-name="COLORS BANGLA", COLORS BANGLA
+https://iptv-proxy.ahmed-bd-org.workers.dev/colors-bangla/index.m3u8
+
+#EXTINF:-1 tvg-id="star-plus" tvg-name="STAR PLUS", STAR PLUS
+https://iptv-proxy.ahmed-bd-org.workers.dev/star-plus/index.m3u8
+
+#EXTINF:-1 tvg-id="sony-sab" tvg-name="SONY SAB", SONY SAB
+https://iptv-proxy.ahmed-bd-org.workers.dev/sony-sab/index.m3u8
+
+#EXTINF:-1 tvg-id="zee-tv" tvg-name="ZEE TV", ZEE TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/zee-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="colors-tv" tvg-name="COLORS TV", COLORS TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/colors-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="sony-entertainment" tvg-name="SONY ENTERTAINMENT", SONY ENTERTAINMENT
+https://iptv-proxy.ahmed-bd-org.workers.dev/sony-entertainment/index.m3u8
+
+#EXTINF:-1 tvg-id="jalsha-movies" tvg-name="JALSHA MOVIES", JALSHA MOVIES
+https://iptv-proxy.ahmed-bd-org.workers.dev/jalsha-movies/index.m3u8
+
+#EXTINF:-1 tvg-id="zee-bangla-cinema" tvg-name="ZEE BANGLA CINEMA", ZEE BANGLA CINEMA
+https://iptv-proxy.ahmed-bd-org.workers.dev/zee-bangla-cinema/index.m3u8
+
+#EXTINF:-1 tvg-id="zee-cinema" tvg-name="ZEE CINEMA", ZEE CINEMA
+https://iptv-proxy.ahmed-bd-org.workers.dev/zee-cinema/index.m3u8
+
+#EXTINF:-1 tvg-id="star-gold" tvg-name="STAR GOLD", STAR GOLD
+https://iptv-proxy.ahmed-bd-org.workers.dev/star-gold/index.m3u8
+
+#EXTINF:-1 tvg-id="star-gold-select" tvg-name="STAR GOLD SELECT", STAR GOLD SELECT
+https://iptv-proxy.ahmed-bd-org.workers.dev/star-gold-select/index.m3u8
+
+#EXTINF:-1 tvg-id="sony-max" tvg-name="SONY MAX", SONY MAX
+https://iptv-proxy.ahmed-bd-org.workers.dev/sony-max/index.m3u8
+
+#EXTINF:-1 tvg-id="sony-max-2" tvg-name="SONY MAX 2", SONY MAX 2
+https://iptv-proxy.ahmed-bd-org.workers.dev/sony-max-2/index.m3u8
+
+#EXTINF:-1 tvg-id="and-pictures" tvg-name="AND PICTURES", AND PICTURES
+https://iptv-proxy.ahmed-bd-org.workers.dev/and-pictures/index.m3u8
+
+#EXTINF:-1 tvg-id="colors-cineplex" tvg-name="COLORS CINEPLEX", COLORS CINEPLEX
+https://iptv-proxy.ahmed-bd-org.workers.dev/colors-cineplex/index.m3u8
