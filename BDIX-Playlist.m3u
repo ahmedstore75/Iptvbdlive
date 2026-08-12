@@ -120,8 +120,8 @@ https://iptvlive-beta.vercel.app/movie-bangla/index.m3u8
 #EXTINF:-1 tvg-name="MY TV" tvg-logo="https://i.postimg.cc/HxGF4V2b/20250529_103226.png" group-title="Bangla",MY TV
 https://iptvlive-beta.vercel.app/my-tv/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/w_480,q_75,f_webp/KECGB54BuUSiBsg_dHyj/posters/58af9c58-ed80-458c-af13-cf381680cec6.png" group-title="Bangla",Rajdhani TV
-https://iptvlive-beta.vercel.app/q-75-f-webp-kecgb54buusibsg-dhyj-posters-58af9c58-ed80-458c-af13-cf381680cec6-png-group-title-bangla-rajdhani-tv/index.m3u8
+#EXTINF:-1 tvg-name="Rajdhai Tv" tvg-logo="https://assets-prod.services.toffeelive.com/w_480,q_75,f_webp/KECGB54BuUSiBsg_dHyj/posters/58af9c58-ed80-458c-af13-cf381680cec6.png" group-title="Bangla",Rajdhani TV
+https://iptvlive-beta.vercel.app/rajdhai-tv/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/c/cd/Ekushey_Television_logo_2000-2002%2C_2007.png" group-title="Bangla",Ekushey TV
 https://iptvlive-beta.vercel.app/ekushey-tv/index.m3u8
@@ -7564,7 +7564,7 @@ https://iptvlive-beta.vercel.app/movie-bangla-1/index.m3u8
 https://iptvlive-beta.vercel.app/my-tv-3/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/w_480,q_75,f_webp/KECGB54BuUSiBsg_dHyj/posters/58af9c58-ed80-458c-af13-cf381680cec6.png" group-title="Bangla",Rajdhani TV
-https://iptvlive-beta.vercel.app/q-75-f-webp-kecgb54buusibsg-dhyj-posters-58af9c58-ed80-458c-af13-cf381680cec6-png-group-title-bangla-rajdhani-tv-1/index.m3u8
+https://iptvlive-beta.vercel.app/q-75-f-webp-kecgb54buusibsg-dhyj-posters-58af9c58-ed80-458c-af13-cf381680cec6-png-group-title-bangla-rajdhani-tv/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/c/cd/Ekushey_Television_logo_2000-2002%2C_2007.png" group-title="Bangla",Ekushey TV
 https://iptvlive-beta.vercel.app/ekushey-tv-2/index.m3u8
