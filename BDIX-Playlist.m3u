@@ -7578,9 +7578,6 @@ https://iptvlive-beta.vercel.app/green-tv-3/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BadhanStrom/img/refs/heads/main/jhonmobhumitv.png" group-title="Bangla",JonmoBhumi TV
 https://iptvlive-beta.vercel.app/jonmobhumi-tv/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co.com/1JMhnC3G/MOHONA-TV-HD.png" group-title="Bangla",Mohona TV HD
-https://iptvlive-beta.vercel.app/mohona-tv-hd-1/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://www.metvbd.com/media/common/logo-fb.png" group-title="Bangla",ME TV
 https://iptvlive-beta.vercel.app/me-tv-1/index.m3u8
 
