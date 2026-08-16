@@ -30,6 +30,9 @@ https://akash.sm-monirul.top/news_24_hd.m3u8
 #EXTINF:-1 tvg-id="atn_news" tvg-name="ATN News" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1739962961772.png" group-title="Akash Go",ATN News
 https://akash.sm-monirul.top/atn_news.m3u8
 
+#EXTINF:-1 tvg-id="star_news" tvg-name="Star News" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770189826301.png" group-title="Akash Go",Star News
+https://akash.sm-monirul.top/star_news.m3u8
+
 #EXTINF:-1 tvg-id="channel_i_hd" tvg-name="Channel I HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1740567626692.png" group-title="Akash Go",Channel I HD
 https://akash.sm-monirul.top/channel_i_hd.m3u8
 
@@ -51,11 +54,11 @@ https://akash.sm-monirul.top/desh_tv.m3u8
 #EXTINF:-1 tvg-id="channel_9_hd" tvg-name="Channel 9 HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770188008067.png" group-title="Akash Go",Channel 9 HD
 https://akash.sm-monirul.top/channel_9_hd.m3u8
 
+#EXTINF:-1 tvg-id="channel_1" tvg-name="Channel 1" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1781163068414.png" group-title="Akash Go",Channel 1
+https://akash.sm-monirul.top/channel_1.m3u8
+
 #EXTINF:-1 tvg-id="al_jazeera" tvg-name="Al Jazeera" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735547218986.png" group-title="Akash Go",Al Jazeera
 https://akash.sm-monirul.top/al_jazeera.m3u8
-
-#EXTINF:-1 tvg-id="star_news" tvg-name="Star News" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770189826301.png" group-title="Akash Go",Star News
-https://akash.sm-monirul.top/star_news.m3u8
 
 #EXTINF:-1 tvg-id="sports_range" tvg-name="Sports Range" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380601958.png" group-title="Akash Go",Sports Range
 https://akash.sm-monirul.top/sports_range.m3u8
@@ -104,9 +107,6 @@ https://akash.sm-monirul.top/thunder_er.m3u8
 
 #EXTINF:-1 tvg-id="nikki" tvg-name="Nikki" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378704923.png" group-title="Akash Go",Nikki
 https://akash.sm-monirul.top/nikki.m3u8
-
-#EXTINF:-1 tvg-id="channel_1" tvg-name="Channel 1" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1781163068414.png" group-title="Akash Go",Channel 1
-https://akash.sm-monirul.top/channel_1.m3u8
 
 #EXTINF:-1 tvg-id="joy" tvg-name="Joy" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378874717.png" group-title="Akash Go",Joy
 https://akash.sm-monirul.top/joy.m3u8
