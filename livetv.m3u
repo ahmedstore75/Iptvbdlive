@@ -1,5 +1,6 @@
 #EXTM3U
 
+# ==================== BANGLA (8) ====================
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/BTV.HD.png" group-title="Bangla",BTV
 http://103.165.93.31:8095/btv/index.m3u8
 
@@ -24,6 +25,7 @@ http://103.165.93.31:8095/maasranga/index.m3u8
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/DEEPTO.png" group-title="Bangla",DEEPTO
 http://103.165.93.31:8095/deepto/index.m3u8
 
+# ==================== NEWS (6) ====================
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/SOMOY%20TV.png" group-title="News",SHOMOY TV HD
 http://103.165.93.31:8095/somoyTv/index.m3u8
 
@@ -42,6 +44,7 @@ http://103.165.93.31:8095/ekattorTv/index.m3u8
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/JAMUNA%20TV.png" group-title="News",JAMUNA TV
 http://103.165.93.31:8095/jamunaTv/index.m3u8
 
+# ==================== INDIAN BANGLA (8) ====================
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/STAR%20JALSHA%20HD.png" group-title="Indian Bangla",STAR JALSHA HD
 http://103.165.93.31:8095/starJalsha/index.m3u8
 
@@ -66,6 +69,7 @@ http://103.165.93.31:8095/sonyAath/index.m3u8
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/ENTERR%2010%20BANGLA.png" group-title="Indian Bangla",ENTER 10 BANGLA
 http://103.165.93.31:8095/enter10Bangla/index.m3u8
 
+# ==================== SPORTS (12) ====================
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/T%20SPORTS.png" group-title="Sports",TSPORTS HD
 http://103.165.93.31:8095/T-Sports/video.m3u8
 
@@ -102,6 +106,7 @@ http://103.165.93.31:8095/ptv/video.m3u8
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/EUROSPORTS%20HD.png" group-title="Sports",EURO SPORTS HD
 http://103.165.93.31:8095/euroSports/index.m3u8
 
+# ==================== HINDI (9) ====================
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/SONY%20MAX%20HD.png" group-title="Hindi",SONY MAX HD
 http://103.165.93.31:8095/sonyMax/index.m3u8
 
@@ -129,12 +134,14 @@ http://103.165.93.31:8095/colors/index.m3u8
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/COLORS%20CINEPLEX%20HD.png" group-title="Hindi",COLOR CINEPLEX HD
 http://103.165.93.31:8095/colorsCineplex/index.m3u8
 
+# ==================== MUSIC (2) ====================
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/SANGEET%20BANGLA.png" group-title="Music",SANGEET BANGLA
 http://103.165.93.31:8095/sangeetBangla/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/9XM%20MUSIC.png" group-title="Music",9XM MUSIC
 http://103.165.93.31:8095/9xm/index.m3u8
 
+# ==================== DOCUMENTARY (3) ====================
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/DISCOVERY%20HD.png" group-title="Documentary",DISCOVERY HD
 http://103.165.93.31:8095/discovery/index.m3u8
 
@@ -144,6 +151,7 @@ http://103.165.93.31:8095/nationalGeographic/index.m3u8
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/ANIMAL%20PLANET%20HD.png" group-title="Documentary",ANIMAL PLANET HD
 http://103.165.93.31:8095/animalPlanet/index.m3u8
 
+# ==================== KIDS (8) ====================
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/CARTOON%20NETWORK.png" group-title="Kids",CARTOON NETWORK HD
 http://103.165.93.31:8095/cartoonNetwork/index.m3u8
 
