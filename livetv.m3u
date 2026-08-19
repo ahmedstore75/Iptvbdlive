@@ -1,169 +1,169 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-logo="img/channels/BTV.HD.png" group-title="Bangla",BTV
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/BTV.HD.png" group-title="Bangla",BTV
 http://103.165.93.31:8095/btv/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/ATN BANGLA.png" group-title="Bangla",ATN Bangla HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/ATN%20BANGLA.png" group-title="Bangla",ATN Bangla HD
 http://103.165.93.31:8095/atnBangla/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/BANGLA_VISION.png" group-title="Bangla",BANGLA VISION HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/BANGLA_VISION.png" group-title="Bangla",BANGLA VISION HD
 http://103.165.93.31:8095/banglaVision/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/CHANNEL I.png" group-title="Bangla",CHANNEL I HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/CHANNEL%20I.png" group-title="Bangla",CHANNEL I HD
 http://103.165.93.31:8095/channelI/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/GTV.png" group-title="Bangla",GTV HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/GTV.png" group-title="Bangla",GTV HD
 http://103.165.93.31:8095/GTV/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/NTV.png" group-title="Bangla",NTV HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/NTV.png" group-title="Bangla",NTV HD
 http://103.165.93.31:8095/ntv/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/MAASRANGA HD.png" group-title="Bangla",MASSRANGA HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/MAASRANGA%20HD.png" group-title="Bangla",MASSRANGA HD
 http://103.165.93.31:8095/maasranga/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/DEEPTO.png" group-title="Bangla",DEEPTO
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/DEEPTO.png" group-title="Bangla",DEEPTO
 http://103.165.93.31:8095/deepto/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/SOMOY TV.png" group-title="News",SHOMOY TV HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/SOMOY%20TV.png" group-title="News",SHOMOY TV HD
 http://103.165.93.31:8095/somoyTv/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/NEWS24 HD.png" group-title="News",NEWS24 HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/NEWS24%20HD.png" group-title="News",NEWS24 HD
 http://103.165.93.31:8095/news24/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/CHANNEL 24.png" group-title="News",CHANNEL 24
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/CHANNEL%2024.png" group-title="News",CHANNEL 24
 http://103.165.93.31:8095/channel24/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/ATN NEWS.png" group-title="News",ATN NEWS HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/ATN%20NEWS.png" group-title="News",ATN NEWS HD
 http://103.165.93.31:8095/atnNews/video.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/EKATTOR_TV.png" group-title="News",EKATTOR TV HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/EKATTOR_TV.png" group-title="News",EKATTOR TV HD
 http://103.165.93.31:8095/ekattorTv/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/JAMUNA TV.png" group-title="News",JAMUNA TV
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/JAMUNA%20TV.png" group-title="News",JAMUNA TV
 http://103.165.93.31:8095/jamunaTv/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/STAR JALSHA HD.png" group-title="Indian Bangla",STAR JALSHA HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/STAR%20JALSHA%20HD.png" group-title="Indian Bangla",STAR JALSHA HD
 http://103.165.93.31:8095/starJalsha/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/JALSHA MOVIES HD.png" group-title="Indian Bangla",JALSHA MOVIES HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/JALSHA%20MOVIES%20HD.png" group-title="Indian Bangla",JALSHA MOVIES HD
 http://103.165.93.31:8095/jalshaMovies/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/ZEE BANGLA HD.png" group-title="Indian Bangla",ZEE BANGLA HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/ZEE%20BANGLA%20HD.png" group-title="Indian Bangla",ZEE BANGLA HD
 http://103.165.93.31:8095/zeeBangla/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/ZEE BANGLA CINEMA.png" group-title="Indian Bangla",ZEE BANGLA CHINEMA HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/ZEE%20BANGLA%20CINEMA.png" group-title="Indian Bangla",ZEE BANGLA CHINEMA HD
 http://103.165.93.31:8095/zeeBanglaCinema/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/COLORS BANGLA HD.png" group-title="Indian Bangla",COLOR BANGLA HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/COLORS%20BANGLA%20HD.png" group-title="Indian Bangla",COLOR BANGLA HD
 http://103.165.93.31:8095/colorsBangla/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/COLORS BANGLA CINEMA.png" group-title="Indian Bangla",COLOR BANGLA CHINEMA HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/COLORS%20BANGLA%20CINEMA.png" group-title="Indian Bangla",COLOR BANGLA CHINEMA HD
 http://103.165.93.31:8095/colorsBanglaChinema/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/SONY AATH.png" group-title="Indian Bangla",SONY AATH
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/SONY%20AATH.png" group-title="Indian Bangla",SONY AATH
 http://103.165.93.31:8095/sonyAath/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/ENTERR 10 BANGLA.png" group-title="Indian Bangla",ENTER 10 BANGLA
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/ENTERR%2010%20BANGLA.png" group-title="Indian Bangla",ENTER 10 BANGLA
 http://103.165.93.31:8095/enter10Bangla/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/T SPORTS.png" group-title="Sports",TSPORTS HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/T%20SPORTS.png" group-title="Sports",TSPORTS HD
 http://103.165.93.31:8095/T-Sports/video.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/STAR SPORTS2 HD.png" group-title="Sports",STAR SPORTS2
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/STAR%20SPORTS2%20HD.png" group-title="Sports",STAR SPORTS2
 http://103.165.93.31:8095/starSports2/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/STAR SPORTS3.png" group-title="Sports",STAR SPORTS3
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/STAR%20SPORTS3.png" group-title="Sports",STAR SPORTS3
 http://103.165.93.31:8095/starSports3/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/STAR SPORTS SELECT1 HD.png" group-title="Sports",STAR SPORTS SELECT1 HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/STAR%20SPORTS%20SELECT1%20HD.png" group-title="Sports",STAR SPORTS SELECT1 HD
 http://103.165.93.31:8095/starSportsSelect1/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/STAR SPORTS SELECT2 HD.png" group-title="Sports",STAR SPORTS SELECT2 HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/STAR%20SPORTS%20SELECT2%20HD.png" group-title="Sports",STAR SPORTS SELECT2 HD
 http://103.165.93.31:8095/starSportsSelect2/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/SONY SPORTS1 HD.png" group-title="Sports",SONY SPORTS1 HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/SONY%20SPORTS1%20HD.png" group-title="Sports",SONY SPORTS1 HD
 http://103.165.93.31:8095/sonyTenSports1/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/SONY SPORTS2 HD.png" group-title="Sports",SONY SPORTS2 HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/SONY%20SPORTS2%20HD.png" group-title="Sports",SONY SPORTS2 HD
 http://103.165.93.31:8095/sonyTenSports2/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/SONY SPORTS3 HD.png" group-title="Sports",SONY SPORTS3 HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/SONY%20SPORTS3%20HD.png" group-title="Sports",SONY SPORTS3 HD
 http://103.165.93.31:8095/sonyTenSports3/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/SONY SPORTS4 HD.png" group-title="Sports",SONY SPORTS4 HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/SONY%20SPORTS4%20HD.png" group-title="Sports",SONY SPORTS4 HD
 http://103.165.93.31:8095/sonyTenSports4/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/SONY SPORTS5 HD.png" group-title="Sports",SONY SPORTS5 HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/SONY%20SPORTS5%20HD.png" group-title="Sports",SONY SPORTS5 HD
 http://103.165.93.31:8095/sonyTenSports5/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/PTV SPORTS HD.png" group-title="Sports",PTV
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/PTV%20SPORTS%20HD.png" group-title="Sports",PTV
 http://103.165.93.31:8095/ptv/video.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/EUROSPORTS HD.png" group-title="Sports",EURO SPORTS HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/EUROSPORTS%20HD.png" group-title="Sports",EURO SPORTS HD
 http://103.165.93.31:8095/euroSports/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/SONY MAX HD.png" group-title="Hindi",SONY MAX HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/SONY%20MAX%20HD.png" group-title="Hindi",SONY MAX HD
 http://103.165.93.31:8095/sonyMax/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/SONY ENTERTAINMENT HD.png" group-title="Hindi",SONY ENTERTAINMENT HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/SONY%20ENTERTAINMENT%20HD.png" group-title="Hindi",SONY ENTERTAINMENT HD
 http://103.165.93.31:8095/sonyEntertainment/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/STAR GOLD HD.png" group-title="Hindi",STAR GOLD HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/STAR%20GOLD%20HD.png" group-title="Hindi",STAR GOLD HD
 http://103.165.93.31:8095/STARGOLD/video.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/STAR PLUS HD.png" group-title="Hindi",STAR PLUS HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/STAR%20PLUS%20HD.png" group-title="Hindi",STAR PLUS HD
 http://103.165.93.31:8095/starPlus/video.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/STAR MOVIES HD.png" group-title="Hindi",STAR MOVIES HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/STAR%20MOVIES%20HD.png" group-title="Hindi",STAR MOVIES HD
 http://103.165.93.31:8095/STAR_PLUS/video.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/ZEE TV HD.png" group-title="Hindi",ZEE TV HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/ZEE%20TV%20HD.png" group-title="Hindi",ZEE TV HD
 http://103.165.93.31:8095/zeeTV/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/ZEE CINEMA HD.png" group-title="Hindi",ZEE CHINEMA HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/ZEE%20CINEMA%20HD.png" group-title="Hindi",ZEE CHINEMA HD
 http://103.151.61.12/Zee_Cinema_HD/video.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/COLORS HD.png" group-title="Hindi",COLOR HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/COLORS%20HD.png" group-title="Hindi",COLOR HD
 http://103.165.93.31:8095/colors/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/COLORS CINEPLEX HD.png" group-title="Hindi",COLOR CINEPLEX HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/COLORS%20CINEPLEX%20HD.png" group-title="Hindi",COLOR CINEPLEX HD
 http://103.165.93.31:8095/colorsCineplex/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/SANGEET BANGLA.png" group-title="Music",SANGEET BANGLA
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/SANGEET%20BANGLA.png" group-title="Music",SANGEET BANGLA
 http://103.165.93.31:8095/sangeetBangla/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/9XM MUSIC.png" group-title="Music",9XM MUSIC
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/9XM%20MUSIC.png" group-title="Music",9XM MUSIC
 http://103.165.93.31:8095/9xm/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/DISCOVERY HD.png" group-title="Documentary",DISCOVERY HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/DISCOVERY%20HD.png" group-title="Documentary",DISCOVERY HD
 http://103.165.93.31:8095/discovery/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/NATGEO HD.png" group-title="Documentary",NATIONAL GEOGRAPHIC HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/NATGEO%20HD.png" group-title="Documentary",NATIONAL GEOGRAPHIC HD
 http://103.165.93.31:8095/nationalGeographic/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/ANIMAL PLANET HD.png" group-title="Documentary",ANIMAL PLANET HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/ANIMAL%20PLANET%20HD.png" group-title="Documentary",ANIMAL PLANET HD
 http://103.165.93.31:8095/animalPlanet/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/CARTOON NETWORK.png" group-title="Kids",CARTOON NETWORK HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/CARTOON%20NETWORK.png" group-title="Kids",CARTOON NETWORK HD
 http://103.165.93.31:8095/cartoonNetwork/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/POGO.png" group-title="Kids",POGO
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/POGO.png" group-title="Kids",POGO
 http://103.165.93.31:8095/pogo/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/DURANTA TV.png" group-title="Kids",DURANTA
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/DURANTA%20TV.png" group-title="Kids",DURANTA
 http://103.165.93.31:8095/duranta/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/NICK.png" group-title="Kids",NICK
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/NICK.png" group-title="Kids",NICK
 http://103.165.93.31:8095/nick/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/NICK JR.png" group-title="Kids",NICK JR
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/NICK%20JR.png" group-title="Kids",NICK JR
 http://103.165.93.31:8095/nickJr/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/SONIC.png" group-title="Kids",SONIC
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/SONIC.png" group-title="Kids",SONIC
 http://103.165.93.31:8095/sonic/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/SONY YAY.png" group-title="Kids",SONY YAY
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/SONY%20YAY.png" group-title="Kids",SONY YAY
 http://103.165.93.31:8095/sonyYay/index.m3u8
 
-#EXTINF:-1 tvg-logo="img/channels/DISCOVERY KIDS.png" group-title="Kids",DISCOVERY KIDS HD
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/DISCOVERY%20KIDS.png" group-title="Kids",DISCOVERY KIDS HD
 http://103.165.93.31:8095/disnepKids/index.m3u8
