@@ -57,8 +57,8 @@ https://iptv-proxy.ahmed-bd-org.workers.dev/mohona-tv/index.m3u8
 #EXTINF:-1 tvg-id="bijoy-tv" tvg-name="BIJOY TV", BIJOY TV
 https://iptv-proxy.ahmed-bd-org.workers.dev/bijoy-tv/index.m3u8
 
-#EXTINF:-1 tvg-id="saamtv" tvg-name="SAAMTV", SAAMTV
-https://iptv-proxy.ahmed-bd-org.workers.dev/saamtv/index.m3u8
+#EXTINF:-1 tvg-id="sa-tv" tvg-name="SA TV", SA TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/sa-tv/index.m3u8
 
 #EXTINF:-1 tvg-id="ananda-tv" tvg-name="ANANDA TV", ANANDA TV
 https://iptv-proxy.ahmed-bd-org.workers.dev/ananda-tv/index.m3u8
