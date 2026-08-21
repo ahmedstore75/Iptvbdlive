@@ -7275,25 +7275,25 @@ https://iptvlive-beta.vercel.app/btv-world/index.m3u8
 #EXTINF:-1 tvg-id="btv-chittagong" tvg-name="BTV CHITTAGONG" tvg-logo="http://198.195.239.50/img/channels/BTV.HD.png", BTV CHITTAGONG
 https://iptvlive-beta.vercel.app/btv-chittagong/index.m3u8
 
-#EXTINF:-1 tvg-id="sangsad-tv" tvg-name="SANGSAD TV", SANGSAD TV
+#EXTINF:-1 tvg-id="sangsad-tv" tvg-name="SANGSAD TV" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1781166550297.png", SANGSAD TV
 https://iptvlive-beta.vercel.app/sangsad-tv/index.m3u8
 
-#EXTINF:-1 tvg-id="rtv" tvg-name="RTV", RTV
+#EXTINF:-1 tvg-id="rtv" tvg-name="RTV" tvg-logo="https://i.postimg.cc/fy1KcFJf/20240822_225533.png", RTV
 https://iptvlive-beta.vercel.app/rtv-3/index.m3u8
 
-#EXTINF:-1 tvg-id="ekushey-tv" tvg-name="EKUSHEY TV", EKUSHEY TV
+#EXTINF:-1 tvg-id="ekushey-tv" tvg-name="EKUSHEY TV" tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/c/cd/Ekushey_Television_logo_2000-2002%2C_2007.png", EKUSHEY TV
 https://iptvlive-beta.vercel.app/ekushey-tv-1/index.m3u8
 
 #EXTINF:-1 tvg-id="banglavision" tvg-name="BANGLAVISION" tvg-logo="http://198.195.239.50/img/channels/BANGLA_VISION.png", BANGLAVISION
 https://iptvlive-beta.vercel.app/banglavision/index.m3u8
 
-#EXTINF:-1 tvg-id="desh-tv" tvg-name="DESH TV", DESH TV
+#EXTINF:-1 tvg-id="desh-tv" tvg-name="DESH TV" tvg-logo="https://assets-prod.services.toffeelive.com/6Hz1PJwBcqxnFHJBhgkV/posters/845f1e3f-987a-47cc-a48d-ee12d8f4d419.png", DESH TV
 https://iptvlive-beta.vercel.app/desh-tv-3/index.m3u8
 
-#EXTINF:-1 tvg-id="my-tv" tvg-name="MY TV", MY TV
+#EXTINF:-1 tvg-id="my-tv" tvg-name="MY TV" tvg-logo="https://i.postimg.cc/HxGF4V2b/20250529_103226.png", MY TV
 https://iptvlive-beta.vercel.app/my-tv-2/index.m3u8
 
-#EXTINF:-1 tvg-id="asian-tv" tvg-name="ASIAN TV", ASIAN TV
+#EXTINF:-1 tvg-id="asian-tv" tvg-name="ASIAN TV" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/12/asiantv.jpg", ASIAN TV
 https://iptvlive-beta.vercel.app/asian-tv-1/index.m3u8
 
 #EXTINF:-1 tvg-id="maasranga-tv" tvg-name="MAASRANGA TV" tvg-logo="http://198.195.239.50/img/channels/MAASRANGA%20HD.png", MAASRANGA TV
@@ -7302,16 +7302,16 @@ https://iptvlive-beta.vercel.app/maasranga-tv-1/index.m3u8
 #EXTINF:-1 tvg-id="gazi-tv" tvg-name="GAZI TV" tvg-logo="http://198.195.239.50/img/channels/GTV.png", GAZI TV
 https://iptvlive-beta.vercel.app/gazi-tv/index.m3u8
 
-#EXTINF:-1 tvg-id="mohona-tv" tvg-name="MOHONA TV", MOHONA TV
+#EXTINF:-1 tvg-id="mohona-tv" tvg-name="MOHONA TV" tvg-logo="https://i.imgur.com/ENyPcL0.png", MOHONA TV
 https://iptvlive-beta.vercel.app/mohona-tv-1/index.m3u8
 
-#EXTINF:-1 tvg-id="sa-tv" tvg-name="SA TV", SA TV
+#EXTINF:-1 tvg-id="sa-tv" tvg-name="SA TV" tvg-logo="https://otapp.store/uploads/tv_image/sm/sa-tv.png", SA TV
 https://iptvlive-beta.vercel.app/sa-tv-2/index.m3u8
 
-#EXTINF:-1 tvg-id="ananda-tv" tvg-name="ANANDA TV", ANANDA TV
+#EXTINF:-1 tvg-id="ananda-tv" tvg-name="ANANDA TV" tvg-logo="https://assets-prod.services.toffeelive.com/wCM3l5sBEef-9-uVXFvD/posters/d80f7aee-5bd7-4edc-97eb-ead0e3ebbe09.png", ANANDA TV
 https://iptvlive-beta.vercel.app/ananda-tv-2/index.m3u8
 
-#EXTINF:-1 tvg-id="nagorik-tv" tvg-name="NAGORIK TV", NAGORIK TV
+#EXTINF:-1 tvg-id="nagorik-tv" tvg-name="NAGORIK TV" tvg-logo="https://i.postimg.cc/gjyb24hM/1000115063.jpg", NAGORIK TV
 https://iptvlive-beta.vercel.app/nagorik-tv/index.m3u8
 
 #EXTINF:-1 tvg-id="deepto-tv" tvg-name="DEEPTO TV" tvg-logo="http://198.195.239.50/img/channels/DEEPTO.png", DEEPTO TV
@@ -7320,14 +7320,14 @@ https://iptvlive-beta.vercel.app/deepto-tv-1/index.m3u8
 #EXTINF:-1 tvg-id="gan-bangla" tvg-name="GAN BANGLA", GAN BANGLA
 https://iptvlive-beta.vercel.app/gan-bangla/index.m3u8
 
-#EXTINF:-1 tvg-id="green-tv" tvg-name="GREEN TV", GREEN TV
+#EXTINF:-1 tvg-id="green-tv" tvg-name="GREEN TV" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Green%20TV.png", GREEN TV
 https://iptvlive-beta.vercel.app/green-tv-2/index.m3u8
 
-#EXTINF:-1 tvg-id="global-tv" tvg-name="GLOBAL TV", GLOBAL TV
+#EXTINF:-1 tvg-id="global-tv" tvg-name="GLOBAL TV" tvg-logo="https://assets-prod.services.toffeelive.com/0y_tDJsBNnOkwJLWNrdE/posters/2ff058e1-630f-4657-8dc6-b677e65642c5.png", GLOBAL TV
 https://iptvlive-beta.vercel.app/global-tv-2/index.m3u8
 
-#EXTINF:-1 tvg-id="eepl-news" tvg-name="EEPL NEWS", EEPL NEWS
-https://iptvlive-beta.vercel.app/eepl-news/index.m3u8
+#EXTINF:-1 tvg-id="bangla-tv" tvg-name="BANGLA TV" tvg-logo="https://otapp.store/uploads/tv_image/sm/bangla-tv.png", BANGLA TV
+https://iptvlive-beta.vercel.app/bangla-tv-2/index.m3u8
 
 #EXTINF:-1 tvg-id="somoy-tv" tvg-name="SOMOY TV" tvg-logo="http://198.195.239.50/img/channels/SOMOY%20TV.png", SOMOY TV
 https://iptvlive-beta.vercel.app/somoy-tv-2/index.m3u8
@@ -7335,16 +7335,16 @@ https://iptvlive-beta.vercel.app/somoy-tv-2/index.m3u8
 #EXTINF:-1 tvg-id="news-24" tvg-name="NEWS 24" tvg-logo="http://198.195.239.50/img/channels/NEWS24%20HD.png", NEWS 24
 https://iptvlive-beta.vercel.app/news-24-1/index.m3u8
 
-#EXTINF:-1 tvg-id="ekhon-tv" tvg-name="EKHON TV", EKHON TV
+#EXTINF:-1 tvg-id="ekhon-tv" tvg-name="EKHON TV" tvg-logo="https://assets-prod.services.toffeelive.com/o3v235oBcqxnFHJBkAdC/posters/159af631-796d-4342-a2a7-c272f32bcd32.png", EKHON TV
 https://iptvlive-beta.vercel.app/ekhon-tv-1/index.m3u8
 
-#EXTINF:-1 tvg-id="nexus-tv" tvg-name="NEXUS TV", NEXUS TV
+#EXTINF:-1 tvg-id="nexus-tv" tvg-name="NEXUS TV" tvg-logo="https://assets-prod.services.toffeelive.com/FHz5PJwBcqxnFHJBdAqW/posters/419869ac-8ddf-4909-86c1-b69f0a3adf13.png", NEXUS TV
 https://iptvlive-beta.vercel.app/nexus-tv/index.m3u8
 
 #EXTINF:-1 tvg-id="tsports" tvg-name="TSPORTS" tvg-logo="http://198.195.239.50/img/channels/T%20SPORTS.png", TSPORTS
 https://iptvlive-beta.vercel.app/tsports/index.m3u8
 
-#EXTINF:-1 tvg-id="asports" tvg-name="ASPORTS", ASPORTS
+#EXTINF:-1 tvg-id="asports" tvg-name="ASPORTS" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_552c5631b1d8ba169911ab3d7bc3952a_playmist_a_sports_hd_400x400.jpg", ASPORTS
 https://iptvlive-beta.vercel.app/asports/index.m3u8
 
 #EXTINF:-1 tvg-id="star-sports-1" tvg-name="STAR SPORTS 1", STAR SPORTS 1
@@ -7383,7 +7383,7 @@ https://iptvlive-beta.vercel.app/ptv-sports-2/index.m3u8
 #EXTINF:-1 tvg-id="eurosport" tvg-name="EUROSPORT" tvg-logo="http://198.195.239.50/img/channels/EUROSPORTS%20HD.png", EUROSPORT
 https://iptvlive-beta.vercel.app/eurosport/index.m3u8
 
-#EXTINF:-1 tvg-id="willow" tvg-name="WILLOW", WILLOW
+#EXTINF:-1 tvg-id="willow" tvg-name="WILLOW" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-09/images_1bb4b50bd8e39a63808ed6fa38beb0df_playmist_willow_hd_tv_400x400.jpg", WILLOW
 https://iptvlive-beta.vercel.app/willow/index.m3u8
 
 #EXTINF:-1 tvg-id="willow-extra" tvg-name="WILLOW EXTRA", WILLOW EXTRA
@@ -7437,7 +7437,7 @@ https://iptvlive-beta.vercel.app/zee-cinema/index.m3u8
 #EXTINF:-1 tvg-id="star-gold" tvg-name="STAR GOLD" tvg-logo="http://198.195.239.50/img/channels/STAR%20GOLD%20HD.png", STAR GOLD
 https://iptvlive-beta.vercel.app/star-gold/index.m3u8
 
-#EXTINF:-1 tvg-id="star-gold-select" tvg-name="STAR GOLD SELECT", STAR GOLD SELECT
+#EXTINF:-1 tvg-id="star-gold-select" tvg-name="STAR GOLD SELECT" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Gold_Select_HD.png", STAR GOLD SELECT
 https://iptvlive-beta.vercel.app/star-gold-select/index.m3u8
 
 #EXTINF:-1 tvg-id="star-movies" tvg-name="STAR MOVIES" tvg-logo="http://198.195.239.50/img/channels/STAR%20MOVIES%20HD.png", STAR MOVIES
@@ -7446,10 +7446,10 @@ https://iptvlive-beta.vercel.app/star-movies/index.m3u8
 #EXTINF:-1 tvg-id="sony-max" tvg-name="SONY MAX" tvg-logo="http://198.195.239.50/img/channels/SONY%20MAX%20HD.png", SONY MAX
 https://iptvlive-beta.vercel.app/sony-max/index.m3u8
 
-#EXTINF:-1 tvg-id="sony-max-2" tvg-name="SONY MAX 2", SONY MAX 2
+#EXTINF:-1 tvg-id="sony-max-2" tvg-name="SONY MAX 2" tvg-logo="https://assets-prod.services.toffeelive.com/Ii5_-JQBv9knK3AHLDV3/posters/d961cc87-81b6-4b30-8414-8c0af2774818.webp", SONY MAX 2
 https://iptvlive-beta.vercel.app/sony-max-2-1/index.m3u8
 
-#EXTINF:-1 tvg-id="and-pictures" tvg-name="AND PICTURES", AND PICTURES
+#EXTINF:-1 tvg-id="and-pictures" tvg-name="AND PICTURES" tvg-logo="https://assets-prod.services.toffeelive.com/5cwRnZUBtpl-Sbt7wWrN/posters/5779ade3-e9ba-4107-b3da-bae6f891500a.png", AND PICTURES
 https://iptvlive-beta.vercel.app/and-pictures/index.m3u8
 
 #EXTINF:-1 tvg-id="colors-cineplex" tvg-name="COLORS CINEPLEX" tvg-logo="http://198.195.239.50/img/channels/COLORS%20CINEPLEX%20HD.png", COLORS CINEPLEX
