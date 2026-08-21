@@ -1,0 +1,265 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="btv" tvg-name="BTV" tvg-logo="https://198.195.239.50/img/channels/BTV.HD.png", BTV
+https://iptv-proxy.ahmed-bd-org.workers.dev/btv/index.m3u8
+
+#EXTINF:-1 tvg-id="btv-world" tvg-name="BTV WORLD" tvg-logo="https://198.195.239.50/img/channels/BTV.HD.png", BTV WORLD
+https://iptv-proxy.ahmed-bd-org.workers.dev/btv-world/index.m3u8
+
+#EXTINF:-1 tvg-id="btv-chittagong" tvg-name="BTV CHITTAGONG" tvg-logo="https://198.195.239.50/img/channels/BTV.HD.png", BTV CHITTAGONG
+https://iptv-proxy.ahmed-bd-org.workers.dev/btv-chittagong/index.m3u8
+
+#EXTINF:-1 tvg-id="sangsad-tv" tvg-name="SANGSAD TV" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1781166550297.png", SANGSAD TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/sangsad-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="atn-bangla" tvg-name="ATN BANGLA" tvg-logo="https://198.195.239.50/img/channels/ATN%20BANGLA.png", ATN BANGLA
+https://iptv-proxy.ahmed-bd-org.workers.dev/atn-bangla/index.m3u8
+
+#EXTINF:-1 tvg-id="channel-i" tvg-name="CHANNEL I" tvg-logo="https://198.195.239.50/img/channels/CHANNEL%20I.png", CHANNEL I
+https://iptv-proxy.ahmed-bd-org.workers.dev/channel-i/index.m3u8
+
+#EXTINF:-1 tvg-id="ntv" tvg-name="NTV" tvg-logo="https://198.195.239.50/img/channels/NTV.png", NTV
+https://iptv-proxy.ahmed-bd-org.workers.dev/ntv/index.m3u8
+
+#EXTINF:-1 tvg-id="rtv" tvg-name="RTV" tvg-logo="https://i.postimg.cc/fy1KcFJf/20240822_225533.png", RTV
+https://iptv-proxy.ahmed-bd-org.workers.dev/rtv/index.m3u8
+
+#EXTINF:-1 tvg-id="ekushey-tv" tvg-name="EKUSHEY TV" tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/c/cd/Ekushey_Television_logo_2000-2002%2C_2007.png", EKUSHEY TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/ekushey-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="banglavision" tvg-name="BANGLAVISION" tvg-logo="https://198.195.239.50/img/channels/BANGLA_VISION.png", BANGLAVISION
+https://iptv-proxy.ahmed-bd-org.workers.dev/banglavision/index.m3u8
+
+#EXTINF:-1 tvg-id="boishakhi-tv" tvg-name="BOISHAKHI TV" tvg-logo="https://i.postimg.cc/Kv4y2cWq/1000115157.webp", BOISHAKHI TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/boishakhi-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="desh-tv" tvg-name="DESH TV" tvg-logo="https://assets-prod.services.toffeelive.com/6Hz1PJwBcqxnFHJBhgkV/posters/845f1e3f-987a-47cc-a48d-ee12d8f4d419.png", DESH TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/desh-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="my-tv" tvg-name="MY TV" tvg-logo="https://i.postimg.cc/HxGF4V2b/20250529_103226.png", MY TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/my-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="asian-tv" tvg-name="ASIAN TV" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/12/asiantv.jpg", ASIAN TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/asian-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="maasranga-tv" tvg-name="MAASRANGA TV" tvg-logo="https://198.195.239.50/img/channels/MAASRANGA%20HD.png", MAASRANGA TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/maasranga-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="channel-9" tvg-name="CHANNEL 9" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770188008067.png", CHANNEL 9
+https://iptv-proxy.ahmed-bd-org.workers.dev/channel-9/index.m3u8
+
+#EXTINF:-1 tvg-id="gazi-tv" tvg-name="GAZI TV" tvg-logo="https://198.195.239.50/img/channels/GTV.png", GAZI TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/gazi-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="mohona-tv" tvg-name="MOHONA TV" tvg-logo="https://i.imgur.com/ENyPcL0.png", MOHONA TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/mohona-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="bijoy-tv" tvg-name="BIJOY TV" tvg-logo="https://i.postimg.cc/Tw4qxSqv/20240822-230126.png", BIJOY TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/bijoy-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="sa-tv" tvg-name="SA TV" tvg-logo="https://otapp.store/uploads/tv_image/sm/sa-tv.png", SA TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/sa-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="ananda-tv" tvg-name="ANANDA TV" tvg-logo="https://assets-prod.services.toffeelive.com/wCM3l5sBEef-9-uVXFvD/posters/d80f7aee-5bd7-4edc-97eb-ead0e3ebbe09.png", ANANDA TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/ananda-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="nagorik-tv" tvg-name="NAGORIK TV" tvg-logo="https://i.postimg.cc/gjyb24hM/1000115063.jpg", NAGORIK TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/nagorik-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="deepto-tv" tvg-name="DEEPTO TV" tvg-logo="https://198.195.239.50/img/channels/DEEPTO.png", DEEPTO TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/deepto-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="gan-bangla" tvg-name="GAN BANGLA", GAN BANGLA
+https://iptv-proxy.ahmed-bd-org.workers.dev/gan-bangla/index.m3u8
+
+#EXTINF:-1 tvg-id="duronto-tv" tvg-name="DURONTO TV" tvg-logo="https://198.195.239.50/img/channels/DURANTA%20TV.png", DURONTO TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/duronto-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="green-tv" tvg-name="GREEN TV" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Green%20TV.png", GREEN TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/green-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="global-tv" tvg-name="GLOBAL TV" tvg-logo="https://assets-prod.services.toffeelive.com/0y_tDJsBNnOkwJLWNrdE/posters/2ff058e1-630f-4657-8dc6-b677e65642c5.png", GLOBAL TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/global-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="bangla-tv" tvg-name="BANGLA TV" tvg-logo="https://otapp.store/uploads/tv_image/sm/bangla-tv.png", BANGLA TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/bangla-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="somoy-tv" tvg-name="SOMOY TV" tvg-logo="https://198.195.239.50/img/channels/SOMOY%20TV.png", SOMOY TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/somoy-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="independent-tv" tvg-name="INDEPENDENT TV" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png", INDEPENDENT TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/independent-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="channel-24" tvg-name="CHANNEL 24" tvg-logo="https://198.195.239.50/img/channels/CHANNEL%2024.png", CHANNEL 24
+https://iptv-proxy.ahmed-bd-org.workers.dev/channel-24/index.m3u8
+
+#EXTINF:-1 tvg-id="ekattor-tv" tvg-name="EKATTOR TV" tvg-logo="https://198.195.239.50/img/channels/EKATTOR_TV.png", EKATTOR TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/ekattor-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="jamuna-tv" tvg-name="JAMUNA TV" tvg-logo="https://198.195.239.50/img/channels/JAMUNA%20TV.png", JAMUNA TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/jamuna-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="dbc-news" tvg-name="DBC NEWS" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770186306600.png", DBC NEWS
+https://iptv-proxy.ahmed-bd-org.workers.dev/dbc-news/index.m3u8
+
+#EXTINF:-1 tvg-id="atn-news" tvg-name="ATN NEWS" tvg-logo="https://198.195.239.50/img/channels/ATN%20NEWS.png", ATN NEWS
+https://iptv-proxy.ahmed-bd-org.workers.dev/atn-news/index.m3u8
+
+#EXTINF:-1 tvg-id="news-24" tvg-name="NEWS 24" tvg-logo="https://198.195.239.50/img/channels/NEWS24%20HD.png", NEWS 24
+https://iptv-proxy.ahmed-bd-org.workers.dev/news-24/index.m3u8
+
+#EXTINF:-1 tvg-id="ekhon-tv" tvg-name="EKHON TV" tvg-logo="https://assets-prod.services.toffeelive.com/o3v235oBcqxnFHJBkAdC/posters/159af631-796d-4342-a2a7-c272f32bcd32.png", EKHON TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/ekhon-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="nexus-tv" tvg-name="NEXUS TV" tvg-logo="https://assets-prod.services.toffeelive.com/FHz5PJwBcqxnFHJBdAqW/posters/419869ac-8ddf-4909-86c1-b69f0a3adf13.png", NEXUS TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/nexus-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="tsports" tvg-name="TSPORTS" tvg-logo="https://198.195.239.50/img/channels/T%20SPORTS.png", TSPORTS
+https://iptv-proxy.ahmed-bd-org.workers.dev/tsports/index.m3u8
+
+#EXTINF:-1 tvg-id="asports" tvg-name="ASPORTS" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_552c5631b1d8ba169911ab3d7bc3952a_playmist_a_sports_hd_400x400.jpg", ASPORTS
+https://iptv-proxy.ahmed-bd-org.workers.dev/asports/index.m3u8
+
+#EXTINF:-1 tvg-id="star-sports-1" tvg-name="STAR SPORTS 1", STAR SPORTS 1
+https://iptv-proxy.ahmed-bd-org.workers.dev/star-sports-1/index.m3u8
+
+#EXTINF:-1 tvg-id="star-sports-2" tvg-name="STAR SPORTS 2" tvg-logo="https://198.195.239.50/img/channels/STAR%20SPORTS2%20HD.png", STAR SPORTS 2
+https://iptv-proxy.ahmed-bd-org.workers.dev/star-sports-2/index.m3u8
+
+#EXTINF:-1 tvg-id="star-sports-3" tvg-name="STAR SPORTS 3" tvg-logo="https://198.195.239.50/img/channels/STAR%20SPORTS3.png", STAR SPORTS 3
+https://iptv-proxy.ahmed-bd-org.workers.dev/star-sports-3/index.m3u8
+
+#EXTINF:-1 tvg-id="star-sports-select-1" tvg-name="STAR SPORTS SELECT 1" tvg-logo="https://198.195.239.50/img/channels/STAR%20SPORTS%20SELECT1%20HD.png", STAR SPORTS SELECT 1
+https://iptv-proxy.ahmed-bd-org.workers.dev/star-sports-select-1/index.m3u8
+
+#EXTINF:-1 tvg-id="star-sports-select-2" tvg-name="STAR SPORTS SELECT 2" tvg-logo="https://198.195.239.50/img/channels/STAR%20SPORTS%20SELECT2%20HD.png", STAR SPORTS SELECT 2
+https://iptv-proxy.ahmed-bd-org.workers.dev/star-sports-select-2/index.m3u8
+
+#EXTINF:-1 tvg-id="sony-sports-ten-1" tvg-name="SONY SPORTS TEN 1" tvg-logo="https://198.195.239.50/img/channels/SONY%20SPORTS1%20HD.png", SONY SPORTS TEN 1
+https://iptv-proxy.ahmed-bd-org.workers.dev/sony-sports-ten-1/index.m3u8
+
+#EXTINF:-1 tvg-id="sony-sports-ten-2" tvg-name="SONY SPORTS TEN 2" tvg-logo="https://198.195.239.50/img/channels/SONY%20SPORTS2%20HD.png", SONY SPORTS TEN 2
+https://iptv-proxy.ahmed-bd-org.workers.dev/sony-sports-ten-2/index.m3u8
+
+#EXTINF:-1 tvg-id="sony-sports-ten-3" tvg-name="SONY SPORTS TEN 3" tvg-logo="https://198.195.239.50/img/channels/SONY%20SPORTS3%20HD.png", SONY SPORTS TEN 3
+https://iptv-proxy.ahmed-bd-org.workers.dev/sony-sports-ten-3/index.m3u8
+
+#EXTINF:-1 tvg-id="sony-sports-ten-4" tvg-name="SONY SPORTS TEN 4" tvg-logo="https://198.195.239.50/img/channels/SONY%20SPORTS4%20HD.png", SONY SPORTS TEN 4
+https://iptv-proxy.ahmed-bd-org.workers.dev/sony-sports-ten-4/index.m3u8
+
+#EXTINF:-1 tvg-id="sony-sports-ten-5" tvg-name="SONY SPORTS TEN 5" tvg-logo="https://198.195.239.50/img/channels/SONY%20SPORTS5%20HD.png", SONY SPORTS TEN 5
+https://iptv-proxy.ahmed-bd-org.workers.dev/sony-sports-ten-5/index.m3u8
+
+#EXTINF:-1 tvg-id="ptv-sports" tvg-name="PTV SPORTS" tvg-logo="https://198.195.239.50/img/channels/PTV%20SPORTS%20HD.png", PTV SPORTS
+https://iptv-proxy.ahmed-bd-org.workers.dev/ptv-sports/index.m3u8
+
+#EXTINF:-1 tvg-id="eurosport" tvg-name="EUROSPORT" tvg-logo="https://198.195.239.50/img/channels/EUROSPORTS%20HD.png", EUROSPORT
+https://iptv-proxy.ahmed-bd-org.workers.dev/eurosport/index.m3u8
+
+#EXTINF:-1 tvg-id="willow" tvg-name="WILLOW" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-09/images_1bb4b50bd8e39a63808ed6fa38beb0df_playmist_willow_hd_tv_400x400.jpg", WILLOW
+https://iptv-proxy.ahmed-bd-org.workers.dev/willow/index.m3u8
+
+#EXTINF:-1 tvg-id="willow-extra" tvg-name="WILLOW EXTRA", WILLOW EXTRA
+https://iptv-proxy.ahmed-bd-org.workers.dev/willow-extra/index.m3u8
+
+#EXTINF:-1 tvg-id="sports-18-1" tvg-name="SPORTS 18 1", SPORTS 18 1
+https://iptv-proxy.ahmed-bd-org.workers.dev/sports-18-1/index.m3u8
+
+#EXTINF:-1 tvg-id="star-jalsha" tvg-name="STAR JALSHA" tvg-logo="https://198.195.239.50/img/channels/STAR%20JALSHA%20HD.png", STAR JALSHA
+https://iptv-proxy.ahmed-bd-org.workers.dev/star-jalsha/index.m3u8
+
+#EXTINF:-1 tvg-id="zee-bangla" tvg-name="ZEE BANGLA" tvg-logo="https://198.195.239.50/img/channels/ZEE%20BANGLA%20HD.png", ZEE BANGLA
+https://iptv-proxy.ahmed-bd-org.workers.dev/zee-bangla/index.m3u8
+
+#EXTINF:-1 tvg-id="colors-bangla" tvg-name="COLORS BANGLA" tvg-logo="https://198.195.239.50/img/channels/COLORS%20BANGLA%20HD.png", COLORS BANGLA
+https://iptv-proxy.ahmed-bd-org.workers.dev/colors-bangla/index.m3u8
+
+#EXTINF:-1 tvg-id="sony-aath" tvg-name="SONY AATH" tvg-logo="https://198.195.239.50/img/channels/SONY%20AATH.png", SONY AATH
+https://iptv-proxy.ahmed-bd-org.workers.dev/sony-aath/index.m3u8
+
+#EXTINF:-1 tvg-id="enterr10-bangla" tvg-name="ENTERR10 BANGLA" tvg-logo="https://198.195.239.50/img/channels/ENTERR%2010%20BANGLA.png", ENTERR10 BANGLA
+https://iptv-proxy.ahmed-bd-org.workers.dev/enterr10-bangla/index.m3u8
+
+#EXTINF:-1 tvg-id="star-plus" tvg-name="STAR PLUS" tvg-logo="https://198.195.239.50/img/channels/STAR%20PLUS%20HD.png", STAR PLUS
+https://iptv-proxy.ahmed-bd-org.workers.dev/star-plus/index.m3u8
+
+#EXTINF:-1 tvg-id="sony-sab" tvg-name="SONY SAB", SONY SAB
+https://iptv-proxy.ahmed-bd-org.workers.dev/sony-sab/index.m3u8
+
+#EXTINF:-1 tvg-id="zee-tv" tvg-name="ZEE TV" tvg-logo="https://198.195.239.50/img/channels/ZEE%20TV%20HD.png", ZEE TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/zee-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="colors-tv" tvg-name="COLORS TV" tvg-logo="https://198.195.239.50/img/channels/COLORS%20HD.png", COLORS TV
+https://iptv-proxy.ahmed-bd-org.workers.dev/colors-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="sony-entertainment" tvg-name="SONY ENTERTAINMENT" tvg-logo="https://198.195.239.50/img/channels/SONY%20ENTERTAINMENT%20HD.png", SONY ENTERTAINMENT
+https://iptv-proxy.ahmed-bd-org.workers.dev/sony-entertainment/index.m3u8
+
+#EXTINF:-1 tvg-id="jalsha-movies" tvg-name="JALSHA MOVIES" tvg-logo="https://198.195.239.50/img/channels/JALSHA%20MOVIES%20HD.png", JALSHA MOVIES
+https://iptv-proxy.ahmed-bd-org.workers.dev/jalsha-movies/index.m3u8
+
+#EXTINF:-1 tvg-id="zee-bangla-cinema" tvg-name="ZEE BANGLA CINEMA" tvg-logo="https://198.195.239.50/img/channels/ZEE%20BANGLA%20CINEMA.png", ZEE BANGLA CINEMA
+https://iptv-proxy.ahmed-bd-org.workers.dev/zee-bangla-cinema/index.m3u8
+
+#EXTINF:-1 tvg-id="colors-bangla-cinema" tvg-name="COLORS BANGLA CINEMA" tvg-logo="https://198.195.239.50/img/channels/COLORS%20BANGLA%20CINEMA.png", COLORS BANGLA CINEMA
+https://iptv-proxy.ahmed-bd-org.workers.dev/colors-bangla-cinema/index.m3u8
+
+#EXTINF:-1 tvg-id="zee-cinema" tvg-name="ZEE CINEMA" tvg-logo="https://198.195.239.50/img/channels/ZEE%20CINEMA%20HD.png", ZEE CINEMA
+https://iptv-proxy.ahmed-bd-org.workers.dev/zee-cinema/index.m3u8
+
+#EXTINF:-1 tvg-id="star-gold" tvg-name="STAR GOLD" tvg-logo="https://198.195.239.50/img/channels/STAR%20GOLD%20HD.png", STAR GOLD
+https://iptv-proxy.ahmed-bd-org.workers.dev/star-gold/index.m3u8
+
+#EXTINF:-1 tvg-id="star-gold-select" tvg-name="STAR GOLD SELECT" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Gold_Select_HD.png", STAR GOLD SELECT
+https://iptv-proxy.ahmed-bd-org.workers.dev/star-gold-select/index.m3u8
+
+#EXTINF:-1 tvg-id="star-movies" tvg-name="STAR MOVIES" tvg-logo="https://198.195.239.50/img/channels/STAR%20MOVIES%20HD.png", STAR MOVIES
+https://iptv-proxy.ahmed-bd-org.workers.dev/star-movies/index.m3u8
+
+#EXTINF:-1 tvg-id="sony-max" tvg-name="SONY MAX" tvg-logo="https://198.195.239.50/img/channels/SONY%20MAX%20HD.png", SONY MAX
+https://iptv-proxy.ahmed-bd-org.workers.dev/sony-max/index.m3u8
+
+#EXTINF:-1 tvg-id="sony-max-2" tvg-name="SONY MAX 2" tvg-logo="https://assets-prod.services.toffeelive.com/Ii5_-JQBv9knK3AHLDV3/posters/d961cc87-81b6-4b30-8414-8c0af2774818.webp", SONY MAX 2
+https://iptv-proxy.ahmed-bd-org.workers.dev/sony-max-2/index.m3u8
+
+#EXTINF:-1 tvg-id="and-pictures" tvg-name="AND PICTURES" tvg-logo="https://assets-prod.services.toffeelive.com/5cwRnZUBtpl-Sbt7wWrN/posters/5779ade3-e9ba-4107-b3da-bae6f891500a.png", AND PICTURES
+https://iptv-proxy.ahmed-bd-org.workers.dev/and-pictures/index.m3u8
+
+#EXTINF:-1 tvg-id="colors-cineplex" tvg-name="COLORS CINEPLEX" tvg-logo="https://198.195.239.50/img/channels/COLORS%20CINEPLEX%20HD.png", COLORS CINEPLEX
+https://iptv-proxy.ahmed-bd-org.workers.dev/colors-cineplex/index.m3u8
+
+#EXTINF:-1 tvg-id="sangeet-bangla" tvg-name="SANGEET BANGLA" tvg-logo="https://198.195.239.50/img/channels/SANGEET%20BANGLA.png", SANGEET BANGLA
+https://iptv-proxy.ahmed-bd-org.workers.dev/sangeet-bangla/index.m3u8
+
+#EXTINF:-1 tvg-id="9xm" tvg-name="9XM" tvg-logo="https://198.195.239.50/img/channels/9XM%20MUSIC.png", 9XM
+https://iptv-proxy.ahmed-bd-org.workers.dev/9xm/index.m3u8
+
+#EXTINF:-1 tvg-id="discovery" tvg-name="DISCOVERY" tvg-logo="https://198.195.239.50/img/channels/DISCOVERY%20HD.png", DISCOVERY
+https://iptv-proxy.ahmed-bd-org.workers.dev/discovery/index.m3u8
+
+#EXTINF:-1 tvg-id="nat-geo" tvg-name="NAT GEO" tvg-logo="https://198.195.239.50/img/channels/NATGEO%20HD.png", NAT GEO
+https://iptv-proxy.ahmed-bd-org.workers.dev/nat-geo/index.m3u8
+
+#EXTINF:-1 tvg-id="animal-planet" tvg-name="ANIMAL PLANET" tvg-logo="https://198.195.239.50/img/channels/ANIMAL%20PLANET%20HD.png", ANIMAL PLANET
+https://iptv-proxy.ahmed-bd-org.workers.dev/animal-planet/index.m3u8
+
+#EXTINF:-1 tvg-id="cartoon-network" tvg-name="CARTOON NETWORK" tvg-logo="https://198.195.239.50/img/channels/CARTOON%20NETWORK.png", CARTOON NETWORK
+https://iptv-proxy.ahmed-bd-org.workers.dev/cartoon-network/index.m3u8
+
+#EXTINF:-1 tvg-id="pogo" tvg-name="POGO" tvg-logo="https://198.195.239.50/img/channels/POGO.png", POGO
+https://iptv-proxy.ahmed-bd-org.workers.dev/pogo/index.m3u8
+
+#EXTINF:-1 tvg-id="nick" tvg-name="NICK" tvg-logo="https://198.195.239.50/img/channels/NICK.png", NICK
+https://iptv-proxy.ahmed-bd-org.workers.dev/nick/index.m3u8
+
+#EXTINF:-1 tvg-id="nick-jr" tvg-name="NICK JR" tvg-logo="https://198.195.239.50/img/channels/NICK%20JR.png", NICK JR
+https://iptv-proxy.ahmed-bd-org.workers.dev/nick-jr/index.m3u8
+
+#EXTINF:-1 tvg-id="sonic" tvg-name="SONIC" tvg-logo="https://198.195.239.50/img/channels/SONIC.png", SONIC
+https://iptv-proxy.ahmed-bd-org.workers.dev/sonic/index.m3u8
+
+#EXTINF:-1 tvg-id="sony-yay" tvg-name="SONY YAY" tvg-logo="https://198.195.239.50/img/channels/SONY%20YAY.png", SONY YAY
+https://iptv-proxy.ahmed-bd-org.workers.dev/sony-yay/index.m3u8
+
+#EXTINF:-1 tvg-id="discovery-kids" tvg-name="DISCOVERY KIDS" tvg-logo="https://198.195.239.50/img/channels/DISCOVERY%20KIDS.png", DISCOVERY KIDS
+https://iptv-proxy.ahmed-bd-org.workers.dev/discovery-kids/index.m3u8
