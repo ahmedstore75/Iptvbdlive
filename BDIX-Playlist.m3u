@@ -48,11 +48,8 @@ https://iptvlive-beta.vercel.app/channel-9-hd/index.m3u8
 #EXTINF:-1 tvg-id="132" tvg-name="Channel I HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1740567626692.png" group-title="Entertainment",Channel I HD
 https://iptvlive-beta.vercel.app/channel-i-hd/index.m3u8
 
-#EXTINF:-1 tvg-id="191" tvg-name="Star News" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770189826301.png" group-title="News",Star News
+#EXTINF:-1 tvg-id="191" tvg-name="Star News" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770189826301.png" group-title="News",Star Newshttp://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/starnewsbd.stream/tracks-v1a1/mono.m3u8
 https://iptvlive-beta.vercel.app/star-news/index.m3u8
-
-#EXTINF:-1 tvg-id="240" tvg-name="BTV Shangshad" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1781166550297.png" group-title="News",BTV Shangshad
-https://iptvlive-beta.vercel.app/btv-shangshad/index.m3u8
 
 #EXTINF:-4 tvg-logo="https://dl.dropbox.com/s/leielj83em5kg7h/somoy_news.png" group-title="BANGLA",SOMOY TV
 https://iptvlive-beta.vercel.app/somoy-tv/index.m3u8
@@ -7143,9 +7140,6 @@ https://iptvlive-beta.vercel.app/international/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Bangladeshi 🇧🇩" tvg-logo=" ", Arabica TV
 https://iptvlive-beta.vercel.app/arabica-tv/index.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Bangladeshi 🇧🇩" tvg-logo=" ", Desh TV
-https://iptvlive-beta.vercel.app/desh-tv-2/index.m3u8
-
 #EXTINF:-1 tvg-logo="" group-title="Bangladeshi 🇧🇩" tvg-logo=" ",pcv
 https://iptvlive-beta.vercel.app/pcv/index.m3u8
 
@@ -7288,7 +7282,7 @@ https://iptvlive-beta.vercel.app/ekushey-tv-1/index.m3u8
 https://iptvlive-beta.vercel.app/banglavision/index.m3u8
 
 #EXTINF:-1 tvg-id="desh-tv" tvg-name="DESH TV" tvg-logo="https://assets-prod.services.toffeelive.com/6Hz1PJwBcqxnFHJBhgkV/posters/845f1e3f-987a-47cc-a48d-ee12d8f4d419.png", DESH TV
-https://iptvlive-beta.vercel.app/desh-tv-3/index.m3u8
+https://iptvlive-beta.vercel.app/desh-tv-2/index.m3u8
 
 #EXTINF:-1 tvg-id="my-tv" tvg-name="MY TV" tvg-logo="https://i.postimg.cc/HxGF4V2b/20250529_103226.png", MY TV
 https://iptvlive-beta.vercel.app/my-tv-2/index.m3u8
