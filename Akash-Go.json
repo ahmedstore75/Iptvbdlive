@@ -1054,10 +1054,7 @@
         "accept-encoding": "gzip"
       },
       "logo": "https://assets-prod.services.toffeelive.com/QMwWnZUBtpl-Sbt7S2sx/posters/8cad9a82-842a-47bf-a060-f17011f11c07.png"
-    }
-  ]
-}
-[
+    },
   {
     "name": "Somoy tv",
     "group": "News",
@@ -1349,5 +1346,6 @@
     "group": "Infotainment",
     "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1783925099346.png",
     "url": "https://7lsc33jopp.gpcdn.net/bpk-tv/1720/output/index.m3u8"
-  }
-]
+    }
+  ]
+}
