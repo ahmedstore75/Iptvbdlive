@@ -441,9 +441,6 @@ https://iptvlive-beta.vercel.app/sangeet-bhojpuri/index.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/Qx3GZn6T/20240823_024117.png",T Sports HD
 https://iptvlive-beta.vercel.app/t-sports-hd/index.m3u8
 
-#EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/rFKBNjwP/Ptvsportslogo2023.webp",PTV Sports
-https://iptvlive-beta.vercel.app/ptv-sports/index.m3u8
-
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/0yzwt46Q/20241126-220214.png",Ten Cricket
 https://iptvlive-beta.vercel.app/ten-cricket/index.m3u8
 
@@ -526,7 +523,7 @@ https://iptvlive-beta.vercel.app/india-today/index.m3u8
 https://iptvlive-beta.vercel.app/iran-press/index.m3u8
 
 #EXTINF:-1 tvg-name="PTV Sports" tvg-logo="https://s3.aynaott.com/storage/9d9d7cbfba5a8ceea648bbd963ad1014" group-title="Sports",PTV Sports
-https://iptvlive-beta.vercel.app/ptv-sports-1/index.m3u8
+https://iptvlive-beta.vercel.app/ptv-sports/index.m3u8
 
 #EXTINF:-1 tvg-id="tsn_1" tvg-name="TSN 1" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-20/images_d165c628a0db9286da3914ca916a4971_playmist_tsn_1400x400.jpg",TSN 1
 https://iptvlive-beta.vercel.app/tsn-1/index.m3u8
@@ -2272,7 +2269,7 @@ https://iptvlive-beta.vercel.app/sony-sports-ten-4/index.m3u8
 https://iptvlive-beta.vercel.app/sony-sports-ten-5/index.m3u8
 
 #EXTINF:-1 tvg-id="ptv-sports" tvg-name="PTV SPORTS" tvg-logo="http://198.195.239.50/img/channels/PTV%20SPORTS%20HD.png", PTV SPORTS
-https://iptvlive-beta.vercel.app/ptv-sports-2/index.m3u8
+https://iptvlive-beta.vercel.app/ptv-sports-1/index.m3u8
 
 #EXTINF:-1 tvg-id="eurosport" tvg-name="EUROSPORT" tvg-logo="http://198.195.239.50/img/channels/EUROSPORTS%20HD.png", EUROSPORT
 https://iptvlive-beta.vercel.app/eurosport/index.m3u8
@@ -2870,9 +2867,6 @@ https://iptvlive-beta.vercel.app/toffee-movies/index.m3u8
 
 #EXTINF:-1 tvg-name="EPL channel 1" tvg-logo="https://assets-prod.services.toffeelive.com/JS1AqZgBNnOkwJLWlwg-/posters/f030066c-0649-4d82-836f-c85321381d67.png" group-title="Toffee",EPL channel 1
 https://iptvlive-beta.vercel.app/epl-channel-1/index.m3u8
-
-#EXTINF:-1 tvg-name="BFL | Live 1" tvg-logo="https://assets-prod.services.toffeelive.com/HHnAgJkBcqxnFHJBabwO/posters/7817f96d-50b5-4618-8a8b-41cba7a62fb9.png" group-title="Toffee",BFL | Live 1
-https://iptvlive-beta.vercel.app/bfl-live-1/index.m3u8
 
 #EXTINF:-1 tvg-name="WC Match Recap" tvg-logo="https://assets-prod.services.toffeelive.com/V__o054BObUt2AG6LL5C/posters/84590b8d-6430-4ba8-a0a5-757bf2f57c05.png" group-title="Toffee",WC Match Recap
 https://iptvlive-beta.vercel.app/wc-match-recap/index.m3u8
