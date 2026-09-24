@@ -2859,12 +2859,6 @@ https://iptvlive-beta.vercel.app/bantul-the-great/index.m3u8
 #EXTINF:-1,group-title="Cartoon",RONGEEN TV
 https://iptvlive-beta.vercel.app/group-title-cartoon-rongeen-tv/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/nick-hindi.png" group-title="Cartoon",Nick Hindi
-https://iptvlive-beta.vercel.app/nick-hindi/index.m3u8
-
-#EXTINF:-1 tvg-name="Toffee Movies" tvg-logo="" group-title="Toffee",Toffee Movies
-https://iptvlive-beta.vercel.app/toffee-movies/index.m3u8
-
 #EXTINF:-1 tvg-name="EPL channel 1" tvg-logo="" group-title="Toffee",EPL channel 1
 https://iptvlive-beta.vercel.app/epl-channel-1/index.m3u8
 
