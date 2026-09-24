@@ -2859,6 +2859,12 @@ https://iptvlive-beta.vercel.app/bantul-the-great/index.m3u8
 #EXTINF:-1,group-title="Cartoon",RONGEEN TV
 https://iptvlive-beta.vercel.app/group-title-cartoon-rongeen-tv/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/nick-hindi.png" group-title="Cartoon",Nick Hindi
+https://iptvlive-beta.vercel.app/nick-hindi/index.m3u8
+
+#EXTINF:-1 tvg-name="Toffee Movies" tvg-logo="" group-title="Toffee",Toffee Movies
+https://iptvlive-beta.vercel.app/toffee-movies/index.m3u8
+
 #EXTINF:-1 tvg-name="EPL channel 1" tvg-logo="" group-title="Toffee",EPL channel 1
 https://iptvlive-beta.vercel.app/epl-channel-1/index.m3u8
 
@@ -2964,32 +2970,8 @@ https://iptvlive-beta.vercel.app/sony-ten-sports-5-hd/index.m3u8
 #EXTINF:-1 tvg-name="Sony Ten Cricket" tvg-logo="" group-title="Toffee",Sony Ten Cricket
 https://iptvlive-beta.vercel.app/sony-ten-cricket/index.m3u8
 
-#EXTINF:-1 tvg-name="Cartoon Network HD +" tvg-logo="" group-title="Toffee",Cartoon Network HD +
-https://iptvlive-beta.vercel.app/cartoon-network-hd/index.m3u8
-
-#EXTINF:-1 tvg-name="Cartoon Network" tvg-logo="" group-title="Toffee",Cartoon Network
-https://iptvlive-beta.vercel.app/cartoon-network-1/index.m3u8
-
-#EXTINF:-1 tvg-name="POGO" tvg-logo="" group-title="Toffee",POGO
-https://iptvlive-beta.vercel.app/pogo-2/index.m3u8
-
-#EXTINF:-1 tvg-name="Discovery Kids" tvg-logo="" group-title="Toffee",Discovery Kids
-https://iptvlive-beta.vercel.app/discovery-kids-4/index.m3u8
-
 #EXTINF:-1 tvg-name="Sony YAY" tvg-logo="" group-title="Toffee",Sony YAY
 https://iptvlive-beta.vercel.app/sony-yay-2/index.m3u8
-
-#EXTINF:-1 tvg-name="Zee Bangla" tvg-logo="" group-title="Toffee",Zee Bangla
-https://iptvlive-beta.vercel.app/zee-bangla-2/index.m3u8
-
-#EXTINF:-1 tvg-name="Zee Anmol" tvg-logo="" group-title="Toffee",Zee Anmol
-https://iptvlive-beta.vercel.app/zee-anmol/index.m3u8
-
-#EXTINF:-1 tvg-name="Zing" tvg-logo="" group-title="Toffee",Zing
-https://iptvlive-beta.vercel.app/zing/index.m3u8
-
-#EXTINF:-1 tvg-name="HUM" tvg-logo="" group-title="Toffee",HUM
-https://iptvlive-beta.vercel.app/hum/index.m3u8
 
 #EXTINF:-1 tvg-name="HUM Masala" tvg-logo="" group-title="Toffee",HUM Masala
 https://iptvlive-beta.vercel.app/hum-masala/index.m3u8
@@ -3226,10 +3208,10 @@ https://iptvlive-beta.vercel.app/national-geographic-hd-1/index.m3u8
 https://iptvlive-beta.vercel.app/animal-planet-hd-2/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/CARTOON%20NETWORK.png" group-title="Kids",CARTOON NETWORK HD
-https://iptvlive-beta.vercel.app/cartoon-network-hd-1/index.m3u8
+https://iptvlive-beta.vercel.app/cartoon-network-hd/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/POGO.png" group-title="Kids",POGO
-https://iptvlive-beta.vercel.app/pogo-3/index.m3u8
+https://iptvlive-beta.vercel.app/pogo-2/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/DURANTA%20TV.png" group-title="Kids",DURANTA
 https://iptvlive-beta.vercel.app/duranta/index.m3u8
