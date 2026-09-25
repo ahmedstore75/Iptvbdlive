@@ -2871,6 +2871,9 @@ https://iptvlive-beta.vercel.app/epl-channel-1/index.m3u8
 #EXTINF:-1 tvg-name="BFL | Live 1" tvg-logo="https://assets-prod.services.toffeelive.com/HHnAgJkBcqxnFHJBabwO/posters/75840160-3f7d-4939-a562-37d44c616e87.png" group-title="Toffee",BFL | Live 1
 https://iptvlive-beta.vercel.app/bfl-live-1/index.m3u8
 
+#EXTINF:-1 tvg-name="WC Match Recap" tvg-logo="https://assets-prod.services.toffeelive.com/V__o054BObUt2AG6LL5C/posters/84590b8d-6430-4ba8-a0a5-757bf2f57c05.png" group-title="Toffee",WC Match Recap
+https://iptvlive-beta.vercel.app/wc-match-recap/index.m3u8
+
 #EXTINF:-1 tvg-name="CNN" tvg-logo="https://assets-prod.services.toffeelive.com/VC6Q-JQBv9knK3AHhTXt/posters/63e79814-8fcf-4c3e-bb66-408b2a402613.webp" group-title="Toffee",CNN
 https://iptvlive-beta.vercel.app/cnn-1/index.m3u8
 
