@@ -3084,6 +3084,9 @@ https://iptvlive-beta.vercel.app/investigation-discovery-hd/index.m3u8
 #EXTINF:-1 tvg-name="&TV HD" tvg-logo="https://assets-prod.services.toffeelive.com/5cwRnZUBtpl-Sbt7wWrN/posters/5779ade3-e9ba-4107-b3da-bae6f891500a.png" group-title="Toffee",&TV HD
 https://iptvlive-beta.vercel.app/tv-hd/index.m3u8
 
+#EXTINF:-1 tvg-name="& Pictures HD" tvg-logo="https://assets-prod.services.toffeelive.com/QMwWnZUBtpl-Sbt7S2sx/posters/8cad9a82-842a-47bf-a060-f17011f11c07.png" group-title="Toffee",& Pictures HD
+https://iptvlive-beta.vercel.app/pictures-hd/index.m3u8
+
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/BTV.HD.png" group-title="Bangla",BTV
 https://iptvlive-beta.vercel.app/btv-2/index.m3u8
 
