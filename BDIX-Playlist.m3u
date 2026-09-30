@@ -2973,18 +2973,6 @@ https://iptvlive-beta.vercel.app/cartoon-network-hd/index.m3u8
 #EXTINF:-1 tvg-name="Cartoon Network" tvg-logo="https://assets-prod.services.toffeelive.com/mC6W-JQBv9knK3AHfDWA/posters/d2a02d82-fde4-4769-a6d9-95c0560e2120.webp" group-title="Toffee",Cartoon Network
 https://iptvlive-beta.vercel.app/cartoon-network-1/index.m3u8
 
-#EXTINF:-1 tvg-name="POGO" tvg-logo="https://assets-prod.services.toffeelive.com/ny6W-JQBv9knK3AHujXC/posters/7e7c2afe-a663-4c09-983a-2d0fa0f1ca9a.webp" group-title="Toffee",POGO
-https://iptvlive-beta.vercel.app/pogo-2/index.m3u8
-
-#EXTINF:-1 tvg-name="Discovery Kids" tvg-logo="https://assets-prod.services.toffeelive.com/1i6e-JQBv9knK3AHHTXR/posters/325887a7-84ea-4cf9-a6fd-6111ddc25671.webp" group-title="Toffee",Discovery Kids
-https://iptvlive-beta.vercel.app/discovery-kids-4/index.m3u8
-
-#EXTINF:-1 tvg-name="Sony YAY" tvg-logo="https://assets-prod.services.toffeelive.com/IC5_-JQBv9knK3AHFDXh/posters/36df4012-80f2-4a98-9970-3b663f62093f.webp" group-title="Toffee",Sony YAY
-https://iptvlive-beta.vercel.app/sony-yay-2/index.m3u8
-
-#EXTINF:-1 tvg-name="Zee Bangla" tvg-logo="https://assets-prod.services.toffeelive.com/kK2aX5UBrjBfS2_RBcKf/posters/ba5dd8dc-4f87-414a-b57f-c9ecdeda5253.png" group-title="Toffee",Zee Bangla
-https://iptvlive-beta.vercel.app/zee-bangla-2/index.m3u8
-
 #EXTINF:-1 tvg-name="Zee Anmol" tvg-logo="https://assets-prod.services.toffeelive.com/7x0Jd5YBEef-9-uVv_Gy/posters/f9c07bfc-9fde-40d0-91a1-e28c5840f400.png" group-title="Toffee",Zee Anmol
 https://iptvlive-beta.vercel.app/zee-anmol/index.m3u8
 
@@ -3232,7 +3220,7 @@ https://iptvlive-beta.vercel.app/animal-planet-hd-2/index.m3u8
 https://iptvlive-beta.vercel.app/cartoon-network-hd-1/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/POGO.png" group-title="Kids",POGO
-https://iptvlive-beta.vercel.app/pogo-3/index.m3u8
+https://iptvlive-beta.vercel.app/pogo-2/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/DURANTA%20TV.png" group-title="Kids",DURANTA
 https://iptvlive-beta.vercel.app/duranta/index.m3u8
@@ -3247,7 +3235,7 @@ https://iptvlive-beta.vercel.app/nick-jr-1/index.m3u8
 https://iptvlive-beta.vercel.app/sonic-1/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/SONY%20YAY.png" group-title="Kids",SONY YAY
-https://iptvlive-beta.vercel.app/sony-yay-3/index.m3u8
+https://iptvlive-beta.vercel.app/sony-yay-2/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/DISCOVERY%20KIDS.png" group-title="Kids",DISCOVERY KIDS HD
 https://iptvlive-beta.vercel.app/discovery-kids-hd/index.m3u8
