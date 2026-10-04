@@ -534,9 +534,6 @@ https://iptvlive-beta.vercel.app/willow-tv/index.m3u8
 #EXTINF:-1 tvg-id="bein_sports_1" tvg-name="Bein Sports 1" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-09/images_02eb54f07cbc8c01db3c545aca60d37c_playmist_4g.jpg",Bein Sports 1
 https://iptvlive-beta.vercel.app/bein-sports-1/index.m3u8
 
-#EXTINF:-1 tvg-name="Bleav Football" tvg-logo="https://s3.aynaott.com/storage/030ec528e912afb9a2ec3b4c5167a928" group-title="Sports",Bleav Football
-https://iptvlive-beta.vercel.app/bleav-football/index.m3u8
-
 #EXTINF:-1 tvg-name="Espn" tvg-logo="https://s3.aynaott.com/storage/b46df1959322aa48d270a6b163234c76" group-title="Sports",Espn
 https://iptvlive-beta.vercel.app/espn/index.m3u8
 
@@ -2891,21 +2888,6 @@ https://iptvlive-beta.vercel.app/global-tv-3/index.m3u8
 
 #EXTINF:-1 tvg-name="Channel S" tvg-logo="https://assets-prod.services.toffeelive.com/WyPuDJsBEef-9-uVUA_z/posters/ea20055c-a824-443c-8083-ce8e2da8b922.png" group-title="Toffee",Channel S
 https://iptvlive-beta.vercel.app/channel-s-1/index.m3u8
-
-#EXTINF:-1 tvg-name="Rajdhani TV" tvg-logo="https://assets-prod.services.toffeelive.com/KECGB54BuUSiBsg_dHyj/posters/58af9c58-ed80-458c-af13-cf381680cec6.png" group-title="Toffee",Rajdhani TV
-https://iptvlive-beta.vercel.app/rajdhani-tv/index.m3u8
-
-#EXTINF:-1 tvg-name="Bangla TV" tvg-logo="https://assets-prod.services.toffeelive.com/JiK-_poBEef-9-uVZv6L/posters/757a328e-70d6-45de-b093-0a843c69ade7.png" group-title="Toffee",Bangla TV
-https://iptvlive-beta.vercel.app/bangla-tv-3/index.m3u8
-
-#EXTINF:-1 tvg-name="Asian TV" tvg-logo="https://assets-prod.services.toffeelive.com/MyK__poBEef-9-uVmf5l/posters/1eadef5b-28e7-4dc2-b42f-c67a3357c9a0.png" group-title="Toffee",Asian TV
-https://iptvlive-beta.vercel.app/asian-tv-3/index.m3u8
-
-#EXTINF:-1 tvg-name="Channel i" tvg-logo="https://assets-prod.services.toffeelive.com/qnv835oBcqxnFHJBuQcB/posters/348dfac3-c1e0-485d-a72b-3d282c9e2c73.png" group-title="Toffee",Channel i
-https://iptvlive-beta.vercel.app/channel-i-1/index.m3u8
-
-#EXTINF:-1 tvg-name="Movie Bangla" tvg-logo="https://assets-prod.services.toffeelive.com/CXz4PJwBcqxnFHJBPwrG/posters/2f913e34-3a6c-45e6-9f1f-97bf129a2ff5.png" group-title="Toffee",Movie Bangla
-https://iptvlive-beta.vercel.app/movie-bangla-3/index.m3u8
 
 #EXTINF:-1 tvg-name="Nexus TV" tvg-logo="https://assets-prod.services.toffeelive.com/FHz5PJwBcqxnFHJBdAqW/posters/419869ac-8ddf-4909-86c1-b69f0a3adf13.png" group-title="Toffee",Nexus TV
 https://iptvlive-beta.vercel.app/nexus-tv-1/index.m3u8
