@@ -2883,6 +2883,9 @@ https://iptvlive-beta.vercel.app/epl-channel-5/index.m3u8
 #EXTINF:-1 tvg-name="AWSN TV" tvg-logo="https://assets-prod.services.toffeelive.com/F9UM56ABalKyvLQIr9B1/posters/26081e64-671e-44a8-95ba-a692bfaae49c.jpeg" group-title="Toffee",AWSN TV
 https://iptvlive-beta.vercel.app/awsn-tv/index.m3u8
 
+#EXTINF:-1 tvg-name="BFL | Live 1" tvg-logo="https://assets-prod.services.toffeelive.com/HHnAgJkBcqxnFHJBabwO/posters/feb54585-d123-4815-b548-ef7014df6e5d.png" group-title="Toffee",BFL | Live 1
+https://iptvlive-beta.vercel.app/bfl-live-1/index.m3u8
+
 #EXTINF:-1 tvg-name="WC Match Recap" tvg-logo="https://assets-prod.services.toffeelive.com/V__o054BObUt2AG6LL5C/posters/84590b8d-6430-4ba8-a0a5-757bf2f57c05.png" group-title="Toffee",WC Match Recap
 https://iptvlive-beta.vercel.app/wc-match-recap/index.m3u8
 
@@ -2967,20 +2970,26 @@ https://iptvlive-beta.vercel.app/cgtn-3/index.m3u8
 #EXTINF:-1 tvg-name="Eurosport HD" tvg-logo="https://assets-prod.services.toffeelive.com/Uy6Q-JQBv9knK3AHcDUQ/posters/01709bcd-6d53-4710-a64f-bc49cecf1d61.webp" group-title="Toffee",Eurosport HD
 https://iptvlive-beta.vercel.app/eurosport-hd/index.m3u8
 
+#EXTINF:-1 tvg-name="Saudi Sunnah" tvg-logo="https://assets-prod.services.toffeelive.com/JNQA_58BalKyvLQIhiVD/posters/11e764bf-7969-4dcb-a94c-937a3bde2a7f.png" group-title="Toffee",Saudi Sunnah
+https://iptvlive-beta.vercel.app/saudi-sunnah/index.m3u8
+
+#EXTINF:-1 tvg-name="Saudi Quran" tvg-logo="https://assets-prod.services.toffeelive.com/FdT9_p8BalKyvLQIpCUP/posters/6b39f2c6-6fe8-4720-a986-379e09968b5b.png" group-title="Toffee",Saudi Quran
+https://iptvlive-beta.vercel.app/saudi-quran-1/index.m3u8
+
+#EXTINF:-1 tvg-name="Sony Ten Sports 1 HD" tvg-logo="https://assets-prod.services.toffeelive.com/py5j-JQBv9knK3AHxDTY/posters/ea3358b9-2bec-4615-a889-daa2e396c74c.webp" group-title="Toffee",Sony Ten Sports 1 HD
+https://iptvlive-beta.vercel.app/sony-ten-sports-1-hd/index.m3u8
+
+#EXTINF:-1 tvg-name="Sony Ten Sports 2 HD" tvg-logo="https://assets-prod.services.toffeelive.com/sy5m-JQBv9knK3AHYTTk/posters/5e40bf0e-633f-4d37-a3b2-3d606f0ac19a.png" group-title="Toffee",Sony Ten Sports 2 HD
+https://iptvlive-beta.vercel.app/sony-ten-sports-2-hd/index.m3u8
+
+#EXTINF:-1 tvg-name="Sony Ten Sports 5 HD " tvg-logo="https://assets-prod.services.toffeelive.com/vi5n-JQBv9knK3AHqzTC/posters/d171fd4d-0369-4213-b0c5-e241974f5459.png" group-title="Toffee",Sony Ten Sports 5 HD
+https://iptvlive-beta.vercel.app/sony-ten-sports-5-hd/index.m3u8
+
+#EXTINF:-1 tvg-name="Sony Ten Cricket" tvg-logo="https://assets-prod.services.toffeelive.com/ra2x_pQBrjBfS2_RWG9l/posters/795170c2-ec78-457e-9fa0-54a23d23361c.webp" group-title="Toffee",Sony Ten Cricket
+https://iptvlive-beta.vercel.app/sony-ten-cricket/index.m3u8
+
 #EXTINF:-1 tvg-name="Cartoon Network HD +" tvg-logo="https://assets-prod.services.toffeelive.com/1y6e-JQBv9knK3AHNDWb/posters/ee9ba01b-1bcf-436b-b273-7b857f0810fb.webp" group-title="Toffee",Cartoon Network HD +
 https://iptvlive-beta.vercel.app/cartoon-network-hd/index.m3u8
-
-#EXTINF:-1 tvg-name="Cartoon Network" tvg-logo="https://assets-prod.services.toffeelive.com/mC6W-JQBv9knK3AHfDWA/posters/d2a02d82-fde4-4769-a6d9-95c0560e2120.webp" group-title="Toffee",Cartoon Network
-https://iptvlive-beta.vercel.app/cartoon-network-1/index.m3u8
-
-#EXTINF:-1 tvg-name="POGO" tvg-logo="https://assets-prod.services.toffeelive.com/ny6W-JQBv9knK3AHujXC/posters/7e7c2afe-a663-4c09-983a-2d0fa0f1ca9a.webp" group-title="Toffee",POGO
-https://iptvlive-beta.vercel.app/pogo-2/index.m3u8
-
-#EXTINF:-1 tvg-name="Discovery Kids" tvg-logo="https://assets-prod.services.toffeelive.com/1i6e-JQBv9knK3AHHTXR/posters/325887a7-84ea-4cf9-a6fd-6111ddc25671.webp" group-title="Toffee",Discovery Kids
-https://iptvlive-beta.vercel.app/discovery-kids-4/index.m3u8
-
-#EXTINF:-1 tvg-name="Sony YAY" tvg-logo="https://assets-prod.services.toffeelive.com/IC5_-JQBv9knK3AHFDXh/posters/36df4012-80f2-4a98-9970-3b663f62093f.webp" group-title="Toffee",Sony YAY
-https://iptvlive-beta.vercel.app/sony-yay-2/index.m3u8
 
 #EXTINF:-1 tvg-name="Zee Bangla" tvg-logo="https://assets-prod.services.toffeelive.com/kK2aX5UBrjBfS2_RBcKf/posters/ba5dd8dc-4f87-414a-b57f-c9ecdeda5253.png" group-title="Toffee",Zee Bangla
 https://iptvlive-beta.vercel.app/zee-bangla-2/index.m3u8
@@ -3232,7 +3241,7 @@ https://iptvlive-beta.vercel.app/animal-planet-hd-2/index.m3u8
 https://iptvlive-beta.vercel.app/cartoon-network-hd-1/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/POGO.png" group-title="Kids",POGO
-https://iptvlive-beta.vercel.app/pogo-3/index.m3u8
+https://iptvlive-beta.vercel.app/pogo-2/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/DURANTA%20TV.png" group-title="Kids",DURANTA
 https://iptvlive-beta.vercel.app/duranta/index.m3u8
@@ -3247,7 +3256,7 @@ https://iptvlive-beta.vercel.app/nick-jr-1/index.m3u8
 https://iptvlive-beta.vercel.app/sonic-1/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/SONY%20YAY.png" group-title="Kids",SONY YAY
-https://iptvlive-beta.vercel.app/sony-yay-3/index.m3u8
+https://iptvlive-beta.vercel.app/sony-yay-2/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/DISCOVERY%20KIDS.png" group-title="Kids",DISCOVERY KIDS HD
 https://iptvlive-beta.vercel.app/discovery-kids-hd/index.m3u8
