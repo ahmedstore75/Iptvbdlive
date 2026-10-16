@@ -2886,9 +2886,6 @@ https://iptvlive-beta.vercel.app/epl-channel-3/index.m3u8
 #EXTINF:-1 tvg-name="EPL Channel 4" tvg-logo="https://assets-prod.services.toffeelive.com/OyEz-ZgBEef-9-uVnhcx/posters/065c754d-3080-47cf-a2f0-1e3cc5f3e849.png" group-title="Toffee",EPL Channel 4
 https://iptvlive-beta.vercel.app/epl-channel-4/index.m3u8
 
-#EXTINF:-1 tvg-name="EPL Channel 5" tvg-logo="https://assets-prod.services.toffeelive.com/6CHi_5gBEef-9-uV-Bx_/posters/97d10d6c-95a5-4b31-8871-50e46d3c81fc.png" group-title="Toffee",EPL Channel 5
-https://iptvlive-beta.vercel.app/epl-channel-5/index.m3u8
-
 #EXTINF:-1 tvg-name="AWSN TV" tvg-logo="https://assets-prod.services.toffeelive.com/F9UM56ABalKyvLQIr9B1/posters/26081e64-671e-44a8-95ba-a692bfaae49c.jpeg" group-title="Toffee",AWSN TV
 https://iptvlive-beta.vercel.app/awsn-tv/index.m3u8
 
@@ -3081,6 +3078,21 @@ https://iptvlive-beta.vercel.app/tlc-1/index.m3u8
 #EXTINF:-1 tvg-name="Animal Planet" tvg-logo="https://assets-prod.services.toffeelive.com/Ny61-JQBv9knK3AHgzZ7/posters/0909b36a-afd5-426a-93b3-4512800977db.webp" group-title="Toffee",Animal Planet
 https://iptvlive-beta.vercel.app/animal-planet-1/index.m3u8
 
+#EXTINF:-1 tvg-name="Animal Planet HD" tvg-logo="https://assets-prod.services.toffeelive.com/Ni61-JQBv9knK3AHcDYc/posters/c16e8633-6b2a-401a-9cd6-ac26a4fcdedb.webp" group-title="Toffee",Animal Planet HD
+https://iptvlive-beta.vercel.app/animal-planet-hd-1/index.m3u8
+
+#EXTINF:-1 tvg-name="Sony BBC Earth HD" tvg-logo="https://assets-prod.services.toffeelive.com/MC6C-JQBv9knK3AHUzUT/posters/a8c32fd3-2ba7-437c-85ac-de2f1b2fa6ca.webp" group-title="Toffee",Sony BBC Earth HD
+https://iptvlive-beta.vercel.app/sony-bbc-earth-hd/index.m3u8
+
+#EXTINF:-1 tvg-name="Discovery HD" tvg-logo="https://assets-prod.services.toffeelive.com/KC6x-JQBv9knK3AHqjYc/posters/55e554f1-dbbb-47bd-97fe-fca878726c4c.webp" group-title="Toffee",Discovery HD
+https://iptvlive-beta.vercel.app/discovery-hd-2/index.m3u8
+
+#EXTINF:-1 tvg-name="Discovery" tvg-logo="https://assets-prod.services.toffeelive.com/KS6x-JQBv9knK3AHwDZy/posters/6594d216-aaca-4eee-b6f5-bbc6b80feb15.webp" group-title="Toffee",Discovery
+https://iptvlive-beta.vercel.app/discovery-1/index.m3u8
+
+#EXTINF:-1 tvg-name="Discovery Science" tvg-logo="https://assets-prod.services.toffeelive.com/AS6s-JQBv9knK3AHDTZb/posters/eab8fd0f-9351-464c-b45e-332f38b49f4b.webp" group-title="Toffee",Discovery Science
+https://iptvlive-beta.vercel.app/discovery-science/index.m3u8
+
 #EXTINF:-1 tvg-name="Discovery Turbo" tvg-logo="https://assets-prod.services.toffeelive.com/Ay6s-JQBv9knK3AHJTY1/posters/e8f65578-e82d-4e4a-a1ff-073becc5bd71.webp" group-title="Toffee",Discovery Turbo
 https://iptvlive-beta.vercel.app/discovery-turbo/index.m3u8
 
@@ -3229,13 +3241,13 @@ https://iptvlive-beta.vercel.app/sangeet-bangla-3/index.m3u8
 https://iptvlive-beta.vercel.app/9xm-music/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/DISCOVERY%20HD.png" group-title="Documentary",DISCOVERY HD
-https://iptvlive-beta.vercel.app/discovery-hd-2/index.m3u8
+https://iptvlive-beta.vercel.app/discovery-hd-3/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/NATGEO%20HD.png" group-title="Documentary",NATIONAL GEOGRAPHIC HD
 https://iptvlive-beta.vercel.app/national-geographic-hd-1/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/ANIMAL%20PLANET%20HD.png" group-title="Documentary",ANIMAL PLANET HD
-https://iptvlive-beta.vercel.app/animal-planet-hd-1/index.m3u8
+https://iptvlive-beta.vercel.app/animal-planet-hd-2/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/CARTOON%20NETWORK.png" group-title="Kids",CARTOON NETWORK HD
 https://iptvlive-beta.vercel.app/cartoon-network-hd-1/index.m3u8
