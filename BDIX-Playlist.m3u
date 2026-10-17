@@ -2886,9 +2886,6 @@ https://iptvlive-beta.vercel.app/epl-channel-3/index.m3u8
 #EXTINF:-1 tvg-name="EPL Channel 4" tvg-logo="https://assets-prod.services.toffeelive.com/OyEz-ZgBEef-9-uVnhcx/posters/065c754d-3080-47cf-a2f0-1e3cc5f3e849.png" group-title="Toffee",EPL Channel 4
 https://iptvlive-beta.vercel.app/epl-channel-4/index.m3u8
 
-#EXTINF:-1 tvg-name="AWSN TV" tvg-logo="https://assets-prod.services.toffeelive.com/F9UM56ABalKyvLQIr9B1/posters/26081e64-671e-44a8-95ba-a692bfaae49c.jpeg" group-title="Toffee",AWSN TV
-https://iptvlive-beta.vercel.app/awsn-tv/index.m3u8
-
 #EXTINF:-1 tvg-name="CNN" tvg-logo="https://assets-prod.services.toffeelive.com/VC6Q-JQBv9knK3AHhTXt/posters/63e79814-8fcf-4c3e-bb66-408b2a402613.webp" group-title="Toffee",CNN
 https://iptvlive-beta.vercel.app/cnn-1/index.m3u8
 
