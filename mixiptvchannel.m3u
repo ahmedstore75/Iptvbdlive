@@ -452,7 +452,7 @@ https://live20.bozztv.com/giatvplayout7/giatv-209587/tracks-v1a1/mono.ts.m3u8
 http://103.175.73.12:8080/live/379/379_0.m3u8
 
 #EXTINF:-1 group-title="Music" tvg-logo="https://i.postimg.cc/0N2VWksB/channels4-profile.jpg",B4U Music
-http://103.175.73.12:8080/live/157/master.m3u8
+https://wiselp.wiseplayout.com/9X_Jhakaas/master.m3u8
 
 #EXTINF:-1 group-title="Music" tvg-logo="https://i.postimg.cc/NFKqPkBP/image.png",PTC Music
 https://d2lk5u59tns74c.cloudfront.net/out/v1/f913cf893c594f73b114216e74a2efbc/index.m3u8
@@ -464,7 +464,7 @@ https://mumt04.tangotv.in/m18aqlK4EPICMUSIC/index.m3u8
 https://wiselp.wiseplayout.com/9X_Tashan/master.m3u8
 
 #EXTINF:-1 group-title="Music" tvg-logo="https://i.postimg.cc/BnSQC8xm/unnamed.jpg",9X Jalwa
-https://wiselp.wiseplayout.com/9X_Jhakaas/master.m3u8
+https://wiselp.wiseplayout.com/9X_Jalwa/master.m3u8
 
 #EXTINF:-1 group-title="Music" tvg-logo="https://i.postimg.cc/VkxZ8tD2/76-Tamil-channel.webp",7S Music
 http://103.175.73.12:8080/live/771/master.m3u8
