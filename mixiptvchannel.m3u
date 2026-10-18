@@ -461,10 +461,10 @@ https://d2lk5u59tns74c.cloudfront.net/out/v1/f913cf893c594f73b114216e74a2efbc/in
 https://mumt04.tangotv.in/m18aqlK4EPICMUSIC/index.m3u8
 
 #EXTINF:-1 group-title="Music" tvg-logo="https://i.postimg.cc/SRKS6TwR/20240823_022008.png",9XM
-http://103.175.73.12:8080/live/155/155_0.m3u8
+https://wiselp.wiseplayout.com/9X_Tashan/master.m3u8
 
 #EXTINF:-1 group-title="Music" tvg-logo="https://i.postimg.cc/BnSQC8xm/unnamed.jpg",9X Jalwa
-http://103.175.73.12:8080/live/161/master.m3u8
+https://wiselp.wiseplayout.com/9X_Jhakaas/master.m3u8
 
 #EXTINF:-1 group-title="Music" tvg-logo="https://i.postimg.cc/VkxZ8tD2/76-Tamil-channel.webp",7S Music
 http://103.175.73.12:8080/live/771/master.m3u8
