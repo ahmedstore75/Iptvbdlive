@@ -2547,6 +2547,9 @@ https://iptvlive-beta.vercel.app/bfl-live-3/index.m3u8
 #EXTINF:-1 tvg-name="AWSN TV" tvg-logo="https://assets-prod.services.toffeelive.com/F9UM56ABalKyvLQIr9B1/posters/26081e64-671e-44a8-95ba-a692bfaae49c.jpeg" group-title="Toffee",AWSN TV
 https://iptvlive-beta.vercel.app/awsn-tv/index.m3u8
 
+#EXTINF:-1 tvg-name="SAFF Live 1" tvg-logo="https://assets-prod.services.toffeelive.com/itdbVKEBalKyvLQI94RR/posters/f92c276c-543c-40db-b9f0-a53b86c497a2.png" group-title="Toffee",SAFF Live 1
+https://iptvlive-beta.vercel.app/saff-live-1/index.m3u8
+
 #EXTINF:-1 tvg-name="CNN" tvg-logo="https://assets-prod.services.toffeelive.com/VC6Q-JQBv9knK3AHhTXt/posters/63e79814-8fcf-4c3e-bb66-408b2a402613.webp" group-title="Toffee",CNN
 https://iptvlive-beta.vercel.app/cnn/index.m3u8
 
@@ -2714,6 +2717,21 @@ https://iptvlive-beta.vercel.app/sony-max-1/index.m3u8
 
 #EXTINF:-1 tvg-name="Sony PIX HD" tvg-logo="https://assets-prod.services.toffeelive.com/Ly6C-JQBv9knK3AHOjXt/posters/252e64ca-8d99-46e7-a951-e10c1703c11d.webp" group-title="Toffee",Sony PIX HD
 https://iptvlive-beta.vercel.app/sony-pix-hd/index.m3u8
+
+#EXTINF:-1 tvg-name="Zee Cafe" tvg-logo="https://assets-prod.services.toffeelive.com/U3QEd5YBcqxnFHJBpYzc/posters/8bc7ae1b-1a46-4b76-bdb1-13c7dbd3a95c.png" group-title="Toffee",Zee Cafe
+https://iptvlive-beta.vercel.app/zee-cafe/index.m3u8
+
+#EXTINF:-1 tvg-name="B4U Movies APAC" tvg-logo="https://assets-prod.services.toffeelive.com/PC6F-JQBv9knK3AHlTUO/posters/fb0243ba-39a0-4101-a78c-c197be550c6c.webp" group-title="Toffee",B4U Movies APAC
+https://iptvlive-beta.vercel.app/b4u-movies-apac/index.m3u8
+
+#EXTINF:-1 tvg-name="Sony MAX 2" tvg-logo="https://assets-prod.services.toffeelive.com/Ii5_-JQBv9knK3AHLDV3/posters/d961cc87-81b6-4b30-8414-8c0af2774818.webp" group-title="Toffee",Sony MAX 2
+https://iptvlive-beta.vercel.app/sony-max-2-2/index.m3u8
+
+#EXTINF:-1 tvg-name="Zee Cinema HD" tvg-logo="https://assets-prod.services.toffeelive.com/5y7HX5UBv9knK3AHs6Nk/posters/7582fb79-c15f-4247-ba5b-1d2dd27f3d71.png" group-title="Toffee",Zee Cinema HD
+https://iptvlive-beta.vercel.app/zee-cinema-hd-1/index.m3u8
+
+#EXTINF:-1 tvg-name="TLC HD" tvg-logo="https://assets-prod.services.toffeelive.com/7S6j-JQBv9knK3AHbzXC/posters/0973097c-bc5c-4b28-aaca-f04d6f6cb5e2.webp" group-title="Toffee",TLC HD
+https://iptvlive-beta.vercel.app/tlc-hd/index.m3u8
 
 #EXTINF:-1 tvg-name="TLC" tvg-logo="https://assets-prod.services.toffeelive.com/7C6j-JQBv9knK3AHVzUA/posters/e8f84105-5efe-4e91-a0d4-18a0849cf2f2.webp" group-title="Toffee",TLC
 https://iptvlive-beta.vercel.app/tlc-1/index.m3u8
