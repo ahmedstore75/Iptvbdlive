@@ -262,7 +262,9 @@ http://alvetv.com/moviebanglatv/8080/index.m3u8
 #EXTINF:-1 group-title="Bangladeshi" tvg-id="82" tvg-logo="https://i.postimg.cc/9fq1Q4Hz/20240825_070144.png",Me Tv
 https://iptvbd.live/metv1080/1080.m3u8
 
-#EXTINF:-1 group-title="Bangladeshi" tvg-logo="https://asset.bioscopelive.com/uploads/images/2025/08/11/thumbnails_58ebcef1efcc65837557de15952d2643_goplay_srk_tv_landscape.jpg"
+#EXTINF:-1 group-title="Bangladeshi" tvg-logo="https://asset.bioscopelive.com/uploads/images/2025/08/11/thumbnails_58ebcef1efcc65837557de15952d2643_goplay_srk_tv_landscape.jpg",
+https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8
+
 # ==========================================
 # ISLAMIC CHANNELS
 # ==========================================
@@ -372,7 +374,7 @@ https://stream.ottplus.bd/live/and_picture_hd_abr/index.m3u8
 https://stream.ottplus.live/live/zee_tv_hd_abr/index.m3u8
 
 #EXTINF:-1 group-title="Indian Hindi" tvg-logo="https://i.postimg.cc/VN1c9Ztw/20240823_022636.png",Zee Cinema HD
-https://stream.ottplus.live/live/zee_cinema_hd_abr/index.m3u8
+https://j6nfugukcl.gpcdn.net/tile_5/master.m3u8
 
 #EXTINF:-1 group-title="Indian Hindi" tvg-logo="https://i.postimg.cc/52SzwQF1/20251222_220548.png",Zee Bollywood
 https://stream.ottplus.live/live/zee_bollywood_abr/index.m3u8
