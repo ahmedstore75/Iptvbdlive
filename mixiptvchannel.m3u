@@ -389,10 +389,10 @@ https://stream.ottplus.live/live/sony_ent_sd_abr/index.m3u8
 https://stream.ottplus.live/live/sony_ent_hd_abr/index.m3u8
 
 #EXTINF:-1 group-title="Indian Hindi" tvg-logo="https://i.postimg.cc/YS3BdNNW/20240823_022655.png",Sony Max HD
-https://stream.ottplus.bd/live/max_hd_abr/live/max_hd_720/chunks.m3u8
+https://drk6xq0vhn.gpcdn.net/live/max_hd_abr/index.m3u8
 
 #EXTINF:-1 group-title="Indian Hindi" tvg-logo="https://i.postimg.cc/hP59QSrm/20240825_075205.png",Sony Max 2
-https://stream.ottplus.bd/live/max_2_abr/live/max_2_720/chunks.m3u8
+https://drk6xq0vhn.gpcdn.net/live/max_2_abr/index.m3u8
 
 #EXTINF:-1 group-title="Indian Hindi" tvg-logo="https://i.postimg.cc/Gpz6FLrP/20240823_023114.png",Sony Sab HD
 https://stream.ottplus.bd/live/sub_hd_abr/index.m3u8
@@ -452,7 +452,7 @@ https://live20.bozztv.com/giatvplayout7/giatv-209587/tracks-v1a1/mono.ts.m3u8
 https://cdn.pishow.tv/ott/live/1143/master.m3u8
 
 #EXTINF:-1 group-title="Music" tvg-logo="https://i.postimg.cc/0N2VWksB/channels4-profile.jpg",B4U Music
-https://wiselp.wiseplayout.com/9X_Jhakaas/master.m3u8
+https://drk6xq0vhn.gpcdn.net/live/b4u_music_abr/index.m3u8
 
 #EXTINF:-1 group-title="Music" tvg-logo="https://i.postimg.cc/NFKqPkBP/image.png",PTC Music
 https://d2lk5u59tns74c.cloudfront.net/out/v1/f913cf893c594f73b114216e74a2efbc/index.m3u8
@@ -461,16 +461,16 @@ https://d2lk5u59tns74c.cloudfront.net/out/v1/f913cf893c594f73b114216e74a2efbc/in
 https://mumt04.tangotv.in/m18aqlK4EPICMUSIC/index.m3u8
 
 #EXTINF:-1 group-title="Music" tvg-logo="https://i.postimg.cc/SRKS6TwR/20240823_022008.png",9XM
-https://wiselp.wiseplayout.com/9X_Tashan/master.m3u8
+https://wiselp.wiseplayout.com/9XM/master.m3u8
 
 #EXTINF:-1 group-title="Music" tvg-logo="https://i.postimg.cc/BnSQC8xm/unnamed.jpg",9X Jalwa
 https://wiselp.wiseplayout.com/9X_Jalwa/master.m3u8
 
 #EXTINF:-1 group-title="Music" tvg-logo="https://i.postimg.cc/VkxZ8tD2/76-Tamil-channel.webp",7S Music
-http://103.175.73.12:8080/live/771/master.m3u8
+https://wiselp.wiseplayout.com/9X_Jhakaas/master.m3u8
 
 #EXTINF:-1 group-title="Music" tvg-logo="https://i.postimg.cc/XNHzD5Zg/s143563-ld-h15-aa.png",Music India
-https://cdn-2.pishow.tv/live/226/master.m3u8
+https://vodzong.mjunoon.tv:8087/streamtest/8XM-131/playlist.m3u8
 
 #EXTINF:-1 group-title="Music" tvg-logo="https://i.postimg.cc/7hz6tG8D/20250529_121941.png",Zoom
 https://pubads.g.doubleclick.net/ssai/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
@@ -482,7 +482,7 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/pl
 http://146.59.253.52:8080/hindihitshd/index.m3u8
 
 #EXTINF:-1 group-title="Music" tvg-logo="https://i.postimg.cc/d1pkfnGy/s143757-ld-h15-aa.png",Sangeet Bhojpuri
-https://cdn-4.pishow.tv/live/1293/master.m3u8
+https://wiselp.wiseplayout.com/9X_Tashan/master.m3u8
 
 # ==========================================
 # SPORTS CHANNELS
@@ -563,22 +563,22 @@ https://tvsen5.aynaott.com/kP9vX2mZ7qL5wN3t/index.m3u8
 # DOCUMENTARY
 # ==========================================
 #EXTINF:-1 group-title="Documentary" tvg-logo="https://i.postimg.cc/43NXkFx5/20240823_023458.png",Animal Planet HD
-http://27.124.71.27/Animal_Planet/index.m3u8
+https://drk6xq0vhn.gpcdn.net/live/animal_planet_hd/index.m3u8
 
 #EXTINF:-1 group-title="Documentary" tvg-logo="https://i.postimg.cc/cJ90sMKN/20240823_023541.png",Discovery HD
-http://202.70.146.135:8000/play/a05z/index.m3u8
+https://drk6xq0vhn.gpcdn.net/live/discovery_hd_abr/index.m3u8
 
 #EXTINF:-1 group-title="Documentary" tvg-logo="https://i.postimg.cc/zvPTkPjH/IJH47f-J.png",Discover Pakistan
 https://livecdn.live247stream.com/discoverpakistan/web/playlist.m3u8
 
 #EXTINF:-1 group-title="Documentary" tvg-logo="https://i.postimg.cc/VN6PHrKZ/20240823_023950.png",National Geographic HD
-http://40.160.24.53/NAT_GEO/index.m3u8
+http://rgkkw.live:8080/live/4dfoydR2gZ/clever3still/98874.ts
 
 #EXTINF:-1 group-title="Documentary" tvg-logo="https://i.postimg.cc/MZR248Yw/20240823-024104.png",Love Nature
 http://27.124.71.27/Love_Nature/index.m3u8
 
 #EXTINF:-1 group-title="Documentary" tvg-logo="https://i.postimg.cc/Zn6Gyrqn/20240823-024051.png",Travel XP HD
-http://103.159.180.34:5001/live/562.m3u8
+https://27c980761ff9437d929e64647afe183a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_TravelXP/playlist.m3u8
 
 #EXTINF:-1 tvg-name="AlJazeera" tvg-logo="https://s3.aynaott.com/storage/5d707a103f48d8f9f1634f1b70e2ecdf" group-title="News",AlJazeera
 https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
