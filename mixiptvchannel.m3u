@@ -45,7 +45,7 @@ https://iptv-proxy.ahmed-bd-org.workers.dev/channel-i/index.m3u8
 #EXTINF:-1 tvg-id="191" tvg-name="Star News" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770189826301.png" group-title="News",Star News
 http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/starnewsbd.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="240" tvg-name="BTV Shangshad" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1781166550297.png" group-title="News",BTV Shangshad
-https://iptv-proxy.ahmed-bd-org.workers.dev/btv/index.m3u8
+https://nkafmbewiff.gpcdn.net/tile_2/master.m3u8
 
 #EXTINF:-4 tvg-logo="https://dl.dropbox.com/s/leielj83em5kg7h/somoy_news.png" group-title="BANGLA",SOMOY TV
 https://tvsen6.aynaott.com/4XcqdovJzbbC9WdJA9gk/index.m3u8
@@ -262,9 +262,7 @@ http://alvetv.com/moviebanglatv/8080/index.m3u8
 #EXTINF:-1 group-title="Bangladeshi" tvg-id="82" tvg-logo="https://i.postimg.cc/9fq1Q4Hz/20240825_070144.png",Me Tv
 https://iptvbd.live/metv1080/1080.m3u8
 
-#EXTINF:-1 group-title="Bangladeshi" tvg-logo="https://asset.bioscopelive.com/uploads/images/2025/08/11/thumbnails_58ebcef1efcc65837557de15952d2643_goplay_srk_tv_landscape.jpg",SRK
-https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8
-
+#EXTINF:-1 group-title="Bangladeshi" tvg-logo="https://asset.bioscopelive.com/uploads/images/2025/08/11/thumbnails_58ebcef1efcc65837557de15952d2643_goplay_srk_tv_landscape.jpg"
 # ==========================================
 # ISLAMIC CHANNELS
 # ==========================================
