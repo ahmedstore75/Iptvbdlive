@@ -2538,9 +2538,6 @@ https://iptvlive-beta.vercel.app/wc-match-recap/index.m3u8
 #EXTINF:-1 tvg-name="BFL | Live 3" tvg-logo="https://assets-prod.services.toffeelive.com/LnlKhJkBcqxnFHJBU8GM/posters/d0d2f903-5843-4de4-bbc5-7317866f78e2.png" group-title="Toffee",BFL | Live 3
 https://iptvlive-beta.vercel.app/bfl-live-3/index.m3u8
 
-#EXTINF:-1 tvg-name="AWSN TV" tvg-logo="https://assets-prod.services.toffeelive.com/F9UM56ABalKyvLQIr9B1/posters/26081e64-671e-44a8-95ba-a692bfaae49c.jpeg" group-title="Toffee",AWSN TV
-https://iptvlive-beta.vercel.app/awsn-tv/index.m3u8
-
 #EXTINF:-1 tvg-name="SAFF Live 1" tvg-logo="https://assets-prod.services.toffeelive.com/itdbVKEBalKyvLQI94RR/posters/f92c276c-543c-40db-b9f0-a53b86c497a2.png" group-title="Toffee",SAFF Live 1
 https://iptvlive-beta.vercel.app/saff-live-1/index.m3u8
 
@@ -2702,6 +2699,18 @@ https://iptvlive-beta.vercel.app/zee-bangla-cinema-3/index.m3u8
 
 #EXTINF:-1 tvg-name="Zee Bollywood" tvg-logo="https://assets-prod.services.toffeelive.com/OnSlPJYBcqxnFHJB6lFX/posters/d9ccb2a6-227f-4a41-8714-efaddab5cf5e.png" group-title="Toffee",Zee Bollywood
 https://iptvlive-beta.vercel.app/zee-bollywood-1/index.m3u8
+
+#EXTINF:-1 tvg-name="Zee Action" tvg-logo="https://assets-prod.services.toffeelive.com/Pc3RD5YBtpl-Sbt7doxr/posters/33d667ae-bcc3-4f6b-b376-76c552136923.png" group-title="Toffee",Zee Action
+https://iptvlive-beta.vercel.app/zee-action-1/index.m3u8
+
+#EXTINF:-1 tvg-name="Sony MAX" tvg-logo="https://assets-prod.services.toffeelive.com/Ay52-JQBv9knK3AHFDWt/posters/00afb30b-3c19-4c4c-abd8-891db94e4767.webp" group-title="Toffee",Sony MAX
+https://iptvlive-beta.vercel.app/sony-max-1/index.m3u8
+
+#EXTINF:-1 tvg-name="Sony PIX HD" tvg-logo="https://assets-prod.services.toffeelive.com/Ly6C-JQBv9knK3AHOjXt/posters/252e64ca-8d99-46e7-a951-e10c1703c11d.webp" group-title="Toffee",Sony PIX HD
+https://iptvlive-beta.vercel.app/sony-pix-hd/index.m3u8
+
+#EXTINF:-1 tvg-name="Zee Cafe" tvg-logo="https://assets-prod.services.toffeelive.com/U3QEd5YBcqxnFHJBpYzc/posters/8bc7ae1b-1a46-4b76-bdb1-13c7dbd3a95c.png" group-title="Toffee",Zee Cafe
+https://iptvlive-beta.vercel.app/zee-cafe/index.m3u8
 
 #EXTINF:-1 tvg-name="B4U Movies APAC" tvg-logo="https://assets-prod.services.toffeelive.com/PC6F-JQBv9knK3AHlTUO/posters/fb0243ba-39a0-4101-a78c-c197be550c6c.webp" group-title="Toffee",B4U Movies APAC
 https://iptvlive-beta.vercel.app/b4u-movies-apac/index.m3u8
