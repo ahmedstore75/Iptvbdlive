@@ -2583,6 +2583,12 @@ https://iptvlive-beta.vercel.app/saff-live-1/index.m3u8
 #EXTINF:-1 tvg-name="CNN" tvg-logo="https://assets-prod.services.toffeelive.com/VC6Q-JQBv9knK3AHhTXt/posters/63e79814-8fcf-4c3e-bb66-408b2a402613.webp" group-title="Toffee",CNN
 https://iptvlive-beta.vercel.app/cnn/index.m3u8
 
+#EXTINF:-1 tvg-name="Somoy TV" tvg-logo="https://assets-prod.services.toffeelive.com/Xi_Ga5oBNnOkwJLWkhKP/posters/ef2899d5-1ae0-4fee-aee5-45f9b0b3ba80.png" group-title="Toffee",Somoy TV
+https://iptvlive-beta.vercel.app/somoy-tv-3/index.m3u8
+
+#EXTINF:-1 tvg-name="Jamuna TV" tvg-logo="https://assets-prod.services.toffeelive.com/PiL635oBEef-9-uV2uCe/posters/36f380e0-6c71-4b27-a73b-2afb3ce7e982.png" group-title="Toffee",Jamuna TV
+https://iptvlive-beta.vercel.app/jamuna-tv-2/index.m3u8
+
 #EXTINF:-1 tvg-name="Ananda TV" tvg-logo="https://assets-prod.services.toffeelive.com/wCM3l5sBEef-9-uVXFvD/posters/d80f7aee-5bd7-4edc-97eb-ead0e3ebbe09.png" group-title="Toffee",Ananda TV
 https://iptvlive-beta.vercel.app/ananda-tv-4/index.m3u8
 
@@ -2766,9 +2772,6 @@ https://iptvlive-beta.vercel.app/animal-planet-2/index.m3u8
 #EXTINF:-1 tvg-name="Animal Planet HD" tvg-logo="https://assets-prod.services.toffeelive.com/Ni61-JQBv9knK3AHcDYc/posters/c16e8633-6b2a-401a-9cd6-ac26a4fcdedb.webp" group-title="Toffee",Animal Planet HD
 https://iptvlive-beta.vercel.app/animal-planet-hd-1/index.m3u8
 
-#EXTINF:-1 tvg-name="Sony BBC Earth HD" tvg-logo="https://assets-prod.services.toffeelive.com/MC6C-JQBv9knK3AHUzUT/posters/a8c32fd3-2ba7-437c-85ac-de2f1b2fa6ca.webp" group-title="Toffee",Sony BBC Earth HD
-https://iptvlive-beta.vercel.app/sony-bbc-earth-hd/index.m3u8
-
 #EXTINF:-1 tvg-name="Discovery HD" tvg-logo="https://assets-prod.services.toffeelive.com/KC6x-JQBv9knK3AHqjYc/posters/55e554f1-dbbb-47bd-97fe-fca878726c4c.webp" group-title="Toffee",Discovery HD
 https://iptvlive-beta.vercel.app/discovery-hd-1/index.m3u8
 
@@ -2830,7 +2833,7 @@ https://iptvlive-beta.vercel.app/atn-news-hd/index.m3u8
 https://iptvlive-beta.vercel.app/ekattor-tv-hd/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/JAMUNA%20TV.png" group-title="News",JAMUNA TV
-https://iptvlive-beta.vercel.app/jamuna-tv-2/index.m3u8
+https://iptvlive-beta.vercel.app/jamuna-tv-3/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/STAR%20JALSHA%20HD.png" group-title="Indian Bangla",STAR JALSHA HD
 https://iptvlive-beta.vercel.app/star-jalsha-hd-4/index.m3u8
