@@ -2562,16 +2562,16 @@ https://iptvlive-beta.vercel.app/wc-match-recap/index.m3u8
 #EXTINF:-1 tvg-name="FC | Live 3" tvg-logo="https://assets-prod.services.toffeelive.com/LnlKhJkBcqxnFHJBU8GM/posters/ec4cb52b-a5cf-4eba-8f03-7fc73f75bf55.png" group-title="Toffee",FC | Live 3
 https://iptvlive-beta.vercel.app/fc-live-3/index.m3u8
 
-#EXTINF:-1 tvg-name="EPL channel 2" tvg-logo="https://assets-prod.services.toffeelive.com/Mi1QqZgBNnOkwJLWxggo/posters/cb6b771d-3896-41fd-bf35-91f191aefecf.png" group-title="Toffee",EPL channel 2
+#EXTINF:-1 tvg-name="EPL channel 2" tvg-logo="https://assets-prod.services.toffeelive.com/Mi1QqZgBNnOkwJLWxggo/posters/4ce2003f-eab5-43d6-b9c7-45f53ee72efa.png" group-title="Toffee",EPL channel 2
 https://iptvlive-beta.vercel.app/epl-channel-2/index.m3u8
 
-#EXTINF:-1 tvg-name="EPL channel 3" tvg-logo="https://assets-prod.services.toffeelive.com/Pi1TqZgBNnOkwJLWVggf/posters/e0aa2cc1-2eb7-4ff4-896f-24cc45a5deeb.png" group-title="Toffee",EPL channel 3
+#EXTINF:-1 tvg-name="EPL channel 3" tvg-logo="https://assets-prod.services.toffeelive.com/Pi1TqZgBNnOkwJLWVggf/posters/6d382f56-0635-4919-a43d-4ac7e165e5ab.png" group-title="Toffee",EPL channel 3
 https://iptvlive-beta.vercel.app/epl-channel-3/index.m3u8
 
-#EXTINF:-1 tvg-name="EPL Channel 4" tvg-logo="https://assets-prod.services.toffeelive.com/OyEz-ZgBEef-9-uVnhcx/posters/4b1abb5b-3882-456e-93ea-84d40907e157.png" group-title="Toffee",EPL Channel 4
+#EXTINF:-1 tvg-name="EPL Channel 4" tvg-logo="https://assets-prod.services.toffeelive.com/OyEz-ZgBEef-9-uVnhcx/posters/6e9a0442-fadc-4a3c-9f7d-0c054a89f5d3.png" group-title="Toffee",EPL Channel 4
 https://iptvlive-beta.vercel.app/epl-channel-4/index.m3u8
 
-#EXTINF:-1 tvg-name="EPL Channel 5" tvg-logo="https://assets-prod.services.toffeelive.com/6CHi_5gBEef-9-uV-Bx_/posters/3e8f04e7-b8ed-4fde-9605-2f6680f3df44.png" group-title="Toffee",EPL Channel 5
+#EXTINF:-1 tvg-name="EPL Channel 5" tvg-logo="https://assets-prod.services.toffeelive.com/6CHi_5gBEef-9-uV-Bx_/posters/1adc1c66-8c67-4e6c-856a-51a7ffc006a1.png" group-title="Toffee",EPL Channel 5
 https://iptvlive-beta.vercel.app/epl-channel-5/index.m3u8
 
 #EXTINF:-1 tvg-name="AWSN TV" tvg-logo="https://assets-prod.services.toffeelive.com/F9UM56ABalKyvLQIr9B1/posters/26081e64-671e-44a8-95ba-a692bfaae49c.jpeg" group-title="Toffee",AWSN TV
@@ -2651,15 +2651,6 @@ https://iptvlive-beta.vercel.app/al-jazeera-2/index.m3u8
 
 #EXTINF:-1 tvg-name="Russia Today" tvg-logo="https://assets-prod.services.toffeelive.com/CNT2_p8BalKyvLQIBSUG/posters/1e937055-a014-4274-bb69-b1b56d18c434.png" group-title="Toffee",Russia Today
 https://iptvlive-beta.vercel.app/russia-today-1/index.m3u8
-
-#EXTINF:-1 tvg-name="France 24" tvg-logo="https://assets-prod.services.toffeelive.com/G4ML_58BJIOHmUelNXZr/posters/becc2fba-4ed5-4f43-af2d-3c1ea2b4ee57.png" group-title="Toffee",France 24
-https://iptvlive-beta.vercel.app/france-24/index.m3u8
-
-#EXTINF:-1 tvg-name="CGTN" tvg-logo="https://assets-prod.services.toffeelive.com/DYMI_58BJIOHmUelm3aK/posters/d8436322-804a-47b6-9a3f-62764c4622d5.png" group-title="Toffee",CGTN
-https://iptvlive-beta.vercel.app/cgtn-2/index.m3u8
-
-#EXTINF:-1 tvg-name="Eurosport HD" tvg-logo="https://assets-prod.services.toffeelive.com/Uy6Q-JQBv9knK3AHcDUQ/posters/01709bcd-6d53-4710-a64f-bc49cecf1d61.webp" group-title="Toffee",Eurosport HD
-https://iptvlive-beta.vercel.app/eurosport-hd/index.m3u8
 
 #EXTINF:-1 tvg-name="Saudi Sunnah" tvg-logo="https://assets-prod.services.toffeelive.com/JNQA_58BalKyvLQIhiVD/posters/11e764bf-7969-4dcb-a94c-937a3bde2a7f.png" group-title="Toffee",Saudi Sunnah
 https://iptvlive-beta.vercel.app/saudi-sunnah/index.m3u8
@@ -2771,6 +2762,9 @@ https://iptvlive-beta.vercel.app/animal-planet-2/index.m3u8
 
 #EXTINF:-1 tvg-name="Animal Planet HD" tvg-logo="https://assets-prod.services.toffeelive.com/Ni61-JQBv9knK3AHcDYc/posters/c16e8633-6b2a-401a-9cd6-ac26a4fcdedb.webp" group-title="Toffee",Animal Planet HD
 https://iptvlive-beta.vercel.app/animal-planet-hd-1/index.m3u8
+
+#EXTINF:-1 tvg-name="Sony BBC Earth HD" tvg-logo="https://assets-prod.services.toffeelive.com/MC6C-JQBv9knK3AHUzUT/posters/a8c32fd3-2ba7-437c-85ac-de2f1b2fa6ca.webp" group-title="Toffee",Sony BBC Earth HD
+https://iptvlive-beta.vercel.app/sony-bbc-earth-hd/index.m3u8
 
 #EXTINF:-1 tvg-name="Discovery HD" tvg-logo="https://assets-prod.services.toffeelive.com/KC6x-JQBv9knK3AHqjYc/posters/55e554f1-dbbb-47bd-97fe-fca878726c4c.webp" group-title="Toffee",Discovery HD
 https://iptvlive-beta.vercel.app/discovery-hd-1/index.m3u8
