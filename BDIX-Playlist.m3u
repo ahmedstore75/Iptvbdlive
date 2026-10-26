@@ -1776,6 +1776,9 @@ https://iptvlive-beta.vercel.app/rt-espa-ol/index.m3u8
 #EXTINF:-1 tvg-name="RTVE 24H" tvg-logo="https://i.imgur.com/WTDKOoM.png" group-title="News (ES)",RTVE 24H
 https://iptvlive-beta.vercel.app/rtve-24h/index.m3u8
 
+#EXTINF:-1 tvg-id="tapmad-18703" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17924817471020x576.jpg" group-title="Football", PFC Neftchi (UZB) vs Al Ittihad Club (KSA) - MATCHDAY 3 - AFC Champions League Elite 2026/27
+https://iptvlive-beta.vercel.app/pfc-neftchi-uzb-vs-al-ittihad-club-ksa-matchday-3-afc-champions-league-elite-2026-27/index.m3u8
+
 #EXTINF:-1 tvg-id="btv" tvg-name="BTV" tvg-logo="http://198.195.239.50/img/channels/BTV.HD.png", BTV
 https://iptvlive-beta.vercel.app/btv-1/index.m3u8
 
@@ -2702,9 +2705,6 @@ https://iptvlive-beta.vercel.app/sony-aath-4/index.m3u8
 
 #EXTINF:-1 tvg-name="Sony Entertainment Television HD" tvg-logo="https://assets-prod.services.toffeelive.com/-y50-JQBv9knK3AHLzSn/posters/0ab48ac0-ec84-4ca2-9601-746ff3cb809e.webp" group-title="Toffee",Sony Entertainment Television HD
 https://iptvlive-beta.vercel.app/sony-entertainment-television-hd/index.m3u8
-
-#EXTINF:-1 tvg-name="Sony Entertainment Television" tvg-logo="https://assets-prod.services.toffeelive.com/2S5t-JQBv9knK3AHJTTW/posters/ae74f943-77c9-4395-a16c-8ed84b439080.webp" group-title="Toffee",Sony Entertainment Television
-https://iptvlive-beta.vercel.app/sony-entertainment-television/index.m3u8
 
 #EXTINF:-1 tvg-name="B4U Music" tvg-logo="https://assets-prod.services.toffeelive.com/PS6F-JQBv9knK3AHqjVz/posters/0f83ee72-be0f-4861-94df-30b158d3df8d.webp" group-title="Toffee",B4U Music
 https://iptvlive-beta.vercel.app/b4u-music-1/index.m3u8
