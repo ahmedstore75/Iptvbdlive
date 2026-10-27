@@ -301,7 +301,7 @@ http://103.175.73.12:8080/live/202/202_0.m3u8
 https://nomawnoijl.gpcdn.net/akash/nikky/playlist.m3u8
 
 #EXTINF:-1 group-title="Kids" tvg-logo="https://i.postimg.cc/GtzBrs18/20240823_021125.png",Nick Bangla
-http://live.balajibroadband.com:3500/live/1341.m3u8
+http://103.135.253.32:8080/NICK/index.m3u8
 
 #EXTINF:-51 group-title="Kids" tvg-logo="https://i.postimg.cc/jSBDsbBX/20240823_021324.png",Sony YaY
 https://stream.ottplus.live/live/sony_yay_abr/live/sony_yay_720/chunks.m3u8
