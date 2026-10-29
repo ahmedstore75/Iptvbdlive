@@ -1779,12 +1779,6 @@ https://iptvlive-beta.vercel.app/rt-espa-ol/index.m3u8
 #EXTINF:-1 tvg-name="RTVE 24H" tvg-logo="https://i.imgur.com/WTDKOoM.png" group-title="News (ES)",RTVE 24H
 https://iptvlive-beta.vercel.app/rtve-24h/index.m3u8
 
-#EXTINF:-1 tvg-id="tapmad-18613" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17927414671020x576.jpg" group-title="Football", Phnom Penh Crown FC (CAM) vs Kitchee SC (HKG) - MATCHDAY 3 - AFC Champions League Two 2026/27
-https://iptvlive-beta.vercel.app/phnom-penh-crown-fc-cam-vs-kitchee-sc-hkg-matchday-3-afc-champions-league-two-2026-27/index.m3u8
-
-#EXTINF:-1 tvg-id="tapmad-18608" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17927411761020x576.jpg" group-title="Football", Tai Po FC (HKG) vs BG Pathum United (THA) - MATCHDAY 3 - AFC Champions League Two 2026/27
-https://iptvlive-beta.vercel.app/tai-po-fc-hkg-vs-bg-pathum-united-tha-matchday-3-afc-champions-league-two-2026-27/index.m3u8
-
 #EXTINF:-1 tvg-id="btv" tvg-name="BTV" tvg-logo="http://198.195.239.50/img/channels/BTV.HD.png", BTV
 https://iptvlive-beta.vercel.app/btv-1/index.m3u8
 
@@ -2580,6 +2574,9 @@ https://iptvlive-beta.vercel.app/toffee-movies/index.m3u8
 #EXTINF:-1 tvg-name="WC Match Recap" tvg-logo="https://assets-prod.services.toffeelive.com/V__o054BObUt2AG6LL5C/posters/84590b8d-6430-4ba8-a0a5-757bf2f57c05.png" group-title="Toffee",WC Match Recap
 https://iptvlive-beta.vercel.app/wc-match-recap/index.m3u8
 
+#EXTINF:-1 tvg-name="EPL channel 1" tvg-logo="https://assets-prod.services.toffeelive.com/JS1AqZgBNnOkwJLWlwg-/posters/cb8992fa-5488-4c94-a1d3-fbb30bcb9afe.png" group-title="Toffee",EPL channel 1
+https://iptvlive-beta.vercel.app/epl-channel-1/index.m3u8
+
 #EXTINF:-1 tvg-name="AWSN TV" tvg-logo="https://assets-prod.services.toffeelive.com/F9UM56ABalKyvLQIr9B1/posters/26081e64-671e-44a8-95ba-a692bfaae49c.jpeg" group-title="Toffee",AWSN TV
 https://iptvlive-beta.vercel.app/awsn-tv/index.m3u8
 
@@ -2672,15 +2669,6 @@ https://iptvlive-beta.vercel.app/saudi-sunnah/index.m3u8
 
 #EXTINF:-1 tvg-name="Saudi Quran" tvg-logo="https://assets-prod.services.toffeelive.com/FdT9_p8BalKyvLQIpCUP/posters/6b39f2c6-6fe8-4720-a986-379e09968b5b.png" group-title="Toffee",Saudi Quran
 https://iptvlive-beta.vercel.app/saudi-quran-2/index.m3u8
-
-#EXTINF:-1 tvg-name="Sony Ten Sports 1 HD" tvg-logo="https://assets-prod.services.toffeelive.com/py5j-JQBv9knK3AHxDTY/posters/ea3358b9-2bec-4615-a889-daa2e396c74c.webp" group-title="Toffee",Sony Ten Sports 1 HD
-https://iptvlive-beta.vercel.app/sony-ten-sports-1-hd/index.m3u8
-
-#EXTINF:-1 tvg-name="Sony Ten Sports 2 HD" tvg-logo="https://assets-prod.services.toffeelive.com/sy5m-JQBv9knK3AHYTTk/posters/5e40bf0e-633f-4d37-a3b2-3d606f0ac19a.png" group-title="Toffee",Sony Ten Sports 2 HD
-https://iptvlive-beta.vercel.app/sony-ten-sports-2-hd/index.m3u8
-
-#EXTINF:-1 tvg-name="Sony Ten Sports 5 HD " tvg-logo="https://assets-prod.services.toffeelive.com/vi5n-JQBv9knK3AHqzTC/posters/d171fd4d-0369-4213-b0c5-e241974f5459.png" group-title="Toffee",Sony Ten Sports 5 HD
-https://iptvlive-beta.vercel.app/sony-ten-sports-5-hd/index.m3u8
 
 #EXTINF:-1 tvg-name="Sony Ten Cricket" tvg-logo="https://assets-prod.services.toffeelive.com/ra2x_pQBrjBfS2_RWG9l/posters/795170c2-ec78-457e-9fa0-54a23d23361c.webp" group-title="Toffee",Sony Ten Cricket
 https://iptvlive-beta.vercel.app/sony-ten-cricket/index.m3u8
