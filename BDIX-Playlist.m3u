@@ -462,6 +462,9 @@ https://iptvlive-beta.vercel.app/tapmad-8/index.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.supaimg.com/0dc91d95-6d6b-41a8-a93f-88628861dd2f/6daeb914-116d-4d8d-aa7e-e1dc3a3ab429.png",Tapmad 9
 https://iptvlive-beta.vercel.app/tapmad-9/index.m3u8
 
+#EXTINF:-1 group-title="Sports" tvg-logo="https://i.supaimg.com/0dc91d95-6d6b-41a8-a93f-88628861dd2f/6daeb914-116d-4d8d-aa7e-e1dc3a3ab429.png",Tapmad 10
+https://iptvlive-beta.vercel.app/tapmad-10/index.m3u8
+
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/0yzwt46Q/20241126-220214.png",Ten Cricket
 https://iptvlive-beta.vercel.app/ten-cricket/index.m3u8
 
@@ -1775,6 +1778,12 @@ https://iptvlive-beta.vercel.app/rt-espa-ol/index.m3u8
 
 #EXTINF:-1 tvg-name="RTVE 24H" tvg-logo="https://i.imgur.com/WTDKOoM.png" group-title="News (ES)",RTVE 24H
 https://iptvlive-beta.vercel.app/rtve-24h/index.m3u8
+
+#EXTINF:-1 tvg-id="tapmad-18613" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17927414671020x576.jpg" group-title="Football", Phnom Penh Crown FC (CAM) vs Kitchee SC (HKG) - MATCHDAY 3 - AFC Champions League Two 2026/27
+https://iptvlive-beta.vercel.app/phnom-penh-crown-fc-cam-vs-kitchee-sc-hkg-matchday-3-afc-champions-league-two-2026-27/index.m3u8
+
+#EXTINF:-1 tvg-id="tapmad-18608" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17927411761020x576.jpg" group-title="Football", Tai Po FC (HKG) vs BG Pathum United (THA) - MATCHDAY 3 - AFC Champions League Two 2026/27
+https://iptvlive-beta.vercel.app/tai-po-fc-hkg-vs-bg-pathum-united-tha-matchday-3-afc-champions-league-two-2026-27/index.m3u8
 
 #EXTINF:-1 tvg-id="btv" tvg-name="BTV" tvg-logo="http://198.195.239.50/img/channels/BTV.HD.png", BTV
 https://iptvlive-beta.vercel.app/btv-1/index.m3u8
