@@ -1785,17 +1785,17 @@ https://iptvlive-beta.vercel.app/rt-espa-ol/index.m3u8
 #EXTINF:-1 tvg-name="RTVE 24H" tvg-logo="https://i.imgur.com/WTDKOoM.png" group-title="News (ES)",RTVE 24H
 https://iptvlive-beta.vercel.app/rtve-24h/index.m3u8
 
-#EXTINF:-1 tvg-id="tapmad-19186" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17937742821020x576.jpg" group-title="Cricket", Hobart Hurricanes vs Melbourne Renegades - Group Stage - Women's Big Bash League 2026
-https://iptvlive-beta.vercel.app/hobart-hurricanes-vs-melbourne-renegades-group-stage-women-s-big-bash-league-2026/index.m3u8
+#EXTINF:-1 tvg-id="tapmad-19523" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17936510611020x576.jpg" group-title="Football", Al Rayyan SC (QAT) vs Al Nahda Club (OMA) - MATCHDAY 4 - AFC Champions League Two 2026/27
+https://iptvlive-beta.vercel.app/al-rayyan-sc-qat-vs-al-nahda-club-oma-matchday-4-afc-champions-league-two-2026-27/index.m3u8
 
-#EXTINF:-1 tvg-id="tapmad-19718" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17937767231020x576.jpg" group-title="Football", FC Pohang Steelers (KOR) vs Gamba Osaka (JPN) - MATCHDAY 4 - AFC Champions League Elite 2026/27
-https://iptvlive-beta.vercel.app/fc-pohang-steelers-kor-vs-gamba-osaka-jpn-matchday-4-afc-champions-league-elite-2026-27/index.m3u8
+#EXTINF:-1 tvg-id="tapmad-19385" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17932561221020x576.jpg" group-title="Football", Fenerbahce vs Liverpool - MATCHDAY 3 - UEFA Champions League 2026/27
+https://iptvlive-beta.vercel.app/fenerbahce-vs-liverpool-matchday-3-uefa-champions-league-2026-27/index.m3u8
 
-#EXTINF:-1 tvg-id="tapmad-19503" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17936492951020x576.jpg" group-title="Football", FC Seoul (KOR) vs The Cong - Viettel FC (VIE) - MATCHDAY 4 - AFC Champions League Two 2026/27
-https://iptvlive-beta.vercel.app/fc-seoul-kor-vs-the-cong-viettel-fc-vie-matchday-4-afc-champions-league-two-2026-27/index.m3u8
+#EXTINF:-1 tvg-id="tapmad-19533" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17936519101020x576.jpg" group-title="Football", Al Muharraq SC (BHR) vs Al Jazira Club (UAE) - MATCHDAY 4 - AFC Champions League Two 2026/27
+https://iptvlive-beta.vercel.app/al-muharraq-sc-bhr-vs-al-jazira-club-uae-matchday-4-afc-champions-league-two-2026-27/index.m3u8
 
-#EXTINF:-1 tvg-id="tapmad-19264" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17937797651020x576.jpg" group-title="Football", Kaya FC-Iliolo (PHI) vs Melbourne City FC (AUS) - MATCHDAY 2 - AFC Women's Champions League 2026/27
-https://iptvlive-beta.vercel.app/kaya-fc-iliolo-phi-vs-melbourne-city-fc-aus-matchday-2-afc-women-s-champions-league-2026-27/index.m3u8
+#EXTINF:-1 tvg-id="tapmad-19528" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17936514251020x576.jpg" group-title="Football", Al Taawoun FC (KSA) vs Al Faisaly (JOR) - MATCHDAY 4 - AFC Champions League Two 2026/27
+https://iptvlive-beta.vercel.app/al-taawoun-fc-ksa-vs-al-faisaly-jor-matchday-4-afc-champions-league-two-2026-27/index.m3u8
 
 #EXTINF:-1 tvg-id="btv" tvg-name="BTV" tvg-logo="http://198.195.239.50/img/channels/BTV.HD.png", BTV
 https://iptvlive-beta.vercel.app/btv-1/index.m3u8
@@ -2592,11 +2592,14 @@ https://iptvlive-beta.vercel.app/wc-match-recap/index.m3u8
 #EXTINF:-1 tvg-name="EPL channel 1" tvg-logo="https://assets-prod.services.toffeelive.com/JS1AqZgBNnOkwJLWlwg-/posters/74a3b409-4bc6-4055-8960-cd27cb7ccc1f.png" group-title="Toffee",EPL channel 1
 https://iptvlive-beta.vercel.app/epl-channel-1/index.m3u8
 
-#EXTINF:-1 tvg-name="AWSN TV" tvg-logo="https://assets-prod.services.toffeelive.com/F9UM56ABalKyvLQIr9B1/posters/26081e64-671e-44a8-95ba-a692bfaae49c.jpeg" group-title="Toffee",AWSN TV
-https://iptvlive-beta.vercel.app/awsn-tv/index.m3u8
-
 #EXTINF:-1 tvg-name="SAFF Live 1" tvg-logo="https://assets-prod.services.toffeelive.com/itdbVKEBalKyvLQI94RR/posters/7f266367-077c-4acb-b29a-73437a80419b.png" group-title="Toffee",SAFF Live 1
 https://iptvlive-beta.vercel.app/saff-live-1/index.m3u8
+
+#EXTINF:-1 tvg-name="SAFF Live 2" tvg-logo="https://assets-prod.services.toffeelive.com/9dijmqEBalKyvLQIIAFj/posters/9b491bef-7c6a-4ccf-90b6-a890e0152532.png" group-title="Toffee",SAFF Live 2
+https://iptvlive-beta.vercel.app/saff-live-2/index.m3u8
+
+#EXTINF:-1 tvg-name="AWSN TV" tvg-logo="https://assets-prod.services.toffeelive.com/F9UM56ABalKyvLQIr9B1/posters/26081e64-671e-44a8-95ba-a692bfaae49c.jpeg" group-title="Toffee",AWSN TV
+https://iptvlive-beta.vercel.app/awsn-tv/index.m3u8
 
 #EXTINF:-1 tvg-name="CNN" tvg-logo="https://assets-prod.services.toffeelive.com/VC6Q-JQBv9knK3AHhTXt/posters/63e79814-8fcf-4c3e-bb66-408b2a402613.webp" group-title="Toffee",CNN
 https://iptvlive-beta.vercel.app/cnn/index.m3u8
@@ -2736,9 +2739,6 @@ https://iptvlive-beta.vercel.app/sony-aath-4/index.m3u8
 #EXTINF:-1 tvg-name="Sony Entertainment Television HD" tvg-logo="https://assets-prod.services.toffeelive.com/-y50-JQBv9knK3AHLzSn/posters/0ab48ac0-ec84-4ca2-9601-746ff3cb809e.webp" group-title="Toffee",Sony Entertainment Television HD
 https://iptvlive-beta.vercel.app/sony-entertainment-television-hd/index.m3u8
 
-#EXTINF:-1 tvg-name="Sony Entertainment Television" tvg-logo="https://assets-prod.services.toffeelive.com/2S5t-JQBv9knK3AHJTTW/posters/ae74f943-77c9-4395-a16c-8ed84b439080.webp" group-title="Toffee",Sony Entertainment Television
-https://iptvlive-beta.vercel.app/sony-entertainment-television/index.m3u8
-
 #EXTINF:-1 tvg-name="B4U Music" tvg-logo="https://assets-prod.services.toffeelive.com/PS6F-JQBv9knK3AHqjVz/posters/0f83ee72-be0f-4861-94df-30b158d3df8d.webp" group-title="Toffee",B4U Music
 https://iptvlive-beta.vercel.app/b4u-music-1/index.m3u8
 
@@ -2796,8 +2796,23 @@ https://iptvlive-beta.vercel.app/sony-bbc-earth-hd/index.m3u8
 #EXTINF:-1 tvg-name="Discovery HD" tvg-logo="https://assets-prod.services.toffeelive.com/KC6x-JQBv9knK3AHqjYc/posters/55e554f1-dbbb-47bd-97fe-fca878726c4c.webp" group-title="Toffee",Discovery HD
 https://iptvlive-beta.vercel.app/discovery-hd-1/index.m3u8
 
+#EXTINF:-1 tvg-name="Discovery" tvg-logo="https://assets-prod.services.toffeelive.com/KS6x-JQBv9knK3AHwDZy/posters/6594d216-aaca-4eee-b6f5-bbc6b80feb15.webp" group-title="Toffee",Discovery
+https://iptvlive-beta.vercel.app/discovery-1/index.m3u8
+
+#EXTINF:-1 tvg-name="Discovery Science" tvg-logo="https://assets-prod.services.toffeelive.com/AS6s-JQBv9knK3AHDTZb/posters/eab8fd0f-9351-464c-b45e-332f38b49f4b.webp" group-title="Toffee",Discovery Science
+https://iptvlive-beta.vercel.app/discovery-science/index.m3u8
+
+#EXTINF:-1 tvg-name="Discovery Turbo" tvg-logo="https://assets-prod.services.toffeelive.com/Ay6s-JQBv9knK3AHJTY1/posters/e8f65578-e82d-4e4a-a1ff-073becc5bd71.webp" group-title="Toffee",Discovery Turbo
+https://iptvlive-beta.vercel.app/discovery-turbo/index.m3u8
+
+#EXTINF:-1 tvg-name="Investigation Discovery HD" tvg-logo="https://assets-prod.services.toffeelive.com/ay7uX5UBv9knK3AHs6TI/posters/deb3c186-b2e1-4a91-aafb-d86f9128b851.png" group-title="Toffee",Investigation Discovery HD
+https://iptvlive-beta.vercel.app/investigation-discovery-hd/index.m3u8
+
 #EXTINF:-1 tvg-name="&TV HD" tvg-logo="https://assets-prod.services.toffeelive.com/5cwRnZUBtpl-Sbt7wWrN/posters/5779ade3-e9ba-4107-b3da-bae6f891500a.png" group-title="Toffee",&TV HD
 https://iptvlive-beta.vercel.app/tv-hd/index.m3u8
+
+#EXTINF:-1 tvg-name="& Pictures HD" tvg-logo="https://assets-prod.services.toffeelive.com/QMwWnZUBtpl-Sbt7S2sx/posters/8cad9a82-842a-47bf-a060-f17011f11c07.png" group-title="Toffee",& Pictures HD
+https://iptvlive-beta.vercel.app/pictures-hd/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/BTV.HD.png" group-title="Bangla",BTV
 https://iptvlive-beta.vercel.app/btv-3/index.m3u8
