@@ -1785,11 +1785,11 @@ https://iptvlive-beta.vercel.app/rt-espa-ol/index.m3u8
 #EXTINF:-1 tvg-name="RTVE 24H" tvg-logo="https://i.imgur.com/WTDKOoM.png" group-title="News (ES)",RTVE 24H
 https://iptvlive-beta.vercel.app/rtve-24h/index.m3u8
 
-#EXTINF:-1 tvg-id="tapmad-19309" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17938651221020x576.jpg" group-title="Football", Kaya FC-Iliolo (PHI) vs PFC Nasaf (UZB) - MATCHDAY 3 - AFC Women's Champions League 2026/27
-https://iptvlive-beta.vercel.app/kaya-fc-iliolo-phi-vs-pfc-nasaf-uzb-matchday-3-afc-women-s-champions-league-2026-27/index.m3u8
+#EXTINF:-1 tvg-id="tapmad-20117" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17939712561020x576.jpg" group-title="Football", Peterborough United vs Reading - 1st Round - FA Cup 2026/27
+https://iptvlive-beta.vercel.app/peterborough-united-vs-reading-1st-round-fa-cup-2026-27/index.m3u8
 
-#EXTINF:-1 tvg-id="tapmad-19304" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17938648121020x576.jpg" group-title="Football", East Bengal FC (IND) vs 4.25 Sports Club (PRK) - MATCHDAY 3 - AFC Women's Champions League 2026/27
-https://iptvlive-beta.vercel.app/east-bengal-fc-ind-vs-4-25-sports-club-prk-matchday-3-afc-women-s-champions-league-2026-27/index.m3u8
+#EXTINF:-1 tvg-id="tapmad-19961" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17937918821020x576.jpg" group-title="Football", PSG vs Troyes - MATCHDAY 10 - French Ligue 1 2026/27
+https://iptvlive-beta.vercel.app/psg-vs-troyes-matchday-10-french-ligue-1-2026-27/index.m3u8
 
 #EXTINF:-1 tvg-id="btv" tvg-name="BTV" tvg-logo="http://198.195.239.50/img/channels/BTV.HD.png", BTV
 https://iptvlive-beta.vercel.app/btv-1/index.m3u8
