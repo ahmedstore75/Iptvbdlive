@@ -1785,17 +1785,8 @@ https://iptvlive-beta.vercel.app/rt-espa-ol/index.m3u8
 #EXTINF:-1 tvg-name="RTVE 24H" tvg-logo="https://i.imgur.com/WTDKOoM.png" group-title="News (ES)",RTVE 24H
 https://iptvlive-beta.vercel.app/rtve-24h/index.m3u8
 
-#EXTINF:-1 tvg-id="tapmad-19990" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17937907061020x576.jpg" group-title="Horse Riding", Leg 3 - Verona (ITA) - Race - Longines FEI Jumping World Cup 2026
-https://iptvlive-beta.vercel.app/leg-3-verona-ita-race-longines-fei-jumping-world-cup-2026/index.m3u8
-
-#EXTINF:-1 tvg-id="tapmad-19962" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17937920251020x576.jpg" group-title="Football", Rennes vs LOSC - MATCHDAY 10 - French Ligue 1 2026/27
-https://iptvlive-beta.vercel.app/rennes-vs-losc-matchday-10-french-ligue-1-2026-27/index.m3u8
-
-#EXTINF:-1 tvg-id="tapmad-20119" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17939715131020x576.jpg" group-title="Football", Cray Wanderers vs Stockport County - 1st Round - FA Cup 2026/27
-https://iptvlive-beta.vercel.app/cray-wanderers-vs-stockport-county-1st-round-fa-cup-2026-27/index.m3u8
-
-#EXTINF:-1 tvg-id="tapmad-19463" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17939689621020x576.jpg" group-title="Football", Real Sociedad vs Rayo Vallecano - MATCHDAY 12 - LaLiga 2026/27
-https://iptvlive-beta.vercel.app/real-sociedad-vs-rayo-vallecano-matchday-12-laliga-2026-27/index.m3u8
+#EXTINF:-1 tvg-id="tapmad-19466" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17939692981020x576.jpg" group-title="Football", Atletico Madrid vs Barcelona - MATCHDAY 12 - LaLiga 2026/27
+https://iptvlive-beta.vercel.app/atletico-madrid-vs-barcelona-matchday-12-laliga-2026-27/index.m3u8
 
 #EXTINF:-1 tvg-id="btv" tvg-name="BTV" tvg-logo="http://198.195.239.50/img/channels/BTV.HD.png", BTV
 https://iptvlive-beta.vercel.app/btv-1/index.m3u8
