@@ -1785,8 +1785,11 @@ https://iptvlive-beta.vercel.app/rt-espa-ol/index.m3u8
 #EXTINF:-1 tvg-name="RTVE 24H" tvg-logo="https://i.imgur.com/WTDKOoM.png" group-title="News (ES)",RTVE 24H
 https://iptvlive-beta.vercel.app/rtve-24h/index.m3u8
 
-#EXTINF:-1 tvg-id="tapmad-19062" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17937866241020x576.jpg" group-title="Cricket", New Zealand vs India - 3rd ODI - India Tour of New Zealand 2026 - Server 2
-https://iptvlive-beta.vercel.app/new-zealand-vs-india-3rd-odi-india-tour-of-new-zealand-2026-server-2/index.m3u8
+#EXTINF:-1 tvg-id="tapmad-19996" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17938582641020x576.jpg" group-title="Cricket", Pakistan vs Sri Lanka - 1st Test - Sri Lanka Tour of Pakistan 2026 - Server 2
+https://iptvlive-beta.vercel.app/pakistan-vs-sri-lanka-1st-test-sri-lanka-tour-of-pakistan-2026-server-2/index.m3u8
+
+#EXTINF:-1 tvg-id="tapmad-19194" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17937862191020x576.jpg" group-title="Cricket", Hobart Hurricanes vs Adelaide Strikers - Group Stage - Women's Big Bash League 2026
+https://iptvlive-beta.vercel.app/hobart-hurricanes-vs-adelaide-strikers-group-stage-women-s-big-bash-league-2026/index.m3u8
 
 #EXTINF:-1 tvg-id="btv" tvg-name="BTV" tvg-logo="http://198.195.239.50/img/channels/BTV.HD.png", BTV
 https://iptvlive-beta.vercel.app/btv-1/index.m3u8
