@@ -4515,7 +4515,7 @@ https://iptvlive-beta.vercel.app/channel-16-161/index.m3u8
 #EXTINF:-1 tvg-id="Channel9.bd" tvg-name="Channel 9_163" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/channel-9.png" tvg-chno="15" channel-id="Channel9.bd" tvg-country="BD" tvg-language="ben" group-title="Back channel",Channel 9_163
 https://iptvlive-beta.vercel.app/channel-9-163/index.m3u8
 
-#EXTINF:-1 tvg-id="Channel9.bd" tvg-name="Channel 9_164" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/channel-9.png" channel-id="Channel9.bd" tvg-country="BD" tvg-language="ben" group-title="Back channel",Channel 9_164
+#EXTINF:-1 tvg-id="Channel9.bd" tvg-name="Channel 9_164" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/channel-9.png" tvg-chno="15" channel-id="Channel9.bd" tvg-country="BD" tvg-language="ben" group-title="Back channel",Channel 9_164
 https://iptvlive-beta.vercel.app/channel-9-164/index.m3u8
 
 #EXTINF:-1 tvg-id="ChannelI.bd" tvg-name="Channel I_165" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/channel-i.png" tvg-chno="18" channel-id="ChannelI.bd" tvg-country="BD" tvg-language="ben" group-title="Back channel",Channel I_165
@@ -4593,7 +4593,7 @@ https://iptvlive-beta.vercel.app/dd-arun-prabha-192/index.m3u8
 #EXTINF:-1 tvg-id="DDBangla.in@SD" tvg-name="DD Bangla_194" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/dd-bangla.png" tvg-chno="64" channel-id="DDBangla.in@SD" tvg-country="IN" tvg-language="ben" group-title="Back channel",DD Bangla_194
 https://iptvlive-beta.vercel.app/dd-bangla-194/index.m3u8
 
-#EXTINF:-1 tvg-id="DDBangla.in@SD" tvg-name="DD Bangla_195" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/dd-bangla.png" channel-id="DDBangla.in@SD" tvg-country="IN" tvg-language="ben" group-title="Back channel",DD Bangla_195
+#EXTINF:-1 tvg-id="DDBangla.in@SD" tvg-name="DD Bangla_195" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/dd-bangla.png" tvg-chno="64" channel-id="DDBangla.in@SD" tvg-country="IN" tvg-language="ben" group-title="Back channel",DD Bangla_195
 https://iptvlive-beta.vercel.app/dd-bangla-195/index.m3u8
 
 #EXTINF:-1 tvg-id="DDChandana.in@SD" tvg-name="DD Chandana_196" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/dd-chandana.png" tvg-chno="241" channel-id="DDChandana.in@SD" tvg-country="IN" tvg-language="kan" group-title="Back channel",DD Chandana_196
@@ -5244,7 +5244,7 @@ https://iptvlive-beta.vercel.app/ruposhi-bangla-431/index.m3u8
 #EXTINF:-1 tvg-id="RupasiBangla.in@SD" tvg-name="Ruposhi Bangla_432" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/ruposhi-bangla.png" tvg-chno="73" channel-id="RupasiBangla.in@SD" tvg-country="IN" tvg-language="ben" group-title="Back channel",Ruposhi Bangla_432
 https://iptvlive-beta.vercel.app/ruposhi-bangla-432/index.m3u8
 
-#EXTINF:-1 tvg-id="RupasiBangla.in@SD" tvg-name="Ruposhi Bangla_433" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/ruposhi-bangla.png" channel-id="RupasiBangla.in@SD" tvg-country="IN" tvg-language="ben" group-title="Back channel",Ruposhi Bangla_433
+#EXTINF:-1 tvg-id="RupasiBangla.in@SD" tvg-name="Ruposhi Bangla_433" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/ruposhi-bangla.png" tvg-chno="73" channel-id="RupasiBangla.in@SD" tvg-country="IN" tvg-language="ben" group-title="Back channel",Ruposhi Bangla_433
 https://iptvlive-beta.vercel.app/ruposhi-bangla-433/index.m3u8
 
 #EXTINF:-1 tvg-id="SATV.bd" tvg-name="SA TV_434" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/sa-tv.png" tvg-chno="52" channel-id="SATV.bd" tvg-country="BD" tvg-language="ben" group-title="Back channel",SA TV_434
