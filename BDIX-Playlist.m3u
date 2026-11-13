@@ -1785,6 +1785,9 @@ https://iptvlive-beta.vercel.app/rt-espa-ol/index.m3u8
 #EXTINF:-1 tvg-name="RTVE 24H" tvg-logo="https://i.imgur.com/WTDKOoM.png" group-title="News (ES)",RTVE 24H
 https://iptvlive-beta.vercel.app/rtve-24h/index.m3u8
 
+#EXTINF:-1 tvg-id="tapmad-20063" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17942900291020x576.jpg" group-title="Football", Moldova vs Kazakhstan - MATCHDAY 5 - UEFA Nations League 2026/27
+https://iptvlive-beta.vercel.app/moldova-vs-kazakhstan-matchday-5-uefa-nations-league-2026-27/index.m3u8
+
 #EXTINF:-1 tvg-id="btv" tvg-name="BTV" tvg-logo="http://198.195.239.50/img/channels/BTV.HD.png", BTV
 https://iptvlive-beta.vercel.app/btv-1/index.m3u8
 
@@ -2571,7 +2574,7 @@ https://iptvlive-beta.vercel.app/matribhumi-tv/index.m3u8
 #EXTINF:-1 tvg-id="RupashiBanglaTV.bd@SD" tvg-name="Rupashi Bangla TV" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/rupashi-bangla-tv.png" tvg-chno="51" channel-id="RupashiBanglaTV.bd@SD" tvg-country="BD" tvg-language="ben" group-title="Bnagla",Rupashi Bangla TV
 https://iptvlive-beta.vercel.app/rupashi-bangla-tv/index.m3u8
 
-#EXTINF:-1 tvg-id="custom.shikortvcanada" tvg-name="Shikor TV Canada" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/shikor-tv-canada-ac43f0fa9e.png" tvg-chno="53" channel-id="custom.shikortvcanada" tvg-country="CA" tvg-language="ben" group-title="Bnagla",Shikor TV Canada
+#EXTINF:-1 tvg-id="custom.shikortvcanada" tvg-name="Shikor TV Canada" tvg-chno="53" channel-id="custom.shikortvcanada" tvg-country="CA" tvg-language="ben" group-title="Bnagla",Shikor TV Canada
 https://iptvlive-beta.vercel.app/shikor-tv-canada/index.m3u8
 
 #EXTINF:-1 tvg-id="bd.tbn.24.usa.bd" tvg-name="TBN 24 USA" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/tbn-24.png" tvg-chno="9" channel-id="bd.tbn.24.usa.bd" tvg-country="BD" tvg-language="ben" group-title="News",TBN 24 USA
@@ -2643,7 +2646,7 @@ https://iptvlive-beta.vercel.app/star-jalsha-hd-2/index.m3u8
 #EXTINF:-1 tvg-id="TaraTV.in" tvg-name="Tara TV" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/tara-tv.png" tvg-chno="79" channel-id="TaraTV.in" tvg-country="IN" tvg-language="ben" group-title="Indian Bangla",Tara TV
 https://iptvlive-beta.vercel.app/tara-tv/index.m3u8
 
-#EXTINF:-1 tvg-id="custom.tentvprime" tvg-name="Ten TV Prime" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/ten-tv-prime-ac43f0fa9e.png" tvg-chno="59" channel-id="custom.tentvprime" tvg-country="BD" tvg-language="ben" group-title="Sports",Ten TV Prime
+#EXTINF:-1 tvg-id="custom.tentvprime" tvg-name="Ten TV Prime" tvg-chno="59" channel-id="custom.tentvprime" tvg-country="BD" tvg-language="ben" group-title="Sports",Ten TV Prime
 https://iptvlive-beta.vercel.app/ten-tv-prime/index.m3u8
 
 #EXTINF:-1 tvg-id="UBangla.in" tvg-name="U Bangla" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/u-bangla.png" tvg-chno="80" channel-id="UBangla.in" tvg-country="IN" tvg-language="ben" group-title="Indian Bangla",U Bangla
@@ -3003,7 +3006,7 @@ https://iptvlive-beta.vercel.app/colors/index.m3u8
 #EXTINF:-1 tvg-id="ColorsGujarati.in@SD" tvg-name="Colors Gujarati" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/colors-gujarati-360p-c82f072793.png" tvg-chno="227" channel-id="ColorsGujarati.in@SD" tvg-country="IN" tvg-language="guj" group-title="Indian entertainment",Colors Gujarati
 https://iptvlive-beta.vercel.app/colors-gujarati/index.m3u8
 
-#EXTINF:-1 tvg-id="Colors.in@HD" tvg-name="Colors HD" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/nvisionbd-verified-colors-3cfc323d7c.png" tvg-chno="228" channel-id="Colors.in@HD" tvg-country="IN" tvg-language="und" group-title="Indian entertainment",Colors HD
+#EXTINF:-1 tvg-id="Colors.in@HD" tvg-name="Colors HD" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/colors-3cfc323d7c.png" tvg-chno="228" channel-id="Colors.in@HD" tvg-country="IN" tvg-language="und" group-title="Indian entertainment",Colors HD
 https://iptvlive-beta.vercel.app/colors-hd/index.m3u8
 
 #EXTINF:-1 tvg-id="ColorsKannada.in@SD" tvg-name="Colors Kannada" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/colors-kannada.png" tvg-chno="229" channel-id="ColorsKannada.in@SD" tvg-country="IN" tvg-language="kan" group-title="Indian entertainment",Colors Kannada
@@ -3771,7 +3774,7 @@ https://iptvlive-beta.vercel.app/peace-tv-english/index.m3u8
 #EXTINF:-1 tvg-id="PeaceTVUrdu.pk" tvg-name="Peace TV Urdu" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/peace-tv-urdu.png" tvg-chno="587" channel-id="PeaceTVUrdu.pk" tvg-country="PK" tvg-language="urd" group-title="Islami",Peace TV Urdu
 https://iptvlive-beta.vercel.app/peace-tv-urdu/index.m3u8
 
-#EXTINF:-1 tvg-id="TVOne.uk" tvg-name="TV One UK" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/tv-one-uk-ac43f0fa9e.png" tvg-chno="567" channel-id="TVOne.uk" tvg-country="GB" tvg-language="eng" group-title="Islami",TV One UK
+#EXTINF:-1 tvg-id="TVOne.uk" tvg-name="TV One UK" tvg-chno="567" channel-id="TVOne.uk" tvg-country="GB" tvg-language="eng" group-title="Islami",TV One UK
 https://iptvlive-beta.vercel.app/tv-one-uk/index.m3u8
 
 #EXTINF:-1 tvg-id="ZainabiaChannel.sa" tvg-name="Zainabia Channel" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/zainabia-channel.png" tvg-chno="589" channel-id="ZainabiaChannel.sa" tvg-country="SA" tvg-language="ara" group-title="Islami",Zainabia Channel
@@ -4170,6 +4173,27 @@ https://iptvlive-beta.vercel.app/ccv-480p/index.m3u8
 #EXTINF:-1 tvg-id="MoviesNow.in@HD" tvg-name="Movies Now HD (576p)" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/movies-now-hd-576p.png" group-title="Bnagla",Movies Now HD (576p)
 https://iptvlive-beta.vercel.app/movies-now-hd-576p/index.m3u8
 
+#EXTINF:-1 tvg-id="Nickelodeon.in@SD" tvg-name="Nickelodeon (India) (576p)" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/nickelodeon-india.png" group-title="Kids",Nickelodeon (India) (576p)
+https://iptvlive-beta.vercel.app/nickelodeon-india-576p/index.m3u8
+
+#EXTINF:-1 tvg-id="NickJr.in@SD" tvg-name="Nick Jr. (India) (576p)" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/nick-jr-india.png" group-title="Kids",Nick Jr. (India) (576p)
+https://iptvlive-beta.vercel.app/nick-jr-india-576p/index.m3u8
+
+#EXTINF:-1 tvg-id="CVRHealth.in@SD" tvg-name="CVR Health (576p)" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/cvr-health.png" group-title="Bnagla",CVR Health (576p)
+https://iptvlive-beta.vercel.app/cvr-health-576p/index.m3u8
+
+#EXTINF:-1 tvg-id="DishaTV.in@SD" tvg-name="Disha TV (396p)" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/disha-tv.png" group-title="Bnagla",Disha TV (396p)
+https://iptvlive-beta.vercel.app/disha-tv-396p/index.m3u8
+
+#EXTINF:-1 tvg-id="MBCTV.in@SD" tvg-name="MBC TV (576p)" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/mbc-tv.png" group-title="Bnagla",MBC TV (576p)
+https://iptvlive-beta.vercel.app/mbc-tv-576p/index.m3u8
+
+#EXTINF:-1 tvg-id="TheQIndia.us@SD" tvg-name="The Q India (576p)" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/the-q-india.svg" group-title="Bnagla",The Q India (576p)
+https://iptvlive-beta.vercel.app/the-q-india-576p/index.m3u8
+
+#EXTINF:-1 tvg-id="TV100.in@SD" tvg-name="TV 100 (India) (576p)" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/tv-100-india.png" group-title="Bnagla",TV 100 (India) (576p)
+https://iptvlive-beta.vercel.app/tv-100-india-576p/index.m3u8
+
 #EXTINF:-1 tvg-id="AllTimeMovies.in@SD" tvg-name="All Time Movies (576p)" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/all-time-movies.png" group-title="Bnagla",All Time Movies (576p)
 https://iptvlive-beta.vercel.app/all-time-movies-576p/index.m3u8
 
@@ -4196,6 +4220,9 @@ https://iptvlive-beta.vercel.app/sangeet-bhojpuri-576p/index.m3u8
 
 #EXTINF:-1 tvg-id="VendharTV.in@SD" tvg-name="Vendhar TV (576p)" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/vendhar-tv.png" group-title="Bnagla",Vendhar TV (576p)
 https://iptvlive-beta.vercel.app/vendhar-tv-576p/index.m3u8
+
+#EXTINF:-1 tvg-id="Pogo.in@SD" tvg-name="Pogo (576p)" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/pogo.png" group-title="Kids",Pogo (576p)
+https://iptvlive-beta.vercel.app/pogo-576p/index.m3u8
 
 #EXTINF:-1 tvg-id="AsianTV.bd" tvg-name="Asian TV_3" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/asian-tv.png" tvg-chno="3" channel-id="AsianTV.bd" tvg-country="BD" tvg-language="ben" group-title="Back channel",Asian TV_3
 https://iptvlive-beta.vercel.app/asian-tv-3/index.m3u8
