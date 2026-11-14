@@ -1788,6 +1788,18 @@ https://iptvlive-beta.vercel.app/rtve-24h/index.m3u8
 #EXTINF:-1 tvg-id="tapmad-20203" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17945729661020x576.jpg" group-title="Mma", Nemkov vs Bilostenniy - Semi Finals - PFL 2026
 https://iptvlive-beta.vercel.app/nemkov-vs-bilostenniy-semi-finals-pfl-2026/index.m3u8
 
+#EXTINF:-1 tvg-id="tapmad-20080" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17942961621020x576.jpg" group-title="Football", Romania vs Poland - MATCHDAY 5 - UEFA Nations League 2026/27
+https://iptvlive-beta.vercel.app/romania-vs-poland-matchday-5-uefa-nations-league-2026-27/index.m3u8
+
+#EXTINF:-1 tvg-id="tapmad-20079" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17942960561020x576.jpg" group-title="Football", Sweden vs Bosnia and Herzegovina - MATCHDAY 5 - UEFA Nations League 2026/27
+https://iptvlive-beta.vercel.app/sweden-vs-bosnia-and-herzegovina-matchday-5-uefa-nations-league-2026-27/index.m3u8
+
+#EXTINF:-1 tvg-id="tapmad-20077" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17942958291020x576.jpg" group-title="Football", Portugal vs Denmark - MATCHDAY 5 - UEFA Nations League 2026/27
+https://iptvlive-beta.vercel.app/portugal-vs-denmark-matchday-5-uefa-nations-league-2026-27/index.m3u8
+
+#EXTINF:-1 tvg-id="tapmad-20214" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17943014771020x576.jpg" group-title="Racing", CLASSIC 24 HOUR presented by Mission Foods (GROUP A/B) RACE 1 - Group Stages - HSR Daytona Classic 2026
+https://iptvlive-beta.vercel.app/classic-24-hour-presented-by-mission-foods-group-a-b-race-1-group-stages-hsr-daytona-classic-2026/index.m3u8
+
 #EXTINF:-1 tvg-id="btv" tvg-name="BTV" tvg-logo="http://198.195.239.50/img/channels/BTV.HD.png", BTV
 https://iptvlive-beta.vercel.app/btv-1/index.m3u8
 
