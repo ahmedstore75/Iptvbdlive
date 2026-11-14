@@ -1785,9 +1785,6 @@ https://iptvlive-beta.vercel.app/rt-espa-ol/index.m3u8
 #EXTINF:-1 tvg-name="RTVE 24H" tvg-logo="https://i.imgur.com/WTDKOoM.png" group-title="News (ES)",RTVE 24H
 https://iptvlive-beta.vercel.app/rtve-24h/index.m3u8
 
-#EXTINF:-1 tvg-id="tapmad-20063" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17942900291020x576.jpg" group-title="Football", Moldova vs Kazakhstan - MATCHDAY 5 - UEFA Nations League 2026/27
-https://iptvlive-beta.vercel.app/moldova-vs-kazakhstan-matchday-5-uefa-nations-league-2026-27/index.m3u8
-
 #EXTINF:-1 tvg-id="btv" tvg-name="BTV" tvg-logo="http://198.195.239.50/img/channels/BTV.HD.png", BTV
 https://iptvlive-beta.vercel.app/btv-1/index.m3u8
 
@@ -4223,6 +4220,9 @@ https://iptvlive-beta.vercel.app/vendhar-tv-576p/index.m3u8
 
 #EXTINF:-1 tvg-id="Pogo.in@SD" tvg-name="Pogo (576p)" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/pogo.png" group-title="Kids",Pogo (576p)
 https://iptvlive-beta.vercel.app/pogo-576p/index.m3u8
+
+#EXTINF:-1 tvg-id="JaihindTV.in@SD" tvg-name="Jaihind TV (576p)" group-title="Bnagla",Jaihind TV (576p)
+https://iptvlive-beta.vercel.app/jaihind-tv-576p/index.m3u8
 
 #EXTINF:-1 tvg-id="AsianTV.bd" tvg-name="Asian TV_3" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/asian-tv.png" tvg-chno="3" channel-id="AsianTV.bd" tvg-country="BD" tvg-language="ben" group-title="Back channel",Asian TV_3
 https://iptvlive-beta.vercel.app/asian-tv-3/index.m3u8
