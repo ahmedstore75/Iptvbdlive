@@ -1785,6 +1785,9 @@ https://iptvlive-beta.vercel.app/rt-espa-ol/index.m3u8
 #EXTINF:-1 tvg-name="RTVE 24H" tvg-logo="https://i.imgur.com/WTDKOoM.png" group-title="News (ES)",RTVE 24H
 https://iptvlive-beta.vercel.app/rtve-24h/index.m3u8
 
+#EXTINF:-1 tvg-id="tapmad-19199" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17944770041020x576.jpg" group-title="Cricket", Perth Scorchers vs Adelaide Strikers - Group Stage - Women's Big Bash League 2026
+https://iptvlive-beta.vercel.app/perth-scorchers-vs-adelaide-strikers-group-stage-women-s-big-bash-league-2026/index.m3u8
+
 #EXTINF:-1 tvg-id="btv" tvg-name="BTV" tvg-logo="http://198.195.239.50/img/channels/BTV.HD.png", BTV
 https://iptvlive-beta.vercel.app/btv-1/index.m3u8
 
@@ -2745,7 +2748,7 @@ https://iptvlive-beta.vercel.app/nh-tamil-gold/index.m3u8
 #EXTINF:-1 tvg-id="OscarMoviesBhojpuri.in@SD" tvg-name="Oscar Movies Bhojpuri" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/oscar-movies-bhojpuri.png" tvg-chno="122" channel-id="OscarMoviesBhojpuri.in@SD" tvg-country="IN" tvg-language="bho" group-title="Bnagla",Oscar Movies Bhojpuri
 https://iptvlive-beta.vercel.app/oscar-movies-bhojpuri/index.m3u8
 
-#EXTINF:-1 tvg-id="Pitaara.in@SD@pitaara" tvg-name="Pitaara" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/pitaara-comedy.png" channel-id="Pitaara.in@SD@pitaara" tvg-country="IN" tvg-language="und" group-title="Bnagla",Pitaara
+#EXTINF:-1 tvg-id="Pitaara.in@SD@pitaara" tvg-name="Pitaara" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/pitaara-comedy.png" tvg-chno="123" channel-id="Pitaara.in@SD@pitaara" tvg-country="IN" tvg-language="und" group-title="Bnagla",Pitaara
 https://iptvlive-beta.vercel.app/pitaara/index.m3u8
 
 #EXTINF:-1 tvg-id="PitaaraComedy.in@SD" tvg-name="Pitaara Comedy" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/pitaara-comedy.png" tvg-chno="124" channel-id="PitaaraComedy.in@SD" tvg-country="IN" tvg-language="pan" group-title="Indian entertainment",Pitaara Comedy
@@ -4704,7 +4707,7 @@ https://iptvlive-beta.vercel.app/desi-channel-222/index.m3u8
 #EXTINF:-1 tvg-id="DhoomMusic.in@SD" tvg-name="Dhoom Music_223" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/dhoom-music-bangla.png" tvg-chno="161" channel-id="DhoomMusic.in@SD" tvg-country="IN" tvg-language="ben" group-title="Back channel",Dhoom Music_223
 https://iptvlive-beta.vercel.app/dhoom-music-223/index.m3u8
 
-#EXTINF:-1 tvg-id="DhoomMusic.in@SD" tvg-name="Dhoom Music_224" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/dhoom-music-bangla.png" channel-id="DhoomMusic.in@SD" tvg-country="IN" tvg-language="ben" group-title="Back channel",Dhoom Music_224
+#EXTINF:-1 tvg-id="DhoomMusic.in@SD" tvg-name="Dhoom Music_224" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/dhoom-music-bangla.png" tvg-chno="161" channel-id="DhoomMusic.in@SD" tvg-country="IN" tvg-language="ben" group-title="Back channel",Dhoom Music_224
 https://iptvlive-beta.vercel.app/dhoom-music-224/index.m3u8
 
 #EXTINF:-1 tvg-id="DiscoverPakistan.pk@SD" tvg-name="Discover Pakistan_225" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/discover-pakistan.png" tvg-chno="364" channel-id="DiscoverPakistan.pk@SD" tvg-country="PK" tvg-language="urd" group-title="Back channel",Discover Pakistan_225
