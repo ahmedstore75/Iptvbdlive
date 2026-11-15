@@ -1785,20 +1785,20 @@ https://iptvlive-beta.vercel.app/rt-espa-ol/index.m3u8
 #EXTINF:-1 tvg-name="RTVE 24H" tvg-logo="https://i.imgur.com/WTDKOoM.png" group-title="News (ES)",RTVE 24H
 https://iptvlive-beta.vercel.app/rtve-24h/index.m3u8
 
-#EXTINF:-1 tvg-id="tapmad-20203" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17945729661020x576.jpg" group-title="Mma", Nemkov vs Bilostenniy - Semi Finals - PFL 2026
-https://iptvlive-beta.vercel.app/nemkov-vs-bilostenniy-semi-finals-pfl-2026/index.m3u8
+#EXTINF:-1 tvg-id="tapmad-19064" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17937869581020x576.jpg" group-title="Cricket", New Zealand vs India - 5th ODI - India Tour of New Zealand 2026 - Server 1
+https://iptvlive-beta.vercel.app/new-zealand-vs-india-5th-odi-india-tour-of-new-zealand-2026-server-1/index.m3u8
 
-#EXTINF:-1 tvg-id="tapmad-20080" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17942961621020x576.jpg" group-title="Football", Romania vs Poland - MATCHDAY 5 - UEFA Nations League 2026/27
-https://iptvlive-beta.vercel.app/romania-vs-poland-matchday-5-uefa-nations-league-2026-27/index.m3u8
-
-#EXTINF:-1 tvg-id="tapmad-20079" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17942960561020x576.jpg" group-title="Football", Sweden vs Bosnia and Herzegovina - MATCHDAY 5 - UEFA Nations League 2026/27
-https://iptvlive-beta.vercel.app/sweden-vs-bosnia-and-herzegovina-matchday-5-uefa-nations-league-2026-27/index.m3u8
-
-#EXTINF:-1 tvg-id="tapmad-20077" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17942958291020x576.jpg" group-title="Football", Portugal vs Denmark - MATCHDAY 5 - UEFA Nations League 2026/27
-https://iptvlive-beta.vercel.app/portugal-vs-denmark-matchday-5-uefa-nations-league-2026-27/index.m3u8
+#EXTINF:-1 tvg-id="tapmad-19064" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17937869581020x576.jpg" group-title="Cricket", New Zealand vs India - 5th ODI - India Tour of New Zealand 2026 - Server 2
+https://iptvlive-beta.vercel.app/new-zealand-vs-india-5th-odi-india-tour-of-new-zealand-2026-server-2/index.m3u8
 
 #EXTINF:-1 tvg-id="tapmad-20214" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17943014771020x576.jpg" group-title="Racing", CLASSIC 24 HOUR presented by Mission Foods (GROUP A/B) RACE 1 - Group Stages - HSR Daytona Classic 2026
 https://iptvlive-beta.vercel.app/classic-24-hour-presented-by-mission-foods-group-a-b-race-1-group-stages-hsr-daytona-classic-2026/index.m3u8
+
+#EXTINF:-1 tvg-id="tapmad-19316" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17932589681020x576.jpg" group-title="Mma", Gane vs Hokit - UFC 334 - UFC 2026 - Server 1
+https://iptvlive-beta.vercel.app/gane-vs-hokit-ufc-334-ufc-2026-server-1/index.m3u8
+
+#EXTINF:-1 tvg-id="tapmad-19316" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17932589681020x576.jpg" group-title="Mma", Gane vs Hokit - UFC 334 - UFC 2026 - Server 2
+https://iptvlive-beta.vercel.app/gane-vs-hokit-ufc-334-ufc-2026-server-2/index.m3u8
 
 #EXTINF:-1 tvg-id="btv" tvg-name="BTV" tvg-logo="http://198.195.239.50/img/channels/BTV.HD.png", BTV
 https://iptvlive-beta.vercel.app/btv-1/index.m3u8
@@ -2580,13 +2580,16 @@ https://iptvlive-beta.vercel.app/g-tv-1/index.m3u8
 #EXTINF:-1 tvg-id="JATV.bd" tvg-name="JA TV" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/ja-tv.png" tvg-chno="30" channel-id="JATV.bd" tvg-country="BD" tvg-language="ben" group-title="Bnagla",JA TV
 https://iptvlive-beta.vercel.app/ja-tv/index.m3u8
 
+#EXTINF:-1 tvg-id="JalshaBanglaBD.bd" tvg-name="Jalsha Bangla BD" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/jalsha-bangla-bd.png" tvg-chno="32" channel-id="JalshaBanglaBD.bd" tvg-country="BD" tvg-language="ben" group-title="Indian Bangla",Jalsha Bangla BD
+https://iptvlive-beta.vercel.app/jalsha-bangla-bd/index.m3u8
+
 #EXTINF:-1 tvg-id="MatribhumiTV.bd" tvg-name="Matribhumi TV" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/matri-bhumi-tv.png" tvg-chno="38" channel-id="MatribhumiTV.bd" tvg-country="BD" tvg-language="ben" group-title="Bnagla",Matribhumi TV
 https://iptvlive-beta.vercel.app/matribhumi-tv/index.m3u8
 
 #EXTINF:-1 tvg-id="RupashiBanglaTV.bd@SD" tvg-name="Rupashi Bangla TV" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/rupashi-bangla-tv.png" tvg-chno="51" channel-id="RupashiBanglaTV.bd@SD" tvg-country="BD" tvg-language="ben" group-title="Bnagla",Rupashi Bangla TV
 https://iptvlive-beta.vercel.app/rupashi-bangla-tv/index.m3u8
 
-#EXTINF:-1 tvg-id="custom.shikortvcanada" tvg-name="Shikor TV Canada" tvg-chno="53" channel-id="custom.shikortvcanada" tvg-country="CA" tvg-language="ben" group-title="Bnagla",Shikor TV Canada
+#EXTINF:-1 tvg-id="custom.shikortvcanada" tvg-name="Shikor TV Canada" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/shikor-tv-canada.png" tvg-chno="53" channel-id="custom.shikortvcanada" tvg-country="CA" tvg-language="ben" group-title="Bnagla",Shikor TV Canada
 https://iptvlive-beta.vercel.app/shikor-tv-canada/index.m3u8
 
 #EXTINF:-1 tvg-id="bd.tbn.24.usa.bd" tvg-name="TBN 24 USA" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/tbn-24.png" tvg-chno="9" channel-id="bd.tbn.24.usa.bd" tvg-country="BD" tvg-language="ben" group-title="News",TBN 24 USA
@@ -2616,13 +2619,10 @@ https://iptvlive-beta.vercel.app/dhoom-music/index.m3u8
 #EXTINF:-1 tvg-id="Enter10Bangla.in" tvg-name="Enter10 Bangla" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/enter10-bangla.png" tvg-chno="66" channel-id="Enter10Bangla.in" tvg-country="IN" tvg-language="ben" group-title="Indian Bangla",Enter10 Bangla
 https://iptvlive-beta.vercel.app/enter10-bangla/index.m3u8
 
-#EXTINF:-1 tvg-id="JalshaBanglaBD.bd" tvg-name="Jalsha Bangla BD" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/jalsha-bangla-bd.png" tvg-chno="32" channel-id="JalshaBanglaBD.bd" tvg-country="BD" tvg-language="ben" group-title="Indian Bangla",Jalsha Bangla BD
-https://iptvlive-beta.vercel.app/jalsha-bangla-bd/index.m3u8
-
 #EXTINF:-1 tvg-id="JalshaMovies.in@SD" tvg-name="Jalsha Movies" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/jalsha-movies.png" tvg-chno="110" channel-id="JalshaMovies.in@SD" tvg-country="IN" tvg-language="ben" group-title="Indian Bangla",Jalsha Movies
 https://iptvlive-beta.vercel.app/jalsha-movies-1/index.m3u8
 
-#EXTINF:-1 tvg-id="jtv.bangla.bd" tvg-name="JTV Bangla" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/jtv-bangla.png" tvg-chno="36" channel-id="jtv.bangla.bd" tvg-country="BD" tvg-language="ben" group-title="Bnagla",JTV Bangla
+#EXTINF:-1 tvg-id="JTVBangla.in@SD" tvg-name="JTV Bangla" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/jtv-bangla.png" tvg-chno="36" channel-id="JTVBangla.in@SD" tvg-country="IN" tvg-language="ben" group-title="Indian Bangla",JTV Bangla
 https://iptvlive-beta.vercel.app/jtv-bangla/index.m3u8
 
 #EXTINF:-1 tvg-id="KhushbooBangla.in@SD" tvg-name="Khushboo Bangla" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/khushboo-bangla.png" tvg-chno="67" channel-id="KhushbooBangla.in@SD" tvg-country="IN" tvg-language="ben" group-title="Indian Bangla",Khushboo Bangla
@@ -2652,7 +2652,7 @@ https://iptvlive-beta.vercel.app/sonar-bangla/index.m3u8
 #EXTINF:-1 tvg-id="TaraTV.in" tvg-name="Tara TV" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/tara-tv.png" tvg-chno="79" channel-id="TaraTV.in" tvg-country="IN" tvg-language="ben" group-title="Indian Bangla",Tara TV
 https://iptvlive-beta.vercel.app/tara-tv/index.m3u8
 
-#EXTINF:-1 tvg-id="custom.tentvprime" tvg-name="Ten TV Prime" tvg-chno="59" channel-id="custom.tentvprime" tvg-country="BD" tvg-language="ben" group-title="Sports",Ten TV Prime
+#EXTINF:-1 tvg-id="custom.tentvprime" tvg-name="Ten TV Prime" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/ten-tv-prime.png" tvg-chno="59" channel-id="custom.tentvprime" tvg-country="IN" tvg-language="ben" group-title="Sports",Ten TV Prime
 https://iptvlive-beta.vercel.app/ten-tv-prime/index.m3u8
 
 #EXTINF:-1 tvg-id="UBangla.in" tvg-name="U Bangla" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/u-bangla.png" tvg-chno="80" channel-id="UBangla.in" tvg-country="IN" tvg-language="ben" group-title="Indian Bangla",U Bangla
@@ -3414,7 +3414,7 @@ https://iptvlive-beta.vercel.app/joo-music/index.m3u8
 #EXTINF:-1 tvg-id="PaighanTV.pk@SD" tvg-name="Paighan TV" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/paighan-tv.png" tvg-chno="372" channel-id="PaighanTV.pk@SD" tvg-country="PK" tvg-language="urd" group-title="Bnagla",Paighan TV
 https://iptvlive-beta.vercel.app/paighan-tv/index.m3u8
 
-#EXTINF:-1 tvg-id="SindhTV.in@SD" tvg-name="Sindh TV" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/sindh-tv.png" tvg-chno="375" channel-id="SindhTV.in@SD" tvg-country="PK" tvg-language="urd" group-title="Bnagla",Sindh TV
+#EXTINF:-1 tvg-id="SindhTV.pk@SD" tvg-name="Sindh TV" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/sindh-tv.png" tvg-chno="375" channel-id="SindhTV.pk@SD" tvg-country="PK" tvg-language="urd" group-title="Bnagla",Sindh TV
 https://iptvlive-beta.vercel.app/sindh-tv/index.m3u8
 
 #EXTINF:-1 tvg-id="TagTV.pk" tvg-name="Tag TV" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/tag-tv.png" tvg-chno="376" channel-id="TagTV.pk" tvg-country="PK" tvg-language="urd" group-title="Bnagla",Tag TV
@@ -4290,32 +4290,32 @@ https://iptvlive-beta.vercel.app/dangal-2-52/index.m3u8
 #EXTINF:-1 tvg-id="Network10.in@SD" tvg-name="Network 10_53" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/network-10.png" tvg-chno="300" channel-id="Network10.in@SD" tvg-country="IN" tvg-language="ben" group-title="Back channel",Network 10_53
 https://iptvlive-beta.vercel.app/network-10-53/index.m3u8
 
-#EXTINF:-1 tvg-id="ShemarooTV.in@SD" tvg-name="Shemaroo TV_54" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/shemaroo-tv.png" tvg-chno="323" channel-id="ShemarooTV.in@SD" tvg-country="IN" tvg-language="hin" group-title="Back channel",Shemaroo TV_54
-https://iptvlive-beta.vercel.app/shemaroo-tv-54/index.m3u8
+#EXTINF:-1 tvg-id="QTV.in" tvg-name="Q TV_54" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/q-tv.png" tvg-chno="373" channel-id="QTV.in" tvg-country="IN" tvg-language="hin" group-title="Back channel",Q TV_54
+https://iptvlive-beta.vercel.app/q-tv-54/index.m3u8
 
-#EXTINF:-1 tvg-id="DWNews.de" tvg-name="DW News_57" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/dw-news.png" tvg-chno="402" channel-id="DWNews.de" tvg-country="DE" tvg-language="eng" group-title="Back channel",DW News_57
-https://iptvlive-beta.vercel.app/dw-news-57/index.m3u8
+#EXTINF:-1 tvg-id="ShemarooTV.in@SD" tvg-name="Shemaroo TV_55" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/shemaroo-tv.png" tvg-chno="323" channel-id="ShemarooTV.in@SD" tvg-country="IN" tvg-language="hin" group-title="Back channel",Shemaroo TV_55
+https://iptvlive-beta.vercel.app/shemaroo-tv-55/index.m3u8
 
-#EXTINF:-1 tvg-id="CGTNDocumentary.cn" tvg-name="CGTN Documentary_59" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/cgtn-documentary.png" tvg-chno="493" channel-id="CGTNDocumentary.cn" tvg-country="CN" tvg-language="eng" group-title="Back channel",CGTN Documentary_59
-https://iptvlive-beta.vercel.app/cgtn-documentary-59/index.m3u8
+#EXTINF:-1 tvg-id="DWNews.de" tvg-name="DW News_58" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/dw-news.png" tvg-chno="402" channel-id="DWNews.de" tvg-country="DE" tvg-language="eng" group-title="Back channel",DW News_58
+https://iptvlive-beta.vercel.app/dw-news-58/index.m3u8
 
-#EXTINF:-1 tvg-id="NatGeoTV.us" tvg-name="Nat Geo TV_60" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/national-geographic.png" tvg-chno="438" channel-id="NatGeoTV.us" tvg-country="US" tvg-language="eng" group-title="Back channel",Nat Geo TV_60
-https://iptvlive-beta.vercel.app/nat-geo-tv-60/index.m3u8
+#EXTINF:-1 tvg-id="CGTNDocumentary.cn" tvg-name="CGTN Documentary_60" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/cgtn-documentary.png" tvg-chno="493" channel-id="CGTNDocumentary.cn" tvg-country="CN" tvg-language="eng" group-title="Back channel",CGTN Documentary_60
+https://iptvlive-beta.vercel.app/cgtn-documentary-60/index.m3u8
 
-#EXTINF:-1 tvg-id="PBSKids.us@SD" tvg-name="PBS Kids_64" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/pbs-kids.png" tvg-chno="548" channel-id="PBSKids.us@SD" tvg-country="US" tvg-language="eng" group-title="Back channel",PBS Kids_64
-https://iptvlive-beta.vercel.app/pbs-kids-64/index.m3u8
+#EXTINF:-1 tvg-id="NatGeoTV.us" tvg-name="Nat Geo TV_61" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/national-geographic.png" tvg-chno="438" channel-id="NatGeoTV.us" tvg-country="US" tvg-language="eng" group-title="Back channel",Nat Geo TV_61
+https://iptvlive-beta.vercel.app/nat-geo-tv-61/index.m3u8
 
-#EXTINF:-1 tvg-id="DeenTV.uk" tvg-name="Deen TV_65" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/deen-tv-576p.png" tvg-chno="575" channel-id="DeenTV.uk" tvg-country="GB" tvg-language="ben" group-title="Back channel",Deen TV_65
-https://iptvlive-beta.vercel.app/deen-tv-65/index.m3u8
+#EXTINF:-1 tvg-id="PBSKids.us@SD" tvg-name="PBS Kids_65" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/pbs-kids.png" tvg-chno="548" channel-id="PBSKids.us@SD" tvg-country="US" tvg-language="eng" group-title="Back channel",PBS Kids_65
+https://iptvlive-beta.vercel.app/pbs-kids-65/index.m3u8
 
-#EXTINF:-1 tvg-id="EmanChannel" tvg-name="Eman Channel_66" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/eman-tv-482a6c2567.png" tvg-chno="403" channel-id="EmanChannel" tvg-country="GB" tvg-language="eng" group-title="Back channel",Eman Channel_66
-https://iptvlive-beta.vercel.app/eman-channel-66/index.m3u8
+#EXTINF:-1 tvg-id="DeenTV.uk" tvg-name="Deen TV_66" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/deen-tv-576p.png" tvg-chno="575" channel-id="DeenTV.uk" tvg-country="GB" tvg-language="ben" group-title="Back channel",Deen TV_66
+https://iptvlive-beta.vercel.app/deen-tv-66/index.m3u8
 
-#EXTINF:-1 tvg-id="MadaniTV.sa" tvg-name="Madani TV_69" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/madani-tv.png" tvg-chno="582" channel-id="MadaniTV.sa" tvg-country="SA" tvg-language="ara" group-title="Back channel",Madani TV_69
-https://iptvlive-beta.vercel.app/madani-tv-69/index.m3u8
+#EXTINF:-1 tvg-id="EmanChannel" tvg-name="Eman Channel_67" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/eman-tv-482a6c2567.png" tvg-chno="403" channel-id="EmanChannel" tvg-country="GB" tvg-language="eng" group-title="Back channel",Eman Channel_67
+https://iptvlive-beta.vercel.app/eman-channel-67/index.m3u8
 
-#EXTINF:-1 tvg-id="QTV.in@SD" tvg-name="Q TV_70" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/q-tv.png" tvg-chno="373" channel-id="QTV.in@SD" tvg-country="PK" tvg-language="urd" group-title="Back channel",Q TV_70
-https://iptvlive-beta.vercel.app/q-tv-70/index.m3u8
+#EXTINF:-1 tvg-id="MadaniTV.sa" tvg-name="Madani TV_70" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/madani-tv.png" tvg-chno="582" channel-id="MadaniTV.sa" tvg-country="SA" tvg-language="ara" group-title="Back channel",Madani TV_70
+https://iptvlive-beta.vercel.app/madani-tv-70/index.m3u8
 
 #EXTINF:-1 tvg-id="BahrainSports2.bh@SD" tvg-name="Bahrain Sports 2_71" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/bahrain-sports-2.png" tvg-chno="387" channel-id="BahrainSports2.bh@SD" tvg-country="BH" tvg-language="eng" group-title="Back channel",Bahrain Sports 2_71
 https://iptvlive-beta.vercel.app/bahrain-sports-2-71/index.m3u8
@@ -5208,10 +5208,10 @@ https://iptvlive-beta.vercel.app/punjabi-shorts-406/index.m3u8
 #EXTINF:-1 tvg-id="PunjabiTV.in@SD" tvg-name="Punjabi TV_407" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/punjabi-tv-9b4d7425b3.png" tvg-chno="314" channel-id="PunjabiTV.in@SD" tvg-country="IN" tvg-language="pan" group-title="Back channel",Punjabi TV_407
 https://iptvlive-beta.vercel.app/punjabi-tv-407/index.m3u8
 
-#EXTINF:-1 tvg-id="QTV.in@SD" tvg-name="Q TV_408" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/q-tv.png" tvg-chno="373" channel-id="QTV.in@SD" tvg-country="PK" tvg-language="urd" group-title="Back channel",Q TV_408
+#EXTINF:-1 tvg-id="QTV.in" tvg-name="Q TV_408" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/q-tv.png" tvg-chno="373" channel-id="QTV.in" tvg-country="IN" tvg-language="hin" group-title="Back channel",Q TV_408
 https://iptvlive-beta.vercel.app/q-tv-408/index.m3u8
 
-#EXTINF:-1 tvg-id="QTV.in@SD" tvg-name="Q TV_409" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/q-tv.png" tvg-chno="373" channel-id="QTV.in@SD" tvg-country="PK" tvg-language="urd" group-title="Back channel",Q TV_409
+#EXTINF:-1 tvg-id="QTV.in" tvg-name="Q TV_409" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/q-tv.png" tvg-chno="373" channel-id="QTV.in" tvg-country="IN" tvg-language="hin" group-title="Back channel",Q TV_409
 https://iptvlive-beta.vercel.app/q-tv-409/index.m3u8
 
 #EXTINF:-1 tvg-id="QuranTV.iq" tvg-name="Quran TV_410" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/quran-tv.png" tvg-chno="588" channel-id="QuranTV.iq" tvg-country="IQ" tvg-language="ara" group-title="Back channel",Quran TV_410
