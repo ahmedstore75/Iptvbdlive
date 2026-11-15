@@ -1785,8 +1785,8 @@ https://iptvlive-beta.vercel.app/rt-espa-ol/index.m3u8
 #EXTINF:-1 tvg-name="RTVE 24H" tvg-logo="https://i.imgur.com/WTDKOoM.png" group-title="News (ES)",RTVE 24H
 https://iptvlive-beta.vercel.app/rtve-24h/index.m3u8
 
-#EXTINF:-1 tvg-id="tapmad-20191" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17945615901020x576.jpg" group-title="Horse Riding", Qualifier Leg - Stuttgart (GER) - Qualifier - Longines FEI Jumping World Cup 2026
-https://iptvlive-beta.vercel.app/qualifier-leg-stuttgart-ger-qualifier-longines-fei-jumping-world-cup-2026/index.m3u8
+#EXTINF:-1 tvg-id="tapmad-20085" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17945551261020x576.jpg" group-title="Football", France vs Turkiye - MATCHDAY 6 - UEFA Nations League 2026/27
+https://iptvlive-beta.vercel.app/france-vs-turkiye-matchday-6-uefa-nations-league-2026-27/index.m3u8
 
 #EXTINF:-1 tvg-id="btv" tvg-name="BTV" tvg-logo="http://198.195.239.50/img/channels/BTV.HD.png", BTV
 https://iptvlive-beta.vercel.app/btv-1/index.m3u8
