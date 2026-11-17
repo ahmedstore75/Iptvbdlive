@@ -1785,6 +1785,9 @@ https://iptvlive-beta.vercel.app/rt-espa-ol/index.m3u8
 #EXTINF:-1 tvg-name="RTVE 24H" tvg-logo="https://i.imgur.com/WTDKOoM.png" group-title="News (ES)",RTVE 24H
 https://iptvlive-beta.vercel.app/rtve-24h/index.m3u8
 
+#EXTINF:-1 tvg-id="tapmad-19997" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17944756861020x576.jpg" group-title="Cricket", Pakistan vs Sri Lanka - 2nd Test - Sri Lanka Tour of Pakistan 2026 - Server 2
+https://iptvlive-beta.vercel.app/pakistan-vs-sri-lanka-2nd-test-sri-lanka-tour-of-pakistan-2026-server-2/index.m3u8
+
 #EXTINF:-1 tvg-id="btv" tvg-name="BTV" tvg-logo="http://198.195.239.50/img/channels/BTV.HD.png", BTV
 https://iptvlive-beta.vercel.app/btv-1/index.m3u8
 
@@ -2268,7 +2271,7 @@ https://iptvlive-beta.vercel.app/willow-tv/index.m3u8
 #EXTINF:-1 tvg-id="019de785-39a5-710a-a6eb-845e80fa8251" tvg-name="Assam Talks" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/images_175cdaa74b4bc86d10e5b9d49c50b8f1_playmist_assam_talks_400x400.jpg" group-title="Indian Bangla",Assam Talks
 https://iptvlive-beta.vercel.app/assam-talks/index.m3u8
 
-#EXTINF:-1 tvg-id="019f2cd2-d14d-7057-9d30-55cfb742995a" tvg-name="Colors Bangla" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/colors-bangla.png" group-title="Indian Bangla",Colors Bangla
+#EXTINF:-1 tvg-id="019f2cd2-d14d-7057-9d30-55cfb742995a" tvg-name="Colors Bangla" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/colors-bangla-hd.png" group-title="Indian Bangla",Colors Bangla
 https://iptvlive-beta.vercel.app/colors-bangla-2/index.m3u8
 
 #EXTINF:-1 tvg-id="019efa45-e254-7c10-817c-c86d5beab53f" tvg-name="Dhoom Music Bangla" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/images_308780d623c52c9b477206d44a374ff3_playmist_dhoom_music_bangla_400x400.jpg" group-title="Indian Bangla",Dhoom Music Bangla
@@ -2610,7 +2613,7 @@ https://iptvlive-beta.vercel.app/dhoom-music/index.m3u8
 #EXTINF:-1 tvg-id="Enter10Bangla.in" tvg-name="Enter10 Bangla" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/enter10-bangla.png" channel-id="Enter10Bangla.in" tvg-country="IN" tvg-language="ben" tvg-chno="72" group-title="Indian Bangla",Enter10 Bangla
 https://iptvlive-beta.vercel.app/enter10-bangla/index.m3u8
 
-#EXTINF:-1 tvg-id="JTVBangla.in@SD" tvg-name="JTV Bangla" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/jtv-bangla.jpg" channel-id="JTVBangla.in@SD" tvg-country="IN" tvg-language="ben" tvg-chno="74" group-title="Indian Bangla",JTV Bangla
+#EXTINF:-1 tvg-id="JTVBangla.in@SD" tvg-name="JTV Bangla" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/jtv-bangla-converted-badc0be693.png" channel-id="JTVBangla.in@SD" tvg-country="IN" tvg-language="ben" tvg-chno="74" group-title="Indian Bangla",JTV Bangla
 https://iptvlive-beta.vercel.app/jtv-bangla/index.m3u8
 
 #EXTINF:-1 tvg-id="KhushbooBangla.in@SD" tvg-name="Khushboo Bangla" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/khushboo-bangla.png" channel-id="KhushbooBangla.in@SD" tvg-country="IN" tvg-language="ben" tvg-chno="75" group-title="Indian Bangla",Khushboo Bangla
@@ -3756,7 +3759,7 @@ https://iptvlive-beta.vercel.app/toon-goggles-junior/index.m3u8
 #EXTINF:-1 tvg-id="WOWKidz.in@Hindi" tvg-name="WOW Kidz Hindi" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/wow-kidz.png" channel-id="WOWKidz.in@Hindi" tvg-country="IN" tvg-language="hin" tvg-chno="534" group-title="Kids",WOW Kidz Hindi
 https://iptvlive-beta.vercel.app/wow-kidz-hindi/index.m3u8
 
-#EXTINF:-1 tvg-id="WOWKidzTamil.in" tvg-name="WOW Kidz Tamil" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/wow-kidz-tamil.jpg" channel-id="WOWKidzTamil.in" tvg-country="IN" tvg-language="tam" tvg-chno="535" group-title="Kids",WOW Kidz Tamil
+#EXTINF:-1 tvg-id="WOWKidzTamil.in" tvg-name="WOW Kidz Tamil" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/wow-kidz-tamil-converted-ff1aeb7aa9.png" channel-id="WOWKidzTamil.in" tvg-country="IN" tvg-language="tam" tvg-chno="535" group-title="Kids",WOW Kidz Tamil
 https://iptvlive-beta.vercel.app/wow-kidz-tamil/index.m3u8
 
 #EXTINF:-1 tvg-id="ZBCartoon.in" tvg-name="ZB Cartoon" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/zb-cartoon.png" channel-id="ZBCartoon.in" tvg-country="IN" tvg-language="eng" tvg-chno="537" group-title="Kids",ZB Cartoon
@@ -5535,10 +5538,10 @@ https://iptvlive-beta.vercel.app/colors-568/index.m3u8
 #EXTINF:-1 tvg-id="Colors.in@HD" tvg-name="Colors_569" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/colors-3cfc323d7c.png" channel-id="Colors.in@HD" tvg-country="IN" tvg-language="hin" group-title="Back channel",Colors_569
 https://iptvlive-beta.vercel.app/colors-569/index.m3u8
 
-#EXTINF:-1 tvg-id="Colors.Bangla.in" tvg-name="Colors Bangla_570" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/colors-bangla.png" channel-id="Colors.Bangla.in" tvg-country="IN" tvg-language="ben" group-title="Back channel",Colors Bangla_570
+#EXTINF:-1 tvg-id="Colors.Bangla.in" tvg-name="Colors Bangla_570" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/colors-bangla-hd.png" channel-id="Colors.Bangla.in" tvg-country="IN" tvg-language="ben" group-title="Back channel",Colors Bangla_570
 https://iptvlive-beta.vercel.app/colors-bangla-570/index.m3u8
 
-#EXTINF:-1 tvg-id="ColorsBangla.in@HD" tvg-name="Colors Bangla_571" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/colors-bangla.png" channel-id="ColorsBangla.in@HD" tvg-country="IN" tvg-language="ben" group-title="Back channel",Colors Bangla_571
+#EXTINF:-1 tvg-id="ColorsBangla.in@HD" tvg-name="Colors Bangla_571" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/colors-bangla-hd.png" channel-id="ColorsBangla.in@HD" tvg-country="IN" tvg-language="ben" group-title="Back channel",Colors Bangla_571
 https://iptvlive-beta.vercel.app/colors-bangla-571/index.m3u8
 
 #EXTINF:-1 tvg-id="ColorsBanglaCinema.in@SD@colors.bangla.cinema" tvg-name="Colors Bangla Cinema_572" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/colors-bangla-cinema.png" channel-id="ColorsBanglaCinema.in@SD@colors.bangla.cinema" tvg-country="IN" tvg-language="ben" group-title="Back channel",Colors Bangla Cinema_572
