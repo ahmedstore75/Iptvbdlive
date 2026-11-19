@@ -490,10 +490,10 @@ https://vodzong.mjunoon.tv:8087/streamtest/8XM-131/playlist.m3u8
 # SPORTS CHANNELS
 # ==========================================
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/Qx3GZn6T/20240823_024117.png",T Sports HD
-https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8
+https://tvsen5.aynaott.com/TnMn5kZz8/index.m3u8
 
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/rFKBNjwP/Ptvsportslogo2023.webp",PTV Sports
-https://baila-lentoo.pages.dev/all-sp/809398.m3u8
+https://tvsen5.aynaott.com/kP9vX2mZ7qL5wN3t/index.m3u8
 
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.supaimg.com/0dc91d95-6d6b-41a8-a93f-88628861dd2f/6daeb914-116d-4d8d-aa7e-e1dc3a3ab429.png",Tapmad 1
 https://d8j84o343a5m2.cloudfront.net/live/testtapmad5/master.m3u8
@@ -523,7 +523,7 @@ https://d8j84o343a5m2.cloudfront.net/live/testtapmad3/master.m3u8
 https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8
 
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.supaimg.com/0dc91d95-6d6b-41a8-a93f-88628861dd2f/6daeb914-116d-4d8d-aa7e-e1dc3a3ab429.png",Tapmad 10
-https://tvsen7.aynaott.com/Sports1/index.m3u8
+https://tvsen5.aynaott.com/asdfadsf/index.m3u8
 
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/0yzwt46Q/20241126-220214.png",Ten Cricket
 https://app.uckingcrazy1.workers.dev/api/play/Ten%20Cricket.m3u8
@@ -535,7 +535,7 @@ https://tvsen5.aynaott.com/willowhd/index.m3u8?e=1784102512&u=ee5437a7-c16b-4700
 http://103.114.11.37:8081/Willow-TV/index.m3u8?token=sboxcast
 
 #EXTINF:-1 group-title="Sports" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-09/images_1bb4b50bd8e39a63808ed6fa38beb0df_playmist_willow_hd_tv_400x400.jpg",Willow TV 3
-http://103.114.11.37:8081/Star-select-2/index.m3u8?token=sboxcast
+https://tvsen7.aynaott.com/Sports1/index.m3u8
 
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/DzDHjCJm/20240823_024249.png",Star Sports 1
 https://flussonic.defineatoz.com/Starsports1/tracks-v1a1/mono.m3u8
@@ -586,7 +586,7 @@ https://bein-esp-xumo.amagi.tv/playlistR720P.m3u8
 http://103.114.11.37:8081/Willow-TV/index.m3u8?token=sboxcast
 
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/b46df1959322aa48d270a6b163234c76" group-title="Sports",Espn
-https://lastwarning-xtv.bondsplive.online/167579/logosp.webp?&e=.m3u8?Referer:
+https://tvsen7.aynaott.com/tsn1/index.m3u8:
 
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/b54495ee3cdd53ddaa19d1f98120f488" group-title="Sports",KTV Sport Plus
 https://lbgo.bozztv.com/ssh101/ssh101/pksportshd/playlist.m3u8
