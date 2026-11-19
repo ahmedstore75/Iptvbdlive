@@ -1785,6 +1785,9 @@ https://iptvlive-beta.vercel.app/rt-espa-ol/index.m3u8
 #EXTINF:-1 tvg-name="RTVE 24H" tvg-logo="https://i.imgur.com/WTDKOoM.png" group-title="News (ES)",RTVE 24H
 https://iptvlive-beta.vercel.app/rtve-24h/index.m3u8
 
+#EXTINF:-1 tvg-id="tapmad-19997" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17944756861020x576.jpg" group-title="Cricket", Pakistan vs Sri Lanka - 2nd Test - Sri Lanka Tour of Pakistan 2026 - Server 2
+https://iptvlive-beta.vercel.app/pakistan-vs-sri-lanka-2nd-test-sri-lanka-tour-of-pakistan-2026-server-2/index.m3u8
+
 #EXTINF:-1 tvg-id="tapmad-19065" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17945538171020x576.jpg" group-title="Cricket", New Zealand vs India - 1st Test - India Tour of New Zealand 2026 - Server 2
 https://iptvlive-beta.vercel.app/new-zealand-vs-india-1st-test-india-tour-of-new-zealand-2026-server-2/index.m3u8
 
@@ -2096,6 +2099,9 @@ https://iptvlive-beta.vercel.app/somoy-tv-2/index.m3u8
 
 #EXTINF:-1 tvg-id="019de785-394b-769f-a201-f04269d4b8fb" tvg-name="Star News" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/star-news-722ad595.png" group-title="News",Star News
 https://iptvlive-beta.vercel.app/star-news-2/index.m3u8
+
+#EXTINF:-1 tvg-id="019de785-3962-77a1-8f50-c541bb5a02c7" tvg-name="T Sports HD" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/images_8b38d691dfaf072e6c964dea814a44ba_playmist_t_sports_hd400x400.jpg" group-title="Sports",T Sports HD
+https://iptvlive-beta.vercel.app/t-sports-hd-1/index.m3u8
 
 #EXTINF:-1 tvg-id="019de785-3993-7ccc-8bc0-184c2c761c69" tvg-name="Thikana" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/images_b9a8bdbfcea2fb4656204d06f615682a_playmist_thikana400x400.jpg" group-title="Bnagla",Thikana
 https://iptvlive-beta.vercel.app/thikana-1/index.m3u8
