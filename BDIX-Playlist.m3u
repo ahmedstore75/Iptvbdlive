@@ -2259,7 +2259,7 @@ https://iptvlive-beta.vercel.app/willow-tv/index.m3u8
 #EXTINF:-1 tvg-id="019de785-39a5-710a-a6eb-845e80fa8251" tvg-name="Assam Talks" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/images_175cdaa74b4bc86d10e5b9d49c50b8f1_playmist_assam_talks_400x400.jpg" group-title="Indian Bangla",Assam Talks
 https://iptvlive-beta.vercel.app/assam-talks/index.m3u8
 
-#EXTINF:-1 tvg-id="019f2cd2-d14d-7057-9d30-55cfb742995a" tvg-name="Colors Bangla" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/colors-bangla-hd.png" group-title="Indian Bangla",Colors Bangla
+#EXTINF:-1 tvg-id="019f2cd2-d14d-7057-9d30-55cfb742995a" tvg-name="Colors Bangla" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/colors-bangla.png" group-title="Indian Bangla",Colors Bangla
 https://iptvlive-beta.vercel.app/colors-bangla-2/index.m3u8
 
 #EXTINF:-1 tvg-id="019efa45-e254-7c10-817c-c86d5beab53f" tvg-name="Dhoom Music Bangla" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/dhoom-music-bangla.png" group-title="Indian Bangla",Dhoom Music Bangla
@@ -5595,10 +5595,10 @@ https://iptvlive-beta.vercel.app/colors-576/index.m3u8
 #EXTINF:-1 tvg-id="Colors.in@HD" tvg-name="Colors_577" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/colors-3cfc323d7c.png" channel-id="Colors.in@HD" tvg-country="IN" tvg-language="hin" group-title="Back channel",Colors_577
 https://iptvlive-beta.vercel.app/colors-577/index.m3u8
 
-#EXTINF:-1 tvg-id="Colors.Bangla.in" tvg-name="Colors Bangla_578" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/colors-bangla-hd.png" channel-id="Colors.Bangla.in" tvg-country="IN" tvg-language="ben" group-title="Back channel",Colors Bangla_578
+#EXTINF:-1 tvg-id="Colors.Bangla.in" tvg-name="Colors Bangla_578" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/colors-bangla.png" channel-id="Colors.Bangla.in" tvg-country="IN" tvg-language="ben" group-title="Back channel",Colors Bangla_578
 https://iptvlive-beta.vercel.app/colors-bangla-578/index.m3u8
 
-#EXTINF:-1 tvg-id="ColorsBangla.in@HD" tvg-name="Colors Bangla_579" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/colors-bangla-hd.png" channel-id="ColorsBangla.in@HD" tvg-country="IN" tvg-language="ben" group-title="Back channel",Colors Bangla_579
+#EXTINF:-1 tvg-id="ColorsBangla.in@HD" tvg-name="Colors Bangla_579" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/colors-bangla.png" channel-id="ColorsBangla.in@HD" tvg-country="IN" tvg-language="ben" group-title="Back channel",Colors Bangla_579
 https://iptvlive-beta.vercel.app/colors-bangla-579/index.m3u8
 
 #EXTINF:-1 tvg-id="ColorsBanglaCinema.in@SD" tvg-name="Colors Bangla Cinema_580" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/colors-bangla-cinema.png" channel-id="ColorsBanglaCinema.in@SD" tvg-country="IN" tvg-language="ben" group-title="Back channel",Colors Bangla Cinema_580
