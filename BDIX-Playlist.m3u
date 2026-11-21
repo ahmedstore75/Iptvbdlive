@@ -1791,6 +1791,12 @@ https://iptvlive-beta.vercel.app/rtve-24h/index.m3u8
 #EXTINF:-1 tvg-id="tapmad-19065" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17945538171020x576.jpg" group-title="Cricket", New Zealand vs India - 1st Test - India Tour of New Zealand 2026 - Server 2
 https://iptvlive-beta.vercel.app/new-zealand-vs-india-1st-test-india-tour-of-new-zealand-2026-server-2/index.m3u8
 
+#EXTINF:-1 tvg-id="tapmad-19206" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17948297391020x576.jpg" group-title="Cricket", Hobart Hurricanes vs Sydney Thunder - Group Stage - Women's Big Bash League 2026
+https://iptvlive-beta.vercel.app/hobart-hurricanes-vs-sydney-thunder-group-stage-women-s-big-bash-league-2026/index.m3u8
+
+#EXTINF:-1 tvg-id="tapmad-20302" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17949900031020x576.jpg" group-title="Racing", FIA F4 World Cup - Day 1 - Race - Macau Grand Prix 2026
+https://iptvlive-beta.vercel.app/fia-f4-world-cup-day-1-race-macau-grand-prix-2026/index.m3u8
+
 #EXTINF:-1 tvg-id="btv" tvg-name="BTV" tvg-logo="http://198.195.239.50/img/channels/BTV.HD.png", BTV
 https://iptvlive-beta.vercel.app/btv-1/index.m3u8
 
