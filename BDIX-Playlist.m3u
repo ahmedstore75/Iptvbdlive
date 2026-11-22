@@ -1788,11 +1788,11 @@ https://iptvlive-beta.vercel.app/rt-espa-ol/index.m3u8
 #EXTINF:-1 tvg-name="RTVE 24H" tvg-logo="https://i.imgur.com/WTDKOoM.png" group-title="News (ES)",RTVE 24H
 https://iptvlive-beta.vercel.app/rtve-24h/index.m3u8
 
-#EXTINF:-1 tvg-id="tapmad-19065" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17945538171020x576.jpg" group-title="Cricket", New Zealand vs India - 1st Test - India Tour of New Zealand 2026 - Server 2
-https://iptvlive-beta.vercel.app/new-zealand-vs-india-1st-test-india-tour-of-new-zealand-2026-server-2/index.m3u8
+#EXTINF:-1 tvg-id="tapmad-19208" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17948301361020x576.jpg" group-title="Cricket", Brisbane Heat vs Adelaide Strikers - Group Stage - Women's Big Bash League 2026
+https://iptvlive-beta.vercel.app/brisbane-heat-vs-adelaide-strikers-group-stage-women-s-big-bash-league-2026/index.m3u8
 
-#EXTINF:-1 tvg-id="tapmad-20320" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17949959791020x576.jpg" group-title="Racing", FIA F4 World Cup - Day 2 - Race - Macau Grand Prix 2026
-https://iptvlive-beta.vercel.app/fia-f4-world-cup-day-2-race-macau-grand-prix-2026/index.m3u8
+#EXTINF:-1 tvg-id="tapmad-20332" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17950709571020x576.jpg" group-title="Racing", FIA FR World Cup - Day 2 - Race - Macau Grand Prix 2026
+https://iptvlive-beta.vercel.app/fia-fr-world-cup-day-2-race-macau-grand-prix-2026/index.m3u8
 
 #EXTINF:-1 tvg-id="btv" tvg-name="BTV" tvg-logo="http://198.195.239.50/img/channels/BTV.HD.png", BTV
 https://iptvlive-beta.vercel.app/btv-1/index.m3u8
