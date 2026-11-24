@@ -564,6 +564,9 @@ http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/15.m3u8
 #EXTINF:-1 tvg-id="26" tvg-name="FOX SPORTS CRICKET" tvg-logo="https://i.postimg.cc/XvktmmZY/fox-cricket.png" group-title="Sports",FOX SPORTS CRICKET
 http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/26.m3u8
 
+#EXTINF:-1 tvg-id="25" tvg-name="SKY SPORTS CRICKET" tvg-logo="https://i.postimg.cc/SRvBV9nN/SKY-SPORTS-CRICKET.png" group-title="Sports",SKY SPORTS CRICKET
+http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/25.m3u8
+
 #EXTINF:-1 tvg-id="27" tvg-name="TNT SPORTS 1 HD" tvg-logo="https://i.postimg.cc/zvdkSTXs/TNT-Sports-1.png" group-title="Sports",TNT SPORTS 1 HD
 http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/27.m3u8
 
